@@ -126,6 +126,7 @@ seo:
   meta_twitter_creator: "@zerostaticio"
 
 header:
+  # fixed: true #if true, will keep the header on page when scroll down
   fixed: false
 
 darkmode:
@@ -155,8 +156,8 @@ menu:
 
 footer:
   enable_footer: true # show/hide the entire footer
-  footer_title: "Jekyll Curate"
-  footer_description: "Curate is a creative portfolio for Jekyll by Zerostatic Themes."
+  footer_title: "Chris Kerwell Gresla"
+  footer_description: "A simple man trying to make his way through the Galaxy."
   enable_social_media_icons: true
   enable_contact_details: true
   enable_menu_footer_primary: true
@@ -166,6 +167,7 @@ footer:
   footer_secondary_menu_title: "Company"
   footer_tertiary_menu_title: "Other"
 
+# not my favorite section, omitting for now
 bottom:
   enable_bottom: false # show/hide the entire bottom (below the footer)
   enable_bottom_menu: false # if enabled, the bottom menu can be edited in `_data/menu.yml`
