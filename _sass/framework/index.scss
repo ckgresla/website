@@ -32,7 +32,11 @@
 // How do I add selection color overrides?
 // Easily with the following:
 ::selection {
-  background-color: $primary;
+  // the 2 below add in nice color
+  // background-color: $secondary;
+  // color: $text;
+  // simple black w the following
+  background-color: $black;
   color: $white;
 }
 
