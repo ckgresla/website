@@ -130,7 +130,7 @@ header:
   fixed: false
 
 darkmode:
-  enable_dark_mode: false
+  enable_dark_mode: tru
   show_dark_mode_toggle_in_header: true
   show_dark_mode_toggle_in_bottom: true
   show_dark_mode_toggle_in_mobile_menu: true
@@ -159,12 +159,12 @@ footer:
   footer_title: "Chris Kerwell Gresla"
   footer_description: "A simple man trying to make his way through the Galaxy."
   enable_social_media_icons: true
-  enable_contact_details: true
-  enable_menu_footer_primary: true
+  enable_contact_details: false #a separate contact section, no need
+  enable_menu_footer_primary: false
   enable_menu_footer_secondary: true
-  enable_menu_footer_tertiary: true
+  enable_menu_footer_tertiary: false
   footer_primary_menu_title: "Product"
-  footer_secondary_menu_title: "Company"
+  footer_secondary_menu_title: "Pages et al"
   footer_tertiary_menu_title: "Other"
 
 # not my favorite section, omitting for now

@@ -2,39 +2,54 @@ main:
   - name: Home
     url: /
     weight: 1
-  - name: Projects
-    url: /projects/
+  # Really nice dropdown, no use for it just yet
+  # - name: Projects
+  #   url: /projects/
+  #   weight: 2
+  #   child:
+  #     - name: "Project Layout 1"
+  #       icon: "/assets/images/icons/wireframe-7.svg"
+  #       icon_darkmode: "/assets/images/icons/wireframe-7-white.svg"
+  #       description: "Default Project layout"
+  #       url: /projects/project-1/
+  #     - name: "Project Layout 2"
+  #       icon: "/assets/images/icons/wireframe-5.svg"
+  #       icon_darkmode: "/assets/images/icons/wireframe-5-white.svg"
+  #       description: "Right side layout"
+  #       url: /projects/project-2/
+  #     - name: "Project Layout 3"
+  #       icon: "/assets/images/icons/wireframe-6.svg"
+  #       icon_darkmode: "/assets/images/icons/wireframe-6-white.svg"
+  #       description: "Left side layout"
+  #       url: /projects/project-3/
+  #     - name: "Project Layout 4"
+  #       icon: "/assets/images/icons/wireframe-8.svg"
+  #       icon_darkmode: "/assets/images/icons/wireframe-8-white.svg"
+  #       description: "Top layout"
+  #       url: /projects/project-4/
+  - name: Recommended
+    url: /recs/
     weight: 2
     child:
-      - name: "Project Layout 1"
-        icon: "/assets/images/icons/wireframe-7.svg"
-        icon_darkmode: "/assets/images/icons/wireframe-7-white.svg"
-        description: "Default Project layout"
-        url: /projects/project-1/
-      - name: "Project Layout 2"
-        icon: "/assets/images/icons/wireframe-5.svg"
-        icon_darkmode: "/assets/images/icons/wireframe-5-white.svg"
-        description: "Right side layout"
-        url: /projects/project-2/
-      - name: "Project Layout 3"
-        icon: "/assets/images/icons/wireframe-6.svg"
-        icon_darkmode: "/assets/images/icons/wireframe-6-white.svg"
-        description: "Left side layout"
-        url: /projects/project-3/
-      - name: "Project Layout 4"
-        icon: "/assets/images/icons/wireframe-8.svg"
-        icon_darkmode: "/assets/images/icons/wireframe-8-white.svg"
-        description: "Top layout"
-        url: /projects/project-4/
+      - name: "Ponderings"
+        icon: "/assets/images/icons/lightbulb-black.png"
+        icon_darkmode: "/assets/images/icons/lightbulb-white.png"
+        description: "Do you think critically?"
+        url: /projects/ponderings/
+      - name: "Readings"
+        icon: "/assets/images/icons/book-stack-black.png"
+        icon_darkmode: "/assets/images/icons/book-stack-white.png"
+        description: "All gander worthy"
+        url: /projects/readings
   - name: Napkins
     url: /napkins/
     weight: 2
   - name: About
     url: /about/
     weight: 3
-  - name: Contact
-    url: /contact/
-    weight: 4
+  # - name: Contact
+  #   url: /contact/
+  #   weight: 4
 
 footer_primary:
   - name: "Project Layout 1"
@@ -50,18 +65,18 @@ footer_secondary:
   - name: Napkins
     url: /napkins/
     weight: 2
+  - name: Ponderings
+    # url: /ponderings/
+    weight: 2
+  - name: Readings
+    # url: /readings/
+    weight: 2
   - name: About
     url: /about/
     weight: 3
   - name: Contact
     url: /contact/
     weight: 4
-  - name: Privacy Policy
-    url: /privacy-policy/
-    weight: 1
-  - name: Terms and Conditions
-    url: /terms-and-conditions/
-    weight: 2
 
 footer_tertiary:
   - name: Privacy Policy
