@@ -2,7 +2,7 @@ main:
   - name: Home
     url: /
     weight: 1
-  # Really nice dropdown, no use for it just yet
+  # Really nice dropdown, no use for a projects specific one just yet
   # - name: Projects
   #   url: /projects/
   #   weight: 2
@@ -66,17 +66,18 @@ footer_secondary:
     url: /napkins/
     weight: 2
   - name: Ponderings
-    # url: /ponderings/
+    url: /projects/ponderings/
     weight: 2
   - name: Readings
-    # url: /readings/
+    url: /projects/readings/
     weight: 2
   - name: About
     url: /about/
     weight: 3
-  - name: Contact
-    url: /contact/
-    weight: 4
+  # no contact page atm
+  # - name: Contact
+  #   url: /contact/
+  #   weight: 4
 
 footer_tertiary:
   - name: Privacy Policy

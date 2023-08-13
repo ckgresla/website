@@ -1,10 +1,10 @@
 ---
 layout: home
 permalink: "/"
-title: "Curate is a premium portfolio for <strong>Jekyll.</strong>"
-description: "Showcase your projects, work and portfolio with multiple layouts and styles."
-meta_description: "Jekyll Curate is a premium Jekyll blog theme"
-meta_title: tonkatsu is tasty
+title: "Do non-trivial things with <strong>Gusto.</strong>"
+description: "Welcome to my home on the internet, cozy?"
+meta_description: "CKG's Website"
+meta_title: tonkatsu.io
 subscribe: false
 
 projects:
@@ -15,10 +15,10 @@ projects:
   view_more_button_text: ""
   view_more_button_link: ""
   view_more_button_align: ""
-  columns: 2 # 1 | 2 | 3 | 4
+  columns: 4 # 1 | 2 | 3 | 4
 
 posts:
-  heading: "Recent Blog Posts"
+  heading: "Recent Napkins"
   sub_heading: ""
   limit: 3
   sort: date # date | weight

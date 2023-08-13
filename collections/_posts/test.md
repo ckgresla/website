@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Learn how to market your next startup"
-date: 2020-01-15
+title: "How to make your website page load speed fast"
+date: 2022-02-13T09:49:03Z
 authors: ["Mike Vance"]
 categories: ["Branding"]
-description: Marketing a startup isn't easy, it takes a unique set of skills and a whole lot of determination
-thumbnail: "/assets/images/gen/blog/blog-8-thumbnail.webp"
-image: "/assets/images/gen/blog/blog-8.webp"
+description: Branding is an intrinsic part of your companies success, learn why your brand matters.
+thumbnail: "/assets/images/gen/blog/blog-18-thumbnail.webp"
+image: "/assets/images/gen/blog/blog-18.webp"
+comments: false
+subscribe: true
 ---
 
 Markdown is a lightweight markup language with plain-text-formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.

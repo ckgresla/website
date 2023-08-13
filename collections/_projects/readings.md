@@ -1,7 +1,7 @@
 ---
 layout: project-minimal # alternative layouts: project, project-left, project-right, project-top, project-minimal
 title: "Readings"
-description: "Books, obscure pdfs and other items worth reading"
+description: "Books, obscure pdfs and other lovely items"
 weight: 3
 # gallery:
 #   - image: "/assets/images/gen/projects/project-2-1.webp"

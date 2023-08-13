@@ -3,7 +3,7 @@ layout: project-minimal # alternative layouts: project, project-left, project-ri
 
 title: "Ponderings"
 
-description: "Don't forget to think critically"
+description: "Thought experiments, fun questions & more"
 
 weight: 3
 ---

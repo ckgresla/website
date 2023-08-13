@@ -130,7 +130,7 @@ header:
   fixed: false
 
 darkmode:
-  enable_dark_mode: tru
+  enable_dark_mode: true
   show_dark_mode_toggle_in_header: true
   show_dark_mode_toggle_in_bottom: true
   show_dark_mode_toggle_in_mobile_menu: true

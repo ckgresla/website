@@ -16,7 +16,8 @@ body_classes: page-home
   </div>
 </div>
 
-{% assign cards = site.projects %}
+<!-- CKG Commented out the projects section from the homepage, no need atm -->
+<!-- {% assign cards = site.projects %}
 {% if cards.size > 0 %}
 <div class="section pt-0">
   <div class="container">
@@ -39,14 +40,16 @@ body_classes: page-home
     </div>
   </div>
 </div>
-{% endif %}
+{% endif %} -->
 
-{% assign cards = site.posts %}
+<!-- CKG also commented out these posts, would rather have a more fun landing page and have these be discoverable -->
+
+<!-- {% assign cards = site.posts %}
 {% if cards.size > 0 %}
 <div class="section bg-base-bg-2">
   <div class="container">
     <div class="row">
-      {% include framework/blocks/components/grid-header.html heading="Recent Posts" %}
+      {% include framework/blocks/components/grid-header.html heading="Recent Napkins" %}
       {% for card in cards limit: 3 %}
       <div
         class="col-12 col-md-4 mb-gutter mt-gutter {% if forloop.first %}mt-0{% endif %} {% if forloop.last %}mb-0{% endif %} mt-md-0">
@@ -60,7 +63,7 @@ body_classes: page-home
     </div>
   </div>
 </div>
-{% endif %}
+{% endif %} -->
 
 {% if site.mailchimp.form_action_url %}
 {% if page.subscribe %}
