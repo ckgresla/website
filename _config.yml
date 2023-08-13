@@ -13,7 +13,7 @@ plugins:
   - jekyll-environment-variables
   - jekyll-paginate
 
-paginate: 6
+paginate: 25
 paginate_path: "/napkins/page/:num"
 
 collections:
