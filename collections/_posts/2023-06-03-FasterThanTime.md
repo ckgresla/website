@@ -6,7 +6,7 @@ The journey of the programmer is one of ever-humbling discovery. Along this love
 
 The example problem that shifted my programming-view was a toy one, waiting for some number of seconds. Let us say we want to wait for 10 seconds. A straightforward python program for this may look as follows:
 
-```{python}
+```python
 import time
 
 def wait(n_seconds: int):
@@ -31,7 +31,7 @@ In this formulation, we do the waiting in a single function call for the specifi
 
 This means that instead of doing all of our waiting in a single function call, `wait()` in the above, we may split up the "waiting" across different function calls. The following illustrates how we may split up our 10 seconds of waiting across 2 functions with `asnycio`:
 
-```{python}
+```python
 import time
 import asyncio
 

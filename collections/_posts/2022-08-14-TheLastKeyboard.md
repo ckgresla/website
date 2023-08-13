@@ -1,12 +1,10 @@
-+++
-title="The Last Keyboard You Should Buy"
-
-
-+++
+---
+title: "The Last Keyboard You Should Buy"
+---
 
 ​
 
-![side_profile](/assets/imgs/hhkb2/sideprofile.png)
+![side_profile](/assets/images/misc/hhkb2/sideprofile.png)
 
 ​
 
@@ -32,7 +30,7 @@ So if the thing that you use to do stuff is in large part unchanged by the innov
 
 ### A Specific Tool
 
-![overhead](/assets/imgs/hhkb2/overhead.png)
+![overhead](/assets/images/misc/hhkb2/overhead.png)
 
 As in the above, the layout and aesthetic of this keyboard look, like, the 90s -- or like, even older...
 

@@ -1,8 +1,6 @@
-+++
-title="Production Vs. Research"
-
-
-+++
+---
+title: "Production Vs. Research"
+---
 
 ​
 

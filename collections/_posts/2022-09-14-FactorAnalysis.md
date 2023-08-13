@@ -1,8 +1,6 @@
-+++
-title="Factor Analysis"
-
-
-+++
+---
+title: "Factor Analysis"
+---
 
 ​
 

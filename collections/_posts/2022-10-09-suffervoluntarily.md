@@ -1,8 +1,6 @@
-+++
-title="Why Voluntary Suffering is Worth it"
-
-
-+++
+---
+title: "Why Voluntary Suffering is Worth it"
+---
 
 ​
 

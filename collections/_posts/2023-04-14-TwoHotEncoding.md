@@ -16,7 +16,7 @@ The typical flow for one-hot encoding looks something like this;
 
 For this toy beverage example, a native python implementation might look something like follows:
 
-```{python}
+```python
 unique_beverages = ["old fashioned", "coffee", "makgeolli", "water", "lychee juice"]
 
 def one_hot_encode(x: str):
@@ -40,7 +40,7 @@ To generalize one-hot encoding, we need to discretize a continuous space. Someth
 - To Discretize a continuous space, we _bin_ it, here I will do equidistant bins, but there might be some value in non-equidistance (really tasty things are all one bin, but moderately tasty and tasty are two separate bins)
 - For the sake of this example, say the space of continuous tastiness values will be split into 5 bins
 
-```{python}
+```python
 two_hot_bins = [-5, -1, 0, 1, 5] #5 in this toy case
 
 def two_hot_encode(x: float):

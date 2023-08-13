@@ -34,7 +34,7 @@ Although I wasn't really around for the late 90s or early 2000s internet, it [so
 
 <br>
 
-I like to keep a archive of quotes, here is one of note:
+I like to keep an archive of quotes, here is a recent one of note:
 
 > “The night falls before you know it. The same applies to a year.”
 

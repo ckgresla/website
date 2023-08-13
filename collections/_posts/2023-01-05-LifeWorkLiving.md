@@ -12,7 +12,7 @@ Work, and our relationship to it, comprises a large chunk of our lives. Believin
 
 To provide some common ground for us to think about **Life, Work & Living** -- here is a little diagram of some statements that I feel encompass large camps of beliefs about work;
 
-![WorkPerceptions](/assets/imgs/WorkPerceptionDiagram.png)
+![WorkPerceptions](/assets/images/misc/WorkPerceptionDiagram.png)
 
 This diagram is inspired by the [ye old political compass](https://commons.wikimedia.org/wiki/File:Political_Compass_purple_LibRight.svg#/media/File:Political_Compass_purple_LibRight.svg) and revolves around a few simple statements that describe the relationship you have with Work, Living and Life. I took the liberty of bootstrapping some examples, populating the quadrants with what I think are archetypes of jobs and people that we can envision, empathize with and understand. The archetypes that comprise these quadrants are also colored in accordance to the perceived opinion of the folks that make up the tropes. Although stereotypes and overgeneralizing is a departure from reality (sometimes a useful compression of reality and other times not) I think these examples provide nice road-signs for us to understand the opinions present in the mental space of Life, Work and Living.
 

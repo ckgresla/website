@@ -1,8 +1,6 @@
-+++
-title="Autoencoders are Thought Machines"
-
-
-+++
+---
+title: "Autoencoders are Thought Machines"
+---
 
 ​
 

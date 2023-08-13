@@ -2,8 +2,6 @@
 title: "Bayesian Statistics"
 ---
 
-{{< katex >}}
-
 I have always found statistics to be pretty cool. The implications of the [Central Limit Theorem (CLT)](https://en.wikipedia.org/wiki/Central_limit_theorem) and being able to conduct hypothesis tests to make truth-y statements about the world is as phenomenal in my opinion as; something existing rather that nothing and backpropagation working as a tool to train neural networks. Statistics is one of the fundamental fields underpinning ML and DL, so it is always nice to keep those foundations strong -- I have always wanted to explore the difference between the Frequentist and Bayesian understandings of statistics and recently spent some time delving into the Bayesian branch. I think there are useful ideas for reasoning about the world in the Bayesian interpretation and hope you find them here.
 
 ## Historical Background

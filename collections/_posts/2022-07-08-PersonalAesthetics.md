@@ -1,8 +1,6 @@
-+++
-title="The Real High-Fashion"
-
-
-+++
+---
+title: "The Real High-Fashion"
+---
 
 ​
 Trends and Fashions are effectively tides of widespread popularity in the way we dress but also, perhaps more importantly, in the thoughts we express and hold.
