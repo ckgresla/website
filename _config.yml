@@ -65,7 +65,7 @@ exclude:
 # -------------------
 # Theme Config
 # --------------------
-title: "Jekyll Curate"
+title: "tonkatsu.io"
 category_dir: category
 
 colors:
