@@ -30,4 +30,5 @@ weight: 3
 | On Bullshit | [PDF]( https://www2.csudh.edu/ccauthen/576f12/frankfurt__harry_-_on_bullshit.pdf) | Despicable but it persists, why? |
 | You and Your Research | [PDF]( https://www.cs.virginia.edu/~robins/YouAndYourResearch.pdf) | There IS a difference between "Good" and "Great". |
 | The Goddess of Everything Else | [Webpage]( https://slatestarcodex.com/2015/08/17/the-goddess-of-everything-else-2/) | There is a pull to "KILL CONSUME MULTIPLY CONQUER", yes. But also a longing for something else. |
+| Jonathan Livingston Seagull | [PDF](https://www.crisrieder.org/thejourney/wp-content/uploads/2021/02/Jonathan-Livingston-Seagull.pdf) | no limits eh? |
 ||||
