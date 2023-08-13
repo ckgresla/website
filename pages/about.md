@@ -1,46 +1,41 @@
 ---
 layout: basic
-title: "About Us"
+title: "About"
 date: 2018-11-28T15:15:34+10:00
 permalink: "/about/"
-description: "Business plan hackathon handshake responsive web design."
-image: "/assets/images/gen/content/content-5.webp"
+description: ""
+# image: "/assets/images/gen/content/content-5.webp" #maybe add in my headshot or portrait like Stevens or Lee?
 ---
 
-# Creating Modern Websites
+Im a kid from Chicago who spends his life loving; the cultures of this world, good food, jazz, awesome people and messing with neural networks.
 
-Web design encompasses many different skills and disciplines in the production and maintenance of websites.
+Professionally, I am a member of the technical staff @ [lindy.ai](https://lindy.ai) -- where I spend my days helping language models learn how to autocomplete better.
 
-Often many individuals will work in teams covering different aspects of the design process, although some designers will cover them all. Web design partially overlaps web engineering in the broader scope of web development.
+My primary research interests lay in nlp for action execution, classic reinforcement learning, novel trainable architectures and generally anything that looks like ai, space or nuclear fusion.
 
-## What is Web Design?
+If you also happen to be a cool person, say hi- ckgresla at gmail dot com
 
-User experience is about how a user interacts with, and experiences, a particular product, system or service. As a UX designer, you should consider the Why, What and How of product use.
+<br>
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/content-1.webp" title="Steve Francia" caption="Designing in Figma" alt="Photo of designing a website in Figma" link="https://figma.com" target="\_blank" %}
+{% include framework/shortcodes/figure.html src="/assets/images/misc/tech-rack.jpeg" title="A Tech Rack"  alt="Photo of tech rack" link="https://ikea.com" target="\_blank" %}
 
-## Front-end Development
+## Tools I Love
 
-The What addresses the things people can do with a product—its functionality. Finally, the How relates to the design of functionality in an accessible and aesthetically pleasant way. UX designers start with the Why before determining the What and then, finally, the How in order to create products that users can form meaningful experiences with. In software designs, you will need to ensure the product’s “substance” comes through an existing device and offers a seamless, fluid experience.
+Although I wasn't really around for the late 90s or early 2000s internet, it [sounds like a cool place](https://www.youtube.com/watch?v=1iOVatAR-bU) and to contribute to making today's internet a _cooler_ place here is a curated list of tools that bring me joy.
 
-> As a UX designer, you should consider the Why, What and How of product use.
+- [Alacritty](https://alacritty.org/) -- is a cross-platform, GPU accelerated terminal emulator. It can be configured beyond your heart's desire (one example of this extensibility being the removal of window decorations on MacOS, very sleek) + it is extremely snappy, which matters if you like to be _Blazingly_ fast
+- [catppuccin](https://github.com/catppuccin/catppuccin) -- is at it's simplest, a lovely pastel theme. I reckon that it goes beyond being a simple palette of colors, becoming [an tasteful approach to productivity]().
+- [Goyo (고요)](https://github.com/junegunn/goyo.vim) -- 'distraction-free' writing in Vim, a nice way to get colored spellcheck, line wrapping and a focused writing experience in the Terminal. "Goyo" is Korean and roughly [translates](https://en.wiktionary.org/wiki/%EA%B3%A0%EC%9A%94%ED%95%98%EB%8B%A4) to "to do"
+- [Things3](https://culturedcode.com/things/) -- yes it exists only for the Apple Ecosystem, but it has a nearly perfect handle on the abstraction of Task Management (and isn't having the right abstraction kind of everything?)
+- [Magnet](https://magnet.crowdcafe.com/) -- My main machine is a MacBook, and I got into using magnet several years ago. I continue to use Magnet because I really enjoy the bindings and have not gone down the [BSP rabbit hole](https://www.reddit.com/r/bspwm/comments/f7vi62/what_is_binary_space_partitioning_doing_for_bspwm/) just yet. Some other window managers for MacOS I think are interesting are [Yabai](https://github.com/koekeishiya/yabai) and [Rectangle](https://github.com/rxhanson/Rectangle) -- on Linux the one I have used stably is [OpenBox](http://openbox.org/wiki/Main_Page).
+- [HHKB2](https://hhkeyboard.us/hhkb/pro-hybrid) -- absolutely [awesome](https://tonkatsu.io/napkins/thelastkeyboard/) and sounds [lovely](https://www.youtube.com/watch?v=e8rwpIMOdSk)
 
-Web designers are expected to have an awareness of usability and if their role involves creating markup then they are also expected to be up to date with web accessibility guidelines.
+<br>
 
-## Design Systems
+<br>
 
-A Design System is a set of interconnected patterns and shared practices coherently organized to aid in digital product design and development of products such as apps or websites.
+I like to keep a archive of quotes, here is one of note:
 
-{% include framework/shortcodes/youtube.html id='2M6dJ2Uynhg' %}
+> “The night falls before you know it. The same applies to a year.”
 
-## Process
-
-There are two primary jobs involved in creating a website: the web designer and web developer, who often work closely together on a website. The web designers are responsible for the visual aspect, which includes the layout, coloring and typography of a web page.
-
-- User experience research
-- Visual design and illustration
-- Programming and coding
-
-![Design In Figma]({{ "/assets/images/gen/content/content-2.webp" | relative_url }})
-
-Web designers will also have a working knowledge of markup languages such as HTML and CSS, although the extent of their knowledge will differ from one web designer to another.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Kyo Machiko](https://www.instagram.com/kyomachiko/)
