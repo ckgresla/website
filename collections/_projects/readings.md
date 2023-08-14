@@ -20,9 +20,9 @@ weight: 3
 | The Bitter Lesson | [Webpage](http://incompleteideas.net/IncIdeas/BitterLesson.html) | Just add more Data & Compute |
 | Poetry and Ambition | [Webpage]( https://poets.org/text/poetry-and-ambition) | McPoems? Oh Dear. |
 | Mozart, Writing Symphonies and Young Lawyers with Questions | [Webpage]( https://fs.blog/brain-food/october-30-2022/) | Scroll to the bottom |
-| Occam's Razor | [Webpage]( http://pespmc1.vub.ac.be/OCCAMRAZ.html) | As necessary, more gets messy |
+| Occam's Razor | [Webpage]( http://pespmc1.vub.ac.be/OCCAMRAZ.html) | Complexity as necessary, more gets messy |
 | Gunga Din | [Webpage]( https://www.poetryfoundation.org/poems/46783/gunga-din) | You're a better man than I... |
-| I love my wife. My wife is dead. | [Webpage]( https://lettersofnote.com/2012/02/15/i-love-my-wife-my-wife-is-dead/) | @Yeobo |
+| I love my wife. My wife is dead. | [Webpage]( https://lettersofnote.com/2012/02/15/i-love-my-wife-my-wife-is-dead/) | Have a whiskey with this one |
 | Be Drunk | [Webpage]( https://poets.org/poem/be-drunk) | Wine, Poetry or Virtue - as you wish. |
 | A Mathematician's Apology | [PDF]( https://web.njit.edu/~akansu/PAPERS/GHHardy-AMathematiciansApology.pdf) | A peek into the mind of a mathematician |
 | Horatius' Last Stand | [Webpage]( https://www.goodreads.com/quotes/21898-then-out-spake-brave-horatius-the-captain-of-the-gate) | Is there a better way to go? |
