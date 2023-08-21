@@ -32,12 +32,12 @@
 // How do I add selection color overrides?
 // Easily with the following:
 ::selection {
-  // the 2 below add in nice color
-  // background-color: $secondary;
-  // color: $text;
-  // simple black w the following
-  background-color: $black;
-  color: $white;
+  // simple black highlighting of selected text
+  // background-color: $black;
+  // color: $white;
+  // below reads in the vars for color codes, changes per mode
+  background-color: var(--color-base-text);
+  color: var(--color-base-bg);
 }
 
 // Zerostatic Core SCSS

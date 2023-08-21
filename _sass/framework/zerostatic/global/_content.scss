@@ -65,9 +65,11 @@
     color: var(--color-base-text);
     text-decoration: underline;
     text-decoration-thickness: 2px;
-    text-decoration-color: var(--color-primary);
+    text-decoration-color: var(--color-base-text-2);
     &:hover {
-      color: var(--color-primary);
+      color: var(--color-base-bg-2);
+      background-color: var(--color-base-text);
+      text-decoration-color: var(--color-base-bg-2);
     }
   }
   img {
@@ -125,8 +127,12 @@
     margin: 40px 0 40px 0;
     border-left: 4px solid var(--color-base-text);
     padding: 30px 20px;
-    &::before { content: ''; }
-    &::after { content: ''; }
+    &::before {
+      content: "";
+    }
+    &::after {
+      content: "";
+    }
     p {
       color: var(--color-base-text);
       font-family: $font-family-base;
@@ -156,10 +162,11 @@
         background-color: #f5f5f5;
       }
     }
-    td, th {
+    td,
+    th {
       text-align: left;
       padding: 8px 12px;
-      border: 1px solid #EAEAEA;
+      border: 1px solid #eaeaea;
     }
   }
 }
