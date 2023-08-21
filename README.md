@@ -2,6 +2,9 @@
 
 I don't like hugo, and although ruby is painful to build we are jekyll-ing now
 
+
+*see the `justfile` for some of the methods for running the jekyll server
+
 #### Information
 
 [Live Docs](https://www.zerostatic.io/docs/jekyll-curate)
