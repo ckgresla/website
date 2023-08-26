@@ -1,5 +1,5 @@
 ---
-title: "Two Hot Encodings"
+title: "Two, Hot Encodings"
 ---
 
 Anyone who has gotten their feet wet with Data Science or Classical Machine Learning has come across the concept of [One-Hot Encoding](https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/). A method of representing non-ordered Categorical data as a vector of zeros and a single one. One-hot encoding is a part of the accepted canon of ML, and is a common step in pre-processing data pipelines.
