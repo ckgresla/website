@@ -7,13 +7,13 @@ description: ""
 # image: "/assets/images/gen/content/content-5.webp" #maybe add in my headshot or portrait like Stevens or Lee?
 ---
 
-Im a kid from Chicago who spends his life loving; the cultures of this world, good food, jazz, awesome people and messing with neural networks.
+Im a kid from Chicago that loves; the cultures of this world, good food, jazz, awesome people and messing with neural networks.
 
-Professionally, I am a member of the technical staff @ [lindy.ai](https://lindy.ai) -- where I spend my days helping language models learn how to autocomplete better.
+Professionally, I am a member of the technical staff @ [lindy.ai](https://lindy.ai) -- where I spend my days helping language models learn to work.
 
 My primary research interests lay in nlp for action execution, classic reinforcement learning, novel trainable architectures and generally anything that looks like ai, space or nuclear fusion.
 
-If you also happen to be a cool person, say hi- ckgresla at gmail dot com
+If you also happen to be a cool person, say hi- ckgresla at gmail.com
 
 <br>
 

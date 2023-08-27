@@ -19,7 +19,7 @@ weight: 3
 | How To Become A Hacker | [Webpage](http://www.catb.org/~esr/faqs/hacker-howto.html) | They are on to something you know |
 | The Bitter Lesson | [Webpage](http://incompleteideas.net/IncIdeas/BitterLesson.html) | Just add more Data & Compute |
 | Poetry and Ambition | [Webpage]( https://poets.org/text/poetry-and-ambition) | McPoems? Oh Dear. |
-| Mozart, Writing Symphonies and Young Lawyers with Questions | [Webpage]( https://fs.blog/brain-food/october-30-2022/) | Scroll to the bottom |
+| Mozart, Writing Symphonies and Young Lawyers with Questions | [Webpage](https://fs.blog/brain-food/october-30-2022/#:~:text=%E2%80%9CYoung%20lawyers%20frequently,to%20do%20it.%E2%80%99%E2%80%9D) | The master is just the student which is furthest along |
 | Occam's Razor | [Webpage]( http://pespmc1.vub.ac.be/OCCAMRAZ.html) | Complexity as necessary, more gets messy |
 | Gunga Din | [Webpage]( https://www.poetryfoundation.org/poems/46783/gunga-din) | You're a better man than I... |
 | I love my wife. My wife is dead. | [Webpage]( https://lettersofnote.com/2012/02/15/i-love-my-wife-my-wife-is-dead/) | Have a whiskey with this one |
@@ -32,4 +32,6 @@ weight: 3
 | The Goddess of Everything Else | [Webpage]( https://slatestarcodex.com/2015/08/17/the-goddess-of-everything-else-2/) | There is a pull to "KILL CONSUME MULTIPLY CONQUER", yes. But also a longing for something else. |
 | Jonathan Livingston Seagull | [PDF](https://www.crisrieder.org/thejourney/wp-content/uploads/2021/02/Jonathan-Livingston-Seagull.pdf) | no limits eh? |
 | 500 Million, Not a Single One More | [Webpage](https://forum.effectivealtruism.org/posts/jk7A3NMdbxp65kcJJ/500-million-but-not-a-single-one-more) | get vaxxed! |
+| A Big Little Idea called Legibility| [Webpage](https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/)| An Authoritarian High-Modernist Recipe for Failure |
+| The Glass is already Broken | [Webpage](https://kottke.org/15/04/the-glass-is-already-broken) | Enjoy it! |
 ||||

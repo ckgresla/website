@@ -84,12 +84,12 @@ colors:
 
   # dark-mode colors
   primary_dark: "#0d042b"
-  primary_2_dark: "#fdfcf9"
+  primary_2_dark: "#f5f5ec"
   primary_text_dark: "#f5f5ec"
   secondary_dark: "#251654"
   background_dark: "#0b0326"
   background_2_dark: "#150c32"
-  background_3_dark: "#251654"
+  background_3_dark: "#150c32"
   text_dark: "#f5f5ec"
   text_2_dark: "#929eaf"
   logo_text_dark: "#fdfcf9"

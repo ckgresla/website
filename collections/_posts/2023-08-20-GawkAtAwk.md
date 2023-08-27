@@ -113,7 +113,6 @@ END {
 }
 ```
 
-
 Some additional notes might aid in understanding this simple program:
 - The notion of "Input" is fundamental to `awk`, as the language was developed in and intended to be used for the Unix-y piping of stdouts 
   - It is fair to say that most Awk programs revolve around a central loop over provided "Input", so every program one constructs with Awk has a "for" loop at its core
@@ -131,6 +130,81 @@ Some additional notes might aid in understanding this simple program:
   - The type of a variable is determined by the way in which you use it, or in other words the type is determined by the context. This *type coercion* automagically handles swapping between types.
   - All arrays in Awk are associative, (think python dictionary or JavaScript Object) and can be indexed either with; strings or numbers (all strings under the hood)
 - Patterns play a very central role in the control flow of an Awk program, we can put multiple patterns together to match inputs we would like to take a certain action for.
+
+If we were to invoke this program on a data file, say "countries" with the following contents:
+```
+USSR    8649    275 Asia
+Canada  3852    25  North America
+China   3705    1032    Asia
+USA 3615    237 North America
+Brazil  3286    134 South America
+India   1267    746 Asia
+Mexico  762 78  North America
+France  211 55  Europe
+Japan   144 120 Asia
+Germany 96  61  Europe
+England 94  56  Europe
+```
+
+We would get this output, most of which isn't exactly sensical but the illustrative portion of this example is the above code:
+```
+DATA/countries--Record NO. 1 has field 1 set to- USSR
+  & it has 5 fields
+  this country is from the old world
+  this is one large country...
+
+DATA/countries--Record NO. 2 has field 1 set to- Canada
+  & it has 5 fields
+  this line has the substring North on it
+
+DATA/countries--Record NO. 3 has field 1 set to- China
+  & it has 5 fields
+  this country is from the old world
+  this is one large country...
+
+DATA/countries--Record NO. 4 has field 1 set to- USA
+  & it has 5 fields
+  this line has the substring North on it
+
+DATA/countries--Record NO. 5 has field 1 set to- Brazil
+  & it has 5 fields
+
+DATA/countries--Record NO. 6 has field 1 set to- India
+  & it has 5 fields
+  this country is from the old world
+  this is one large country...
+
+DATA/countries--Record NO. 7 has field 1 set to- Mexico
+  & it has 5 fields
+  this line has the substring North on it
+
+DATA/countries--Record NO. 8 has field 1 set to- France
+  & it has 5 fields
+  this country is from the old world
+
+DATA/countries--Record NO. 9 has field 1 set to- Japan
+  & it has 5 fields
+  this country is from the old world
+
+DATA/countries--Record NO. 10 has field 1 set to- Germany
+  & it has 5 fields
+  this country is from the old world
+
+DATA/countries--Record NO. 11 has field 1 set to- England
+  & it has 5 fields
+  this country is from the old world
+this data file has:  4 unique continents
+South America 1
+North America 3
+Asia 4
+Europe 3
+total 16048
+drwxr-xr-x@ 10 ckg  staff      320 Aug 26 13:18 DATA
+-rw-r--r--@  1 ckg  staff     1077 Jul  1 14:07 LICENSE
+-rw-r--r--@  1 ckg  staff     6316 Aug 26 15:44 README.md
+drwx--x--x@ 72 ckg  staff     2304 Aug 26 15:40 SAMPLES
+-rw-r--r--@  1 ckg  staff  8204128 Jul  1 14:07 The_AWK_Programming_Language.pdf
+```
 
 
 The above syntax and general flow constitutes the jist of Awk. The language is made powerful through using this set of primitives in conjunction with other programs at the command line. In the spirit of sensibility, Awk programs are run with one of the following two methods.

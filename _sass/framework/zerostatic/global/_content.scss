@@ -111,10 +111,12 @@
   code,
   pre {
     font-family: $font-family-monospace;
+    background-color: var(--color-base-bg-2);
+    // specifying bg color here works for inline code markdown and blocks
   }
   .highlight {
     pre {
-      background-color: var(--color-base-bg-2);
+      // background-color: var(--color-base-bg-2);
       border-radius: $card-border-radius;
       font-size: 15px;
       line-height: 20px;
@@ -144,29 +146,21 @@
     }
   }
   table {
-    border-spacing: 1;
+    // border-spacing: 1;
     border-collapse: collapse;
-    background: #fff;
-    border-radius: 10px;
+    // background: #fff;
+    // border-radius: 10px;
     overflow: hidden;
     width: 100%;
     margin: 0 auto;
     position: relative;
-    thead {
-      tr {
-        background-color: #e0dfdf;
-      }
-    }
-    tbody {
-      tr:nth-child(even) {
-        background-color: #f5f5f5;
-      }
-    }
     td,
+    tr,
     th {
       text-align: left;
       padding: 8px 12px;
-      border: 1px solid #eaeaea;
+      // border-radius: 5px;
+      border: 1px solid var(--color-base-text);
     }
   }
 }
