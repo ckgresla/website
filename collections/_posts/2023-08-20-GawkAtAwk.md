@@ -75,16 +75,11 @@ BEGIN {
 
 
 {
-	# Get a count of the number of fields per line
-	i = 1
-	while (i <= NF) {
-		i++
-	}
 
 	# Print out some formatted information 
     printf("\n%s%s %s has field 1 set to- '%s' \n",
             FILENAME, "--Record NO.", FNR, $1)
-	printf("  & it has %s fields\n", i)
+	printf("  & it has %s fields\n", NF)
 	
 	continents[$4] += 1
 }
@@ -211,7 +206,7 @@ The above syntax and general flow constitutes the jist of Awk. The language is m
 
 - Invoked directly on a program string: 
 ```
-awk 'BEGIN { print $0 } inputdata'
+awk 'BEGIN { print $0 }' inputdata
 ```
 
 - Invoked through referencing an Awk program file (commonly called "progfile"):
