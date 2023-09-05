@@ -34,4 +34,5 @@ weight: 3
 | 500 Million, Not a Single One More | [Webpage](https://forum.effectivealtruism.org/posts/jk7A3NMdbxp65kcJJ/500-million-but-not-a-single-one-more) | get vaxxed! |
 | A Big Little Idea called Legibility| [Webpage](https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/)| An Authoritarian High-Modernist Recipe for Failure |
 | The Glass is already Broken | [Webpage](https://kottke.org/15/04/the-glass-is-already-broken) | Enjoy it! |
+| The Laws of Trading -- Review | [Webpage](https://astralcodexten.substack.com/p/your-book-review-the-laws-of-trading) | You're always trading! |
 ||||
