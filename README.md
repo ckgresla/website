@@ -2,16 +2,19 @@
 
 I don't like hugo, and although ruby is painful to build we are jekyll-ing now
 
+\*see the `justfile` for some of the methods for running the jekyll server
 
-*see the `justfile` for some of the methods for running the jekyll server
-
-#### Information
+#### Links
 
 [Live Docs](https://www.zerostatic.io/docs/jekyll-curate)
 
 [Live Demo](https://jekyll-curate.netlify.app/)
 
 [Icons for Socials](https://fontawesome.com/)
+
+
+
+#### Original Documentation
 
 # Jekyll Curate Premium Theme
 
