@@ -41,11 +41,12 @@ main:
         icon_darkmode: "/assets/images/icons/book-stack-white.png"
         description: "All gander worthy"
         url: /projects/readings
-      - name: "Thinkers"
-        icon: "/assets/images/icons/network-black.png"
-        icon_darkmode: "/assets/images/icons/network-white.png"
-        description: "Great thoughts about"
-        url: /projects/thinkers/
+      # Postponing for the moment...
+      # - name: "Thinkers"
+      #   icon: "/assets/images/icons/network-black.png"
+      #   icon_darkmode: "/assets/images/icons/network-white.png"
+      #   description: "Great thoughts about"
+      #   url: /projects/thinkers/
   - name: Napkins
     url: /napkins/
     weight: 2
