@@ -235,3 +235,5 @@ weight: 3
 
 113. The fact that we can sample snippets of reality from a “Latent” vector is [so cool!](https://stable-diffusion-art.com/how-stable-diffusion-work/)
 
+114. How many generations will be inspired by the Ghibli films? 
+
