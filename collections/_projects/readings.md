@@ -35,4 +35,5 @@ weight: 3
 | A Big Little Idea called Legibility| [Webpage](https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/)| An Authoritarian High-Modernist Recipe for Failure |
 | The Glass is already Broken | [Webpage](https://kottke.org/15/04/the-glass-is-already-broken) | Enjoy it! |
 | The Laws of Trading -- Review | [Webpage](https://astralcodexten.substack.com/p/your-book-review-the-laws-of-trading) | You're always trading! |
+| Good Research and Good Papers | [Webpage](http://xiaodong-yu.blogspot.com/2011/06/forward-de-mystifying-good-research-and.html) | What constitutes a good paper? |
 ||||
