@@ -237,3 +237,5 @@ weight: 3
 
 114. How many generations will be inspired by the Ghibli films? 
 
+115. [The Missile doesn't tell itself it doesn't know where it is, it merely tells itself where it should go](https://youtu.be/56vtZsQgAF0?si=97MbLMtBASyeXzOb).
+
