@@ -227,3 +227,6 @@ The fact that we can sample snippets of reality from a “Latent” vector is [s
 How many generations will be inspired by the Ghibli films? 
 
 [The Missile doesn't tell itself it doesn't know where it is, it merely tells itself where it should go](https://youtu.be/56vtZsQgAF0?si=97MbLMtBASyeXzOb).
+
+So all of these activations, [actually mean something?](https://transformer-circuits.pub/2023/monosemantic-features/index.html)
+

@@ -239,3 +239,5 @@ weight: 3
 
 115. [The Missile doesn't tell itself it doesn't know where it is, it merely tells itself where it should go](https://youtu.be/56vtZsQgAF0?si=97MbLMtBASyeXzOb).
 
+116. So all of these activations, [actually mean something?](https://transformer-circuits.pub/2023/monosemantic-features/index.html)
+
