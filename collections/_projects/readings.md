@@ -36,4 +36,6 @@ weight: 3
 | The Glass is already Broken | [Webpage](https://kottke.org/15/04/the-glass-is-already-broken) | Enjoy it! |
 | The Laws of Trading -- Review | [Webpage](https://astralcodexten.substack.com/p/your-book-review-the-laws-of-trading) | You're always trading! |
 | Good Research and Good Papers | [Webpage](http://xiaodong-yu.blogspot.com/2011/06/forward-de-mystifying-good-research-and.html) | What constitutes a good paper? |
+| The Techno-Optimist Manifesto | [Webpage](https://a16z.com/the-techno-optimist-manifesto/?utm_source=alphasignalai.beehiiv.com&utm_medium=newsletter&utm_campaign=using-llms-to-train-robots-changes-everything
+) | ai is alchemy and I hope to use it to build Nuclear Fusion, then make it FOSS |
 ||||
