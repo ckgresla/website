@@ -67,7 +67,7 @@ Obviously work is still challenging and hard and painful and tough and it is so 
 
 ## What Else Would You Do?
 
-Work, directed towards what you care about, might be the most important thing we have the opportunity to do in life. If we did not have things that we wanted to work on -- what is there to do? Not having challenges to overcome and goals to achieve is analogous to being deceased. Without things to work towards we have no reason to get out out of bed and there is no difference between today and 10 years from now. Without work there is not much in passively existing. Life becomes even more repetitive and dull if we neglect Work than if we actively take on Work that is meaningful to us.
+Work, directed towards what you care about, might be the most important thing we have the opportunity to do in life. If we did not have things that we wanted to work on -- what is there to do? Not having challenges to overcome and goals to achieve is analogous to being deceased. Without things to work towards we have no reason to get out of bed and there is no difference between today and 10 years from now. Without work there is not much in passively existing. Life becomes even more repetitive and dull if we neglect Work than if we actively take on Work that is meaningful to us.
 
 Work here is also not narrowly defined -- I do not mean to assert that you should be gung-ho to stamp 1,000,000 arbitrary documents by hand. Work is and should be thought of _broadly_, as our "Life's Work".
 

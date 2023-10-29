@@ -2,7 +2,7 @@
 
 I don't like hugo, and although ruby is painful to build we are jekyll-ing now
 
-\*see the `justfile` for some of the methods for running the jekyll server
+\*see the `justfile` for some of the methods; things like running the jekyll server or linting the blog posts with [Vale](https://vale.sh/docs)
 
 #### Links
 
