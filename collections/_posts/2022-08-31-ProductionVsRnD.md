@@ -23,7 +23,7 @@ This mechanism of thinking seems to work well in the competitive landscape of Bu
 
 ### Internal Separations of Work
 
-Similar to the work that is done by an Organization, an Individual also does things that fall under these two categories (more or less depending on the Individual, their Work and their Interests). We can swap out the actual names of divisions at IBM for terms more closely related to what we do each day (that are roughly analagous to the Biz terms)
+Similar to the work that is done by an Organization, an Individual also does things that fall under these two categories (more or less depending on the Individual, their Work and their Interests). We can swap out the actual names of divisions at IBM for terms more closely related to what we do each day (that are roughly analogous to the Biz terms)
 
 1. Productivity
 2. Research

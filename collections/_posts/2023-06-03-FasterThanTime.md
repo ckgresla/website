@@ -79,7 +79,7 @@ whole script ran in 1.00s
 
 As we can see, one can wait 10 seconds in 1, very cool!
 
-In practice you can use this for any "work" that is not bound by process -- making an HTTP request, applying a tokenizer to a chunk of text data, etc. `Asyncio` as a library is tailored towards parallelizing IO bound operations, which means `asyncio` is best suited for splitting up work that does not need to wait for other work to be done.
+In practice you can use this for any "work" that is not bound by process -- making an HTTP request, applying a tokenizer to a chunk of text data, etc. `Asyncio` as a library is tailored towards parallelizing io bound operations, which means `asyncio` is best suited for splitting up work that does not need to wait for other work to be done.
 
 ## Recommended Readings
 

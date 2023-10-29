@@ -14,7 +14,7 @@ If specificity in specifications or a keyboard enthusiast-esque review is more y
 
 ### One Potential Take
 
-A fair intial reaction to that price point is "Yikes". For An HHKB, typical cost efficiency is not its forte, per se.
+A fair initial reaction to that price point is "Yikes". For An HHKB, typical cost efficiency is not its forte, per se.
 
 Keyboards are the interfaces to your digital tools, most people think of their Keyboards as being cheap pieces of plastic that allow them to do _"stuff"_ on a computer. That is reasonable one way of thinking about this interface, but in that perspective there is less room for respect for your tools and less sentimentality for them. From this framework the price point is non-senscial, but if you take the stance proposed by the mind behind this line of Keyboards, the mind of [Dr. Eiiti Wada](https://www.hhkeyboard.com/uk/history) then what seems ridiculous becomes plausible or even preferable. (Brilliant way to sell some plastic!)
 
@@ -34,7 +34,7 @@ So if the thing that you use to do stuff is in large part unchanged by the innov
 
 As in the above, the layout and aesthetic of this keyboard look, like, the 90s -- or like, even older...
 
-But as we have established, the innovations of interfaces are indepdendent from the interfaces of hardware. This interface happens to kick "keisters" -- so it being seemingly antiquated is actually a sign of something special, it hasn't been killed off by the constant stream of innovations yet. Why might that be?
+But as we have established, the innovations of interfaces are independent from the interfaces of hardware. This interface happens to kick "keisters" -- so it being seemingly antiquated is actually a sign of something special, it hasn't been killed off by the constant stream of innovations yet. Why might that be?
 
 - Layout is Superb: you might think at first glance of this board that someone tried to make something symmetrical and failed ever so slightly -- but Wada-san, the UNIX folks and Apple Teams have something non-trivial in this design they somewhat share for a keyboard. For the programmer, professional writer or really anyone that wants to maximize their productivity on a Computer -- you will love this. If, on the other hand a Computer in your mind is effectively a boot-loader for Google Chrome -- consider purchasing a tablet? (why are you even here?)
 - Arrow Keys are located right in the middle of the special characters on the right (front of the board has glyphs to show what each key does if you press the "Fn" key on the far right side) and after getting over the learning curve, HOLY MOLY DO THEY WORK! You do not have to move your hand all over the 7 Seas and Great Kingdoms to move a cursor two fields/characters over, your hands can exist in between the spaces of VIM-bindings and Conventional Keys infinitely more seamlessly.
@@ -48,7 +48,7 @@ The reason for using this keyboard is similar to the essence of the statement; "
 
 If all of the above propaganda was not sufficient for you to consider purchasing one of these boards, check out the [sound](https://www.youtube.com/watch?v=1hWTxQqoIuY&ab_channel=TaehaTypes) of the topre switch -- that _thock_ will do you in.
 
-- PS. I am not advocating that you do away with Bluetooth and only have a Wired connection to the internet, you should accept changes that are useful but make sure that the choice is a conscious one wherein you understand what features are presented and then evaluate their utility before incorporating or discarding them. (my specific HHKB2 has a few bells and whistles that are only made possible via bluetooth and USB-C connectivity)
+- PS. I am not advocating that you do away with bluetooth and only have a wired connection to the internet, you should accept changes that are useful but make sure that the choice is a conscious one wherein you understand what features are presented and then evaluate their utility before incorporating or discarding them. (my specific HHKB2 has a few bells and whistles that are only made possible via bluetooth and USB-C connectivity)
 - PPS. If you close your eyes to complete a line of code or a word that you are misspelling, get this thing ASAP
 
 ​

@@ -19,7 +19,7 @@ Frequentist statistics is the canonical form or interpretation of statistics, it
   - **The Bayesians** would interpret this as being equally unsure of the outcome for the _next_ coin flip, it could be `Heads` or `Not Heads` with equal likelihood
 - For toy problems where we have this sort of frequency of events to work with there isn't an obvious advantage to thinking like a Bayesian, but the Bayesian perspective makes far more sense when we are examining outcomes for which many observations _do not exist_.
 
-Say you hear an odd sound after driving through a construction area and your car veers toward one side. You want to estimate the probability of this behavior being due to a flat tire, since you never have been in this situation before you have no _outcomes to use as prior proabilities_ -- meaning that a frequentist interpretation of this problem is effectively undefined. We can estimate our _belief_ in the probability of the odd behavior being due to a flat tire in a Bayesian sense. This makes the Bayesian framework amenable to more real world problems for which many occurences is not tractable.
+Say you hear an odd sound after driving through a construction area and your car veers toward one side. You want to estimate the probability of this behavior being due to a flat tire, since you never have been in this situation before you have no outcomes to use as prior probabilities -- meaning that a Frequentist interpretation of this problem is effectively undefined. We can estimate our _belief_ in the probability of the odd behavior being due to a flat tire in a Bayesian sense. This makes the Bayesian framework amenable to more real world problems for which many occurrences is not tractable.
 
 ## Probability Formals
 
@@ -44,7 +44,7 @@ To make the extension into the Probabilistic domain, we need to extend these ope
 - \\( NOT \mapsto \neg P(A) = 1 - P(A) \; \\) -- (the "**¬**" symbol refers to "the negation of", in this case the negation of the Probability of A is equal to 1-P(A), effectively the probability of **not** A)
 - For **Dependent Probabilities**;
 - \\( AND \mapsto P(A) \* P(B | A) \; \\) -- this slight difference in the \\( AND \\) operator is noteworthy, as we need to account for the dependence between the variables, the product of the two events happening then becomes the probability of the event we are interested in, A, occuring. Multiplied with the probability of B occuring, GIVEN that A has already occured. (in the independent scenario, there is no conditioning so we can just multiply the probabilities for A and B, technically we do the same thing as the dependent setting but since there is no mutual inclusitivity/dependence we just multiply by the probability of B).
-- \\( OR \mapsto P(A) \ or \ P(B) = P(A) + P(B) - P(A, B) \\) -- the subtraction of the \\( P(A, B) \\) term is the only change from the dependent variant, the reason for it is that we have co-occuring variables, because they are dependent on one another we need to factor in the probability of A and B occuring when we want to calculate ther probability of **either** A or B occuring.
+- \\( OR \mapsto P(A) \ or \ P(B) = P(A) + P(B) - P(A, B) \\) -- the subtraction of the \\( P(A, B) \\) term is the only change from the dependent variant, the reason for it is that we have co-occuring variables, because they are dependent on one another we need to factor in the probability of A and B occuring when we want to calculate the probability of **either** A or B occuring.
 - the `not` operation remains the same we use this when dealing with a single variable so it doesn't require factoring any dependence into the definition
 
 Most of reality involves working with Dependent probabilities (mutually inclusive) and Independent Probabilities (mutually exclusive) can be thought of as special cases of the Dependent counterparts (since the formulas for these are simplified from the dependent definition). We use these methods of combining probabilities to extend logic into the probabilistic domain.
@@ -62,11 +62,11 @@ Bayes Theorem can be broken down as follows:
   - \\( P(B | A) \\) -- the Likelihood, is our probability of an observation occuring given our Prior (given class \\(y \\) the likelihood of the observing the data)
   - \\( P(A) \\) -- the Prior Probability, the probability of our Prior occuring (just the data being observed)
   - \\( P(B) \\) -- the Data, this normalizes our calculation (without which we would have unnormalized probabilities)
-- **The Terms**; Prior and Belief, can kind of be used interchangably, fundamentally they refer to our background information that when combined with data lets us calculate the probability of the belief being the case (say the probability of fraud occuring given some set of data, this is the prior/belief that we want to estimate a probability of occurence for given some observed data)
+- **The Terms**; Prior and Belief, can kind of be used interchangably, fundamentally they refer to our background information that when combined with data lets us calculate the probability of the belief being the case (say the probability of fraud occuring given some set of data, this is the prior/belief that we want to estimate a probability of occurrence for given some observed data)
 
-#### Unormalized Posterior Comparison of Cakes
+#### Unnormalized Posterior Comparison of Cakes
 
-- If we forgo the normalization (dividing by likelihood of data) we can still get meaningful insights from comparing two, unormalized, Bayesian Posteriors (doing just the top portion of the theorems' calculation) -- this is done by _comparing the ratios_ to one another, here is an example:
+- If we forgo the normalization (dividing by likelihood of data) we can still get meaningful insights from comparing two, unnormalized, Bayesian Posteriors (doing just the top portion of the theorems' calculation) -- this is done by _comparing the ratios_ to one another, here is an example:
   - **Our Priors**:
   - \\( P(cheesecake) = 0.9 \\)
   - \\( P(angelcake) = 0.12 \\)

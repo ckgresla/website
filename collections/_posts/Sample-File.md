@@ -13,7 +13,7 @@ subscribe: true
 
 # This is one of the original boilerplate blog posts, keeping in for reference
 
-Markdown is a lightweight markup language with plain-text-formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
+Markdown is a lightweight markup language with plain-text-formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML. Markdown is often used to format README files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
 
 Since the initial description of Markdown contained ambiguities and unanswered questions, the implementations that appeared over the years have subtle differences and many come with syntax extensions.
 
@@ -23,11 +23,11 @@ John Gruber created the [Markdown](#) language in 2004 in collaboration with Aar
 
 > "Markdown is a lightweight markup language with plain-text-formatting syntax"
 
-To this end, its main inspiration is the existing conventions for marking up plain text in email, though it also draws from earlier markup languages, notably setext, Textile, and reStructuredText.
+To this end, its main inspiration is the existing conventions for marking up plain text in email, though it also draws from earlier markup languages, notably; setext, Textile, and reStructuredText.
 
 ## Markdown Flavours
 
-From 2012, a group of people including Jeff Atwood and John MacFarlane launched what Atwood characterized as a standardization effort. A community website now aims to "document various tools and resources available to document authors and developers, as well as implementors of the various markdown implementations".
+From 2012, a group of people including Jeff Atwood and John MacFarlane launched what Atwood characterized as a standardization effort. A community website now aims to "document various tools and resources available to document authors and developers, as well as methods of implementing the various markdown implementations".
 
 {% include framework/shortcodes/figure.html src="/assets/images/gen/content/content-1.webp" title="There are many popular text editors for Markdown" caption="VSCode Editor" alt="Photo of designing a website in Figma" link="https://figma.com" target="\_blank" %}
 
