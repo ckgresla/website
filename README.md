@@ -34,7 +34,7 @@ Jekyll Curate is a portfolio theme with multiple project layouts.
 
 ## Install
 
-### Install Jekll
+### Install Jekyll
 
 Make sure you have Ruby & Jekyll installed - For a step-by-step guide, read Jekyll docs [installation](https://jekyllrb.com/docs/installation/)
 
@@ -58,7 +58,7 @@ This theme is pre-configured to deploy with [Netlify](https://docs.netlify.com/s
 
 ### GitHub Pages
 
-This theme works with GitHub Pages. If you are creating a GitHub Pages "Project site" then your site will be in a sub-folder ie `http://username.github.io/repository` You will need to update the `baseurl` in the `_config.yml` for the asset paths to work correctly.
+This theme works with GitHub Pages. If you are creating a GitHub Pages "Project site" then your site will be in a sub-folder i.e `http://username.github.io/repository` You will need to update the `baseurl` in the `_config.yml` for the asset paths to work correctly.
 
 ```yaml
 # _config.yml
