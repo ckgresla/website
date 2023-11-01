@@ -241,3 +241,5 @@ weight: 3
 
 116. So all of these activations, [actually mean something?](https://transformer-circuits.pub/2023/monosemantic-features/index.html)
 
+117. It’s all a freaking [GRAPH](https://distill.pub/2021/gnn-intro/)!
+
