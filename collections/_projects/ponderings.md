@@ -3,11 +3,10 @@ layout: project-minimal # alternative layouts: project, project-left, project-ri
 
 title: "Ponderings"
 
-description: "Thought experiments, fun questions & more"
+description: "Thought experiments, fun questions & more for you to enjoy."
 
 weight: 3
 ---
-
 
 1. How far could humanity get naming astrophysical systems/bodies with cool names like Jupiter, Andromeda, Mars, the Jovian System, Alpha Centauri, Oumuamua, or Earth as opposed to the “XP-11213- Ac#4cP” style of naming astronomical objects?
 
@@ -235,11 +234,10 @@ weight: 3
 
 113. The fact that we can sample snippets of reality from a “Latent” vector is [so cool!](https://stable-diffusion-art.com/how-stable-diffusion-work/)
 
-114. How many generations will be inspired by the Ghibli films? 
+114. How many generations will be inspired by the Ghibli films?
 
 115. [The Missile doesn't tell itself it doesn't know where it is, it merely tells itself where it should go](https://youtu.be/56vtZsQgAF0?si=97MbLMtBASyeXzOb).
 
 116. So all of these activations, [actually mean something?](https://transformer-circuits.pub/2023/monosemantic-features/index.html)
 
 117. It’s all a freaking [GRAPH](https://distill.pub/2021/gnn-intro/)!
-
