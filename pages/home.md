@@ -2,7 +2,8 @@
 layout: home
 permalink: "/"
 title: "Do non-trivial things with <strong>Gusto.</strong>"
-description: "Welcome to my home on the internet, cozy?"
+# the description field below is nice, perhaps
+description: ""
 meta_description: "CKG's Website"
 meta_title: tonkatsu.io
 subscribe: false
