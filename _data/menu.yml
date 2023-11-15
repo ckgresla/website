@@ -34,13 +34,18 @@ main:
       - name: "Ponderings"
         icon: "/assets/images/icons/lightbulb-black.png"
         icon_darkmode: "/assets/images/icons/lightbulb-white.png"
-        description: "Do you think critically?"
+        description: "Critical thinking?"
         url: /projects/ponderings/
       - name: "Readings"
         icon: "/assets/images/icons/book-stack-black.png"
         icon_darkmode: "/assets/images/icons/book-stack-white.png"
-        description: "All gander worthy"
+        description: "Gander worthy"
         url: /projects/readings
+      - name: "Tools"
+        icon: "/assets/images/icons/network-black.png"
+        icon_darkmode: "/assets/images/icons/network-white.png"
+        description: "Which work wonderfully"
+        url: /projects/tools/
       # Postponing for the moment...
       # - name: "Thinkers"
       #   icon: "/assets/images/icons/network-black.png"
