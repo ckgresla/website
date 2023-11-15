@@ -106,10 +106,16 @@ fonts:
 
 logo:
   logo_text: "Tonkatsu"
-  logo_image: assets/images/logo/logo.png
-  logo_image_mobile: assets/images/logo/logo-mobile.png
-  logo_image_invert: assets/images/logo/logo-invert.png
-  logo_image_invert_mobile: assets/images/logo/logo-invert-mobile.png
+  # Original Logo --> hash thing
+  # logo_image: assets/images/logo/logo.png
+  # logo_image_mobile: assets/images/logo/logo-mobile.png
+  # logo_image_invert: assets/images/logo/logo-invert.png
+  # logo_image_invert_mobile: assets/images/logo/logo-invert-mobile.png
+  # Shapes Logo --> triangle, circle, square
+  logo_image: assets/images/logo/shapes-black.png
+  logo_image_mobile: assets/images/logo/shapes-black.png
+  logo_image_invert: assets/images/logo/shapes-white.png
+  logo_image_invert_mobile: assets/images/logo/shapes-white.png
   logo_image_desktop_height: "28px"
   logo_image_desktop_width: "28px"
   logo_image_mobile_height: "28px"
