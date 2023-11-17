@@ -9,7 +9,7 @@ description: ""
 
 Professionally, I am a member of the technical staff @ [lindy.ai](https://lindy.ai) -- where I spend my days training language models to take meaningful actions in the real-world, on behalf of Users.
 
-My primary research interests lay in natural language processing for action execution, classic reinforcement learning, novel deep learning architectures and things that look like intelligence.
+My primary research interests lay in natural language processing for agents, learning architectures, creative machine learning applications and generally things that look like intelligence.
 
 I am a Chicago Native and currently call San Francisco Home.
 
@@ -35,3 +35,5 @@ I like to keep an archive of quotes, here is a recent one of note:
 <br>
 
 {% include framework/shortcodes/figure.html src="/assets/images/misc/focused-desk-flower.png" title="A wild Silent Princess, can you name that game?"  alt="A Silent Princess in Focus" link="https://www.youtube.com/watch?v=Uj07-YU5cTk" target="\_blank" %}
+
+

@@ -37,4 +37,5 @@ weight: 3
 | The Laws of Trading -- Review | [Webpage](https://astralcodexten.substack.com/p/your-book-review-the-laws-of-trading) | You're always trading! |
 | Good Research and Good Papers | [Webpage](http://xiaodong-yu.blogspot.com/2011/06/forward-de-mystifying-good-research-and.html) | What constitutes a good paper? |
 | The Techno-Optimist Manifesto | [Webpage](https://a16z.com/the-techno-optimist-manifesto/?utm_source=alphasignalai.beehiiv.com&utm_medium=newsletter&utm_campaign=using-llms-to-train-robots-changes-everything) | ai is alchemy and we ought work with it to build Nuclear Fusion. Then release it as FOSS! |
+| Research Debt | [Webpage](https://distill.pub/2017/research-debt/) | Debt exists everywhere, spend wisely. |
 ||||
