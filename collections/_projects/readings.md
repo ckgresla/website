@@ -40,4 +40,5 @@ weight: 3
 | The Techno-Optimist Manifesto | [Webpage](https://a16z.com/the-techno-optimist-manifesto/?utm_source=alphasignalai.beehiiv.com&utm_medium=newsletter&utm_campaign=using-llms-to-train-robots-changes-everything) | ai ~= alchemy, we ought work with it to build Nuclear Fusion. |
 | Research Debt | [Webpage](https://distill.pub/2017/research-debt/) | Debt exists everywhere. |
 | How to Do Research (MIT AI Lab) | [PDF](https://dspace.mit.edu/bitstream/handle/1721.1/41487/AI_WP_316.pdf?sequence=4) | A fantastic collection of timeless, ad-hoc research advices |
+| The Maintenance Race | [Webpage](https://worksinprogress.co/issue/the-maintenance-race) | Skilled maintainers advise never trying to solve a new or complex problem without a thorough mulling first. |
 ||||
