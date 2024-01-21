@@ -28,6 +28,8 @@ $base-text-2-dark: {{ site.colors.text_2_dark | default: '#D1D5DB' }};
 $logo-text-dark: {{ site.colors.logo_text_dark | default: '#F4F4F5' }};
 $menu-text-dark:  {{ site.colors.menu_text-dark | default: '#F4F4F5' }};
 
+
+
 $zs-colors-light: (
     "primary": $primary,
     "primary-2": $primary-2,

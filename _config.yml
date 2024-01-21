@@ -69,31 +69,59 @@ title: "tonkatsu.io"
 category_dir: category
 
 colors:
-  #light-mode colors
-  primary: "#fdfcf9"
-  primary_2: "#0d042b"
-  primary_text: "#0d042b"
-  secondary: "#faebd7" #maps to the underline on homescreen header text
-  background: "#fdfcf9"
-  background_2: "#f7f6ed"
-  background_3: "#faebd7"
-  text: "#0d042b"
-  text_2: "#3b364c"
-  logo_text: "#0d042b"
-  menu_text: "#0d042b"
+  # ORIGINAL COLORS -- as come w the curate theme
+  # # light-mode colors
+  # primary: "#fdfcf9"
+  # primary_2: "#0d042b"
+  # primary_text: "#0d042b"
+  # secondary: "#faebd7" #maps to the underline on homescreen header text
+  # background: "#fdfcf9"
+  # background_2: "#f7f6ed"
+  # background_3: "#faebd7"
+  # text: "#0d042b"
+  # text_2: "#3b364c"
+  # logo_text: "#0d042b"
+  # menu_text: "#0d042b"
+
+  # # dark-mode colors
+  # primary_dark: "#0d042b"
+  # primary_2_dark: "#f5f5ec"
+  # primary_text_dark: "#f5f5ec"
+  # secondary_dark: "#251654"
+  # background_dark: "#0b0326"
+  # background_2_dark: "#150c32"
+  # background_3_dark: "#150c32"
+  # text_dark: "#f5f5ec"
+  # text_2_dark: "#929eaf"
+  # logo_text_dark: "#fdfcf9"
+  # menu_text_dark: "#fdfcf9"
+
+  # CKG COLORS -- curated baby w coolors baby- https://coolors.co/ffffff-000000-f5f5f5-c4d2ff
+  primary: "#FFFFFF"
+  primary_2: "#000000"
+  primary_text: "#000000"
+  secondary: "#C4D2FF" #maps to the underline on homescreen header text
+  background: "#FFFFFF"
+  background_2: "#F5F5F5"
+  background_3: "#C4D2FF"
+  text: "#000000"
+  text_2: "#000000"
+  logo_text: "#000000"
+  menu_text: "#000000"
 
   # dark-mode colors
-  primary_dark: "#0d042b"
-  primary_2_dark: "#f5f5ec"
-  primary_text_dark: "#f5f5ec"
-  secondary_dark: "#251654"
-  background_dark: "#0b0326"
-  background_2_dark: "#150c32"
-  background_3_dark: "#150c32"
-  text_dark: "#f5f5ec"
-  text_2_dark: "#929eaf"
-  logo_text_dark: "#fdfcf9"
-  menu_text_dark: "#fdfcf9"
+  primary_dark: "#000000"
+  primary_2_dark: "#FFFFFF"
+  primary_text_dark: "#FFFFFF"
+  secondary_dark: "#C4D2FF"
+  background_dark: "#000000"
+  background_2_dark: "#000000"
+  background_3_dark: "#C4D2FF"
+  text_dark: "#FFFFFF"
+  text_2_dark: "#FFFFFF"
+  logo_text_dark: "#FFFFFF"
+  menu_text_dark: "#FFFFFF"
+
 
 fonts:
   # see the website for new fonts- https://fonts.google.com/
