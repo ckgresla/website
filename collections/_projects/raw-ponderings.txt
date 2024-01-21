@@ -233,3 +233,5 @@ So all of these activations, [actually mean something?](https://transformer-circ
 It’s all a freaking [GRAPH](https://distill.pub/2021/gnn-intro/)!
 
 [que a tristeza vai passar!](https://www.youtube.com/watch?v=Oa2fClUKgSI) -- The sadness will pass!
+
+What part of a Transformer's forward pass is most exhilarating? 

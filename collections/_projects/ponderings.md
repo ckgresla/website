@@ -245,3 +245,5 @@ weight: 3
 
 118. [que a tristeza vai passar!](https://www.youtube.com/watch?v=Oa2fClUKgSI) -- The sadness will pass!
 
+119. What part of a Transformer's forward pass is most exhilarating? 
+

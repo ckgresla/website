@@ -10,7 +10,12 @@ If accuracy in hunches is how we will measure intelligence, as opposed to; memor
 
 Inference may not comprise _all_ of intelligence, but making correct guesses about the world is no small part of Systems that have intelligence. For those interested in Natural or Artificial intelligence, we might wonder how inference gets implemented -- in the accepted canon of Logic, inferences are progressive conclusions arrived at via reasoning. In Logic, since the days of Aristotle (300 BCE), inference has been divided into _deductive_ and _inductive_ reasoning. Thanks to one interesting fellow in the 1800s, Charles Sanders Peirce (CSP), a third method dubbed _abductive_ reasoning joined the fray and the three methods are frameworks of reasoning that one could use to implement intelligence. Let us explore the existing implementations of intelligence via reasoning and take a speculative foray into potential avenues for new implementations.
 
-![Homunculus](/assets/images/misc/dwarf_in_the_flask.png)
+
+{% include framework/shortcodes/figure.html
+  src="/assets/images/posts/dwarf_in_the_flask.png"
+  title="The Ghost in the Flask?"
+  link="https://fma.fandom.com/wiki/Homunculus"
+%}
 
 ## One Mad Lad
 

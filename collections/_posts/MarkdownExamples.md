@@ -27,7 +27,7 @@ emojis are for TikTok-ers, unicode for gigachads
 
 Here is a wallpaper created by [Gydw1n](https://www.deviantart.com/gydw1n) that I adore:
 
-![profile](assets/images/misc/adventure.jpg)
+![profile](assets/images/posts/adventure.jpg)
 
 {% include framework/shortcodes/figure.html src="/assets/images/gen/content/content-1.webp" title="There are many popular text editors for Markdown" caption="VSCode Editor" alt="Photo of designing a website in Figma" link="https://figma.com" target="\_blank" %}
 
