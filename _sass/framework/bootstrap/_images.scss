@@ -40,3 +40,32 @@
   @include font-size($figure-caption-font-size);
   color: $figure-caption-color;
 }
+
+// Styles for BW and Color images hover effect
+.hover-effect {
+  position: relative;
+  width: 100%;
+}
+
+.hover-effect img {
+  // border-radius: 25px; //this gives it rounded corners, tasteful!
+  width: 100%; 
+  height: auto;
+  display: block;
+}
+
+.hover-effect .focus-image {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: visibility 0.1s linear;
+}
+
+.hover-effect:hover .focus-image {
+  visibility: visible;
+}
+
+.hover-effect .base-image {
+  visibility: visible;
+}

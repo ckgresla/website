@@ -1,0 +1,13 @@
+<!-- CKG added this custom component ala, inspired by the headshots here- https://iroje.com/iroje/team/ -->
+<!-- when using, ensure both images are of the same size! -->
+
+<figure {% if include.full %} class="figure-full hover-effect" {% endif %}>
+  <a href="{{ include.link | relative_url }}" target="{{ include.target }}">
+    <img class="focus-image" src="{{ include.focus_src | relative_url }}" alt="{{ include.alt }}">
+    <img class="base-image" src="{{ include.base_src | relative_url }}" alt="{{ include.alt }}" >
+  </a>
+  <figcaption>
+    <h4>{{ include.title }}</h4>
+    <p>{{ include.caption }}</p>
+  </figcaption>
+</figure>

@@ -15,7 +15,9 @@
       strong {
         font-style: normal;
         text-decoration-line: underline;
-        text-decoration-color: antiquewhite;
+        // This color controls the underline on the main landing page
+        // text-decoration-color: antiquewhite;
+        text-decoration-color: var(--color-secondary);
       }
     }
   }
@@ -49,5 +51,32 @@
     img {
       max-width: 100%;
     }
+  }
+
+  // the change image on hover w cursor affect, iroje inspired
+  .hover-effect {
+    position: relative;
+    width: 250px; //here use fixed max val for image widths (this makes the dim of hover effect images similar to the default heading-image, no clue where the default heading-image is defined but 250 pixels is close enough...)
+  }
+  
+  .hover-effect img {
+    height: auto;
+    display: block;
+  }
+  
+  .hover-effect .focus-image {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: visibility 0.1s linear;
+  }
+  
+  .hover-effect:hover .focus-image {
+    visibility: visible;
+  }
+  
+  .hover-effect .base-image {
+    visibility: visible;
   }
 }

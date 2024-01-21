@@ -73,7 +73,7 @@ colors:
   primary: "#fdfcf9"
   primary_2: "#0d042b"
   primary_text: "#0d042b"
-  secondary: "#faebd7"
+  secondary: "#faebd7" #maps to the underline on homescreen header text
   background: "#fdfcf9"
   background_2: "#f7f6ed"
   background_3: "#faebd7"

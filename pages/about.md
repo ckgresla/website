@@ -4,10 +4,13 @@ title: "About"
 date: 2018-11-28T15:15:34+10:00
 permalink: "/about/"
 description: ""
-# image: "/assets/images/gen/content/content-5.webp" #maybe add in my headshot or portrait like Stevens or Lee?
+# image: "/assets/images/personal/profile-250px.jpg" #static image, default
+# below, iroje like effect (CKG added)
+base_image: "/assets/images/personal/profile-250px.jpg"
+focus_image: "/assets/images/personal/portrait-meme.png"
 ---
 
-Professionally, I am a member of the technical staff @ [lindy.ai](https://lindy.ai) -- where I spend my days training language models to take meaningful actions in the real-world, on behalf of Users.
+Professionally, I am research engineer @ [lindy.ai](https://lindy.ai) -- where I spend my days training language models to take real actions in the digital world, on behalf of Users.
 
 My primary research interests lay in natural language processing for agents, learning architectures, creative machine learning applications and generally things that look like intelligence.
 
@@ -17,14 +20,25 @@ If you happen to be cool, say hi- ckgresla at gmail.com
 
 <br>
 
-{% include framework/shortcodes/figure.html src="/assets/images/misc/focused-desk-hhkb.png" title="A wild HHKB awaits Adventure"  alt="My Desk" link="" target="\_blank" %}
 
+<br>
+
+
+{% include framework/shortcodes/image-swap-on-hover.html
+  link="https://www.youtube.com/watch?v=Uj07-YU5cTk" 
+  full=true 
+  focus_src="/assets/images/misc/focused-desk-flower.png" 
+  base_src="/assets/images/misc/focused-desk-hhkb.png"
+  alt="Image Description"
+  title="A wild Silent Princess, can you name that game?" 
+%}
 
 <br>
 
 <br>
 
-I like to keep an archive of quotes, here is a recent one of note:
+
+One ought to take note of good quotes, here is a recent one:
 
 > “The night falls before you know it. The same applies to a year.”
 
@@ -33,7 +47,5 @@ I like to keep an archive of quotes, here is a recent one of note:
 <br>
 
 <br>
-
-{% include framework/shortcodes/figure.html src="/assets/images/misc/focused-desk-flower.png" title="A wild Silent Princess, can you name that game?"  alt="A Silent Princess in Focus" link="https://www.youtube.com/watch?v=Uj07-YU5cTk" target="\_blank" %}
 
 

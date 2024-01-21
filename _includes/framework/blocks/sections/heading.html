@@ -1,6 +1,8 @@
 {% assign title = include.title %}
 {% assign description = include.description %}
 {% assign image = include.image %}
+{% assign base_image = include.base_image %}
+{% assign focus_image = include.focus_image %}
 {% assign icon = include.icon %}
 {% assign fa_icon = include.fa_icon %}
 {% assign align = include.align | default: 'left' %}
@@ -32,4 +34,15 @@
       <img {% if title %} alt="{{ title }}" {% endif %} src="{{ image | relative_url }}"/>
     </div>
   {% endif %}
+
+  <!-- If specify both the base and focus images, render the iroje like effect! -->
+  {% if base_image and focus_image and
+    base_image != "" and focus_image != ""
+  %}
+  <div class="heading-image hover-effect">
+    <img class="focus-image" src="{{ include.focus_image | relative_url }}" alt="{{ include.alt }}">
+    <img class="base-image" src="{{ include.base_image | relative_url }}" alt="{{ include.alt }}" >
+  </div>
+  {% endif %}
+
 </div>
