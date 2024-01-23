@@ -14,7 +14,7 @@ weight: 3
 
 | Title         | Location    | Raison    |
 |---------------|-------------|-----------|
-| A Message to Garcia | [PDF](https://courses.csail.mit.edu/6.803/pdf/hubbard1899.pdf) | Are you capable of carrying the letter? |
+| A Message to Garcia | [PDF](/pdfs/hubbard1899.pdf) | Are you capable of carrying the letter? |
 | The Logintaka | [Webpage](http://catb.org/~esr/faqs/loginataka.html) | a dialogue between a Guru and a Newbie |
 | How To Become A Hacker | [Webpage](http://www.catb.org/~esr/faqs/hacker-howto.html) | They might be on to something... |
 | The Bitter Lesson | [Webpage](http://incompleteideas.net/IncIdeas/BitterLesson.html) | Data** & Compute++ |
@@ -25,13 +25,13 @@ weight: 3
 | Gunga Din | [Webpage]( https://www.poetryfoundation.org/poems/46783/gunga-din) | You're a better man than I... |
 | I love my wife. My wife is dead. | [Webpage]( https://lettersofnote.com/2012/02/15/i-love-my-wife-my-wife-is-dead/) | This one requires a whiskey. |
 | Be Drunk | [Webpage]( https://poets.org/poem/be-drunk) | Wine, Poetry or Virtue? |
-| A Mathematician's Apology | [PDF]( https://web.njit.edu/~akansu/PAPERS/GHHardy-AMathematiciansApology.pdf) | A peek into the mind of a mathematician |
+| A Mathematician's Apology | [PDF](/pdfs/a-mathematicians-apology-hardy.pdf) | A peek into the mind of a mathematician |
 | Horatius' Last Stand | [Webpage]( https://www.goodreads.com/quotes/21898-then-out-spake-brave-horatius-the-captain-of-the-gate) | Is there a better way to go? |
 | Electric Meat | [Webpage]( https://matt.might.net/articles/electric-meat/) | Grab a few things! |
-| On Bullshit | [PDF]( https://www2.csudh.edu/ccauthen/576f12/frankfurt__harry_-_on_bullshit.pdf) | Its despicable! |
-| You and Your Research | [PDF]( https://www.cs.virginia.edu/~robins/YouAndYourResearch.pdf) | There IS difference between "Good" and "Great" |
+| On Bullshit | [PDF](/pdfs/on-bullshit-frankfurt.pdf) | Its despicable! |
+| You and Your Research | [PDF](/pdfs/you-and-your-research.pdf) | There IS difference between "Good" and "Great" |
 | The Goddess of Everything Else | [Webpage]( https://slatestarcodex.com/2015/08/17/the-goddess-of-everything-else-2/) | There is a pull to "KILL CONSUME MULTIPLY CONQUER", yes. But also a longing for something else. |
-| Jonathan Livingston Seagull | [PDF](https://www.crisrieder.org/thejourney/wp-content/uploads/2021/02/Jonathan-Livingston-Seagull.pdf) | no limits eh? |
+| Jonathan Livingston Seagull | [PDF](/pdfs/jonathan-livingston-seagull.pdf) | no limits eh? |
 | 500 Million, Not a Single One More | [Webpage](https://forum.effectivealtruism.org/posts/jk7A3NMdbxp65kcJJ/500-million-but-not-a-single-one-more) | get vaxxed! |
 | A Big Little Idea called Legibility| [Webpage](https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/)| An Authoritarian High-Modernist Recipe for Failure |
 | The Glass is already Broken | [Webpage](https://kottke.org/15/04/the-glass-is-already-broken) | Enjoy it! |
@@ -39,7 +39,7 @@ weight: 3
 | Good Research and Good Papers | [Webpage](http://xiaodong-yu.blogspot.com/2011/06/forward-de-mystifying-good-research-and.html) | What constitutes a good paper? |
 | The Techno-Optimist Manifesto | [Webpage](https://a16z.com/the-techno-optimist-manifesto/?utm_source=alphasignalai.beehiiv.com&utm_medium=newsletter&utm_campaign=using-llms-to-train-robots-changes-everything) | ai ~= alchemy, we ought work with it to build Nuclear Fusion. |
 | Research Debt | [Webpage](https://distill.pub/2017/research-debt/) | Debt exists everywhere. |
-| How to Do Research (MIT AI Lab) | [PDF](https://dspace.mit.edu/bitstream/handle/1721.1/41487/AI_WP_316.pdf?sequence=4) | A fantastic collection of timeless, ad-hoc research advices |
+| How to Do Research (MIT AI Lab) | [PDF](/pdfs/HOWTO-ai-research-MIT.pdf) | A fantastic collection of timeless, ad-hoc research advices |
 | The Maintenance Race | [Webpage](https://worksinprogress.co/issue/the-maintenance-race) | Skilled maintainers advise never trying to solve a new or complex problem without a thorough mulling first. |
-| Jibun Kaigi | [Webpage](https://comick.cc/comic/jibun-kaigi-the-meeting-of-myself-jythm17j/4LqX7) | A titular meeting of the selves! |
+| Jibun Kaigi | [Webpage](https://www.thehappygrowth.com/statuses/49924.html) | A titular meeting of the selves! |
 ||||
