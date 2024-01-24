@@ -247,3 +247,5 @@ weight: 3
 
 119. What part of a Transformer's forward pass is most exhilarating? 
 
+120. [Split. Half. Float. Double Sparse.](https://github.com/microsoft/DeepSpeed/blob/9d2660d2a3fac767972f01ac96858b2605ffc0e4/deepspeed/runtime/engine.py#L121)
+

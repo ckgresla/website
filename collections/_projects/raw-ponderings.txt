@@ -235,3 +235,5 @@ It’s all a freaking [GRAPH](https://distill.pub/2021/gnn-intro/)!
 [que a tristeza vai passar!](https://www.youtube.com/watch?v=Oa2fClUKgSI) -- The sadness will pass!
 
 What part of a Transformer's forward pass is most exhilarating? 
+
+[Split. Half. Float. Double Sparse.](https://github.com/microsoft/DeepSpeed/blob/9d2660d2a3fac767972f01ac96858b2605ffc0e4/deepspeed/runtime/engine.py#L121)
