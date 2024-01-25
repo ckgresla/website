@@ -249,3 +249,5 @@ weight: 3
 
 120. [Split. Half. Float. Double Sparse.](https://github.com/microsoft/DeepSpeed/blob/9d2660d2a3fac767972f01ac96858b2605ffc0e4/deepspeed/runtime/engine.py#L121)
 
+121. [este samba é só porque](https://www.youtube.com/watch?v=bQM-vP5BcGw)!
+
