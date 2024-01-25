@@ -41,5 +41,5 @@ weight: 3
 | Research Debt | [Webpage](https://distill.pub/2017/research-debt/) | Debt exists everywhere. |
 | How to Do Research (MIT AI Lab) | [PDF](/pdfs/HOWTO-ai-research-MIT.pdf) | A fantastic collection of timeless, ad-hoc research advices |
 | The Maintenance Race | [Webpage](https://worksinprogress.co/issue/the-maintenance-race) | Skilled maintainers advise never trying to solve a new or complex problem without a thorough mulling first. |
-| Jibun Kaigi | [Webpage](https://www.thehappygrowth.com/statuses/49924.html) | A titular meeting of the selves! |
+| Jibun Kaigi | [PDF](/pdfs/jibun-kaigi.pdf) | A titular meeting of the selves! |
 ||||
