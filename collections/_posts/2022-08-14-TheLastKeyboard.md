@@ -1,5 +1,5 @@
 ---
-title: "The Last Keyboard You Should Buy"
+title: "The Last Keyboard One Should Buy"
 ---
 
 ​
@@ -8,47 +8,39 @@ title: "The Last Keyboard You Should Buy"
 
 ​
 
-Spoiler; the ridiculously good board is the [HHKB2 Professional Hybrid](https://www.hhkeyboard.com/uk/products/hybrid) or your pick of Happy Hacking Keyboard's product line.
+### Do you pay attention to the keyboard?
 
-If specificity in specifications or a keyboard enthusiast-esque review is more your thing, this post from [Material Journal](https://materialjournal.com/blog/hhkb-hybrid-review) is what pushed me over the edge to cough up the somewhat aggregious amount of cash that one of these boards will run you. Something around ~$240 USD as of August of 2022.
+Have you given much thought to the layout of your keyboard? For the folks who spend a large fraction of their waking hours clacking away on a hunk of plastic, it seems peculiar that we clack through life without giving much thought to the inanimate companion on our quest.
 
-### One Potential Take
+That companion persists even whilst technology constantly changes, it is our "stable" interface to the latest and greatest innovations. In fact, the physical keyboard has perhaps always been the de facto mechanism for doing stuff with modern tech, even the stuff prior to the era of personal computers (ahem typewriters).
 
-A fair initial reaction to that price point is "Yikes". For An HHKB, typical cost efficiency is not its forte, per se.
+If you have the opportunity, you should think about what you *choose* to spend your life with. A keyboard is a tool which very well could stick by your fingertips through several generations of computers -- and if its a well designed board, all generations of computers you will own. This idea of a keyboard being a lifelong companion to your computational efforts, is the core tenet behind the [HHKB](https://hhkeyboard.us/). The affectionately named "Happy Hacking Keyboard" is one such option for a lifelong companion, designed by folks who paid attention to their keyboards. 
 
-Keyboards are the interfaces to your digital tools, most people think of their Keyboards as being cheap pieces of plastic that allow them to do _"stuff"_ on a computer. That is reasonable one way of thinking about this interface, but in that perspective there is less room for respect for your tools and less sentimentality for them. From this framework the price point is non-senscial, but if you take the stance proposed by the mind behind this line of Keyboards, the mind of [Dr. Eiiti Wada](https://www.hhkeyboard.com/uk/history) then what seems ridiculous becomes plausible or even preferable. (Brilliant way to sell some plastic!)
+I have spent several years with my keyboard and it is a joy to use every day, I hope that you can think about the things which comprise your environment and set them in an order which brings little moments of joy to your daily life. May you have respect for your tools, may you treat them accordingly and may serve your efforts to the best of their ability!
 
-Wada-san used this quip as an analogy for why we should deeply care about the interfaces to technology:
+<br>
 
-- _"Cowboys in the western United States leave their horses when they die. But never leave their saddles, regardless of how long they need to walk in the desert. Saddles are interfaces that are deeply adapted to our bodies whereas horses are consumable items. It should not be forgotten that computers are consumables nowadays, but keyboards are interfaces that we can use through our lives."_
-
-Technology changes, the underlying hardware evolves, but the layout of the keyboards don't and therefore the way you interact with the computer doesn't change! This applies at different levels of abstraction and certainly there are many innovations to be had at those different levels (i.e. why have physical monitors on a desk when you can have arbitrarily many monitors in VR?)
-
-Yet even with these potential innovations, the physical keyboard is a tool that remains and has cemented itself as a brilliant mechanism for doing stuff -- it is a tool that pre-dates the Eras of Compute (typewriters) and one that works.
-
-So if the thing that you use to do stuff is in large part unchanged by the innovations of the stuff, you should make sure you have a good thing to do stuff with!
-
-### A Specific Tool
-
+### Why an HHKB?
 ![overhead](/assets/images/posts/hhkb2/overhead.png)
+- The layout is superb: at first glance one might feel as though someone tried to make a symmetrical keyboard and failed ever so slightly. However if you actually use computers beyond being bootloaders for Google Chrome and give this thing a lookover you start to notice some tasteful things. The re-placement of `Caps Lock` with `Ctrl` -- my my that actually kind of makes sense. The location of the arrow keys, easily accessible to your middle & index finger by forcefully dangling your pinky finger on the function key. The closely located `Page Up`, `Page Down`, `Home` and `End` keys. All of these placed in a way so as to keep your hands near the `ASDF` & `JKL;` rows, to mitigate the movement & change of context that comes with full-size keyboards. Not having to move your hand across over the 7 Seas and a few Great Kingdoms to move a cursor two fields/characters over with the arrows is nice. Plus whilst using this layout your fingers exist in between the spaces of VIM-bindings and Conventional Keys in a way I can only describe as "*seamless*".
 
-As in the above, the layout and aesthetic of this keyboard look, like, the 90s -- or like, even older...
 
-But as we have established, the innovations of interfaces are independent from the interfaces of hardware. This interface happens to kick "keisters" -- so it being seemingly antiquated is actually a sign of something special, it hasn't been killed off by the constant stream of innovations yet. Why might that be?
+- It was created by a hacker, for hacking: The wizard who came up with this design, Dr. Eiiti Wada, did so by writing a [freaking paper about it](/pdfs/OriginalhhkbPaperTranslation-wada1992.pdf). In it he details the frustrations he had with the keyboards/layouts of his era & forays into the proposal of a new layout which would be both  futureproof and a joy to work with. The jist of his opinion about keyboards is encapsulated by his quote:
 
-- Layout is Superb: you might think at first glance of this board that someone tried to make something symmetrical and failed ever so slightly -- but Wada-san, the UNIX folks and Apple Teams have something non-trivial in this design they somewhat share for a keyboard. For the programmer, professional writer or really anyone that wants to maximize their productivity on a Computer -- you will love this. If, on the other hand a Computer in your mind is effectively a boot-loader for Google Chrome -- consider purchasing a tablet? (why are you even here?)
-- Arrow Keys are located right in the middle of the special characters on the right (front of the board has glyphs to show what each key does if you press the "Fn" key on the far right side) and after getting over the learning curve, HOLY MOLY DO THEY WORK! You do not have to move your hand all over the 7 Seas and Great Kingdoms to move a cursor two fields/characters over, your hands can exist in between the spaces of VIM-bindings and Conventional Keys infinitely more seamlessly.
-- Caps Lock at it's regular location on the far left is criminal, a sentiment you will not understand until you feel the control key in that place (JUST HOLD SHIFT FOR CAPITAL TEXT ANYWAY!) -- our getting stuck with the caps lock key in that location is likely a byproduct of the [typewriter](https://en.wikipedia.org/wiki/Caps_Lock#:~:text=The%20Caps%20Lock%20key%20originated,the%20same%20number%20of%20keys.).
+> "Cowboys in the western United States leave their horses when they die. But never leave their saddles, regardless of how long they need to walk in the desert. Saddles are interfaces that are deeply adapted to our bodies whereas horses are consumable items. It should not be forgotten that computers are consumables nowadays, but keyboards are interfaces that we can use through our lives."
 
-### In Closing
+- Who needs Neuralink when you have Vim?
 
-The reason for using this keyboard is similar to the essence of the statement; "Who needs Neuralink when you have Vim." There may be new innovations or technologies that have the potential to make things better, but if they don't beat out the classics, should you adopt them? Not in any reasonable frame of mind, no. If it ain't broke, don't fix it.
+- [The THOCK](https://www.youtube.com/watch?v=1hWTxQqoIuY&ab_channel=TaehaTypes) of the topre switch -- that just makes you want to hack.
 
-​
 
-If all of the above propaganda was not sufficient for you to consider purchasing one of these boards, check out the [sound](https://www.youtube.com/watch?v=1hWTxQqoIuY&ab_channel=TaehaTypes) of the topre switch -- that _thock_ will do you in.
+<br>
 
-- PS. I am not advocating that you do away with bluetooth and only have a wired connection to the internet, you should accept changes that are useful but make sure that the choice is a conscious one wherein you understand what features are presented and then evaluate their utility before incorporating or discarding them. (my specific HHKB2 has a few bells and whistles that are only made possible via bluetooth and USB-C connectivity)
-- PPS. If you close your eyes to complete a line of code or a word that you are misspelling, get this thing ASAP
+<br>
 
-​
+
+### References
+- [Material Journal](https://materialjournal.com/blog/hhkb-hybrid-review)- this spectacular post pushed me over the edge to cough up the rather ridiculous $240 USD for my first HHKB in the August of 2022. I am very grateful.
+- [Wada's 1992 Paper](https://happyhackingkb.com/jp/special/dr_wada/pfutechreview/) (Original) and a [Translation to English](/pdfs/OriginalhhkbPaperTranslation-wada1992.pdf)
+
+
