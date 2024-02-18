@@ -35,17 +35,17 @@ main:
         icon: "/assets/images/icons/lightbulb-black.png"
         icon_darkmode: "/assets/images/icons/lightbulb-white.png"
         description: "Critical thinking?"
-        url: /projects/ponderings/
+        url: /ponderings/
       - name: "Readings"
         icon: "/assets/images/icons/book-stack-black.png"
         icon_darkmode: "/assets/images/icons/book-stack-white.png"
         description: "Gander worthy"
-        url: /projects/readings
+        url: /readings
       - name: "Tools"
         icon: "/assets/images/icons/network-black.png"
         icon_darkmode: "/assets/images/icons/network-white.png"
         description: "Which work wonderfully"
-        url: /projects/tools/
+        url: /tools/
       # Postponing for the moment...
       # - name: "Thinkers"
       #   icon: "/assets/images/icons/network-black.png"
@@ -73,18 +73,21 @@ footer_primary:
     url: /projects/project-4/
 
 footer_secondary:
+  - name: About
+    url: /about/
+    weight: 1
   - name: Napkins
     url: /napkins/
     weight: 2
   - name: Ponderings
-    url: /projects/ponderings/
+    url: /ponderings/
     weight: 2
   - name: Readings
-    url: /projects/readings/
+    url: /readings/
     weight: 2
-  - name: About
-    url: /about/
-    weight: 3
+  - name: Tools
+    url: /tools/
+    weight: 2
   # no contact page atm
   # - name: Contact
   #   url: /contact/
