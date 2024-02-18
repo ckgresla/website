@@ -4,7 +4,7 @@ serve:
 
 # Recreate Ponderings with Latest File
 ponder:
-    bash collections/_projects/assemble_ponderings.sh collections/_projects/raw-ponderings.txt
+    bash scripts/assemble_ponderings.sh _data/raw-ponderings.txt pages/ponderings.md
 
 # Run the Vale linter on the collection posts, see docs for info on the linter- https://vale.sh/docs
 lint:

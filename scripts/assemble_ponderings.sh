@@ -1,28 +1,41 @@
 #!/bin/bash
 # Script to create the structured ponderings file (for website) from a raw text file (which holds the data, split by "\n\n")
 
+# Check if file name and output path are provided
+if [ $# -lt 2 ]; then
+    echo "Please provide a text file as input and an output path"
+    exit 1
+fi
+
 # Check if file name is provided
 if [ $# -eq 0 ]; then
     echo "Please provide a text file as input"
     exit 1
 fi
 
-# Check if file exists
+# Check if the input file exists
 if [ ! -f "$1" ]; then
     echo "$1 is not a valid file"
     exit 1
 fi
 
+# Check if output directory exists
+output_dir=$(dirname "$2")
+if [ ! -d "$output_dir" ]; then
+    echo "$output_dir is not a valid directory"
+    exit 1
+fi
 
-# Configure Output File + Append Header for website markdown
-output_file="collections/_projects/ponderings.md" #assumes script is run from root project dir
+
+# Configure Output File Headers -- in context of website's markdown
+output_file="$2" #assumes script is run from root project dir
 header_for_file=$(cat <<-END
 ---
 layout: project-minimal # alternative layouts: project, project-left, project-right, project-top, project-minimal
 
 title: "Ponderings"
 
-description: "Thought experiments, fun questions & more"
+description: "Thought experiments, questions & more"
 
 weight: 3
 ---

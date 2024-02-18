@@ -3,7 +3,7 @@ layout: project-minimal # alternative layouts: project, project-left, project-ri
 
 title: "Ponderings"
 
-description: "Thought experiments, fun questions & more"
+description: "Thought experiments, questions & more"
 
 weight: 3
 ---
