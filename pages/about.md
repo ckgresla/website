@@ -10,13 +10,11 @@ base_image: "/assets/images/personal/profile-250px.jpg"
 focus_image: "/assets/images/personal/portrait-meme.png"
 ---
 
-Professionally, I am research engineer @ [lindy.ai](https://lindy.ai) -- where I spend my days training language models to take real actions in the digital world, on behalf of Users.
 
-My primary research interests lay in natural language processing for agents, learning architectures, creative machine learning applications and generally things that look like intelligence.
+Neural networks are pretty cool.
 
-I am a Chicago Native and currently call San Francisco Home.
+I am a Chicago Native which finds himself calling San Francisco Home.
 
-If you happen to be cool, say hi- ckgresla at gmail.com
 
 <br>
 
