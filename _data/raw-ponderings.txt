@@ -248,3 +248,5 @@ A useful interface is one that provides a way to coral complexity.
 
 Those genetic algorithm folks [really like the elites](https://cs.uwlax.edu/~dmathias/cs419/readings/NSGAIIElitistMultiobjectiveGA.pdf)...
 
+What is your [Aria](https://aniwatchtv.to/watch/pompo-the-cinephile-15696?ep=85357)?
+

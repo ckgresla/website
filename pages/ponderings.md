@@ -259,3 +259,5 @@ weight: 3
 
 125. Those genetic algorithm folks [really like the elites](https://cs.uwlax.edu/~dmathias/cs419/readings/NSGAIIElitistMultiobjectiveGA.pdf)...
 
+126. What is your [Aria](https://aniwatchtv.to/watch/pompo-the-cinephile-15696?ep=85357)?
+
