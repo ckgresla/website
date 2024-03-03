@@ -245,3 +245,6 @@ If *feels* like something to move!
 What machine learning can discover today is useful, but it isn't uncovering the truth!
 
 A useful interface is one that provides a way to coral complexity.
+
+Those genetic algorithm folks [really like the elites](https://cs.uwlax.edu/~dmathias/cs419/readings/NSGAIIElitistMultiobjectiveGA.pdf)...
+

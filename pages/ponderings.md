@@ -257,3 +257,5 @@ weight: 3
 
 124. A useful interface is one that provides a way to coral complexity.
 
+125. Those genetic algorithm folks [really like the elites](https://cs.uwlax.edu/~dmathias/cs419/readings/NSGAIIElitistMultiobjectiveGA.pdf)...
+
