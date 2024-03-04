@@ -43,5 +43,6 @@ weight: 3
 | The Maintenance Race | [Webpage](https://worksinprogress.co/issue/the-maintenance-race) | Skilled maintainers advise never trying to solve a new or complex problem without a thorough mulling first. |
 | Jibun Kaigi | [PDF](/pdfs/jibun-kaigi.pdf) | A titular meeting of the selves! |
 | Tips for Writing Technical Papers | [Webpage](https://cs.stanford.edu/people/widom/paper-writing.html) | by Jennifer Widom? it should be Wisdom! |
+| Notes from The Pragmatic Scientist | [PDF](pdfs/the-pragmatic-scientist-Krishnan.pdf) | Useful items to keep in mind |
 ||||
 
