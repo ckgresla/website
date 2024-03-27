@@ -261,3 +261,7 @@ weight: 3
 
 126. What is your [Aria](https://aniwatchtv.to/watch/pompo-the-cinephile-15696?ep=85357)?
 
+127. [This](https://www.youtube.com/watch?v=Crz1PpKk3dU) makes it easy to understand why there are so many fantastic slavic hackers
+
+128. [Cantar e cantar e cantar]https://lyricalbrazil.com/2012/12/02/o-que-e-o-que-e/)...
+
