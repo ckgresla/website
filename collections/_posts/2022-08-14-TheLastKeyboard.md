@@ -25,13 +25,18 @@ I have spent several years with my keyboard and it is a joy to use every day, I 
 - The layout is superb: at first glance one might feel as though someone tried to make a symmetrical keyboard and failed ever so slightly. However if you actually use computers beyond being bootloaders for Google Chrome and give this thing a lookover you start to notice some tasteful things. The re-placement of `Caps Lock` with `Ctrl` -- my my that actually kind of makes sense. The location of the arrow keys, easily accessible to your middle & index finger by forcefully dangling your pinky finger on the function key. The closely located `Page Up`, `Page Down`, `Home` and `End` keys. All of these placed in a way so as to keep your hands near the `ASDF` & `JKL;` rows, to mitigate the movement & change of context that comes with full-size keyboards. Not having to move your hand across over the 7 Seas and a few Great Kingdoms to move a cursor two fields/characters over with the arrows is nice. Plus whilst using this layout your fingers exist in between the spaces of VIM-bindings and Conventional Keys in a way I can only describe as "*seamless*".
 
 
-- It was created by a hacker, for hacking: The wizard who came up with this design, Dr. Eiiti Wada, did so by writing a [freaking paper about it](/pdfs/OriginalhhkbPaperTranslation-wada1992.pdf). In it he details the frustrations he had with the keyboards/layouts of his era & forays into the proposal of a new layout which would be both  futureproof and a joy to work with. The jist of his opinion about keyboards is encapsulated by his quote:
+
+To close I leave you with the following tidbits;
+
+- The board was created by a hacker (in the generally positive old-school programmer sense), for hacking: The wizard who came up with this design, Dr. Eiiti Wada, did so by writing a [fucking paper about it](/pdfs/OriginalhhkbPaperTranslation-wada1992.pdf). In it he details the frustrations he had with the keyboards/layouts of his era & forays into the proposal of a new layout which would be both  futureproof and a joy to work with. The jist of his opinion about keyboards is encapsulated by his quote:
 
 > "Cowboys in the western United States leave their horses when they die. But never leave their saddles, regardless of how long they need to walk in the desert. Saddles are interfaces that are deeply adapted to our bodies whereas horses are consumable items. It should not be forgotten that computers are consumables nowadays, but keyboards are interfaces that we can use through our lives."
 
 - Who needs Neuralink when you have Vim?
 
-- [The THOCK](https://www.youtube.com/watch?v=1hWTxQqoIuY&ab_channel=TaehaTypes) of the topre switch -- that just makes you want to hack.
+- This is a brilliantly crafted tool, [intended to be used](https://arc.net/l/quote/iowtzyxc).
+
+- [The THOCK](https://www.youtube.com/watch?v=1hWTxQqoIuY&ab_channel=TaehaTypes) of the topre switch -- that is what will do you in.
 
 
 <br>
