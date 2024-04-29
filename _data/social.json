@@ -18,5 +18,10 @@
     "title": "Spotify",
     "fa_icon": "fab fa-spotify",
     "url": "https://open.spotify.com/user/1258747599?nd=1"
+  },
+  {
+    "title": "Mail",
+    "fa_icon": "fas fa-envelope",
+    "url": "mailto:ckgresla@gmail.com?subject=Why Hello There"
   }
 ]

@@ -263,5 +263,7 @@ weight: 3
 
 127. [This](https://www.youtube.com/watch?v=Crz1PpKk3dU) makes it easy to understand why there are so many fantastic slavic hackers
 
-128. [Cantar e cantar e cantar]https://lyricalbrazil.com/2012/12/02/o-que-e-o-que-e/)...
+128. [ah Cantar e cantar e cantar](https://lyricalbrazil.com/2012/12/02/o-que-e-o-que-e/)...
+
+129. [Ah, 1996. Computer users called it "the net", and had girlfriends.](https://youtu.be/LXw6BkZ-gdY?si=Uj7ZybVQs9nYIZ1f)
 
