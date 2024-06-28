@@ -16,6 +16,7 @@ Neural networks are pretty cool.
 I am a Chicago Native which finds himself calling San Francisco Home.
 
 
+
 <br>
 
 
@@ -41,6 +42,12 @@ One ought to take note of good quotes, here is a recent one:
 > “The night falls before you know it. The same applies to a year.”
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Kyo Machiko](https://www.instagram.com/kyomachiko/)
+
+
+If you made it this far, you are awesome. [Bye, have a great time](https://www.youtube.com/watch?v=WUl9NPPMx8s)!
+
+`¯\_(ツ)_/¯`
+
 
 <br>
 
