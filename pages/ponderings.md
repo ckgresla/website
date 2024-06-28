@@ -267,3 +267,5 @@ weight: 3
 
 129. [Ah, 1996. Computer users called it "the net", and had girlfriends.](https://youtu.be/LXw6BkZ-gdY?si=Uj7ZybVQs9nYIZ1f)
 
+130. When you read code, do you see the code or the program?
+
