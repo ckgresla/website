@@ -269,3 +269,5 @@ weight: 3
 
 130. When you read code, do you see the code or the program?
 
+131. You have been hacking in San Francisco for too long, precisely when your nosehair has grown long enough to touch your overgrown mustache.
+
