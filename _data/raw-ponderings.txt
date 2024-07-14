@@ -146,7 +146,7 @@ If you program, you’re in [good company](http://pu.inf.uni-tuebingen.de/users/
 
 Aesthetics are easy to describe but very hard to define
 
-Embeddings from a Neural Network = [Thoughts](https://tonkatsu.io/napkins/autoencodersthink/) in a Human
+Embeddings from a Neural Network = [Thoughts](https://tonkatsu.io/napkins/2022-06-08-AutoEncodersThink/) in a Human
 
 What do you think about defining Music as an "Aural Wallpaper"?
 
@@ -259,5 +259,8 @@ What is your [Aria](https://aniwatchtv.to/watch/pompo-the-cinephile-15696?ep=853
 When you read code, do you see the code or the program?
 
 You have been hacking in San Francisco for too long, precisely when your nosehair has grown long enough to touch your overgrown mustache.
+
+"[Essa música me lembra praia, churrasco, família, comunidade, criança gritando, feijoada, cerveja gelada, calor, feriado e várias coisas.](https://www.youtube.com/watch?v=WL5eFEKUcPQ)"
+
 
 

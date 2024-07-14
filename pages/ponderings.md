@@ -157,7 +157,7 @@ weight: 3
 
 74. Aesthetics are easy to describe but very hard to define
 
-75. Embeddings from a Neural Network = [Thoughts](https://tonkatsu.io/napkins/autoencodersthink/) in a Human
+75. Embeddings from a Neural Network = [Thoughts](https://tonkatsu.io/napkins/2022-06-08-AutoEncodersThink/) in a Human
 
 76. What do you think about defining Music as an "Aural Wallpaper"?
 
@@ -270,4 +270,6 @@ weight: 3
 130. When you read code, do you see the code or the program?
 
 131. You have been hacking in San Francisco for too long, precisely when your nosehair has grown long enough to touch your overgrown mustache.
+
+132. "[Essa música me lembra praia, churrasco, família, comunidade, criança gritando, feijoada, cerveja gelada, calor, feriado e várias coisas.](https://www.youtube.com/watch?v=WL5eFEKUcPQ)"
 
