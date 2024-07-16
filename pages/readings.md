@@ -50,5 +50,6 @@ weight: 3
 |The Art of Science and Engineering | [PDF](/pdfs/TheArtOfDoingScienceAndEngineering-Hamming.pdf) | This really ought to be required reading for anyone looking to do something useful in Science and/or Engineering, If nothing else read Chapters 18-through-20 on Simulations, quite a useful perspective for the way things seem to be going. |
 | Vox Populi | [PDF](/pdfs/vox-populi.pdf) | "In these democratic days..." |
 | How Complex Systems Fail | (Webpage)[https://how.complexsystems.fail/] | They tend to fail in non-trivial & intertwined manners |
+| Markdown Syntax | [Webpage](https://daringfireball.net/projects/markdown/syntax#list) | A take on markdown from the creator himself, John Guber |
 ||||
 
