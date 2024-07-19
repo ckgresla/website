@@ -261,7 +261,7 @@ weight: 3
 
 126. What is your [Aria](https://aniwatchtv.to/watch/pompo-the-cinephile-15696?ep=85357)?
 
-127. [This](https://www.youtube.com/watch?v=Crz1PpKk3dU) makes it easy to understand why there are so many fantastic slavic hackers
+127. [This](https://www.youtube.com/watch?v=Crz1PpKk3dU) makes it easy to understand why hackers of slavic descent are fantastic
 
 128. [ah Cantar e cantar e cantar](https://lyricalbrazil.com/2012/12/02/o-que-e-o-que-e/)...
 
@@ -272,4 +272,6 @@ weight: 3
 131. You have been hacking in San Francisco for too long, precisely when your nosehair has grown long enough to touch your overgrown mustache.
 
 132. "[Essa música me lembra praia, churrasco, família, comunidade, criança gritando, feijoada, cerveja gelada, calor, feriado e várias coisas.](https://www.youtube.com/watch?v=WL5eFEKUcPQ)"
+
+133. "[떠나요, 둘이서](https://www.youtube.com/watch?v=5oa0CiXZ0ZEc)..."
 
