@@ -264,4 +264,6 @@ You have been hacking in San Francisco for too long, precisely when your nosehai
 
 "[떠나요, 둘이서](https://www.youtube.com/watch?v=5oa0CiXZ0ZEc)..."
 
+Why don't engineers like to use light themes? Because light attracts BUGS! - [Johnny Tahirov](https://www.linkedin.com/in/johnyvolt/)
+
 

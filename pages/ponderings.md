@@ -275,3 +275,5 @@ weight: 3
 
 133. "[떠나요, 둘이서](https://www.youtube.com/watch?v=5oa0CiXZ0ZEc)..."
 
+134. Why don't engineers like to use light themes? Because light attracts BUGS! - [Johnny Tahirov](https://www.linkedin.com/in/johnyvolt/)
+
