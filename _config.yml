@@ -10,6 +10,7 @@ collections_dir: collections
 
 # Plugins
 plugins:
+  - github-pages
   - jekyll-environment-variables
   - jekyll-paginate
 

@@ -273,9 +273,10 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll (~> 3.9.3)
   jekyll-environment-variables
   jekyll-paginate
-  webrick (~> 1.7)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.3.26
