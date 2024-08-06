@@ -277,3 +277,5 @@ weight: 3
 
 134. Why don't engineers like to use light themes? Because light attracts BUGS! - [Johnny Tahirov](https://www.linkedin.com/in/johnyvolt/)
 
+135. [いいよ](https://www.youtube.com/watch?v=oIztrf4cYWU&ab_channel=%EB%AA%BD%EB%95%85MOD)!!!
+
