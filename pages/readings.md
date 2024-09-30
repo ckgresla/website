@@ -51,5 +51,6 @@ weight: 3
 | Vox Populi | [PDF](/pdfs/vox-populi.pdf) | "In these democratic days..." |
 | How Complex Systems Fail | (Webpage)[https://how.complexsystems.fail/] | They tend to fail in non-trivial & intertwined manners |
 | Markdown Syntax | [Webpage](https://daringfireball.net/projects/markdown/syntax#list) | A take on markdown from the creator himself, John Guber |
+| Conscious intention to redirect attention | [Gist](https://gist.github.com/knubie/37dd3b3006d9675d80a28e39ab045c5f) | FOCUS |
 ||||
 

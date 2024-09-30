@@ -281,3 +281,21 @@ weight: 3
 
 136. You ever seen a summer cloud so beautiful, it made you sneeze?
 
+137. [Onde foi nossa magia](https://youtube.com/watch?v=F0r3kHj_YBc&si=31wQAic8f7EvunTs)?
+
+138. It has been said that "hacking" is just “binary search by hand.
+
+139. People actually used V1 Tensorflow?
+
+140. FUCK YOU COMCAST!
+
+141. [SARAVAH](https://youtu.be/Fz0eddwTjnk)!
+
+142. A ton of great Americans aren’t from America!
+
+143. Sometimes you ought let it slip, a little bit.
+
+144. [BAM ZAM ZAM ZAM ZZZAZM(https://youtube.com/watch?v=IgIdKSv6pl8&si=u4Td673QIDyziUss)
+
+145. [Mike Burch 700lbs](https://www.youtube.com/watch?v=BWprPrZXOis)
+
