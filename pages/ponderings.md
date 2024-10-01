@@ -299,3 +299,5 @@ weight: 3
 
 145. [Mike Burch 700lbs](https://www.youtube.com/watch?v=BWprPrZXOis)
 
+146. [Paul Allen's Mix](https://www.youtube.com/watch?v=HD9I4L5klGo)
+
