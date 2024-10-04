@@ -52,5 +52,8 @@ weight: 3
 | How Complex Systems Fail | (Webpage)[https://how.complexsystems.fail/] | They tend to fail in non-trivial & intertwined manners |
 | Markdown Syntax | [Webpage](https://daringfireball.net/projects/markdown/syntax#list) | A take on markdown from the creator himself, John Guber |
 | Conscious intention to redirect attention | [Gist](https://gist.github.com/knubie/37dd3b3006d9675d80a28e39ab045c5f) | FOCUS |
+| A DL Tuning Playbook | [Repo](https://github.com/google-research/tuning_playbook?tab=readme-ov-file#why-a-tuning-playbook) | So simple, so sane. |
+| EleutherAI's cookbook | [Repo](https://github.com/EleutherAI/cookbook) | Worth gander mate! |
+| The Art of Debugging | [Repo](https://github.com/stas00/the-art-of-debugging) | Art is correct-a-mundo |
 ||||
 
