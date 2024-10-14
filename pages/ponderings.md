@@ -303,3 +303,5 @@ weight: 3
 
 147. [안아줘요](https://youtu.be/Dlv_fni3MA8?si=doffzolCmwxAKSc8)!!!
 
+148. [Grandpa who adopted wild boar as his son](https://youtube.com/watch?v=fANsFnkaX-U&si=DkVuge29-GKqTg_1).
+
