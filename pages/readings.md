@@ -12,8 +12,8 @@ weight: 3
 #   - image: "/assets/images/gen/projects/project-2-6.webp"
 ---
 
-| Title         | Location    | Raison    |
-|---------------|-------------|-----------|
+| Title         |  Location   | Raison    |
+|---------------|:-----------:|-----------|
 | Horatius' Last Stand | [Webpage]( https://www.goodreads.com/quotes/21898-then-out-spake-brave-horatius-the-captain-of-the-gate) | Is there a better way to go? |
 | Jonathan Livingston Seagull | [PDF](/pdfs/jonathan-livingston-seagull.pdf) | no limits eh? |
 | The Logintaka | [Webpage](http://catb.org/~esr/faqs/loginataka.html) | a dialogue between a Guru and a Newbie |
@@ -55,6 +55,6 @@ weight: 3
 | A DL Tuning Playbook | [Repo](https://github.com/google-research/tuning_playbook?tab=readme-ov-file#why-a-tuning-playbook) | So simple, so sane. |
 | EleutherAI's cookbook | [Repo](https://github.com/EleutherAI/cookbook) | Worth gander mate! |
 | The Art of Debugging | [Repo](https://github.com/stas00/the-art-of-debugging) | Art is correct-a-mundo |
-| Art in the Sciences of The Artificial | [Paper](https://drive.google.com/file/d/1xezPuMhndQ9BvO3jFNny5K8qNClxK7Ap/view) | "Sometimes algorithms can be odes to certain aspects of nature rather than faithful reproductions of them. And so it goes with art." |
+| Art in the Sciences of The Artificial | [PDF](https://drive.google.com/file/d/1xezPuMhndQ9BvO3jFNny5K8qNClxK7Ap/view) | "Sometimes algorithms can be odes to certain aspects of nature rather than faithful reproductions of them. And so it goes with art." |
 ||||
 
