@@ -12,6 +12,7 @@ _site
 
 # Temporary files
 tmp
+*.swp
 
 # Folder view configuration files
 .DS_Store
@@ -24,3 +25,4 @@ Thumbs.db
 # Files that might appear on external disks
 .Spotlight-V100
 .Trashes
+

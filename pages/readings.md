@@ -55,5 +55,6 @@ weight: 3
 | A DL Tuning Playbook | [Repo](https://github.com/google-research/tuning_playbook?tab=readme-ov-file#why-a-tuning-playbook) | So simple, so sane. |
 | EleutherAI's cookbook | [Repo](https://github.com/EleutherAI/cookbook) | Worth gander mate! |
 | The Art of Debugging | [Repo](https://github.com/stas00/the-art-of-debugging) | Art is correct-a-mundo |
+| Art in the Sciences of The Artificial | [Paper](https://drive.google.com/file/d/1xezPuMhndQ9BvO3jFNny5K8qNClxK7Ap/view) | "Sometimes algorithms can be odes to certain aspects of nature rather than faithful reproductions of them. And so it goes with art." |
 ||||
 
