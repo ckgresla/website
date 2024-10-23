@@ -56,5 +56,6 @@ weight: 3
 | EleutherAI's cookbook | [Repo](https://github.com/EleutherAI/cookbook) | Worth gander mate! |
 | The Art of Debugging | [Repo](https://github.com/stas00/the-art-of-debugging) | Art is correct-a-mundo |
 | Art in the Sciences of The Artificial | [PDF](https://drive.google.com/file/d/1xezPuMhndQ9BvO3jFNny5K8qNClxK7Ap/view) | "Sometimes algorithms can be odes to certain aspects of nature rather than faithful reproductions of them. And so it goes with art." |
+| Debugging Backwards in Time | [PDF](https://arxiv.org/pdf/cs/0310016) | "If you’ve got a snake’s tail and you pull on it long enough, you will get to its head." |
 ||||
 
