@@ -6,10 +6,6 @@ serve:
 dev:
     bundle exec jekyll serve --watch --livereload
 
-# Recreate Ponderings with Latest File
-ponder:
-    bash scripts/assemble_ponderings.sh _data/raw-ponderings.txt pages/ponderings.md
-
 # Run the Vale linter on the collection posts, see docs for info on the linter- https://vale.sh/docs
 lint:
     vale collections/_posts/
