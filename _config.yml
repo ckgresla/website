@@ -101,7 +101,7 @@ colors:
   primary: "#FFFFFF"
   primary_2: "#000000"
   primary_text: "#000000"
-  secondary: "#C4D2FF" #maps to the underline on homescreen header text
+  secondary: "#C4D2FF"  # NOTE: this maps to the underline on homescreen header text
   background: "#FFFFFF"
   background_2: "#F5F5F5"
   background_3: "#C4D2FF"
@@ -125,11 +125,11 @@ colors:
 
 
 fonts:
-  # see the website for new fonts- https://fonts.google.com/
+  # see the website for new fonts- https://fonts.google.com
   google_fonts: "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono&display=swap"
   heading: "DM Sans"
   base: "DM Sans"
-  # monospace: "Fira Mono" #original used
+  # monospace: "Fira Mono"  # original codefont
   monospace: "JetBrains Mono"
   logo: "DM Sans"
 
@@ -194,7 +194,7 @@ footer:
   footer_title: "Chris Kerwell Gresla"
   footer_description: "A simple man trying to make his way through the Galaxy."
   enable_social_media_icons: true
-  enable_contact_details: false #a separate contact section, no need
+  enable_contact_details: false  # a separate contact section, no need
   enable_menu_footer_primary: false
   enable_menu_footer_secondary: true
   enable_menu_footer_tertiary: false

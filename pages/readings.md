@@ -60,5 +60,4 @@ weight: 3
 | Magic Ink | [Website](https://worrydream.com/MagicInk) | "An artist who paints with magic ink." |
 | How to Write a Git Commit Message | [Webpage](https://cbea.ms/git-commit) | If for no one, do it for your future self! |
 ||||
-||||
 

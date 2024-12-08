@@ -1,8 +1,23 @@
+
 main:
-  - name: Home
-    url: /
+  # NOTE: this would link right back to homepage, without triggering a fresh webpage request
+  # - name: Home
+  #   url: /
+  #   weight: 1
+  - name: About
+    url: /about/
     weight: 1
-  # Really nice dropdown, no use for a projects specific one just yet
+  - name: Napkins
+    url: /napkins/
+    weight: 2
+  - name: "Ponderings"
+    url: /ponderings/
+    weight: 3
+  - name: "Readings"
+    url: /readings/
+    weight: 3
+  # NOTE: this is a nice dropdown, could be handy for specific project pages (each a distill perhaps...)
+  #     + additionally, this demonstrates how to show icons for the child items in a dropdown (need light & dark versions of each)
   # - name: Projects
   #   url: /projects/
   #   weight: 2
@@ -27,37 +42,7 @@ main:
   #       icon_darkmode: "/assets/images/icons/wireframe-8-white.svg"
   #       description: "Top layout"
   #       url: /projects/project-4/
-  - name: Recommended
-    url: /recs/
-    weight: 2
-    child:
-      - name: "Ponderings"
-        icon: "/assets/images/icons/lightbulb-black.png"
-        icon_darkmode: "/assets/images/icons/lightbulb-white.png"
-        description: "Critical thinking?"
-        url: /ponderings/
-      - name: "Readings"
-        icon: "/assets/images/icons/book-stack-black.png"
-        icon_darkmode: "/assets/images/icons/book-stack-white.png"
-        description: "Gander worthy"
-        url: /readings
-      - name: "Tools"
-        icon: "/assets/images/icons/network-black.png"
-        icon_darkmode: "/assets/images/icons/network-white.png"
-        description: "Which work wonderfully"
-        url: /tools/
-      # Postponing for the moment...
-      # - name: "Thinkers"
-      #   icon: "/assets/images/icons/network-black.png"
-      #   icon_darkmode: "/assets/images/icons/network-white.png"
-      #   description: "Great thoughts about"
-      #   url: /projects/thinkers/
-  - name: Napkins
-    url: /napkins/
-    weight: 2
-  - name: About
-    url: /about/
-    weight: 3
+  # NOTE: could setup a contact page w form to email
   # - name: Contact
   #   url: /contact/
   #   weight: 4
@@ -84,9 +69,6 @@ footer_secondary:
     weight: 2
   - name: Readings
     url: /readings/
-    weight: 2
-  - name: Tools
-    url: /tools/
     weight: 2
   # no contact page atm
   # - name: Contact
