@@ -1,6 +1,10 @@
-# Run the development server locally
+# Run the server locally (as would for deploy)
 serve:
     bundle exec jekyll serve
+
+# Run a dev server (autoreload on any changes)
+dev:
+    bundle exec jekyll serve --watch --livereload
 
 # Recreate Ponderings with Latest File
 ponder:
