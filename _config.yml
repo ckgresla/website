@@ -66,7 +66,7 @@ exclude:
 # -------------------
 # Theme Config
 # --------------------
-title: "tonkatsu.io"
+title: "chris kerwell gresla"  # this ought align w "meta_title" in home.md
 category_dir: category
 
 colors:
@@ -134,7 +134,7 @@ fonts:
   logo: "DM Sans"
 
 logo:
-  logo_text: "Tonkatsu"
+  logo_text: "CKG"
   # Original Logo --> hash thing
   # logo_image: assets/images/logo/logo.png
   # logo_image_mobile: assets/images/logo/logo-mobile.png
