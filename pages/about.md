@@ -11,21 +11,26 @@ focus_image: "/assets/images/personal/portrait-meme.png"
 ---
 
 
-I am Chris Kerwell Gresla, an applied scientist at [Wafer Systems](https://wafer.systems/) developing multimodal action models in an effort to help create the "self-driving phone". I was born and raised in the city of Chicago and currently am based in San Francisco.
+Whats up!
 
-My work for the past few years has primarily revolved around training language models for agential applications, some specific tasks being code generation, function calling and device manipulation. I am interested in reasoning, particularly the question:
+I'm Chris, an applied scientist at [Wafer Systems](https://wafer.systems/) developing multimodal action models in an effort to help create the "self-driving phone". I was born and raised in Chicago and am currently in San Francisco.
 
-> "How in the heck can we get language models to "actually" reason?
+My work for the past few years has revolved primarily around training language models for agential applications, some specific tasks being code generation, function calling and device manipulation. I am interested in reasoning, particularly the question:
+
+> How in the heck can we get language models to "actually" reason?
 
 Generally, I would like to explore topics in deep learning related to:
 - the optimization dynamics of neural networks
 - architectures for reasoning
 - representation learning
-- creative applications of machine intelligence.
+- creative applications of machine intelligence
 
 I believe that the architectures and systems of today, whilst brilliant and magical in their own regard, are leaps and bounds away from the "endgame" of artificial intelligence. I would wager we likely have yet another "winter" in the field of machine learning before we hit "the main summer".
 
-As such, I intend to help bring about that summer through a PhD -- I am looking for labs to work with in 2025 and for PhD programs to join in Fall of 2026.
+As such, I intend to help bring about that summer through a PhD -- I am looking for labs to work with in 2025 and for PhD programs to join in Fall of 2026. 
+
+Additionally, we are looking for collaborators at Wafer -- if you would like to help make "the siri that should have been" then lets chat!
+
 
 <div style="margin-bottom: 20px; text-align: left;">
   <figure style="margin: 0; max-width: 500px;">
@@ -42,7 +47,7 @@ As such, I intend to help bring about that summer through a PhD -- I am looking 
       focus_src="/assets/images/misc/focused-desk-flower.png"
       base_src="/assets/images/misc/focused-desk-hhkb.png"
       alt="Image Description"
-      title="A wild HHKB and Silent Princess inhabit a desk."
+      title="A wild HHKB and Silent Princess inhabit a desk"
     %}
   </div>
 </div>
@@ -66,7 +71,13 @@ As one should not think twice about an opportunity, one shouldn't hesitate to wr
 
 
 If you actually read this far, you are awesome -- say hello!
+
 (i.e; ckgresla at gmail dot com)
+
+
+<br>
+
+<br>
 
 
 `¯\_(ツ)_/¯`
