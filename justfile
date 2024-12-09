@@ -1,10 +1,10 @@
-# Run the development server locally
+# Run the server locally (as would for deploy)
 serve:
     bundle exec jekyll serve
 
-# Recreate Ponderings with Latest File
-ponder:
-    bash scripts/assemble_ponderings.sh _data/raw-ponderings.txt pages/ponderings.md
+# Run a dev server (autoreload on any changes)
+dev:
+    bundle exec jekyll serve --watch --livereload
 
 # Run the Vale linter on the collection posts, see docs for info on the linter- https://vale.sh/docs
 lint:

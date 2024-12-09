@@ -5,7 +5,7 @@ title: "Do non-trivial things with <strong>Gusto.</strong>"
 # the description field below is nice, perhaps
 description: ""
 meta_description: "CKG's Website"
-meta_title: tonkatsu.io
+meta_title: chris kerwell gresla
 subscribe: false
 
 projects:

@@ -62,7 +62,7 @@ Today we hear very little about deductive methods, instead there is an unyieldin
 
 If I had to guess as to how Abduction is to be implemented, I would wager that you do something like deduction over learned hypothesis probabilities. Effectively combining the truthy-ness of statements made deductively with the update-ability of induction. Some folks have formulated abductive reasoning as a [next token prediction sort of task](https://arxiv.org/pdf/1908.05739.pdf) which might be sufficient but still misses a dedicated architecture for accomplishing this specific type of reasoning. To build the [Ghost in the Flask](https://en.wikipedia.org/wiki/Homunculus) we have to at minimum match Human intelligence and Humans can have pretty good hunches. Hunches that are non-obvious or even counter intuitive to the existing information.
 
-As a callback to the "Inference Game" that started this post, intelligence is not about having all relevant information or sorting through a large amount of information, it is about using leveraging the available information correctly. If you also want to find out what implemented Abduction looks like, [say hi](https://tonkatsu.io/about/).
+As a callback to the "Inference Game" that started this post, intelligence is not about having all relevant information or sorting through a large amount of information, it is about using leveraging the available information correctly. If you also want to find out what implemented Abduction looks like, [say hi](https://chriskerwellgresla.net/about/).
 
 ​
 

@@ -49,7 +49,7 @@ weight: 3
 | The OPT-175B Logbook | [Webpage](https://github.com/facebookresearch/metaseq/tree/main/projects/OPT/chronicles) | What a fun time! |
 |The Art of Science and Engineering | [PDF](/pdfs/TheArtOfDoingScienceAndEngineering-Hamming.pdf) | This really ought to be required reading for anyone looking to do something useful in Science and/or Engineering, If nothing else read Chapters 18-through-20 on Simulations, quite a useful perspective for the way things seem to be going. |
 | Vox Populi | [PDF](/pdfs/vox-populi.pdf) | "In these democratic days..." |
-| How Complex Systems Fail | (Webpage)[https://how.complexsystems.fail/] | They tend to fail in non-trivial & intertwined manners |
+| How Complex Systems Fail | [Webpage](https://how.complexsystems.fail/) | They tend to fail in non-trivial & intertwined manners |
 | Markdown Syntax | [Webpage](https://daringfireball.net/projects/markdown/syntax#list) | A take on markdown from the creator himself, John Guber |
 | Conscious intention to redirect attention | [Gist](https://gist.github.com/knubie/37dd3b3006d9675d80a28e39ab045c5f) | FOCUS |
 | A DL Tuning Playbook | [Repo](https://github.com/google-research/tuning_playbook?tab=readme-ov-file#why-a-tuning-playbook) | So simple, so sane. |
@@ -59,6 +59,7 @@ weight: 3
 | Debugging Backwards in Time | [PDF](https://arxiv.org/pdf/cs/0310016) | "If you’ve got a snake’s tail and you pull on it long enough, you will get to its head." |
 | Magic Ink | [Website](https://worrydream.com/MagicInk) | "An artist who paints with magic ink." |
 | How to Write a Git Commit Message | [Webpage](https://cbea.ms/git-commit) | If for no one, do it for your future self! |
-||||
+| Epigrams on Programming | [Webpage](https://www.cs.yale.edu/homes/perlis-alan/quotes.html) | If you program, you are in good company. |
+| Raw Performance Ranking of GPUs | [Webpage](https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/#Raw_Performance_Ranking_of_GPUs) | [GPUs](https://www.youtube.com/watch?v=QVBjiFPMKMM) really do go BRRRRRR |
 ||||
 

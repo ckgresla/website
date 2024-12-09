@@ -1,309 +1,217 @@
 ---
-layout: project-minimal # alternative layouts: project, project-left, project-right, project-top, project-minimal
-
-title: "Ponderings"
-
-description: "Thought experiments, questions & more"
-
+layout: project-minimal
+title: Ponderings
+description: Fun questions and things to mull over
 weight: 3
 ---
 
+
+## 2024
+1. If *feels* like something to move!
+
+2. What machine learning can discover today is useful, but it isn't uncovering the truth!
+
+3. A useful interface is one that provides a way to coral complexity.
+
+4. Those genetic algorithm folks [really like the elites](https://cs.uwlax.edu/~dmathias/cs419/readings/NSGAIIElitistMultiobjectiveGA.pdf)...
+
+5. What is your [Aria](https://aniwatchtv.to/watch/pompo-the-cinephile-15696?ep=85357)?
+
+6. [Ah, 1996. Computer users called it "the net", and had girlfriends.](https://youtu.be/LXw6BkZ-gdY?si=Uj7ZybVQs9nYIZ1f)
+
+7. When you read code, do you see the code or the program?
+
+8. One has been hacking in San Francisco for too long, precisely when your nosehair has grown long enough to touch your mustache.
+
+9. Why don't engineers like to use light themes? Because light attracts BUGS! - [Johnny Tahirov](https://www.linkedin.com/in/johnyvolt/)
+
+10. You ever seen a summer cloud so beautiful, it made you sneeze?
+
+11. It has been said that "hacking" is just “binary search by hand.
+
+12. When you think you feel bad, remember that at one point humans actually used V1 Tensorflow.
+
+13. FUCK YOU COMCAST!
+
+14. Ain't it cool that a ton of great Americans aren’t from America!
+
+15. Sometimes you ought let it slip, a little bit.
+
+16. [Mike Burch 700lbs](https://www.youtube.com/watch?v=BWprPrZXOis)
+
+17. [Grandpa who adopted wild boar as his son](https://youtube.com/watch?v=fANsFnkaX-U&si=DkVuge29-GKqTg_1).
+
+
+## 2023
+
+1. Do Flies think of us Humans as annoying nuisances (those suckers that bat us away) or as fun past-times (bzzzt bzzt, hehe idiot)
+
+2. Do you hear the Music?
+
+3. Isn't it a shame, that for some, pathetic is their desired aesthetic?
+
+4. Which example is more illustrative; what to do or what not to do?
+
+5. Do you have a _restricted section_ in your personal library?
+
+6. One’s level of understanding for a given topic is directly tied to their ability to understand Memes about it.
+
+7. All heroes must suffer
+
+8. No one is too dumb for Computer Science
+
+9. Always have an Objective!
+
+10. Age is an accessory that must be dressed correctly.
+
+11. Programming is an executable thought experiment!
+
+12. Freaking [Unicode and Character Sets](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/).
+
+13. Do non-trivial things that do not have an explicit payoff!
+
+14. Is "ruthlessness" an inherently malevolent trait? Or might it be benevolent in an occasional context?
+
+15. Beauty is not a “conclusion” that we arrive at regarding something, rather it is something that each individual [senses](https://plato.stanford.edu/entries/aesthetic-concept/).
+
+16. One Piece, will be thought of as Shakespeare is today in the 2400s.
+
+17. [Moons](https://blog.jatan.space/p/is-life-possible-on-rogue-planets) seem to make up most of the livable real estate in this Universe!
+
+18. You aren't personally responsible for most of the garbage code on the internet.
+
+19. What would a Negative Standard Deviation look like -- if it could be defined?
+
+20. What exactly is going on when you “Think”?
+
+21. With great power comes great responsibility!
+
+22. Sci-Fi is a great way to orient a species’ objective functions toward prosperity/thriving
+
+23. To debug well, consider the bugged code as a terribly troubled patient -- and you, a discerning, interested and caring Psychologist.
+
+24. Ramen, Udon or Soba?
+
+25. Aesthetics are easy to describe but very hard to define
+
+26. What do you think about defining Music as an "Aural Wallpaper"?
+
+27. The Cards, were never yours to play!
+
+28. Absence of Regularization doesn't imply [poor Generalization!](https://arxiv.org/pdf/1611.03530.pdf)
+
+29. The work is the reward!
+
+30. Programming is just [Legos](https://thesephist.com/posts/honesty/) in the limit
+
+31. [Everything is a file](https://en.wikipedia.org/wiki/Everything_is_a_file)!
+
+32. Your reward distribution is non-stationary, don't stop exploring!
+
+33. Why not "Brute Force" your way to knowledge?
+
+34. Keeping morale high is how you will win
+
+35. Are you a protagonist?
+
+36. Although it is brilliant that general literacy has become cheap — there is an unfortunate & perhaps proportional increase in the cost of [qualified literacy](https://poets.org/text/poetry-and-ambition).
+
+37. Taking good notes is basically the computation of a semantic PCA for the concept at hand.
+
+38. Hey You! You’re finally awake.
+
+39. How interesting would your life be if you formed it around that which makes you curious?
+
+40. Why do the coolest folks always get scoffed at?
+
+41. When you look at the rest of your life and the work yet ahead, aim to look at a horizon nestled atop a vast, romantic, open and exciting sea.
+
+42. Cats don't kill things — they MURDER them!
+
+43. Where can one find strength to do that `git commit` after several hours of hacking your way around a complex codebase and seeing what all has been touched by your ungodly hands after running `git status`?
+
+44. Folks that politely and completely break down ALL of their cardboard boxes have life together.
+
+45. Beware trading-in old ideas for 1-dimensional abstractions!
+
+46. After AI kills all of us, it will [write a pleasant, non-threatening, informational and appropriate poem](https://www.youtube.com/watch?v=outcGtbnMuQ) about the ordeal.
+
+47. Who knew transformers were attending to sequences in [1992](https://sferics.idsia.ch/pub/juergen/fastweights.pdf)?
+
+48. Yea [DallE](https://openai.com/product/dall-e-2) and [Stable Diffusion](https://stability.ai/blog/stable-diffusion-public-release) are cool, but that boy [AARON](https://www.katevassgalerie.com/blog/harold-cohen-aaron-computer-art) is nice with it!
+
+49. Truly loving someone is to include their success as a term in your value function.
+
+50. On the days you just wanna `sudo rm -rf /` , eat a cookie and remember that you can kick ass.
+
+51. Don’t be afraid to drink a little workohol
+
+52. "Embeddings" are DEFINITELY "[thoughts](https://ai.facebook.com/blog/imagebind-six-modalities-binding-ai/)."
+
+53. If the Policy that brings success in your workplace is intertwined with anything like "Internal Politics", seek a new workplace.
+
+54. [Saudade](https://gist.githubusercontent.com/ckgresla/e9c05f67f107ff7824822e910d266d94/raw/c1fae296e6135f1a47225f38da2ec39f236e35bd/Saudade.txt).
+
+55. Beware of writing too much code that is not deserving of a `git commit`.
+
+56. The fact that you can sample snippets of reality from a latent vector is [so cool!](https://stable-diffusion-art.com/how-stable-diffusion-work/)
+
+57. How many generations will be inspired by the Ghibli films? 
+
+58. [The Missile doesn't tell itself it doesn't know where it is, it merely tells itself where it should go](https://youtu.be/56vtZsQgAF0?si=97MbLMtBASyeXzOb).
+
+59. So all of these activations, [actually mean something?](https://transformer-circuits.pub/2023/monosemantic-features/index.html)
+
+60. It’s all a freaking [GRAPH](https://distill.pub/2021/gnn-intro/)!
+
+61. [Split. Half. Float. Double Sparse.](https://github.com/microsoft/DeepSpeed/blob/9d2660d2a3fac767972f01ac96858b2605ffc0e4/deepspeed/runtime/engine.py#L121)
+
+
+## 2022
 
 1. How far could humanity get naming astrophysical systems/bodies with cool names like Jupiter, Andromeda, Mars, the Jovian System, Alpha Centauri, Oumuamua, or Earth as opposed to the “XP-11213- Ac#4cP” style of naming astronomical objects?
 
 2. When was the last time you thought critically about something?
 
-3. Given the choice, would you like to die on Mars?
+3. Given the choice, would you want to die on Mars?
 
-4. Is there anything that you, alone, are capable of doing?
+4. Is there anything that you solely are capable of doing?
 
 5. What would Multi-Threaded Consciousness feel like? Or rather what might reality be like if our experience of it was happened in parallel?
 
-6. What equation are you optimizing in life? What comprises the loss function?
+6. What equation are you optimizing in life?
 
-7. Is there a line to be drawn between life & non-life? Where might that line exist?
+7. In the history of humanity, is the advent of civilization a hardware or software upgrade?
 
-8. Do you Take Orders, Give Orders or Get The Job Done?
-
-9. In the history of humanity, is the advent of civilization a hardware or software upgrade?
-
-10. Is writing an Essay or making a Presentation just programming in English and is interpreted on someone else’s brain?
+10. Is writing an Essay or crafting a Presentation just writing a program in English to be executed on someone else’s brain?
 
 11. For something to be Real (or rather exist) must it then also be True? Or is it possible for something that is False to exist?
 
-12. Is alcohol a mechanism for regularization? (similar to say "dropout") And meditation, spiritual experiences or mushrooms mechanisms for doing data augmentation?
+12. What are the fundamental operations of consciousness?
 
-13. How many people get the chance to experience real Romance?
+13. What additional good could a human-computer interface like NeuralLink provide when have **VIM**?
 
-14. What are the fundamental operations of consciousness?
+14. If the human mind does “compression” is that process a part of the standard library for "Homo Sapiens" or is it unique to each individual? Basically, do our brains use the same file extensions?
 
-15. What additional good could a human-computer interface like NeuralLink provide when have **VIM**?
+15. What is the viscosity of the Sun? Is it like a giant ball of magma, or closer to a ball of lightning?
 
-16. Is hacking your own OS together the programmer's equivalent of forging a lightsaber?
+16. What is the title of the current chapter in the story of your life?
 
-17. If the human mind does “compression” (shrinks the size of raw data to make storing it more efficient) is that process a part of the standard library for "Homo Sapiens" or is it unique to each individual? Basically, do our brains use the same file extensions?
+17. Are you winning?
 
-18. How many “One Way — Do Not Enter” signs have you opted to enter in Life?
+18. An NPC is one who fails to Reject the Null Hypothesis!
 
-19. What is the viscosity of the Sun? Is it like a giant ball of magma, or closer to a ball of lightning?
+19. If God does/were to exist, would it have a God Complex?
 
-20. What is the title of the current chapter in the story of your life?
+20. If you conquer the fear of death, all other fears are just a few applications of chain rule away...
 
-21. Are you winning?
+21. Have you ever made Eye Contact with a Painting?
 
-22. Is it honest to be vunerable?
+22. How many monitors is just right?
 
-23. An NPC is one who fails to Reject the Null Hypothesis!
+23. Everyone intends to do their Best!
 
-24. When in love does the scope of your consciousness expand?
+24. The Rhythm is going to get you.
 
-25. If God does/were to exist, would it have a God Complex?
-
-26. Does one walk away from their desk whilst a Neural Net Trains or does one sit and wait for it to finish?
-
-27. Linear Algebra is HOT
-
-28. If you conquer your fear of death, all other fears are applications of chain rule away
-
-29. Are Bureaucracies items that you would cultivate in a Garden or Fungi that sneak their way in? — despite the fact that these entities seem to be generally disliked they still persist and if they persist, must be serving some purpose...
-
-30. Have you ever made Eye Contact with a Painting?
-
-31. Is Intelligence a reasonable proxy for Life?
-
-32. What is the average time complexity for a Human to determine what they want to do in this life?
-
-33. How many monitors is just right?
-
-34. What is the difference between predicting an entire sequence of values or each sequential scalar within the sequence?
-
-35. Severus Snape == Giga-Chad
-
-36. [A Quoi Ça Sert L'amour](https://youtu.be/5zxtGXSg-V4)?
-
-37. Combinatorial flavor space is best explored with un-marinated chadol and banchan.
-
-38. Everyone intends to do their Best!
-
-39. Is what you are doing the best you can do with your life?
-
-40. The Rhythm is going to get you.
-
-41. When a Writer is writing, where do they go when they pause?
-
-42. Do Flies think of us Humans as annoying nuisances (those suckers that bat us away) or as fun past-times (bzzzt bzzt, hehe idiot)
-
-43. What Evil possesses people to put pictures of Pythons on blog posts/docs about Python related code?
-
-44. Do you hear the Music?
-
-45. Can you believe that for some, Pathetic is their chosen Aesthetic?
-
-46. Which examples are more illustrative; what to do or what not to do?
-
-47. Do you have a _restricted section_ in your personal library?
-
-48. **[TAKANAKA](https://www.youtube.com/watch?v=BNig6xG36i4&t=3884s)**!
-
-49. One’s level of understanding for a given Topic is demonstrated through their ability to understand Memes about it!
-
-50. All heroes must suffer!
-
-51. No one is too dumb for Computer Science
-
-52. Precision is not [Accuracy](http://www.paulgraham.com/power.html).
-
-53. Always have an Objective!
-
-54. Age is an accessory that must be dressed correctly.
-
-55. Programming is an executable thought experiment.
-
-56. Bim bom, bim bim bom bom....... [♥](https://youtu.be/vrKgPAUp2RE)
-
-57. [Unicode and Character Sets](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/), do you understand the wondrous utility they provide? (and the fiascos that prompted the creation of the utility)
-
-58. Write Heroic Code.
-
-59. Do non-trivial things that do not have an explicit payoff!
-
-60. Is Ruthlessness inherently Malevolent? or might it be Benevolent occasionally?
-
-61. Beauty is not a “conclusion” that we arrive at regarding something (through say; reasoning or a conceptual framework), rather it is something that each individual [senses](https://plato.stanford.edu/entries/aesthetic-concept/).
-
-62. One Piece will be thought of as Shakespeare in the 2400s
-
-63. [Moons](https://blog.jatan.space/p/is-life-possible-on-rogue-planets) seem to make up most of the livable real estate in this Universe!
-
-64. Programmers are Alchemists, they Transmute Algorithms into Code.
-
-65. You aren't personally responsible for _most_ Old or Bad code you find on the internet
-
-66. What would a Negative Standard Deviation look like -- if it could be defined?
-
-67. What exactly is going on when you “Think”?
-
-68. Every Plug gets Popped!
-
-69. With great power comes great responsibility!
-
-70. Sci-Fi is a great way to orient a species’ objective functions toward prosperity/thriving
-
-71. To debug better, think of your buggy codebase as a troubled Patient and you as a discerning, interested and caring Psychologist
-
-72. Ramen, Udon or Soba?
-
-73. If you program, you’re in [good company](http://pu.inf.uni-tuebingen.de/users/klaeren/epigrams.html).
-
-74. Aesthetics are easy to describe but very hard to define
-
-75. Embeddings from a Neural Network = [Thoughts](https://tonkatsu.io/napkins/2022-06-08-AutoEncodersThink/) in a Human
-
-76. What do you think about defining Music as an "Aural Wallpaper"?
-
-77. The Cards, were never yours to play.
-
-78. Absence of Regularization doesn't imply [poor Generalization!](https://arxiv.org/pdf/1611.03530.pdf)
-
-79. The work _is_ the reward!
-
-80. Programming is just downloadable [Legos](https://thesephist.com/posts/honesty/)
-
-81. [Everything is a file!](https://en.wikipedia.org/wiki/Everything_is_a_file)
-
-82. Your reward distribution is non-stationary, dont stop exploring!
-
-83. [Abstractions](http://akkartik.name/akkartik-convivial-20200315.pdf) are kind of everything!
-
-84. Why not "Brute Force" your way to knowledge?
-
-85. Keeping morale high is in part, how you will win!
-
-86. Are you a protagonist?
-
-87. Although it is brilliant that general literacy has become cheap — there is an unfortunate & perhaps proportional increase in the cost of [qualified literacy](https://poets.org/text/poetry-and-ambition).
-
-88. Taking notes is basically computing a semantic PCA for the information at hand.
-
-89. Which is more cool; Linear Algebra or Calculus?
-
-90. Hey You! You’re finally awake.
-
-91. How interesting would your life be if you formed it around that which makes you curious?
-
-92. Why do the coolest folks always get scoffed at?
-
-93. When you look at the rest of your life and the work yet ahead, aim to look at a horizon nestled atop a vast, romantic, open and exciting sea.
-
-94. “Growth rate” provides a rather useful [gradient](http://www.paulgraham.com/growth.html) for the budding Startup.
-
-95. Cats don't kill — they MURDER!
-
-96. Where can one find strength to do that `git commit` after several hours of hacking your way around a complex codebase and seeing what all has been touched by your ungodly hands after running `git status`?
-
-97. Folks that politely and completely break down ALL of their cardboard boxes have it TOGETHER!
-
-98. Beware trading-in old ideas for 1-dimensional abstractions!
-
-99. After AI kills all of us, it will [write a pleasant, non-threating, informational and appropriate poem](https://www.youtube.com/watch?v=outcGtbnMuQ) about the ordeal.
-
-100. [Champian](https://www.youtube.com/watch?v=mQGyzgx0qkg) is always a good decision!
-
-101. Who knew ~transformers were attending to sequences in [1992](https://sferics.idsia.ch/pub/juergen/fastweights.pdf)?
-
-102. A Chinese-Japanese man's rendition of a Brazilian's lovely Love song about the Taj Mahal of India (built by a Mughal), performed by a wonderful group of musicians for an International crowd in Tokyo. -- [HUMANITY](https://youtube.com/watch?v=cTDK5Bluh5A&feature=share)
-
-103. Yea [DallE](https://openai.com/product/dall-e-2) and [Stable Diffusion](https://stability.ai/blog/stable-diffusion-public-release) are cool, but that boy [AARON](https://www.katevassgalerie.com/blog/harold-cohen-aaron-computer-art) is nice with it!
-
-104. Truly loving someone is to include their success as a term in your value function.
-
-105. On the days you just wanna `sudo rm -rf /` , eat a cookie and remember that you can kick ass.
-
-106. Don’t be afraid to drink a _little_ Workohol.
-
-107. "Embeddings" are DEFINITELY "[thoughts](https://ai.facebook.com/blog/imagebind-six-modalities-binding-ai/)."
-
-108. If the Policy that brings success in your workplace is intertwined with anything like "Internal Politics", seek a new workplace.
-
-109. [Saudade](https://gist.githubusercontent.com/ckgresla/e9c05f67f107ff7824822e910d266d94/raw/c1fae296e6135f1a47225f38da2ec39f236e35bd/Saudade.txt).
-
-110. Beware of writing code that is not worthy of a `git commit`.
-
-111. [AI∀](https://people.idsia.ch/~juergen/)
-
-112. [GPUs](https://www.youtube.com/watch?v=QVBjiFPMKMM) really do go [BRRRRRR](https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/#Raw_Performance_Ranking_of_GPUs)!
-
-113. The fact that we can sample snippets of reality from a “Latent” vector is [so cool!](https://stable-diffusion-art.com/how-stable-diffusion-work/)
-
-114. How many generations will be inspired by the Ghibli films? 
-
-115. [The Missile doesn't tell itself it doesn't know where it is, it merely tells itself where it should go](https://youtu.be/56vtZsQgAF0?si=97MbLMtBASyeXzOb).
-
-116. So all of these activations, [actually mean something?](https://transformer-circuits.pub/2023/monosemantic-features/index.html)
-
-117. It’s all a freaking [GRAPH](https://distill.pub/2021/gnn-intro/)!
-
-118. [que a tristeza vai passar!](https://www.youtube.com/watch?v=Oa2fClUKgSI) -- The sadness will pass!
-
-119. What part of a Transformer's forward pass is most exhilarating? 
-
-120. [Split. Half. Float. Double Sparse.](https://github.com/microsoft/DeepSpeed/blob/9d2660d2a3fac767972f01ac96858b2605ffc0e4/deepspeed/runtime/engine.py#L121)
-
-121. [este samba é só porque](https://www.youtube.com/watch?v=bQM-vP5BcGw)!
-
-122. If *feels* like something to move!
-
-123. What machine learning can discover today is useful, but it isn't uncovering the truth!
-
-124. A useful interface is one that provides a way to coral complexity.
-
-125. Those genetic algorithm folks [really like the elites](https://cs.uwlax.edu/~dmathias/cs419/readings/NSGAIIElitistMultiobjectiveGA.pdf)...
-
-126. What is your [Aria](https://aniwatchtv.to/watch/pompo-the-cinephile-15696?ep=85357)?
-
-127. [This](https://www.youtube.com/watch?v=Crz1PpKk3dU) makes it easy to understand why hackers of slavic descent are fantastic
-
-128. [ah Cantar e cantar e cantar](https://lyricalbrazil.com/2012/12/02/o-que-e-o-que-e/)...
-
-129. [Ah, 1996. Computer users called it "the net", and had girlfriends.](https://youtu.be/LXw6BkZ-gdY?si=Uj7ZybVQs9nYIZ1f)
-
-130. When you read code, do you see the code or the program?
-
-131. You have been hacking in San Francisco for too long, precisely when your nosehair has grown long enough to touch your overgrown mustache.
-
-132. "[Essa música me lembra praia, churrasco, família, comunidade, criança gritando, feijoada, cerveja gelada, calor, feriado e várias coisas.](https://www.youtube.com/watch?v=WL5eFEKUcPQ)"
-
-133. "[떠나요, 둘이서](https://www.youtube.com/watch?v=5oa0CiXZ0ZEc)..."
-
-134. Why don't engineers like to use light themes? Because light attracts BUGS! - [Johnny Tahirov](https://www.linkedin.com/in/johnyvolt/)
-
-135. [いいよ](https://www.youtube.com/watch?v=oIztrf4cYWU&ab_channel=%EB%AA%BD%EB%95%85MOD)!!!
-
-136. You ever seen a summer cloud so beautiful, it made you sneeze?
-
-137. [Onde foi nossa magia](https://youtube.com/watch?v=F0r3kHj_YBc&si=31wQAic8f7EvunTs)?
-
-138. It has been said that "hacking" is just “binary search by hand.
-
-139. People actually used V1 Tensorflow?
-
-140. FUCK YOU COMCAST!
-
-141. [SARAVAH](https://youtu.be/Fz0eddwTjnk)!
-
-142. A ton of great Americans aren’t from America!
-
-143. Sometimes you ought let it slip, a little bit.
-
-144. [BAM ZAM ZAM ZAM ZZZAZM(https://youtube.com/watch?v=IgIdKSv6pl8&si=u4Td673QIDyziUss)
-
-145. [Mike Burch 700lbs](https://www.youtube.com/watch?v=BWprPrZXOis)
-
-146. [Paul Allen's Mix](https://www.youtube.com/watch?v=HD9I4L5klGo)
-
-147. [안아줘요](https://youtu.be/Dlv_fni3MA8?si=doffzolCmwxAKSc8)!!!
-
-148. [Grandpa who adopted wild boar as his son](https://youtube.com/watch?v=fANsFnkaX-U&si=DkVuge29-GKqTg_1).
-
-149. [Old School RuneScape](https://www.youtube.com/watch?v=HL8oQw0nm0M&list=PLADC838822026616E&index=1&ab_channel=OldScapeMusic)...
+25. When a Writer is writing, where do they go when they pause?
 
