@@ -65,10 +65,9 @@ As one should not think twice about an opportunity, one shouldn't hesitate to wr
 <br>
 
 
-If you actually read this far, you are awesome -- [lets be friends](https://www.youtube.com/watch?v=WUl9NPPMx8s)!
-
-(say hi- ckgresla at gmail dot com)
-
+If you actually read this far, you are awesome -- say hello!
+(i.e; ckgresla at gmail dot com)
 
 
 `¯\_(ツ)_/¯`
+
