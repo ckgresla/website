@@ -27,7 +27,7 @@ In some sense, it kind of feels like `python` before python was invented, as it 
 ## What can you Awk?
 The background behind the language is fascinating, but what can we actually do with Awk? In short, a fair bit, but we need to understand how the tool works before we go around attempting to hammer screws in. In Awk we run *programs* at the command line with the `awk` command. One simple program might look as follows:
 
-```
+```awk
 awk '$1 >= 8 { print $1 }' employee_pay_rates.txt
 ```
 
@@ -49,7 +49,7 @@ Translating this snippet into English; we find all lines in the `employee_pay_ra
 
 One modification we could make to the program to coax more interesting outputs would be to have it print the Employee's Name in addition to their pay rate: 
 
-```
+```bash
 awk '$1 >= 8 { print $2 " makes " $1 " per hour" }' employee_pay_rates.txt
 ```
 which modifies our output, returning: 
@@ -65,7 +65,7 @@ Personally, I think that understanding the general layout of a system is the fir
 
 In the context of Awk, we can assume that programs will generally look like the following: 
 
-```
+```awk
 # Section to execute before seeing any inputs
 BEGIN {
     # Define our Field Separator (FS) and Record Separator (RS)
@@ -205,12 +205,12 @@ drwx--x--x@ 72 ckg  staff     2304 Aug 26 15:40 SAMPLES
 The above syntax and general flow constitutes the jist of Awk. The language is made powerful through using this set of primitives in conjunction with other programs at the command line. In the spirit of sensibility, Awk programs are run with one of the following two methods.
 
 - Invoked directly on a program string: 
-```
+```bash
 awk 'BEGIN { print $0 }' inputdata
 ```
 
 - Invoked through referencing an Awk program file (commonly called "progfile"):
-```
+```bash
 awk -f progfile inputdata
 ```
 
@@ -227,7 +227,7 @@ And that is the introduction to the language! Awk comes in a few different flavo
 **Problem**: How many commits have I made to `main` on a local git repo? 
 
 **Solution ala Awk**:
-```
+```awk
 BEGIN {FS = "\t"}
 match($1, "([^<]*)>")  {
     email = substr($1, RSTART, RLENGTH-1)
@@ -243,7 +243,7 @@ END {
 ```
 
 Which one might store in `prog` and run it inside a git repo, at the root dir as follows:
-```
+```bash
 awk -f progfile .git/logs/refs/heads/main
 ```
 

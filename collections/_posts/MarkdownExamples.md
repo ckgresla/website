@@ -13,9 +13,11 @@ A reference file to see all of the cool things one can do with the flavor of mar
 
 ## Cool Characters
 
-emojis are for TikTok-ers, unicode for gigachads
+emojis reek of TikTok-brain, unicode has the musk of gigachad
 
 ♥
+
+⏾
 
 ϟ
 
@@ -25,7 +27,7 @@ emojis are for TikTok-ers, unicode for gigachads
 
 ## Images & Figures
 
-Here is a wallpaper created by [Gydw1n](https://www.deviantart.com/gydw1n) that I adore:
+Link to something on the interwebs: [Gydw1n](https://www.deviantart.com/gydw1n) -- and then link to a local image:
 
 ![profile](assets/images/posts/adventure.jpg)
 
@@ -35,7 +37,7 @@ Here is a wallpaper created by [Gydw1n](https://www.deviantart.com/gydw1n) that 
 
 ## Code Block
 
-Being able to include code is nice, [JetBrains Mono NL](https://www.jetbrains.com/lp/mono/) is the best Monospace Font, btw.
+The best font is [JetBrains Mono NL](https://www.jetbrains.com/lp/mono/), look at it (NOW IN COLOR)!
 
 ```python
 import this
@@ -76,6 +78,12 @@ Numbered List
 2. right here?
 3. is my \_\_\_\_!
 
+^zat is the default, but we can get a bit stylish:
+
+1. {I} One
+2. could also become ROMAN
+
+
 Regular Bullet Points
 
 - With all of
@@ -110,3 +118,11 @@ E = mc<sup>2</sup>
 new lines never looked so good^
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; and you can add spaces with these!
+
+
+FOOTNOTES[^1]
+
+Are tasteful[^2]
+
+[^1]: are quite easily done
+[^2]: they can even be mapped semantically?
