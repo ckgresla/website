@@ -56,10 +56,12 @@ weight: 3
 | EleutherAI's cookbook | [Repo](https://github.com/EleutherAI/cookbook) | Worth gander mate! |
 | The Art of Debugging | [Repo](https://github.com/stas00/the-art-of-debugging) | Art is correct-a-mundo |
 | Art in the Sciences of The Artificial | [PDF](https://drive.google.com/file/d/1xezPuMhndQ9BvO3jFNny5K8qNClxK7Ap/view) | "Sometimes algorithms can be odes to certain aspects of nature rather than faithful reproductions of them. And so it goes with art." |
-| Debugging Backwards in Time | [PDF](https://arxiv.org/pdf/cs/0310016) | "If you’ve got a snake’s tail and you pull on it long enough, you will get to its head." |
+| Debugging Backwards in Time | [PDF](https://arxiv.org/pdf/cs/0310016) | "If you've got a snake's tail and you pull on it long enough, you will get to its head." |
 | Magic Ink | [Website](https://worrydream.com/MagicInk) | "An artist who paints with magic ink." |
 | How to Write a Git Commit Message | [Webpage](https://cbea.ms/git-commit) | If for no one, do it for your future self! |
 | Epigrams on Programming | [Webpage](https://www.cs.yale.edu/homes/perlis-alan/quotes.html) | If you program, you are in good company. |
 | Raw Performance Ranking of GPUs | [Webpage](https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/#Raw_Performance_Ranking_of_GPUs) | [GPUs](https://www.youtube.com/watch?v=QVBjiFPMKMM) really do go BRRRRRR |
+| Slow Science | [Webpage](http://slow-science.org/) | Take the time to do the thing right, le journey is le reward. |
+| File over app | [Webpage](https://stephango.com/file-over-app) | A compelling case to use [obsidian](https://obsidian.md/) |
 ||||
 

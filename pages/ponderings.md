@@ -27,19 +27,22 @@ weight: 3
 
 10. You ever seen a summer cloud so beautiful, it made you sneeze?
 
-11. It has been said that "hacking" is just “binary search by hand.
+11. It has been said that "hacking" is just "binary search by hand.
 
 12. When you think you feel bad, remember that at one point humans actually used V1 Tensorflow.
 
 13. FUCK YOU COMCAST!
 
-14. Ain't it cool that a ton of great Americans aren’t from America!
+14. Ain't it cool that a ton of great Americans aren't from America!
 
 15. Sometimes you ought let it slip, a little bit.
 
 16. [Mike Burch 700lbs](https://www.youtube.com/watch?v=BWprPrZXOis)
 
 17. [Grandpa who adopted wild boar as his son](https://youtube.com/watch?v=fANsFnkaX-U&si=DkVuge29-GKqTg_1).
+18. It isn't ml hacking until you have had to allocate two swapfiles in order to get a long running data preprocessing job over the finish line.
+19. Irrespective of any consciousness questions, humanity for the first time ever has a non-biological "thinking partner" in modern language models.
+20. [Just keep stirring](https://xkcd.com/1838/)...
 
 
 ## 2023
@@ -54,7 +57,7 @@ weight: 3
 
 5. Do you have a _restricted section_ in your personal library?
 
-6. One’s level of understanding for a given topic is directly tied to their ability to understand Memes about it.
+6. One's level of understanding for a given topic is directly tied to their ability to understand Memes about it.
 
 7. All heroes must suffer
 
@@ -72,7 +75,7 @@ weight: 3
 
 14. Is "ruthlessness" an inherently malevolent trait? Or might it be benevolent in an occasional context?
 
-15. Beauty is not a “conclusion” that we arrive at regarding something, rather it is something that each individual [senses](https://plato.stanford.edu/entries/aesthetic-concept/).
+15. Beauty is not a "conclusion" that we arrive at regarding something, rather it is something that each individual [senses](https://plato.stanford.edu/entries/aesthetic-concept/).
 
 16. One Piece, will be thought of as Shakespeare is today in the 2400s.
 
@@ -82,11 +85,11 @@ weight: 3
 
 19. What would a Negative Standard Deviation look like -- if it could be defined?
 
-20. What exactly is going on when you “Think”?
+20. What exactly is going on when you "Think"?
 
 21. With great power comes great responsibility!
 
-22. Sci-Fi is a great way to orient a species’ objective functions toward prosperity/thriving
+22. Sci-Fi is a great way to orient a species' objective functions toward prosperity/thriving
 
 23. To debug well, consider the bugged code as a terribly troubled patient -- and you, a discerning, interested and caring Psychologist.
 
@@ -118,7 +121,7 @@ weight: 3
 
 37. Taking good notes is basically the computation of a semantic PCA for the concept at hand.
 
-38. Hey You! You’re finally awake.
+38. Hey You! You're finally awake.
 
 39. How interesting would your life be if you formed it around that which makes you curious?
 
@@ -144,7 +147,7 @@ weight: 3
 
 50. On the days you just wanna `sudo rm -rf /` , eat a cookie and remember that you can kick ass.
 
-51. Don’t be afraid to drink a little workohol
+51. Don't be afraid to drink a little workohol
 
 52. "Embeddings" are DEFINITELY "[thoughts](https://ai.facebook.com/blog/imagebind-six-modalities-binding-ai/)."
 
@@ -156,20 +159,20 @@ weight: 3
 
 56. The fact that you can sample snippets of reality from a latent vector is [so cool!](https://stable-diffusion-art.com/how-stable-diffusion-work/)
 
-57. How many generations will be inspired by the Ghibli films? 
+57. How many generations will be inspired by the Ghibli films?
 
 58. [The Missile doesn't tell itself it doesn't know where it is, it merely tells itself where it should go](https://youtu.be/56vtZsQgAF0?si=97MbLMtBASyeXzOb).
 
 59. So all of these activations, [actually mean something?](https://transformer-circuits.pub/2023/monosemantic-features/index.html)
 
-60. It’s all a freaking [GRAPH](https://distill.pub/2021/gnn-intro/)!
+60. It's all a freaking [GRAPH](https://distill.pub/2021/gnn-intro/)!
 
 61. [Split. Half. Float. Double Sparse.](https://github.com/microsoft/DeepSpeed/blob/9d2660d2a3fac767972f01ac96858b2605ffc0e4/deepspeed/runtime/engine.py#L121)
 
 
 ## 2022
 
-1. How far could humanity get naming astrophysical systems/bodies with cool names like Jupiter, Andromeda, Mars, the Jovian System, Alpha Centauri, Oumuamua, or Earth as opposed to the “XP-11213- Ac#4cP” style of naming astronomical objects?
+1. How far could humanity get naming astrophysical systems/bodies with cool names like Jupiter, Andromeda, Mars, the Jovian System, Alpha Centauri, Oumuamua, or Earth as opposed to the "XP-11213- Ac#4cP" style of naming astronomical objects?
 
 2. When was the last time you thought critically about something?
 
@@ -183,7 +186,7 @@ weight: 3
 
 7. In the history of humanity, is the advent of civilization a hardware or software upgrade?
 
-10. Is writing an Essay or crafting a Presentation just writing a program in English to be executed on someone else’s brain?
+10. Is writing an Essay or crafting a Presentation just writing a program in English to be executed on someone else's brain?
 
 11. For something to be Real (or rather exist) must it then also be True? Or is it possible for something that is False to exist?
 
@@ -191,7 +194,7 @@ weight: 3
 
 13. What additional good could a human-computer interface like NeuralLink provide when have **VIM**?
 
-14. If the human mind does “compression” is that process a part of the standard library for "Homo Sapiens" or is it unique to each individual? Basically, do our brains use the same file extensions?
+14. If the human mind does "compression" is that process a part of the standard library for "Homo Sapiens" or is it unique to each individual? Basically, do our brains use the same file extensions?
 
 15. What is the viscosity of the Sun? Is it like a giant ball of magma, or closer to a ball of lightning?
 
