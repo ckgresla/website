@@ -43,7 +43,7 @@ weight: 3
 | The Maintenance Race | [Webpage](https://worksinprogress.co/issue/the-maintenance-race) | Skilled maintainers advise never trying to solve a new or complex problem without a thorough mulling first. |
 | Jibun Kaigi | [PDF](/pdfs/jibun-kaigi.pdf) | A titular meeting of the selves! |
 | Tips for Writing Technical Papers | [Webpage](https://cs.stanford.edu/people/widom/paper-writing.html) | by Jennifer Widom? it should be Wisdom! |
-| Notes from The Pragmatic Scientist | [PDF](pdfs/the-pragmatic-scientist-Krishnan.pdf) | Useful items to keep in mind |
+| Notes from The Pragmatic Scientist | [PDF](/pdfs/the-pragmatic-scientist-Krishnan.pdf) | Useful items to keep in mind |
 | The Ten Commandments of Egoless Programming | [Webpage](https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/) | It is always good to refer back to this, especially when wheels have been spun. |
 | Principles of Effective Research | [Webpage](https://michaelnielsen.org/blog/principles-of-effective-research/) | Hamming's essay provides the raison d'etere, this provides the practical |
 | The OPT-175B Logbook | [Webpage](https://github.com/facebookresearch/metaseq/tree/main/projects/OPT/chronicles) | What a fun time! |
