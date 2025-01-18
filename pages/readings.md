@@ -41,7 +41,7 @@ weight: 3
 | Research Debt | [Webpage](https://distill.pub/2017/research-debt/) | Debt exists everywhere. |
 | How to Do Research (MIT AI Lab) | [PDF](/pdfs/HOWTO-ai-research-MIT.pdf) | A fantastic collection of timeless, ad-hoc research advices |
 | The Maintenance Race | [Webpage](https://worksinprogress.co/issue/the-maintenance-race) | Skilled maintainers advise never trying to solve a new or complex problem without a thorough mulling first. |
-| Jibun Kaigi | [PDF](/pdfs/jibun-kaigi.pdf) | A titular meeting of the selves! |
+| Jibun Kaigi | [PDF](../../pdfs/jibun-kaigi.pdf.md) | A titular meeting of the selves! |
 | Tips for Writing Technical Papers | [Webpage](https://cs.stanford.edu/people/widom/paper-writing.html) | by Jennifer Widom? it should be Wisdom! |
 | Notes from The Pragmatic Scientist | [PDF](/pdfs/the-pragmatic-scientist-Krishnan.pdf) | Useful items to keep in mind |
 | The Ten Commandments of Egoless Programming | [Webpage](https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/) | It is always good to refer back to this, especially when wheels have been spun. |
@@ -63,5 +63,7 @@ weight: 3
 | Raw Performance Ranking of GPUs | [Webpage](https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/#Raw_Performance_Ranking_of_GPUs) | [GPUs](https://www.youtube.com/watch?v=QVBjiFPMKMM) really do go BRRRRRR |
 | Slow Science | [Webpage](http://slow-science.org/) | Take the time to do the thing right, le journey is le reward. |
 | File over app | [Webpage](https://stephango.com/file-over-app) | A compelling case to use [obsidian](https://obsidian.md/) |
+| Inside Cuba's D.I.Y. Internet Revolution | [Website](https://www.wired.com/2017/07/inside-cubas-diy-internet-revolution/) | No es fácil. |
 ||||
+
 
