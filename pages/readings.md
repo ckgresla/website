@@ -64,6 +64,7 @@ weight: 3
 | Slow Science | [Webpage](http://slow-science.org/) | Take the time to do the thing right, le journey is le reward. |
 | File over app | [Webpage](https://stephango.com/file-over-app) | A compelling case to use [obsidian](https://obsidian.md/) |
 | Inside Cuba's D.I.Y. Internet Revolution | [Website](https://www.wired.com/2017/07/inside-cubas-diy-internet-revolution/) | No es fácil. |
+| Machines of Loving Grace | [Webpage](https://darioamodei.com/machines-of-loving-grace) | "A country of geniuses in a datacenter" |
 ||||
 
 

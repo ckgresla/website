@@ -6,6 +6,14 @@ weight: 3
 ---
 
 
+## 2025
+1. It isn't ml hacking until you have had to allocate two swapfiles in order to get a long running data preprocessing job over the finish line.
+
+2. Irrespective of any consciousness questions, humanity for the first time ever has a non-biological "thinking partner" in modern language models.
+
+3. [Just keep stirring](https://xkcd.com/1838/)...
+
+
 ## 2024
 1. If *feels* like something to move!
 
@@ -40,9 +48,6 @@ weight: 3
 16. [Mike Burch 700lbs](https://www.youtube.com/watch?v=BWprPrZXOis)
 
 17. [Grandpa who adopted wild boar as his son](https://youtube.com/watch?v=fANsFnkaX-U&si=DkVuge29-GKqTg_1).
-18. It isn't ml hacking until you have had to allocate two swapfiles in order to get a long running data preprocessing job over the finish line.
-19. Irrespective of any consciousness questions, humanity for the first time ever has a non-biological "thinking partner" in modern language models.
-20. [Just keep stirring](https://xkcd.com/1838/)...
 
 
 ## 2023

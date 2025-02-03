@@ -2,7 +2,7 @@
 title: "A Tripartite Framework of Reasoning"
 ---
 
-What constitutes being intelligent? Is it being able to recall facts or tidbits of information with perfect recall? Or being able to dissect the statements and logic on another to prove their inferiority? Maybe intelligence is just being able to read a stack-trace properly. But perhaps, intelligence is to be measured by the efficacy of one's _hunch_.
+What constitutes being intelligent? Is it being able to recall facts or tidbits of information with perfect recall? Or being able to dissect the statements and logic of another to prove their inferiority? Maybe intelligence is just being able to read a stack-trace properly. But perhaps, intelligence is to be measured by the efficacy of one's _hunch_.
 
 If accuracy in hunches is how we will measure intelligence, as opposed to; memorization efficiency or the ability to final logical inconsistencies -- then the wielding of intelligence is the making of correct guesses. Guessing on the basis of information is _inferring_ something, that is to infer is to make an educated guess -- the folks at Oxford's English Dictionary phrase it as:
 
