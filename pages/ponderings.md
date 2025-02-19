@@ -13,6 +13,8 @@ weight: 3
 
 3. [Just keep stirring](https://xkcd.com/1838/)...
 
+4. This chat thing we got going on with these preference-tuned, average of the internet oracles is awesome.
+
 
 ## 2024
 1. If *feels* like something to move!
