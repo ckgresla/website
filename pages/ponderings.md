@@ -15,6 +15,8 @@ weight: 3
 
 4. This chat thing we got going on with these preference-tuned, average of the internet oracles is awesome.
 
+5. Did you know that pigeons can kiss?
+
 
 ## 2024
 1. If *feels* like something to move!
