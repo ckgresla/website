@@ -17,6 +17,8 @@ weight: 3
 
 5. Did you know that pigeons can kiss?
 
+6. Have you ever washed your hands before programming the way a surgeon rigorously scrubs theirs before conducting surgery?
+
 
 ## 2024
 1. If *feels* like something to move!
