@@ -55,6 +55,8 @@ weight: 3
 
 17. [Grandpa who adopted wild boar as his son](https://youtube.com/watch?v=fANsFnkaX-U&si=DkVuge29-GKqTg_1).
 
+18. Ya know, HHKBs are exactly like vintage wines -- if you kinda get this, lets chat.
+
 
 ## 2023
 
