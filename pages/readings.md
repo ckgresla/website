@@ -16,10 +16,12 @@ weight: 3
 |---------------|:-----------:|-----------|
 | Horatius' Last Stand | [Webpage]( https://www.goodreads.com/quotes/21898-then-out-spake-brave-horatius-the-captain-of-the-gate) | Is there a better way to go? |
 | Jonathan Livingston Seagull | [PDF](/pdfs/jonathan-livingston-seagull.pdf) | no limits eh? |
+| Machines of Loving Grace | [Webpage](https://darioamodei.com/machines-of-loving-grace) | "A country of geniuses in a datacenter" |
+| Situational Awareness | [Webpage](https://situational-awareness.ai/) | Things are gonna get interesting with the next few OOMs... |
 | The Logintaka | [Webpage](http://catb.org/~esr/faqs/loginataka.html) | a dialogue between a Guru and a Newbie |
 | How To Become A Hacker | [Webpage](http://www.catb.org/~esr/faqs/hacker-howto.html) | Sounds like a good group of folks |
-| The Bitter Lesson | [Webpage](http://incompleteideas.net/IncIdeas/BitterLesson.html) | Data** & Compute++ |
-| Poetry and Ambition | [Webpage]( https://poets.org/text/poetry-and-ambition) | McPoems? Oh Dear! |
+| The Bitter Lesson | [Webpage](http://incompleteideas.net/IncIdeas/BitterLesson.html) | Search and Learning |
+| Poetry and Ambition | [Webpage]( https://poets.org/text/poetry-and-ambition) | McPoems? shit |
 | The Anabasis of Alexander | [Webpage](https://en.m.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_VII/Chapter_IX) | That's a pretty good reply, given the context |
 | Mozart, Writing Symphonies and Young Lawyers with Questions | [Webpage](https://fs.blog/brain-food/october-30-2022/#:~:text=%E2%80%9CYoung%20lawyers%20frequently,to%20do%20it.%E2%80%99%E2%80%9D) | The master is just the student which is furthest along! |
 | Occam's Razor | [Webpage]( http://pespmc1.vub.ac.be/OCCAMRAZ.html) | simpler! |
@@ -64,7 +66,6 @@ weight: 3
 | Slow Science | [Webpage](http://slow-science.org/) | Take the time to do the thing right, le journey is le reward. |
 | File over app | [Webpage](https://stephango.com/file-over-app) | A compelling case to use [obsidian](https://obsidian.md/) |
 | Inside Cuba's D.I.Y. Internet Revolution | [Website](https://www.wired.com/2017/07/inside-cubas-diy-internet-revolution/) | No es fácil. |
-| Machines of Loving Grace | [Webpage](https://darioamodei.com/machines-of-loving-grace) | "A country of geniuses in a datacenter" |
 | The Hardware Lottery | [Webpage](https://hardwarelottery.github.io/) | What you will discover is determined in part by the legos you have to build with. |
 ||||
 
