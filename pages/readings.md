@@ -67,6 +67,7 @@ weight: 3
 | File over app | [Webpage](https://stephango.com/file-over-app) | A compelling case to use [obsidian](https://obsidian.md/) |
 | Inside Cuba's D.I.Y. Internet Revolution | [Website](https://www.wired.com/2017/07/inside-cubas-diy-internet-revolution/) | No es fácil. |
 | The Hardware Lottery | [Webpage](https://hardwarelottery.github.io/) | What you will discover is determined in part by the legos you have to build with. |
+| Write Like A Programmer | [Webpage](https://qntm.org/write) | Writing is coding in a natural language |
 ||||
 
 
