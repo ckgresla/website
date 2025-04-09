@@ -33,7 +33,8 @@ weight: 3
 | On Bullshit | [PDF](/pdfs/on-bullshit-frankfurt.pdf) | Its despicable! |
 | A Message to Garcia | [PDF](/pdfs/hubbard1899.pdf) | Are you capable of carrying the letter? |
 | You and Your Research | [PDF](/pdfs/you-and-your-research.pdf) | There IS difference between "Good" and "Great" |
-| The Goddess of Everything Else | [Webpage]( https://slatestarcodex.com/2015/08/17/the-goddess-of-everything-else-2/) | There is a pull to "KILL CONSUME MULTIPLY CONQUER", yes. But also a longing for something else. |
+| The Goddess of Everything Else | [Webpage]( https://slatestarcodex.com/2015/08/17/the-goddess-of-everything-else-2/) | Wouldn't it be based if we did some of that? |
+| Kindness to Kin | [Webpage]( https://www.reddit.com/r/HFY/comments/lom9cb/kindness_to_kin) | Reject fitness score, embrace cripplemind |
 | 500 Million, Not a Single One More | [Webpage](https://forum.effectivealtruism.org/posts/jk7A3NMdbxp65kcJJ/500-million-but-not-a-single-one-more) | get vaxxed! |
 | A Big Little Idea called Legibility| [Webpage](https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/)| An Authoritarian High-Modernist Recipe for Failure |
 | The Glass is already Broken | [Webpage](https://kottke.org/15/04/the-glass-is-already-broken) | Enjoy it! |
@@ -61,6 +62,7 @@ weight: 3
 | Debugging Backwards in Time | [PDF](https://arxiv.org/pdf/cs/0310016) | "If you've got a snake's tail and you pull on it long enough, you will get to its head." |
 | Magic Ink | [Website](https://worrydream.com/MagicInk) | "An artist who paints with magic ink." |
 | How to Write a Git Commit Message | [Webpage](https://cbea.ms/git-commit) | If for no one, do it for your future self! |
+| A Note About Git Commit Messages | [Webpage](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) | For your future self, for the love of God. |
 | Epigrams on Programming | [Webpage](https://www.cs.yale.edu/homes/perlis-alan/quotes.html) | If you program, you are in good company. |
 | Raw Performance Ranking of GPUs | [Webpage](https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/#Raw_Performance_Ranking_of_GPUs) | [GPUs](https://www.youtube.com/watch?v=QVBjiFPMKMM) really do go BRRRRRR |
 | Slow Science | [Webpage](http://slow-science.org/) | Take the time to do the thing right, le journey is le reward. |
