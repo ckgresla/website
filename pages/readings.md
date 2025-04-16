@@ -20,7 +20,8 @@ weight: 3
 | Situational Awareness | [Webpage](https://situational-awareness.ai/) | Things are gonna get interesting with the next few OOMs... |
 | The Logintaka | [Webpage](http://catb.org/~esr/faqs/loginataka.html) | a dialogue between a Guru and a Newbie |
 | How To Become A Hacker | [Webpage](http://www.catb.org/~esr/faqs/hacker-howto.html) | Sounds like a good group of folks |
-| The Bitter Lesson | [Webpage](http://incompleteideas.net/IncIdeas/BitterLesson.html) | Search and Learning |
+| The Bitter Lesson | [Webpage](http://incompleteideas.net/IncIdeas/BitterLesson.html) | Make search and learning limited by compute, then increase compute. |
+| Self-Verification, The Key to AI | [Webpage](http://incompleteideas.net/IncIdeas/KeytoAI.html) | Experience is bitterest, but it is the best way to learn |
 | Poetry and Ambition | [Webpage]( https://poets.org/text/poetry-and-ambition) | McPoems? shit |
 | The Anabasis of Alexander | [Webpage](https://en.m.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_VII/Chapter_IX) | That's a pretty good reply, given the context |
 | Mozart, Writing Symphonies and Young Lawyers with Questions | [Webpage](https://fs.blog/brain-food/october-30-2022/#:~:text=%E2%80%9CYoung%20lawyers%20frequently,to%20do%20it.%E2%80%99%E2%80%9D) | The master is just the student which is furthest along! |
