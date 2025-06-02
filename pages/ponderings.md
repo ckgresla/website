@@ -19,6 +19,8 @@ weight: 3
 
 6. Have you ever washed your hands before programming the way a surgeon rigorously scrubs theirs before conducting surgery?
 
+7. The last rep, [IS ALWAYS FOR ZYZZ](https://youtube.com/watch?v=TMUfRxQmPec&si=Hkbxl4lK1rNLHCDD)!
+
 
 ## 2024
 1. If *feels* like something to move!
