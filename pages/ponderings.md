@@ -21,6 +21,8 @@ weight: 3
 
 7. The last rep, [IS ALWAYS FOR ZYZZ](https://youtube.com/watch?v=TMUfRxQmPec&si=Hkbxl4lK1rNLHCDD)!
 
+8. [This answer and the display of git-fu](https://stackoverflow.com/questions/1550378/is-it-possible-to-push-a-git-stash-to-a-remote-repository), so freaking based.
+
 
 ## 2024
 1. If *feels* like something to move!
