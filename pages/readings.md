@@ -72,6 +72,7 @@ weight: 3
 | The Hardware Lottery | [Webpage](https://hardwarelottery.github.io/) | What you will discover is determined in part by the legos you have to build with. |
 | Write Like A Programmer | [Webpage](https://qntm.org/write) | Writing is coding in a natural language |
 | Tadao Ando | [Wiki](https://www.wikiwand.com/en/articles/Tadao_Ando) | Don't you just love concrete? |
+| The Origin of the Research University | [Asterisk](https://asteriskmag.com/issues/10/the-origin-of-the-research-university) | "18th century German bureaucrats didn’t invent the idea of making new contributions to human knowledge. Their great contribution was to institutionalize it..." |
 ||||
 
 
