@@ -27,7 +27,7 @@ weight: 3
 | Mozart, Writing Symphonies and Young Lawyers with Questions | [Webpage](https://fs.blog/brain-food/october-30-2022/#:~:text=%E2%80%9CYoung%20lawyers%20frequently,to%20do%20it.%E2%80%99%E2%80%9D) | The master is just the student which is furthest along! |
 | Occam's Razor | [Webpage]( http://pespmc1.vub.ac.be/OCCAMRAZ.html) | simpler! |
 | Gunga Din | [Webpage]( https://www.poetryfoundation.org/poems/46783/gunga-din) | You're a better man than I... |
-| I love my wife. My wife is dead. | [Webpage]( https://lettersofnote.com/2012/02/15/i-love-my-wife-my-wife-is-dead/) | you will need a drink for this one. |
+| I love my wife. My wife is dead. | [Webpage](https://whyevolutionistrue.com/2018/09/03/richard-feynmans-letter-to-his-dead-wife/) | You will probably want a drink for this "fine-man"'s letter. |
 | Be Drunk | [Webpage]( https://poets.org/poem/be-drunk) | Wine, Poetry or Virtue? |
 | A Mathematician's Apology | [PDF](/pdfs/a-mathematicians-apology-hardy.pdf) | A peek into the mind of a mathematician |
 | Electric Meat | [Webpage]( https://matt.might.net/articles/electric-meat/) | Grab a few things! |
