@@ -6,6 +6,7 @@
       line-height: 1.2;
       font-weight: 700;
       margin-bottom: 10px;
+      color: var(--color-text-primary);
       @include media-breakpoint-up(md) {
         font-size: 48px;
       }
@@ -14,14 +15,19 @@
   .project-categories {
     margin-bottom: 40px;
     a {
-      color: var(--color-base-text);
+      color: var(--color-text-primary);
       font-weight: 600;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+        text-decoration-color: var(--color-accent-lavender);
+      }
     }
   }
   .project-description {
     width: 80%;
     p {
-
+      color: var(--color-text-secondary);
     }
   }
   .gallery {
@@ -38,9 +44,10 @@
         font-size: 14px;
         strong {
           font-weight: 600;
+          color: var(--color-text-primary);
         }
         span {
-          color: var(--color-base-text-2);
+          color: var(--color-text-secondary);
           font-weight: 400;
         }
       }
@@ -99,14 +106,17 @@
   .project-client {
     margin-bottom: 10px;
     font-size: 16px;
+    color: var(--color-text-secondary);
     strong {
       display: inline-block;
       font-weight: 600;
       width: 70px;
+      color: var(--color-text-primary);
     }
     span {
       display: inline-block;
       font-weight: 400;
+      color: var(--color-text-secondary);
     }
   }
 }

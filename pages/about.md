@@ -1,6 +1,8 @@
 ---
 layout: basic
 title: "About"
+description: "Why hello there"
+use_description_as_title: true
 date: 2018-11-28T15:15:34+10:00
 permalink: "/about/"
 # image: "/assets/images/personal/profile-250px.jpg" #static image, default

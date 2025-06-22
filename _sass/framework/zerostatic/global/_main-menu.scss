@@ -1,6 +1,6 @@
 .menu-main {
   display: none;
-  color: var(--color-menu-text);
+  color: var(--color-text-primary);
   font-family: $font-family-base;
   letter-spacing: 0;
   @include media-breakpoint-up(md) {
@@ -33,6 +33,7 @@
         color: inherit;
         &:hover {
           text-decoration: underline;
+          text-decoration-color: var(--color-accent-lavender);
         }
         @include media-breakpoint-up(lg) {
           padding: 10px 13px 10px 13px;
@@ -45,10 +46,12 @@
     li.active {
       a {
         font-weight: bold;
+        color: var(--color-text-primary);
       }
     }
   }
 }
+
 .menu-item-dropdown {
   position: relative;
   &:hover {
@@ -60,6 +63,7 @@
     }
   }
 }
+
 .dropdown-menu {
   top: 40px;
   transition: top 0.25s ease 0s;
@@ -72,17 +76,17 @@
   display: flex;
   flex-direction: column;
   z-index: 20;
-  background-color: var(--color-base-bg-2);
-  box-shadow: rgba(17, 17, 17, 0.1) 0px 20px 25px -5px, rgba(17, 17, 17, 0.04) 0px 10px 10px -5px;
+  background-color: var(--color-background-secondary);
+  box-shadow: var(--color-text-tertiary) 0px 20px 25px -5px, var(--color-text-tertiary) 0px 10px 10px -5px;
   html[data-mode="dark"] & {
-    box-shadow: rgba(127, 127, 127, 0.25) 0px 25px 50px -12px;
+    box-shadow: var(--color-text-secondary) 0px 25px 50px -12px;
   }
   .dropdown-item {
     display: flex;
     padding: 16px;
     border-radius: 6px;
     &:hover {
-      background-color: var(--color-base-bg-3);
+      background-color: var(--color-accent-lavender);
       text-decoration: none;
       color: inherit;
     }
@@ -107,12 +111,12 @@
       .dropdown-item-name {
         font-size: 16px;
         font-weight: 500;
-        color: var(--color-base-text);
+        color: var(--color-text-primary);
       }
       .dropdown-item-description {
         font-size: 16px;
         font-weight: 400;
-        color: var(--color-base-text-2);
+        color: var(--color-text-secondary);
       }
     }
   }

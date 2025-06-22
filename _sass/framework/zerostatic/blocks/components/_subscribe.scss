@@ -9,21 +9,27 @@
         margin-bottom: 8px;
         font-weight: 600;
         font-size: 16px;
+        color: var(--color-text-primary);
       }
       input {
         font-size: inherit;
         font-family: $font-family-base;
-        color: var(--color-base-text);
+        color: var(--color-text-primary);
+        background-color: var(--color-background);
         -webkit-appearance: none;
         appearance: none;
         border: none;
-        border: 1px solid var(--color-base-text-2);
+        border: 1px solid var(--color-border);
         display: block;
         width: 100%;
         padding: 16px;
         border-radius: 40px;
         margin-right: 16px;
         height: 56px;
+        &:focus {
+          outline: none;
+          border-color: var(--color-accent-lavender);
+        }
       }
       input[type="submit"] {
         font-size: inherit;
@@ -35,26 +41,27 @@
         margin-right: 0;
         white-space: nowrap;
         padding: 0 14px;
-        background: var(--color-primary);
+        background: var(--color-text-primary);
         border-radius: 40px;
         font-weight: normal;
         letter-spacing: 0.025em;
-        color: var(--color-primary-text);
+        color: var(--color-background);
         text-decoration: none;
         transition: all 0.15s ease;
         &:hover {
-          opactiy: 0.7;
+          background: var(--color-accent-lavender);
+          opacity: 1;
         }
       }
     }
     .subscribe-responses {
       font-size: 16px;
       .response-error {
-        color: rgb(213, 73, 73);
+        color: var(--color-accent-coral);
         padding: 16px;
       }
       .response-success {
-        color: rgb(57, 129, 57);
+        color: var(--color-accent-sage);
         padding: 16px;
       }
     }

@@ -42,12 +42,17 @@
       line-height: 1.3;
       letter-spacing: -0.1px;
       margin-bottom: 6px;
+      color: var(--color-text-primary);
       @include media-breakpoint-up(md) {
         font-size: 26px;
       }
     }
     a {
-      color: var(--color-base-text);
+      color: var(--color-text-primary);
+      text-decoration: none;
+      &:hover {
+        color: var(--color-accent-lavender);
+      }
     }
   }
   .card-description {
@@ -55,7 +60,7 @@
       line-height: 1.5;
       font-weight: 400;
       font-size: 16px;
-      color: var(--color-base-text-2);
+      color: var(--color-text-secondary);
       margin: 0;
     }
   }
@@ -65,6 +70,7 @@
   .card-readmore {
     margin-top: auto;
     line-height: 1;
+    color: var(--color-text-primary);
     i {
       margin-left: 5px;
       margin-top: 4px;
@@ -75,7 +81,7 @@
     justify-content: flex-start;
     align-items: center;
     font-weight: 700;
-    color: var(--color-base-text-2);
+    color: var(--color-text-secondary);
     font-size: 15px;
   }
   .card-categories {
@@ -83,10 +89,15 @@
     font-size: 12px;
     font-family: $font-family-monospace;
     > a {
-      background-color: var(--color-base-bg-2);
+      background-color: var(--color-background-secondary);
+      color: var(--color-text-primary);
       padding: 3px 7px;
       border-radius: 2px;
       margin-right: 10px;
+      text-decoration: none;
+      &:hover {
+        background-color: var(--color-accent-lavender);
+      }
     }
   }
   .card-image {
@@ -100,6 +111,7 @@
   .card-meta {
     display: flex;
     margin-bottom: 10px;
+    color: var(--color-text-secondary);
     .on {
       margin: 0 4px 0 4px;
     }
@@ -116,10 +128,8 @@
       }
     }
   }
-  // Tweaks for dark mode
-  html[data-mode="dark"] & {
-  }
 }
+
 .card-post.card-row {
   border-radius: 0;
   box-shadow: none;
@@ -135,7 +145,7 @@
       margin-right: 30px;
       margin-bottom: 0;
       a {
-        background-color: var(--color-base-200);
+        background-color: var(--color-background-secondary);
       }
     }
   }
@@ -145,6 +155,7 @@
     }
   }
 }
+
 .card-post.card-list {
   border-radius: 0;
   box-shadow: none;
@@ -173,9 +184,13 @@
       font-weight: 500;
       line-height: 1.3;
       margin: 0;
+      color: var(--color-text-primary);
     }
     a {
-      color: var(--color-base-text);
+      color: var(--color-text-primary);
+      &:hover {
+        color: var(--color-accent-lavender);
+      }
     }
   }
   .card-content {
@@ -193,6 +208,7 @@
     display: none;
   }
 }
+
 .card-post.card-full {
   .card-thumbnail {
     @include media-breakpoint-up(md) {
@@ -204,12 +220,9 @@
       margin-right: 0;
       margin-bottom: 30px;
       a {
-        background-color: var(--color-base-200);
+        background-color: var(--color-background-secondary);
       }
     }
-  }
-  .card-content {
-
   }
   .card-categories {
     margin-top: 20px;
@@ -229,7 +242,10 @@
       }
     }
     a {
-      color: var(--color-base-text);
+      color: var(--color-text-primary);
+      &:hover {
+        color: var(--color-accent-lavender);
+      }
     }
   }
   .card-description {

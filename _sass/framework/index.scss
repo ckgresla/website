@@ -29,15 +29,13 @@
 // 8. Include utilities API last to generate classes based on the Sass map in `_utilities.scss`
 @import "bootstrap/utilities/api";
 
-// How do I add selection color overrides?
+// add nice coloring to "selection", when select text with mouse
 // Easily with the following:
 ::selection {
-  // simple black highlighting of selected text
-  // background-color: $black;
-  // color: $white;
   // below reads in the vars for color codes, changes per mode
-  background-color: var(--color-base-text);
-  color: var(--color-base-bg);
+  // invert the colors for text AS the selection coloring
+  background-color: var(--color-text-primary);
+  color: var(--color-background);
 }
 
 // Zerostatic Core SCSS
@@ -45,7 +43,6 @@
 @import "zerostatic/global/type";
 @import "zerostatic/global/content";
 @import "zerostatic/global/syntax";
-@import "zerostatic/global/syntax-dark";
 @import "zerostatic/global/section";
 @import "zerostatic/global/header";
 @import "zerostatic/global/footer";
@@ -53,7 +50,6 @@
 @import "zerostatic/global/logo";
 @import "zerostatic/global/main-menu";
 @import "zerostatic/global/main-menu-mobile";
-@import "zerostatic/global/form";
 
 @import "zerostatic/blocks/sections/grid";
 @import "zerostatic/blocks/sections/title";
@@ -77,21 +73,24 @@ $fa-font-path: "../fonts/font-awesome/webfonts";
 @import "libraries/font-awesome/solid.scss";
 @import "libraries/font-awesome/regular.scss";
 @import "libraries/font-awesome/brands.scss";
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   font-family: $font-family-base;
-  font-size: 18px;
-  color: var(--color-base-text);
-  background: var(--color-base-bg);
+  font-size: 16px;
+  color: var(--color-text-primary);
+  background: var(--color-background);
   display: flex;
   min-height: 100vh;
   flex-direction: column;
 }
+
 .page {
   .wrapper {
     flex: 1;
@@ -103,8 +102,4 @@ body {
   max-width: 1000px;
   padding-left: $grid-gutter-width;
   padding-right: $grid-gutter-width;
-}
-
-// Tweaks for dark mode
-html[data-mode="dark"] {
 }
