@@ -64,7 +64,7 @@ $zs-colors-light-css-vars: ();
     $zs-colors-light-css-vars,
     (#{$color}: var(--color-#{$color}))
   )
-}
+};
 
 $font-family-heading: {{ site.fonts.heading }}, -apple-system, serif;
 $font-family-base: {{ site.fonts.base }}, -apple-system, "Helvetica Neue", Arial, sans-serif; 
@@ -75,12 +75,168 @@ $font-family-logo: {{ site.fonts.logo }}, -apple-system, "Helvetica Neue", Arial
   @each $color, $value in $zs-colors-light {
     --color-#{$color}: #{$value};
   }
-}
+};
 
 html[data-mode='dark'] {
   @each $color, $value in $zs-colors-dark {
       --color-#{$color}: #{$value};
   }
-}
+};
 
 @import 'style';
+// Vertical Header Styles
+.header-vertical {
+  position: static;
+  background: var(--background-color);
+  padding: 14rem 0 2rem;
+  
+  .header-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .header-title {
+    flex: 1;
+    
+    .page-title {
+      font-family: var(--font-heading);
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: var(--text-color);
+      margin: 0;
+      text-align: left;
+    }
+  }
+  
+  .header-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem; // Reduced from 1.5rem to 1rem
+  }
+}
+
+// Vertical Menu Styles - tighter spacing
+.menu-vertical {
+  .menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; // Reduced from 0.75rem to 0.5rem
+    align-items: flex-start;
+  }
+  
+  .menu-item {
+    .menu-link {
+      display: block;
+      font-family: var(--font-heading);
+      font-size: 1.25rem;
+      font-weight: 500;
+      color: #B6B6B6;
+      text-decoration: none;
+      padding: 0 0; // tighter spacing amongst vertical menu
+      transition: color 0.2s ease;
+      
+      &:hover {
+        color: var(--text-color);
+      }
+    }
+    
+    &.active .menu-link {
+      color: var(--text-color);
+      font-weight: 700;
+    }
+  }
+}
+
+// Mobile - also tighter
+@media (max-width: 768px) {
+  .header-vertical {
+    padding: 7rem 0 2rem;
+    
+    .header-content {
+      padding: 0 1rem;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 4rem; // space between "title" (top text of page) and the vertical menu
+    }
+    
+    .header-nav {
+      gap: 0.75rem; // Reduced from 1rem to 0.75rem
+    }
+  }
+  
+  .menu-vertical .menu-list {
+    gap: 0.375rem; // Reduced from 0.5rem to 0.375rem
+  }
+}
+
+
+// always allocate scrollbar space, for short pages just don't display a scrollbar
+// + light/dark mode styling
+html {
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
+}
+
+// Webkit browsers (Chrome, Safari, Edge)
+::-webkit-scrollbar {
+  width: 8px;
+  background: transparent; // Explicit background
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; // Explicit track background
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+// Firefox
+html {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+}
+
+// Dark mode styling
+[data-mode="dark"] {
+  ::-webkit-scrollbar {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.6);
+  }
+  
+  ::-webkit-scrollbar-thumb:active {
+    background: rgba(255, 255, 255, 0.8);
+  }
+  
+  scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+}
+

@@ -15,11 +15,25 @@
     <link href="https://fonts.gstatic.com" rel="preconnect">
     <link href="{{ site.fonts.google_fonts }}" rel="stylesheet">
 
-    {% if site.darkmode.enable_dark_mode != false %}
-      <script>
-          localStorage.getItem('darkMode') === 'true' && document.documentElement.setAttribute('data-mode', 'dark');
-      </script>
-    {% endif %}
+  {% if site.darkmode.enable_dark_mode != false %}
+    <script>
+      // Check for browser's dark mode preference
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.setAttribute('data-mode', 'dark');
+      } else {
+        document.documentElement.setAttribute('data-mode', 'light');
+      }
+      
+      // Listen for changes to the user's preference
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+        if (event.matches) {
+          document.documentElement.setAttribute('data-mode', 'dark');
+        } else {
+          document.documentElement.setAttribute('data-mode', 'light');
+        }
+      });
+    </script>
+  {% endif %}
 
   </head>
 <body class="page {% if page.body_classes %}{{ page.body_classes }}{% elsif layout.body_classes %}{{ layout.body_classes }}{% endif %}{% if site.header.fixed %} has-fixed-header{% else %} has-static-header{% endif %}">

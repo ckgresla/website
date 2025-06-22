@@ -99,6 +99,8 @@ body {
 }
 
 .container {
+  // NOTE: this max width setting is critical! max width for ~all pages
+  max-width: 1000px;
   padding-left: $grid-gutter-width;
   padding-right: $grid-gutter-width;
 }

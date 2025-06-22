@@ -67,36 +67,10 @@ exclude:
 # Theme Config
 # --------------------
 title: "chris kerwell gresla"  # this ought align w "meta_title" in home.md
+title_separator: " - "
 category_dir: category
 
 colors:
-  # ORIGINAL COLORS -- as come w the curate theme
-  # # light-mode colors
-  # primary: "#fdfcf9"
-  # primary_2: "#0d042b"
-  # primary_text: "#0d042b"
-  # secondary: "#faebd7" #maps to the underline on homescreen header text
-  # background: "#fdfcf9"
-  # background_2: "#f7f6ed"
-  # background_3: "#faebd7"
-  # text: "#0d042b"
-  # text_2: "#3b364c"
-  # logo_text: "#0d042b"
-  # menu_text: "#0d042b"
-
-  # # dark-mode colors
-  # primary_dark: "#0d042b"
-  # primary_2_dark: "#f5f5ec"
-  # primary_text_dark: "#f5f5ec"
-  # secondary_dark: "#251654"
-  # background_dark: "#0b0326"
-  # background_2_dark: "#150c32"
-  # background_3_dark: "#150c32"
-  # text_dark: "#f5f5ec"
-  # text_2_dark: "#929eaf"
-  # logo_text_dark: "#fdfcf9"
-  # menu_text_dark: "#fdfcf9"
-
   # CKG COLORS -- curated baby w coolors baby- https://coolors.co/ffffff-000000-f5f5f5-c4d2ff
   primary: "#FFFFFF"
   primary_2: "#000000"
@@ -134,17 +108,12 @@ fonts:
   logo: "DM Sans"
 
 logo:
-  logo_text: "CKG"
-  # Original Logo --> hash thing
-  # logo_image: assets/images/logo/logo.png
-  # logo_image_mobile: assets/images/logo/logo-mobile.png
-  # logo_image_invert: assets/images/logo/logo-invert.png
-  # logo_image_invert_mobile: assets/images/logo/logo-invert-mobile.png
-  # Shapes Logo --> triangle, circle, square
-  logo_image: assets/images/logo/shapes-black.png
-  logo_image_mobile: assets/images/logo/shapes-black.png
-  logo_image_invert: assets/images/logo/shapes-white.png
-  logo_image_invert_mobile: assets/images/logo/shapes-white.png
+  # used at the top of the vertical menu bar, a simple circle for now
+  logo_text: "ckg"
+  logo_image: assets/images/favicon/small-black-circle.png
+  logo_image_mobile: assets/images/favicon/small-black-circle.png
+  logo_image_invert: assets/images/favicon/small-white-circle.png
+  logo_image_invert_mobile: assets/images/favicon/small-white-circle.png
   logo_image_desktop_height: "28px"
   logo_image_desktop_width: "28px"
   logo_image_mobile_height: "28px"
@@ -166,9 +135,9 @@ header:
 
 darkmode:
   enable_dark_mode: true
-  show_dark_mode_toggle_in_header: true
+  show_dark_mode_toggle_in_header: false
   show_dark_mode_toggle_in_bottom: true
-  show_dark_mode_toggle_in_mobile_menu: true
+  show_dark_mode_toggle_in_mobile_menu: false
 
 analytics:
   google_analytics_id: ""
@@ -190,7 +159,7 @@ menu:
   show_social_media_in_mobile_menu: true
 
 footer:
-  enable_footer: true # show/hide the entire footer
+  enable_footer: false # show/hide the entire footer
   footer_title: "Chris Kerwell Gresla"
   footer_description: "A simple man trying to make his way through the Galaxy."
   enable_social_media_icons: true

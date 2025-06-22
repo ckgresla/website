@@ -3,7 +3,6 @@ layout: basic
 title: "About"
 date: 2018-11-28T15:15:34+10:00
 permalink: "/about/"
-description: ""
 # image: "/assets/images/personal/profile-250px.jpg" #static image, default
 # below, iroje like effect (CKG added)
 base_image: "/assets/images/personal/profile-250px.jpg"
