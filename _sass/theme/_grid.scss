@@ -1,5 +1,6 @@
 .grid {
 }
+
 .grid-footer {
   display: flex;
   justify-content: flex-start;
@@ -14,10 +15,15 @@
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 500;
-    color: var(--color-primary);
+    color: var(--color-text-primary);
     font-family: $font-family-base;
+    text-decoration: none;
+    &:hover {
+      color: var(--color-accent-lavender);
+    }
   }
 }
+
 .grid-heading {
   margin-bottom: 16px;
   h2 {
@@ -26,10 +32,11 @@
     border-left: none;
     padding-left: 0;
     font-weight: 500;
-    color: var(--color-base);
+    color: var(--color-text-primary);
     font-family: $font-family-base;
   }
   p {
     font-size: 18px;
+    color: var(--color-text-secondary);
   }
 }

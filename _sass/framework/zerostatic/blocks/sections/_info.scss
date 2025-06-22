@@ -1,6 +1,7 @@
 .info {
   .info-content {
     font-size: 20px;
+    color: var(--color-text-primary);
     h1, h2 {
       margin-bottom: 20px;
       color: inherit;
@@ -9,7 +10,7 @@
       line-height: 1.2;
     }
     p {
-      color: inherit;
+      color: var(--color-text-secondary);
       font-weight: 400;
       font-size: 20px;
       line-height: 1.36;
@@ -22,9 +23,10 @@
       li {
         font-size: 20px;
         padding: 8px 0;
+        color: var(--color-text-secondary);
         i {
           margin-right: 6px;
-          color: var(--color-primary);
+          color: var(--color-accent-lavender);
         }
       }
     }

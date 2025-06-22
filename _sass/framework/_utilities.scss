@@ -6,7 +6,7 @@ $utilities: map-merge(
       (
         values: map-merge(
           map-get(map-get($utilities, "border-top"), "values"),
-          (null: 1px solid var(--color-base-bg-3)),
+          (null: 1px solid var(--color-border)),
         ),
         responsive: true
       ),
@@ -16,7 +16,23 @@ $utilities: map-merge(
       (
         values: map-merge(
           map-get(map-get($utilities, "background-color"), "values"),
-          $zs-colors-light-css-vars
+          (
+            "primary": var(--color-primary),
+            "background": var(--color-background),
+            "background-secondary": var(--color-background-secondary),
+            "text-primary": var(--color-text-primary),
+            "text-secondary": var(--color-text-secondary),
+            "text-tertiary": var(--color-text-tertiary),
+            "border": var(--color-border),
+            "accent-lavender": var(--color-accent-lavender),
+            "accent-sage": var(--color-accent-sage),
+            "accent-peach": var(--color-accent-peach),
+            "accent-gold": var(--color-accent-gold),
+            "accent-coral": var(--color-accent-coral),
+            "accent-mint": var(--color-accent-mint),
+            "accent-rose": var(--color-accent-rose),
+            "accent-sky": var(--color-accent-sky)
+          )
         ),
       ),
     ),

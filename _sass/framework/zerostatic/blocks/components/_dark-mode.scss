@@ -6,7 +6,7 @@
     height: 0;
   }
   .dark-mode-switch {
-    border: 1px solid var(--color-base-bg-3);
+    border: 1px solid var(--color-border);
     border-radius: 50px;
     cursor: pointer;
     display: flex;
@@ -15,9 +15,9 @@
     padding: 4px;
     position: relative;
     width: 55px;
-    background-color: var(--color-base-bg-3);
+    background-color: var(--color-background-secondary);
     .ball {
-      background-color: var(--color-base-text);
+      background-color: var(--color-text-primary);
       border-radius: 50%;
       position: absolute;
       top: 4px;
@@ -27,11 +27,12 @@
       transform: translateX(0);
     }
     svg {
-      fill: var(--color-base-text);
+      fill: var(--color-text-secondary);
     }
     &.dark {
       .ball {
         transform: translateX(25px);
+        background-color: var(--color-accent-lavender);
       }
     }
     &.animated {
@@ -41,6 +42,7 @@
     }
   }
 }
+
 .header {
   .dark-mode-switcher {
     display: none;

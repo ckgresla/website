@@ -1,12 +1,12 @@
 .sidebar {
   display: flex;
   flex-direction: column;
-  border-top: 2px var(--color-base-100) dotted;
+  border-top: 2px var(--color-border) dotted;
   padding-top: $grid-gutter-width;
   margin-top: $grid-gutter-width;
   @include media-breakpoint-up(lg) {
     border-top: none;
-    border-left: 2px var(--color-base-100) dotted;
+    border-left: 2px var(--color-border) dotted;
     padding-left: $grid-gutter-width;
     padding-top: 0;
     margin-top: 0;
@@ -19,6 +19,7 @@
     text-transform: capitalize;
     padding-top: 4px;
     margin-bottom: 10px;
+    color: var(--color-text-primary);
   }
   ul {
     list-style: none;
@@ -27,12 +28,19 @@
       a {
         display: inline-block;
         padding: 5px 0 5px 0;
+        color: var(--color-text-secondary);
+        text-decoration: none;
+        &:hover {
+          color: var(--color-accent-lavender);
+        }
         &.active {
           font-weight: bold;
+          color: var(--color-text-primary);
         }
       }
       span {
         margin-left: 5px;
+        color: var(--color-text-tertiary);
       }
     }
   }

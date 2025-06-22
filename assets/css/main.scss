@@ -1,65 +1,73 @@
 ---
 ---
 
+// Light mode colors
+$primary: {{ site.colors.primary | default: '#FFFFFF' }};
+$background: {{ site.colors.background | default: '#FFFFFF' }};
+$background-secondary: {{ site.colors.background_secondary | default: '#F5F5F5' }};
+$text-primary: {{ site.colors.text_primary | default: '#000000' }};
+$text-secondary: {{ site.colors.text_secondary | default: '#B6B6B6' }};
+$text-tertiary: {{ site.colors.text_tertiary | default: '#999999' }};
+$border-color: {{ site.colors.border | default: '#E5E5E5' }};
 
-// Lightmode colors
-$primary: {{ site.colors.primary | default: '#EC255A' }};
-$primary-2: {{ site.colors.primary_2 | default: '#efc0cc' }};
-$primary-text: {{ site.colors.primary_text | default: '#f9fafb' }};
-$secondary:  {{ site.colors.secondary | default: '#702bf7' }};
-$base-bg: {{ site.colors.background | default: '#ffffff' }};
-$base-bg-2: {{ site.colors.background_2 | default: '#f9fafb' }};
-$base-bg-3: {{ site.colors.background_3 | default: '#f1f3f4' }};
-$base-text: {{ site.colors.text | default: '#111827' }};
-$base-text-2: {{ site.colors.text_2 | default: '#4b5563' }};
-$logo-text:  {{ site.colors.logo_text | default: '#111827' }};
-$menu-text:  {{ site.colors.menu_text | default: '#111827' }};
+// Dark mode colors
+$primary-dark: {{ site.colors.primary_dark | default: '#000000' }};
+$background-dark: {{ site.colors.background_dark | default: '#000000' }};
+$background-secondary-dark: {{ site.colors.background_secondary_dark | default: '#111111' }};
+$text-primary-dark: {{ site.colors.text_primary_dark | default: '#FFFFFF' }};
+$text-secondary-dark: {{ site.colors.text_secondary_dark | default: '#666666' }};
+$text-tertiary-dark: {{ site.colors.text_tertiary_dark | default: '#999999' }};
+$border-color-dark: {{ site.colors.border_dark | default: '#333333' }};
 
-// Darkmode colors
-$primary-dark: {{ site.colors.primary_dark | default: site.colors.primary }};
-$primary-2-dark: {{ site.colors.primary_2_dark | default: site.colors.primary_2 }};
-$primary-text-dark: {{ site.colors.primary_text_dark | default: site.colors.primary_text }};
-$secondary-dark:  {{ site.colors.secondary_dark | default:site.colors.secondary  }};
-$base-bg-dark: {{ site.colors.background_dark | default: '#121418' }};
-$base-bg-2-dark: {{ site.colors.background_2_dark | default: '#1d2026' }};
-$base-bg-3-dark: {{ site.colors.background_3_dark | default: '#24272d' }};
-$base-text-dark: {{ site.colors.text_dark | default: '#F4F4F5' }};
-$base-text-2-dark: {{ site.colors.text_2_dark | default: '#D1D5DB' }};
-$logo-text-dark: {{ site.colors.logo_text_dark | default: '#F4F4F5' }};
-$menu-text-dark:  {{ site.colors.menu_text-dark | default: '#F4F4F5' }};
+// Accent colors (same for light/dark)
+$accent-lavender: {{ site.colors.accent_lavender | default: '#C4D2FF' }};
+$accent-sage: {{ site.colors.accent_sage | default: '#A8D5BA' }};
+$accent-peach: {{ site.colors.accent_peach | default: '#FFB5A7' }};
+$accent-gold: {{ site.colors.accent_gold | default: '#F9E79F' }};
+$accent-coral: {{ site.colors.accent_coral | default: '#FF6B6B' }};
+$accent-mint: {{ site.colors.accent_mint | default: '#B8E6B8' }};
+$accent-rose: {{ site.colors.accent_rose | default: '#F8BBD9' }};
+$accent-sky: {{ site.colors.accent_sky | default: '#87CEEB' }};
 
-
-
-$zs-colors-light: (
+$colors-light: (
     "primary": $primary,
-    "primary-2": $primary-2,
-    "primary-text": $primary-text,
-    "secondary": $secondary,
-    "base-bg": $base-bg,
-    "base-bg-2": $base-bg-2,
-    "base-bg-3": $base-bg-3,
-    "base-text": $base-text,
-    "base-text-2": $base-text-2,
-    "logo-text": $logo-text,
-    "menu-text": $menu-text
+    "background": $background,
+    "background-secondary": $background-secondary,
+    "text-primary": $text-primary,
+    "text-secondary": $text-secondary,
+    "text-tertiary": $text-tertiary,
+    "border": $border-color,
+    "accent-lavender": $accent-lavender,
+    "accent-sage": $accent-sage,
+    "accent-peach": $accent-peach,
+    "accent-gold": $accent-gold,
+    "accent-coral": $accent-coral,
+    "accent-mint": $accent-mint,
+    "accent-rose": $accent-rose,
+    "accent-sky": $accent-sky
 );
 
-$zs-colors-dark: (
+$colors-dark: (
     "primary": $primary-dark,
-    "primary-2": $primary-2-dark,
-    "primary-text": $primary-text-dark,
-    "secondary-dark": $secondary-dark,
-    "base-bg": $base-bg-dark,
-    "base-bg-2": $base-bg-2-dark,
-    "base-bg-3": $base-bg-3-dark,
-    "base-text": $base-text-dark,
-    "base-text-2": $base-text-2-dark,
-    "logo-text": $logo-text-dark,
-    "menu-text": $menu-text-dark
+    "background": $background-dark,
+    "background-secondary": $background-secondary-dark,
+    "text-primary": $text-primary-dark,
+    "text-secondary": $text-secondary-dark,
+    "text-tertiary": $text-tertiary-dark,
+    "border": $border-color-dark,
+    "accent-lavender": $accent-lavender,
+    "accent-sage": $accent-sage,
+    "accent-peach": $accent-peach,
+    "accent-gold": $accent-gold,
+    "accent-coral": $accent-coral,
+    "accent-mint": $accent-mint,
+    "accent-rose": $accent-rose,
+    "accent-sky": $accent-sky
 );
 
+// Keep this for backward compatibility with existing code
 $zs-colors-light-css-vars: ();
-@each $color, $value in $zs-colors-light {
+@each $color, $value in $colors-light {
   $zs-colors-light-css-vars: map-merge(
     $zs-colors-light-css-vars,
     (#{$color}: var(--color-#{$color}))
@@ -71,23 +79,24 @@ $font-family-base: {{ site.fonts.base }}, -apple-system, "Helvetica Neue", Arial
 $font-family-monospace: {{ site.fonts.monospace }}, SFMono-Regular, Menlo, Monaco, Consolas, "Courier New", monospace;
 $font-family-logo: {{ site.fonts.logo }}, -apple-system, "Helvetica Neue", Arial, sans-serif;
 
-:root{  
-  @each $color, $value in $zs-colors-light {
+:root {  
+  @each $color, $value in $colors-light {
     --color-#{$color}: #{$value};
   }
-};
+}
 
 html[data-mode='dark'] {
-  @each $color, $value in $zs-colors-dark {
+  @each $color, $value in $colors-dark {
       --color-#{$color}: #{$value};
   }
-};
+}
 
 @import 'style';
+
 // Vertical Header Styles
 .header-vertical {
   position: static;
-  background: var(--background-color);
+  background: var(--color-background);
   padding: 14rem 0 2rem;
   
   .header-content {
@@ -103,10 +112,10 @@ html[data-mode='dark'] {
     flex: 1;
     
     .page-title {
-      font-family: var(--font-heading);
+      font-family: $font-family-heading;
       font-size: 1.8rem;
       font-weight: 600;
-      color: var(--text-color);
+      color: var(--color-text-primary);
       margin: 0;
       text-align: left;
     }
@@ -116,11 +125,11 @@ html[data-mode='dark'] {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 1rem; // Reduced from 1.5rem to 1rem
+    gap: 1rem;
   }
 }
 
-// Vertical Menu Styles - tighter spacing
+// Vertical Menu Styles
 .menu-vertical {
   .menu-list {
     list-style: none;
@@ -128,34 +137,34 @@ html[data-mode='dark'] {
     padding: 0;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem; // Reduced from 0.75rem to 0.5rem
+    gap: 0.5rem;
     align-items: flex-start;
   }
   
   .menu-item {
     .menu-link {
       display: block;
-      font-family: var(--font-heading);
+      font-family: $font-family-heading;
       font-size: 1.25rem;
       font-weight: 500;
-      color: #B6B6B6;
+      color: var(--color-text-secondary);
       text-decoration: none;
-      padding: 0 0; // tighter spacing amongst vertical menu
+      padding: 0 0;
       transition: color 0.2s ease;
       
       &:hover {
-        color: var(--text-color);
+        color: var(--color-text-primary);
       }
     }
     
     &.active .menu-link {
-      color: var(--text-color);
+      color: var(--color-text-primary);
       font-weight: 700;
     }
   }
 }
 
-// Mobile - also tighter
+// Mobile styles
 @media (max-width: 768px) {
   .header-vertical {
     padding: 7rem 0 2rem;
@@ -164,79 +173,49 @@ html[data-mode='dark'] {
       padding: 0 1rem;
       flex-direction: column;
       align-items: flex-start;
-      gap: 4rem; // space between "title" (top text of page) and the vertical menu
+      gap: 4rem;
     }
     
     .header-nav {
-      gap: 0.75rem; // Reduced from 1rem to 0.75rem
+      gap: 0.75rem;
     }
   }
   
   .menu-vertical .menu-list {
-    gap: 0.375rem; // Reduced from 0.5rem to 0.375rem
+    gap: 0.375rem;
   }
 }
 
-
-// always allocate scrollbar space, for short pages just don't display a scrollbar
-// + light/dark mode styling
+// Scrollbar styles
 html {
   overflow-y: scroll;
   scrollbar-gutter: stable;
 }
 
-// Webkit browsers (Chrome, Safari, Edge)
 ::-webkit-scrollbar {
   width: 8px;
-  background: transparent; // Explicit background
+  background: transparent;
 }
 
 ::-webkit-scrollbar-track {
-  background: transparent; // Explicit track background
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.3);
+  background: var(--color-text-tertiary);
   border-radius: 4px;
   transition: background-color 0.2s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 0, 0, 0.6);
+  background: var(--color-text-secondary);
 }
 
 ::-webkit-scrollbar-thumb:active {
-  background: rgba(0, 0, 0, 0.8);
+  background: var(--color-text-primary);
 }
 
-// Firefox
 html {
   scrollbar-width: thin;
-  scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+  scrollbar-color: var(--color-text-tertiary) transparent;
 }
-
-// Dark mode styling
-[data-mode="dark"] {
-  ::-webkit-scrollbar {
-    background: transparent;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: transparent;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.3);
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgba(255, 255, 255, 0.6);
-  }
-  
-  ::-webkit-scrollbar-thumb:active {
-    background: rgba(255, 255, 255, 0.8);
-  }
-  
-  scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
-}
-

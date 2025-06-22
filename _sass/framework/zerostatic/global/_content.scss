@@ -1,32 +1,34 @@
+// NOTE: this is where most of the text is stylized!
+
 .content {
-  font-size: 19px;
+  font-size: 16px;
   font-family: $font-family-base;
-  color: var(--color-base-text-2);
+  color: var(--color-text-primary);
   h1,
   h2,
   h3,
   h4,
   h5 {
-    color: var(--color-base-text);
+    color: var(--color-text-primary);
     font-family: $font-family-heading;
   }
   h1 {
     margin-top: 60px;
     margin-bottom: 15px;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 400;
   }
   h2 {
     margin-top: 40px;
     margin-bottom: 15px;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 500;
   }
   h3 {
     font-family: $font-family-base;
     margin-top: 30px;
     margin-bottom: 15px;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
   }
   h4 {
@@ -44,10 +46,10 @@
     }
   }
   p {
-    line-height: 1.56;
+    line-height: 1.2;
     margin-bottom: 20px;
     font-family: $font-family-base;
-    color: var(--color-base-text-2);
+    color: var(--color-text-primary);
   }
   ul {
     margin: 20px;
@@ -59,17 +61,17 @@
   }
   li {
     margin-left: 20px;
-    line-height: 1.5;
+    line-height: 1.2;
   }
+// links (hyperlinks) with style, lavender by default with underline on hover
   a {
-    color: var(--color-base-text);
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    text-decoration-color: var(--color-base-text-2);
+    color: var(--color-accent-lavender);
+    text-decoration: none;
     &:hover {
-      color: var(--color-base-bg-2);
-      background-color: var(--color-base-text);
-      text-decoration-color: var(--color-base-bg-2);
+      color: var(--color-accent-lavender);
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-decoration-color: var(--color-accent-lavender);
     }
   }
   img {
@@ -111,12 +113,12 @@
   code,
   pre {
     font-family: $font-family-monospace;
-    background-color: var(--color-base-bg-2);
+    background-color: var(--color-background-secondary);
     // specifying bg color here works for inline code markdown and blocks
   }
   .highlight {
     pre {
-      // background-color: var(--color-base-bg-2);
+      // background-color: var(--color-background-secondary);
       border-radius: $card-border-radius;
       font-size: 15px;
       line-height: 20px;
@@ -125,10 +127,12 @@
       font-family: $font-family-monospace;
     }
   }
+  // TODO@CKG --> make these block quotes FIRE
   blockquote {
     margin: 40px 0 40px 0;
-    border-left: 4px solid var(--color-base-text);
+    border-left: 4px solid var(--color-accent-lavender);
     padding: 30px 20px;
+    background-color: var(--color-background-secondary);
     &::before {
       content: "";
     }
@@ -136,7 +140,7 @@
       content: "";
     }
     p {
-      color: var(--color-base-text);
+      color: var(--color-text-primary);
       font-family: $font-family-base;
       letter-spacing: 1px;
       font-weight: 400;
@@ -160,7 +164,7 @@
       text-align: left;
       padding: 8px 12px;
       // border-radius: 5px;
-      border: 1px solid var(--color-base-text);
+      border: 1px solid var(--color-border);
     }
   }
 }

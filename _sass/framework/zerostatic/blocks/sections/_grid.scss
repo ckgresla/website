@@ -1,5 +1,6 @@
 .grid {
 }
+
 .grid-footer {
   display: flex;
   justify-content: flex-start;
@@ -13,10 +14,15 @@
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
-    color: var(--color-primary);
+    color: var(--color-text-primary);
     font-family: $font-family-base;
+    text-decoration: none;
+    &:hover {
+      color: var(--color-accent-lavender);
+    }
   }
 }
+
 .grid-header {
   display: flex;
   margin-bottom: 16px;
@@ -32,12 +38,12 @@
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
-    color: var(--color-base);
+    color: var(--color-text-primary);
     font-family: $font-family-base;
   }
   p {
     font-size: 18px;
-    color: var(--color-base-2);
+    color: var(--color-text-secondary);
     margin-top: 6px;
   }
 }

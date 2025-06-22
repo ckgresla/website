@@ -1,9 +1,9 @@
 .header {
   transition: all 200ms linear;
   font-family: $font-family-heading;
-  background-color: var(--color-base-bg);
+  background-color: var(--color-background);
   padding: 0;
-  color: var(--color-primary);
+  color: var(--color-text-primary);
   .container {
     display: flex;
     justify-content: flex-end;
@@ -14,9 +14,10 @@
     }
   }
   a {
-    color: var(--color-primary);
+    color: var(--color-text-primary);
   }
 }
+
 .header-transparent {
   position: absolute;
   width: 100%;
@@ -24,9 +25,9 @@
   z-index: 10;
   background-color: transparent !important;
   box-shadow: none !important;
-  color: white;
+  color: var(--color-text-primary);
   a {
-    color: white;
+    color: var(--color-text-primary);
   }
   .logos {
     .logo-desktop {
@@ -55,17 +56,19 @@
     }
   }
   .hamburger {
-    color: white;
+    color: var(--color-text-primary);
   }
 }
+
 .header-scrolled {
   transition: all 200ms linear;
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
-  color: var(--color-primary);
+  box-shadow: 0 1px 10px var(--color-text-tertiary);
+  color: var(--color-text-primary);
   a {
-    color: var(--color-primary);
+    color: var(--color-text-primary);
   }
 }
+
 .header-fixed {
   position: fixed;
   width: 100%;
