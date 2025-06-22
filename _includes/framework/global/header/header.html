@@ -1,14 +1,21 @@
-{% capture header_classes %}
-  {% if site.header.align %}header-{{ site.header.align}} {% endif %}{% if site.header.fixed %}header-fixed {% endif %}{% if page.header_transparent %}header-transparent {% endif %}{{ page.header_classes }}
-{% endcapture %}
+<div id="header" class="header-vertical">
+  <div class="header-content">
+    <!-- Page title on the left for desktop -->
+    <div class="header-title">
+      {% if page.description and page.use_description_as_title %}
+        <h1 class="page-title">{{ page.description }}</h1>
+      {% elsif page.title %}
+        <h1 class="page-title">{{ page.title }}</h1>
+      {% endif %}
+    </div>
 
-<div id="header" class='header {{ header_classes | strip }}'>
-  <div class="container">
-    {% include framework/global/header/logo.html %}
-    {% include framework/global/menu/menu-main.html %}
-    {% if site.darkmode.enable_dark_mode and site.darkmode.show_dark_mode_toggle_in_header %}
-      {% include framework/blocks/components/dark-mode-switcher.html %}
-    {% endif %}
-    {% include framework/global/header/hamburger.html %}
+    
+    <!-- Logo and vertical navigation on the right -->
+    <div class="header-nav">
+      <!-- Logo at top of menu list -->
+      {% include framework/global/header/logo.html %}
+      <!-- The actual title bar/menu for navigation -->
+      {% include framework/global/menu/menu-main-vertical.html %}
+    </div>
   </div>
 </div>

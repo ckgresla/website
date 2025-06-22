@@ -1,12 +1,11 @@
 ---
 layout: home
 permalink: "/"
-title: "Do non-trivial things with <strong>Gusto.</strong>"
+title: "Chris Kerwell Gresla"
 # the description field below is nice, perhaps
-description: ""
+description: "Whatup homeboy"
 meta_description: "CKG's Website"
 meta_title: chris kerwell gresla
-subscribe: false
 
 projects:
   heading: ""

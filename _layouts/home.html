@@ -6,12 +6,12 @@ body_classes: page-home
 <div class="section">
   <div class="container">
     <div class="row">
-      <div class="col-12">
-        {% include framework/blocks/sections/heading.html
-        title=page.title
-        description=page.description
-        %}
-      </div>
+      {% if page.description %}
+        <div class="heading-description">
+          <p>{{ page.description }}</p>
+        </div>
+      {% endif %}
+     
     </div>
   </div>
 </div>
@@ -65,16 +65,3 @@ body_classes: page-home
 </div>
 {% endif %} -->
 
-{% if site.mailchimp.form_action_url %}
-{% if page.subscribe %}
-  <div class="section bg-base-bg-2">
-    <div class="container">
-      <div class="row">
-        <div class="col-12"></div>
-        {% include framework/blocks/components/subscribe.html %}
-        </div>
-      </div>
-    </div>
-  </div>
-{% endif %}
-{% endif %}
