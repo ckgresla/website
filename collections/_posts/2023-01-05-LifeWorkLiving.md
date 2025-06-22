@@ -1,5 +1,5 @@
 ---
-title: "Life, Work & Living"
+title: "Life, Work, & Living"
 ---
 
 The notion that life is suffering, unfortunately seems to be prolific in the minds of many folks these days. In part, this notion is rooted in the idea that one's life is going to be spent clocking in and out, at 9 and 5 with a little lunch break in between, 5 days a week for the foreseeable future. There might be a vacation every now and then -- but it is generally _accepted_ there is little to look forward to outside of the monotony of the day-to-day found in **work**. Although it might be the case that humans are rather suited to [the valleys of life](http://www.zenpencils.com/comic/71-oswald-chambers-mountains-and-valleys-2/) and that repetition **with a point** is the path to improvement, it still seems as though we end up losing ourselves in an abyss of mediocrity -- trapped in a life spent ceaselessly pondering the question; _"Is this it?"_
