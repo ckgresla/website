@@ -80,10 +80,22 @@ $fa-font-path: "../fonts/font-awesome/webfonts";
   box-sizing: border-box;
 }
 
+// Inter Font Configuration
+html {
+  font-family: 'Inter', sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'InterVariable', sans-serif;
+  }
+}
+
 body {
   margin: 0;
   font-family: $font-family-base;
-  font-size: 16px;
+  line-height: 1.5;
   color: var(--color-text-primary);
   background: var(--color-background);
   display: flex;

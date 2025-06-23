@@ -29,32 +29,6 @@
   a {
     color: var(--color-text-primary);
   }
-  .logos {
-    .logo-desktop {
-      display: none;
-      @include media-breakpoint-up(sm) {
-        display: none;
-      }
-    }
-    .logo-mobile {
-      display: none;
-      @include media-breakpoint-up(sm) {
-        display: none;
-      }
-    }
-    .logo-desktop-invert {
-      display: none;
-      @include media-breakpoint-up(sm) {
-        display: flex;
-      }
-    }
-    .logo-mobile-invert {
-      display: flex;
-      @include media-breakpoint-up(sm) {
-        display: none;
-      }
-    }
-  }
   .hamburger {
     color: var(--color-text-primary);
   }
