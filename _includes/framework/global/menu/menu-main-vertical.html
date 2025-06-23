@@ -1,0 +1,28 @@
+<nav class="menu-vertical">
+  <ul class="menu-list">
+    {% for item in site.data.menu.main %}
+      {% if item.child %}
+        <!-- Handle dropdown items if needed -->
+        <li class="menu-item{% if item.url == page.url %} active{% endif %}">
+          <a href="{{ item.url | relative_url }}" class="menu-link">{{ item.name }}</a>
+        </li>
+      {% else %}
+        {% comment %}
+        Check if current page is in this section:
+        - Exact match: item.url == page.url
+        - Section match: page is under this section (like /napkins/post-name under /napkins/)
+        {% endcomment %}
+        {% assign is_active = false %}
+        {% if item.url == page.url %}
+          {% assign is_active = true %}
+        {% elsif item.url != '/' and page.url contains item.url %}
+          {% assign is_active = true %}
+        {% endif %}
+        
+        <li class="menu-item{% if is_active %} active{% endif %}">
+          <a href="{{ item.url | relative_url }}" class="menu-link">{{ item.name }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>
