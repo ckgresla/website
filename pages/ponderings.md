@@ -1,8 +1,12 @@
 ---
-layout: project-minimal
-title: Ponderings
-description: Fun questions and things to mull over
-weight: 3
+title: "Ponderings"
+description: "Thoughts, musings, & contemplations on stuff."
+use_description_as_title: true
+layout: ponderings
+permalink: /ponderings/
+menu:
+  main:
+    weight: 3
 ---
 
 

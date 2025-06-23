@@ -1,20 +1,12 @@
 ---
 layout: readings
-# layout: project-minimal # alternative layouts: project, project-left, project-right, project-top, project-minimal
 title: "Readings"
-description: "Books, obscure pdfs and other lovely items worth perusing."
-use_description_as_title: false
+description: "Brilliant pieces, all worth perusing"
+use_description_as_title: true
 weight: 3
-# gallery:
-#   - image: "/assets/images/gen/projects/project-2-1.webp"
-#   - image: "/assets/images/gen/projects/project-2-2.webp"
-#   - image: "/assets/images/gen/projects/project-2-5.webp"
-#   - image: "/assets/images/gen/projects/project-2-4.webp"
-#   - image: "/assets/images/gen/projects/project-2-3.webp"
-#   - image: "/assets/images/gen/projects/project-2-6.webp"
 ---
 
-| Title         |  Location   | Raison    |
+| Title         |  Location   | Thought   |
 |---------------|:-----------:|-----------|
 | Horatius' Last Stand | [Webpage]( https://www.goodreads.com/quotes/21898-then-out-spake-brave-horatius-the-captain-of-the-gate) | Is there a better way to go? |
 | Jonathan Livingston Seagull | [PDF](/pdfs/jonathan-livingston-seagull.pdf) | no limits eh? |

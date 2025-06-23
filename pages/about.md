@@ -14,26 +14,13 @@ focus_image: "/assets/images/personal/portrait-meme.png"
 
 Whats up!
 
-I'm Chris, an applied scientist at [Wafer Systems](https://wafer.systems/) developing multimodal action models in an effort to help create the "self-driving phone". I was born and raised in Chicago and am currently in San Francisco.
+My name is Chris, and I do a bit of ML engineering and research at [Wafer Systems](https://wafer.systems/). Currently, I am primarily focused on developing multimodal action models in order to create a "self-driving phone". I was born and raised in the city of Chicago and currently live in San Francisco.
 
-My work for the past few years has revolved primarily around training language models for agential applications, some specific tasks being code generation, function calling and device manipulation. I am interested in reasoning, particularly the question:
-
-> How in the heck can we get language models to "actually" reason?
-
-Generally, I would like to explore topics in deep learning related to:
-- the optimization dynamics of neural networks
-- architectures for reasoning
-- representation learning
-- creative applications of machine intelligence
-
-I believe that the architectures and systems of today, whilst brilliant and magical in their own regard, are leaps and bounds away from the "endgame" of artificial intelligence. I would wager we likely have yet another "winter" in the field of machine learning before we hit "the main summer".
-
-As such, I intend to help bring about that summer through a PhD -- I am looking for labs to work with in 2025 and for PhD programs to join in Fall of 2026. 
-
-Additionally, we are looking for collaborators at Wafer -- if you would like to help make "the siri that should have been" then lets chat!
+[Github](https://github.com/ckgresla) \| [X](https://x.com/thepapabosh) \| [Linkedin](https://www.linkedin.com/in/chriskerwellgresla/) \| [Spotify](https://open.spotify.com/user/1258747599?nd=1)
 
 
-<div style="margin-bottom: 20px; text-align: left;">
+
+<div style="margin-top: 2rem; margin-bottom: 20px; text-align: left;">
   <figure style="margin: 0; max-width: 500px;">
     <img src="/assets/images/misc/tiny-heater.png" alt="tiny-heater" style="width: 100%;">
     <figcaption>A tiny "heater" in the studio</figcaption>
@@ -71,15 +58,9 @@ As one should not think twice about an opportunity, one shouldn't hesitate to wr
 <br>
 
 
-If you actually read this far, you are awesome -- say hello!
+If you made it this far, you should probably say hello!
 
-(i.e; ckgresla at gmail dot com)
-
-
-<br>
-
-<br>
-
+ckgresla at gmail dot com
 
 `¯\_(ツ)_/¯`
 
