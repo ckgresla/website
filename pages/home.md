@@ -3,8 +3,8 @@ layout: home
 permalink: "/"
 title: "Chris Kerwell Gresla"
 # the description field below is nice, perhaps
-description: "Whatup homeboy"
-meta_description: "CKG's Website"
+description: ""
+meta_description: "The website of Chris Kerwell Gresla"
 meta_title: chris kerwell gresla
 
 projects:

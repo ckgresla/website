@@ -1,0 +1,87 @@
+.ponderings-container {
+  max-width: 1000px; // Match the heading max-width
+  margin: 0 auto; // Center it like heading does
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.ponderings-header {
+  margin-bottom: 64px;
+  text-align: left;
+  width: 100%;
+  
+  .ponderings-title {
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    line-height: 1.1;
+  }
+  
+  .ponderings-description {
+    font-size: 16px;
+    color: var(--color-text-secondary);
+    margin: 0;
+  }
+}
+
+.ponderings-content {
+  width: 100%;
+  
+  // Year sections with RSMS-style horizontal lines
+  h2 {
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 64px 0 32px 0;
+    padding-bottom: 16px;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background-color: var(--color-border);
+    }
+    
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+  
+  // Force 3-column grid layout
+  ol {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px 32px;
+    list-style: decimal;
+    padding-left: 20px;
+    margin: 32px 0 64px 0;
+    width: 100%;
+    box-sizing: border-box;
+    
+    @media (max-width: 900px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    @media (max-width: 600px) {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+  }
+  
+  li {
+    position: relative;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--color-border);
+    margin: 0;
+    line-height: 1.5;
+    word-wrap: break-word;
+    
+    &::marker {
+      color: var(--color-text-secondary);
+      font-weight: 500;
+    }
+  }
+}
