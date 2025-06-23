@@ -1,5 +1,5 @@
-<div class="logos">
-  <div class="logo logo-desktop">
+<div class="logos {% if page.url == '/' or page.url == '/index.html' or page.url == site.baseurl %}active{% endif %}">
+  <div class="logo logo-desktop {% if page.url == '/' or page.url == '/index.html' or page.url == site.baseurl %}active{% endif %}">
     {% if site.logo.show_logo_image_on_desktop %}
       <div class="logo-image">
         <a href="{{ site.baseurl }}/">
@@ -11,11 +11,9 @@
     {% if site.logo.show_logo_text_on_desktop %}
       <div class="logo-text"><a href="{{ site.baseurl }}/">{{ site.logo.logo_text }}</a></div>
     {% endif %}
-    
   </div>
 
-  <div class="logo logo-desktop-invert">
-    
+  <div class="logo logo-desktop-invert {% if page.url == '/' or page.url == '/index.html' or page.url == site.baseurl %}active{% endif %}">
     {% if site.logo.show_logo_image_on_desktop %}
       <div class="logo-image">
         <a href="{{ site.baseurl }}/">
@@ -27,11 +25,9 @@
     {% if site.logo.show_logo_text_on_desktop %}
       <div class="logo-text"><a href="{{ site.baseurl }}/">{{ site.logo.logo_text }}</a></div>
     {% endif %}
-    
   </div>
 
-  <div class="logo logo-mobile">
-    
+  <div class="logo logo-mobile {% if page.url == '/' or page.url == '/index.html' or page.url == site.baseurl %}active{% endif %}">
     {% if site.logo.show_logo_image_on_mobile %}
       <div class="logo-image">
         <a href="{{ site.baseurl }}/">
@@ -43,12 +39,9 @@
     {% if site.logo.show_logo_text_on_mobile %}
       <div class="logo-text"><a href="{{ site.baseurl }}/">{{ site.logo.logo_text }}</a></div>
     {% endif %}
-    
   </div>
 
-
-  <div class="logo logo-mobile-invert">
-    
+  <div class="logo logo-mobile-invert {% if page.url == '/' or page.url == '/index.html' or page.url == site.baseurl %}active{% endif %}">
     {% if site.logo.show_logo_image_on_mobile %}
       <div class="logo-image">
         <a href="{{ site.baseurl }}/">
@@ -60,8 +53,5 @@
     {% if site.logo.show_logo_text_on_mobile %}
       <div class="logo-text"><a href="{{ site.baseurl }}/">{{ site.logo.logo_text }}</a></div>
     {% endif %}
-
   </div>
-
 </div>
-
