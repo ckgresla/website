@@ -12,22 +12,50 @@
     }
   }
   .logo {
+    user-select: none; // Prevents text selection
+    -webkit-user-select: none; // Safari support
+    -moz-user-select: none; // Firefox support
+    -ms-user-select: none; // IE support
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    
+    // Default inactive state (matches other menu items)
+    opacity: 0.5;
+    color: var(--color-text-secondary);
+    
+    &:hover {
+      opacity: 0.7;
+      color: var(--color-text-primary);
+    }
+    
     .logo-image {
       margin-right: 4px;
+      opacity: inherit; // Inherit the parent opacity
     }
     .logo-text {
       font-size: 26px;
       font-weight: 500;
       font-family: $font-family-logo;
-      color: var(--color-logo-text);
+      color: inherit; // Inherit the parent color
       a {
-        color: var(--color-logo-text);
+        color: inherit;
       }
     }
   }
+  
+  // Active state when on home page
+  &.active .logo,
+  .logo.active {
+    opacity: 1;
+            color: var(--color-accent-lavender);
+    // color: var(--color-text-primary);
+    
+    &:hover {
+      opacity: 1; // Stay full opacity on hover when active
+    }
+  }
+  
   .logo-desktop {
     display: none;
     @include media-breakpoint-up(sm) {
@@ -47,6 +75,7 @@
     display: none;
   }
 }
+
 html[data-mode="dark"] {
   .logo-desktop {
     display: none;

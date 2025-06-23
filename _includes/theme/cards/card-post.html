@@ -21,9 +21,27 @@
   {% endif %}
 
   <div class="card-content">
+    
+    <div class="card-title">
+      <h3>
+        <a href="{{ url | relative_url }}">{{ title }}</a>
+      </h3>
+    </div>
+
+    {% if client %}
+      <div class="card-client">
+        {{ client }}
+      </div>
+    {% endif %}
+
+    {% if description %}
+      <div class="card-description">
+        <p>{{ description }}</p>
+      </div>
+    {% endif %}
+
     {% if authors or date %}
       <div class="card-meta">
-
         {% if authors %}
           <div class="card-authors">
             {% for author in authors %}
@@ -40,25 +58,6 @@
             <span class="post-date-date">{{ date | date_to_long_string }}</span>
           </div>
         {% endif %}
-
-      </div>
-    {% endif %}
-
-    <div class="card-title">
-      <h3>
-        <a href="{{ url | relative_url }}">{{ title }}</a>
-      </h3>
-    </div>
-
-    {% if client %}
-      <div class="card-client">
-        {{ client }}
-      </div>
-    {% endif %}
-
-    {% if description %}
-      <div class="card-description">
-        <p>{{ description }}</p>
       </div>
     {% endif %}
 

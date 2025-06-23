@@ -102,14 +102,13 @@ colors:
   accent_sky: "#87CEEB"
 
 
+# see the list of google fonts- https://fonts.google.com
 fonts:
-  # see the website for new fonts- https://fonts.google.com
-  google_fonts: "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono&display=swap"
-  heading: "DM Sans"
-  base: "DM Sans"
-  # monospace: "Fira Mono"  # original codefont
-  monospace: "JetBrains Mono"
-  logo: "DM Sans"
+  google_fonts: "https://rsms.me/inter/inter.css"  # direct from the mans
+  heading: "Inter"
+  base: "Inter"
+  monospace: "JetBrains Mono NL"
+  logo: "Inter"
 
 logo:
   # used at the top of the vertical menu bar, a simple circle for now

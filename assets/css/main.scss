@@ -131,6 +131,11 @@ html[data-mode='dark'] {
 
 // Vertical Menu Styles
 .menu-vertical {
+  user-select: none; // Prevents text selection
+  -webkit-user-select: none; // Safari support
+  -moz-user-select: none; // Firefox support
+  -ms-user-select: none; // IE support
+
   .menu-list {
     list-style: none;
     margin: 0;

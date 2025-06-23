@@ -2,105 +2,138 @@
 
 .content {
   font-size: 16px;
+  font-weight: 400;
   font-family: $font-family-base;
   color: var(--color-text-primary);
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    color: var(--color-text-primary);
-    font-family: $font-family-heading;
+  line-height: 1.5; // Added for better readability
+  
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--color-text-primary);
+  font-family: $font-family-heading;
+  line-height: 1.2;
+  letter-spacing: -0.02em; // Subtle tightening for better appearance
+}
+
+h1 {
+  margin-top: 64px;
+  margin-bottom: 24px;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+h2 {
+  margin-top: 48px;
+  margin-bottom: 16px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+h3 {
+  margin-top: 40px;
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h4 {
+  margin-top: 32px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+h5 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+> h1,
+h2,
+h3,
+h4,
+h5 {
+  &:first-child {
+    margin-top: 0;
   }
-  h1 {
-    margin-top: 60px;
-    margin-bottom: 15px;
-    font-size: 28px;
-    font-weight: 400;
-  }
-  h2 {
-    margin-top: 40px;
-    margin-bottom: 15px;
-    font-size: 24px;
-    font-weight: 500;
-  }
-  h3 {
-    font-family: $font-family-base;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    font-size: 20px;
-    font-weight: 600;
-  }
-  h4 {
-    margin-top: 20px;
-    margin-bottom: 15px;
-    font-size: 16px;
-    font-weight: 700;
-  }
-  > h1,
-  h2,
-  h3,
-  h4 {
-    &:first-child {
-      margin-top: 0;
-    }
-  }
+}
+
+  
   p {
-    line-height: 1.2;
-    margin-bottom: 20px;
+    line-height: 1.6;
+    margin-bottom: 16px;
     font-family: $font-family-base;
     color: var(--color-text-primary);
+    max-width: 65ch;  // Add line length limit for better readability
   }
+  
   ul {
-    margin: 20px;
+    margin: 16px 0; // Reduced and simplified
     list-style: disc;
+    padding-left: 20px; // Better than margin for list indentation
   }
+  
   ol {
-    margin: 20px;
+    margin: 16px 0; // Reduced and simplified
     list-style: decimal;
+    padding-left: 20px; // Better than margin for list indentation
   }
+  
   li {
-    margin-left: 20px;
-    line-height: 1.2;
+    margin-left: 0; // Remove since we're using padding-left on ul/ol
+    line-height: 1.5; // Increased from 1.2
+    margin-bottom: 4px; // Add small spacing between list items
   }
-// links (hyperlinks) with style, lavender by default with underline on hover
+
+  // links (hyperlinks) with style, more subtle approach
   a {
     color: var(--color-accent-lavender);
-    text-decoration: none;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    
     &:hover {
       color: var(--color-accent-lavender);
-      text-decoration: underline;
       text-decoration-thickness: 2px;
-      text-decoration-color: var(--color-accent-lavender);
     }
   }
+  
   img {
-    margin: 40px 0 40px 0;
+    margin: 32px 0; // Reduced from 40px
     max-width: 100%;
     height: auto;
     @include media-breakpoint-up(md) {
-      margin: 60px 0 60px 0;
+      margin: 40px 0; // Reduced from 60px
     }
   }
+  
   img + img {
     margin-top: 0;
   }
+  
   figure {
-    margin: 40px 0 40px 0;
+    margin: 32px 0;
     figcaption {
-      margin-top: 10px;
+      margin-top: 8px;
+      color: var(--color-text-primary);
       font-size: 14px;
       h4 {
-        font-size: 14px;
         margin: 0;
         font-weight: normal;
         font-family: $font-family-base;
+        color: var(--color-text-primary);
+        font-size: 14px; // Ensure h4 in captions is also 14px
       }
       p {
-        font-size: 14px;
         margin: 0;
-        font-weight: bold;
+        font-weight: 500; // Reduced from bold
         font-family: $font-family-base;
+        color: var(--color-text-primary);
+        font-size: 14px; // Ensure p in captions is also 14px
       }
     }
     a {
@@ -110,29 +143,32 @@
       margin: 0;
     }
   }
+
+  
   code,
   pre {
     font-family: $font-family-monospace;
     background-color: var(--color-background-secondary);
-    // specifying bg color here works for inline code markdown and blocks
+    font-size: 13px; // Slightly smaller for code
   }
+  
   .highlight {
     pre {
-      // background-color: var(--color-background-secondary);
       border-radius: $card-border-radius;
-      font-size: 15px;
-      line-height: 20px;
-      padding: 26px;
+      font-size: 13px; // Reduced from 15px
+      line-height: 1.4; // Reduced from 20px fixed height
+      padding: 20px; // Reduced from 26px
       overflow: auto;
       font-family: $font-family-monospace;
     }
   }
-  // TODO@CKG --> make these block quotes FIRE
+  
+  // More subtle blockquotes
   blockquote {
-    margin: 40px 0 40px 0;
-    border-left: 4px solid var(--color-accent-lavender);
-    padding: 30px 20px;
-    background-color: var(--color-background-secondary);
+    margin: 40px 0;
+    border-left: 4px solid var(--color-text-primary);
+    padding: 20px 16px; // Reduced padding
+    background-color: var(--color-background-primary);
     &::before {
       content: "";
     }
@@ -142,29 +178,32 @@
     p {
       color: var(--color-text-primary);
       font-family: $font-family-base;
-      letter-spacing: 1px;
+      letter-spacing: 0.5px; // Reduced from 1px
       font-weight: 400;
-      font-size: 24px;
-      line-height: 1.6;
+      font-size: 16px;
+      line-height: 1.5; // Reduced from 1.6
       margin: 0;
     }
   }
+  
   table {
-    // border-spacing: 1;
     border-collapse: collapse;
-    // background: #fff;
-    // border-radius: 10px;
     overflow: hidden;
     width: 100%;
-    margin: 0 auto;
+    margin: 24px 0; // Add margin and reduce size
     position: relative;
+    
     td,
     tr,
     th {
       text-align: left;
-      padding: 8px 12px;
-      // border-radius: 5px;
+      padding: 6px 10px; // Reduced from 8px 12px
       border: 1px solid var(--color-border);
+    }
+    
+    th {
+      font-weight: 500; // Subtle header weight
+      background-color: var(--color-background-secondary);
     }
   }
 }
