@@ -17,6 +17,7 @@ weight: 3
 | The Bitter Lesson | [Webpage](http://incompleteideas.net/IncIdeas/BitterLesson.html) | Make search and learning limited by compute, then increase compute. |
 | Self-Verification, The Key to AI | [Webpage](http://incompleteideas.net/IncIdeas/KeytoAI.html) | Experience is bitterest, but it is the best way to learn |
 | Poetry and Ambition | [Webpage]( https://poets.org/text/poetry-and-ambition) | McPoems? shit |
+| Hanuman Chalisa | [PDF](https://www.hindutemplealbany.org/wp-content/uploads/2016/08/Sri_Hanuman_Chalisa_English.pdf) | Jai Shri Hanuman! |
 | The Anabasis of Alexander | [Webpage](https://en.m.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_VII/Chapter_IX) | That's a pretty good reply, given the context |
 | Mozart, Writing Symphonies and Young Lawyers with Questions | [Webpage](https://fs.blog/brain-food/october-30-2022/#:~:text=%E2%80%9CYoung%20lawyers%20frequently,to%20do%20it.%E2%80%99%E2%80%9D) | The master is just the student which is furthest along! |
 | Occam's Razor | [Webpage]( http://pespmc1.vub.ac.be/OCCAMRAZ.html) | simpler! |
