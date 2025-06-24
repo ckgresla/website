@@ -15,17 +15,17 @@ menu:
 
 2. Irrespective of any consciousness questions, humanity for the first time ever has a non-biological "thinking partner" in modern language models.
 
-3. [Just keep stirring](https://xkcd.com/1838/)...
+3. Don't like the eval results? [Just give it another stir](https://xkcd.com/1838/)...
 
 4. This chat thing we got going on with these preference-tuned, average of the internet oracles is awesome.
 
-5. Did you know that pigeons can kiss?
+5. Did you know that pigeons kiss?
 
 6. Have you ever washed your hands before programming the way a surgeon rigorously scrubs theirs before conducting surgery?
 
 7. The last rep, [IS ALWAYS FOR ZYZZ](https://youtube.com/watch?v=TMUfRxQmPec&si=Hkbxl4lK1rNLHCDD)!
 
-8. [This answer and the display of git-fu](https://stackoverflow.com/questions/1550378/is-it-possible-to-push-a-git-stash-to-a-remote-repository), so freaking based.
+8. [This answer and its display of git-fu](https://stackoverflow.com/questions/1550378/is-it-possible-to-push-a-git-stash-to-a-remote-repository) -- brilliant, just brilliant.
 
 
 ## 2024
