@@ -55,7 +55,7 @@
 
         {% if date %}
           <div class="card-date">
-            <span class="post-date-date">{{ date | date_to_long_string }}</span>
+            <span class="post-date-date">{{ date | date: "%B %e, %Y" }}</span>
           </div>
         {% endif %}
       </div>

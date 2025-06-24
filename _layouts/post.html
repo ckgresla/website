@@ -1,6 +1,8 @@
 ---
 layout: default
 body_classes: page-post
+# NOTE: we removed `title=page.title` from the heading.html section below,
+#       cleaner for general blog posts to have the title in the top left...
 ---
 
 <div class="section">
@@ -8,7 +10,6 @@ body_classes: page-post
     <div class="row justify-content-center">
       <div class="col-12">
         {% include framework/blocks/sections/heading.html
-          title=page.title
           description=page.description
           image=page.image
           align="center"
