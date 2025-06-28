@@ -68,6 +68,7 @@ weight: 3
 | Write Like A Programmer | [Webpage](https://qntm.org/write) | Writing is coding in a natural language |
 | Tadao Ando | [Wiki](https://www.wikiwand.com/en/articles/Tadao_Ando) | Don't you just love concrete? |
 | The Origin of the Research University | [Asterisk](https://asteriskmag.com/issues/10/the-origin-of-the-research-university) | "18th century German bureaucrats didn’t invent the idea of making new contributions to human knowledge. Their great contribution was to institutionalize it..." |
+| On the Design of Text Editors | [PDF](https://arxiv.org/abs/2008.06030) | Why can't all software be as functional and [ELEGANT](https://github.com/rougier/elegant-emacs) as this? |
 ||||
 
 
