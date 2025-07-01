@@ -69,6 +69,7 @@ weight: 3
 | Tadao Ando | [Wiki](https://www.wikiwand.com/en/articles/Tadao_Ando) | Don't you just love concrete? |
 | The Origin of the Research University | [Asterisk](https://asteriskmag.com/issues/10/the-origin-of-the-research-university) | "18th century German bureaucrats didn’t invent the idea of making new contributions to human knowledge. Their great contribution was to institutionalize it..." |
 | On the Design of Text Editors | [PDF](https://arxiv.org/abs/2008.06030) | Why can't all software be as functional and [ELEGANT](https://github.com/rougier/elegant-emacs) as this? |
+| Welcome to the Era of Experience |[PDF](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf) | In some sense, the difference between simulation and experience is the program from which you get your observations and rewards -- a process on a computer, or a process on reality.  |
 ||||
 
 
