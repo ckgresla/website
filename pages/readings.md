@@ -6,7 +6,7 @@ use_description_as_title: true
 weight: 3
 ---
 
-| Title         |  Location   | Thought   |
+| Title         |  Location   | Thought   | 
 |---------------|:-----------:|-----------|
 | Horatius' Last Stand | [Webpage]( https://www.goodreads.com/quotes/21898-then-out-spake-brave-horatius-the-captain-of-the-gate) | Is there a better way to go? |
 | Jonathan Livingston Seagull | [PDF](/pdfs/jonathan-livingston-seagull.pdf) | no limits eh? |
@@ -70,6 +70,9 @@ weight: 3
 | The Origin of the Research University | [Asterisk](https://asteriskmag.com/issues/10/the-origin-of-the-research-university) | "18th century German bureaucrats didn’t invent the idea of making new contributions to human knowledge. Their great contribution was to institutionalize it..." |
 | On the Design of Text Editors | [PDF](https://arxiv.org/abs/2008.06030) | Why can't all software be as functional and [ELEGANT](https://github.com/rougier/elegant-emacs) as this? |
 | Welcome to the Era of Experience |[PDF](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf) | In some sense, the difference between simulation and experience is the program from which you get your observations and rewards -- a process on a computer, or a process on reality.  |
+| The future of AI is open-ended | [Blog](https://richardcsuwandi.github.io/blog/2025/open-endedness/) | This is where things appear to be heading, or at least, ought to be. |
 ||||
+
+
 
 
