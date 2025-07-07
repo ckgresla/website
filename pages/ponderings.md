@@ -27,6 +27,8 @@ menu:
 
 8. [This answer and its display of git-fu](https://stackoverflow.com/questions/1550378/is-it-possible-to-push-a-git-stash-to-a-remote-repository) -- brilliant, just brilliant.
 
+9. Speaking is just writing with an audible ink, perhaps in the "least wrong"-sense, writing is the most fundamental.
+
 
 ## 2024
 1. If *feels* like something to move!
