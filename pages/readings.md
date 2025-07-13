@@ -73,6 +73,7 @@ weight: 3
 | The future of AI is open-ended | [Blog](https://richardcsuwandi.github.io/blog/2025/open-endedness/) | This is where things appear to be heading, or at least, ought to be. |
 | 10 Bulls | [Webpage](https://www.deeshan.com/zen.htm) | Have a read |
 | Master Foo and the Recruiter | [Wisdom](http://www.catb.org/esr/writings/unix-koans/recruiter.html) | Its a new floor, very complex! |
+| Amateurs and Professionals | [Blog](https://arunkprasad.com/log/amateurs-and-professionals/) | Where do you get your reward, from percieving the form or from executing the function? |
 ||||
 
 
