@@ -76,7 +76,7 @@ weight: 3
 | Amateurs and Professionals | [Blog](https://arunkprasad.com/log/amateurs-and-professionals/) | Where do you get your reward, from percieving the form or from executing the function? |
 | You Already Understand! | [Webpage](https://www.lionsroar.com/you-already-understand/) | "I hit you! Ha ha ha ha!" |
 | In Praise of Shadows - Tanizaki | [PDF](/pdfs/InPraiseOfShadows-Tanizaki.pdf) | It is no coincidence that darkness and "日本" go hand in hand, it is a well-thought out relationship. |
-||||
+| All AI Models Might Be The Same - Morris | [Blog](https://blog.jxmo.io/p/there-is-only-one-model) | If all of these models are modeling reality, and there is only one reality, are we then just training "one true model"? |
 
 
 
