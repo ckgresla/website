@@ -29,6 +29,8 @@ menu:
 
 9. Speaking is just writing with an audible ink, perhaps in the "least wrong"-sense, writing is the most fundamental.
 
+10. "That was a load bearing part of my childhood." -- Jensen Turner, see [the studio](https://www.youtube.com/watch?v=xq3bfjiegPM) and [space](https://www.youtube.com/watch?v=ZPwbjO9cbLE), you should thank him and The Wizard Wayne Lytle
+
 
 ## 2024
 1. If *feels* like something to move!
