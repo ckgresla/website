@@ -33,6 +33,8 @@ menu:
 
 11. When it is an option, take the data driven approach!
 
+12. [Japanese 90s Commercial for Cigarette-o, with Charlie Sheen](https://www.youtube.com/watch?v=ypKD0MieAI4) 
+
 
 ## 2024
 1. If *feels* like something to move!
