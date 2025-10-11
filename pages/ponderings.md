@@ -34,6 +34,8 @@ menu:
 11. When it is an option, take the data driven approach!
 
 12. [Japanese 90s Commercial for Cigarette-o, with Charlie Sheen](https://www.youtube.com/watch?v=ypKD0MieAI4) 
+13. Things in life get serious when you incorporate someone or something else's value function as a term in your own.
+
 
 
 ## 2024
