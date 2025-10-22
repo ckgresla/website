@@ -79,6 +79,7 @@ weight: 3
 | In Praise of Shadows - Tanizaki | [PDF](/pdfs/InPraiseOfShadows-Tanizaki.pdf) | It is no coincidence that darkness and "日本" go hand in hand, it is a well-thought out relationship. |
 | All AI Models Might Be The Same - Morris | [Blog](https://blog.jxmo.io/p/there-is-only-one-model) | If all of these models are modeling reality, and there is only one reality, are we then just training "one true model"? |
 | Equinox: neural networks in JAX via callable PyTrees and filtered transformations | [Paper](https://arxiv.org/pdf/2111.00254v1) | It seems that wonderful things tend to come from thinking thoroughly about something and then sketching it out. |
+| Tensor Logic: The Language of AI | [Paper](https://www.alphaxiv.org/pdf/2510.12269) | Ya know, everything exists on some N-dimensional tensor...|
 
 
 
