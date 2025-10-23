@@ -2,32 +2,32 @@
 ---
 
 // Light mode colors
-$primary: {{ site.colors.primary | default: '#FFFFFF' }};
-$background: {{ site.colors.background | default: '#FFFFFF' }};
-$background-secondary: {{ site.colors.background_secondary | default: '#F5F5F5' }};
-$text-primary: {{ site.colors.text_primary | default: '#000000' }};
-$text-secondary: {{ site.colors.text_secondary | default: '#B6B6B6' }};
-$text-tertiary: {{ site.colors.text_tertiary | default: '#999999' }};
-$border-color: {{ site.colors.border | default: '#E5E5E5' }};
+$primary: unquote("{{ site.colors.primary | default: '#FFFFFF' }}");
+$background: unquote("{{ site.colors.background | default: '#FFFFFF' }}");
+$background-secondary: unquote("{{ site.colors.background_secondary | default: '#F5F5F5' }}");
+$text-primary: unquote("{{ site.colors.text_primary | default: '#000000' }}");
+$text-secondary: unquote("{{ site.colors.text_secondary | default: '#B6B6B6' }}");
+$text-tertiary: unquote("{{ site.colors.text_tertiary | default: '#999999' }}");
+$border-color: unquote("{{ site.colors.border | default: '#E5E5E5' }}");
 
 // Dark mode colors
-$primary-dark: {{ site.colors.primary_dark | default: '#000000' }};
-$background-dark: {{ site.colors.background_dark | default: '#000000' }};
-$background-secondary-dark: {{ site.colors.background_secondary_dark | default: '#111111' }};
-$text-primary-dark: {{ site.colors.text_primary_dark | default: '#FFFFFF' }};
-$text-secondary-dark: {{ site.colors.text_secondary_dark | default: '#666666' }};
-$text-tertiary-dark: {{ site.colors.text_tertiary_dark | default: '#999999' }};
-$border-color-dark: {{ site.colors.border_dark | default: '#333333' }};
+$primary-dark: unquote("{{ site.colors.primary_dark | default: '#000000' }}");
+$background-dark: unquote("{{ site.colors.background_dark | default: '#000000' }}");
+$background-secondary-dark: unquote("{{ site.colors.background_secondary_dark | default: '#111111' }}");
+$text-primary-dark: unquote("{{ site.colors.text_primary_dark | default: '#FFFFFF' }}");
+$text-secondary-dark: unquote("{{ site.colors.text_secondary_dark | default: '#666666' }}");
+$text-tertiary-dark: unquote("{{ site.colors.text_tertiary_dark | default: '#999999' }}");
+$border-color-dark: unquote("{{ site.colors.border_dark | default: '#333333' }}");
 
 // Accent colors (same for light/dark)
-$accent-lavender: {{ site.colors.accent_lavender | default: '#C4D2FF' }};
-$accent-sage: {{ site.colors.accent_sage | default: '#A8D5BA' }};
-$accent-peach: {{ site.colors.accent_peach | default: '#FFB5A7' }};
-$accent-gold: {{ site.colors.accent_gold | default: '#F9E79F' }};
-$accent-coral: {{ site.colors.accent_coral | default: '#FF6B6B' }};
-$accent-mint: {{ site.colors.accent_mint | default: '#B8E6B8' }};
-$accent-rose: {{ site.colors.accent_rose | default: '#F8BBD9' }};
-$accent-sky: {{ site.colors.accent_sky | default: '#87CEEB' }};
+$accent-lavender: unquote("{{ site.colors.accent_lavender | default: '#C4D2FF' }}");
+$accent-sage: unquote("{{ site.colors.accent_sage | default: '#A8D5BA' }}");
+$accent-peach: unquote("{{ site.colors.accent_peach | default: '#FFB5A7' }}");
+$accent-gold: unquote("{{ site.colors.accent_gold | default: '#F9E79F' }}");
+$accent-coral: unquote("{{ site.colors.accent_coral | default: '#FF6B6B' }}");
+$accent-mint: unquote("{{ site.colors.accent_mint | default: '#B8E6B8' }}");
+$accent-rose: unquote("{{ site.colors.accent_rose | default: '#F8BBD9' }}");
+$accent-sky: unquote("{{ site.colors.accent_sky | default: '#87CEEB' }}");
 
 $colors-light: (
     "primary": $primary,
