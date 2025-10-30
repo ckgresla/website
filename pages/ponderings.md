@@ -34,7 +34,10 @@ menu:
 11. When it is an option, take the data driven approach!
 
 12. [Japanese 90s Commercial for Cigarette-o, with Charlie Sheen](https://www.youtube.com/watch?v=ypKD0MieAI4) 
+
 13. Things in life get serious when you incorporate someone or something else's value function as a term in your own.
+
+14. Given the question: "How much entropy is in a cup of coffee?", are you a: 1- "How hot is the coffee?" or 2- "What is it mixed with?" sort of person?
 
 
 
