@@ -39,6 +39,8 @@ menu:
 
 14. Given the question: "How much entropy is in a cup of coffee?", are you a: 1- "How hot is the coffee?" or 2- "What is it mixed with?" sort of person?
 
+15. What would a rainstorm, viewed from under the surface of the ocean look like?
+
 
 
 ## 2024
