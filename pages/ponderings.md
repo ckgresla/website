@@ -41,6 +41,8 @@ menu:
 
 15. What would a rainstorm, viewed from under the surface of the ocean look like?
 
+16. [Primitive Pictures](https://github.com/fogleman/primitive) -- aren't really so primitive!
+
 
 
 ## 2024
