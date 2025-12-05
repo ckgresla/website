@@ -43,7 +43,9 @@ menu:
 
 16. [Primitive Pictures](https://github.com/fogleman/primitive) -- aren't really so primitive!
 
-17. [Será que é Amor](https://youtu.be/pWlSqYvVDRg?si=m-cvANqhVtWpdEIZ)?
+17. [Será que é Amor -- Arlindo Cruz](https://youtu.be/pWlSqYvVDRg?si=m-cvANqhVtWpdEIZ) --> what is AMOR?
+
+18. [내 안의 그대 (Jazz Ver.) -- Suh Young-eun](https://www.youtube.com/watch?v=EbfxLz0SOlI)
 
 
 ## 2024
