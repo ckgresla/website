@@ -81,6 +81,7 @@ weight: 3
 | [Equinox: neural networks in JAX via callable PyTrees and filtered transformations](https://arxiv.org/pdf/2111.00254v1) | It seems that wonderful things tend to come from thinking thoroughly about something and then sketching it out. |
 | [Tensor Logic: The Language of AI](https://www.alphaxiv.org/pdf/2510.12269) | Ya know, everything exists on some N-dimensional tensor... |
 | [Lánczos interpolation explained](https://mazzo.li/posts/lanczos.html) | Now this is a good example of explaining something |
+| [Stringly-typed: it's not that simple!](https://www.hacklewayne.com/stringly-typed-it-s-not-that-simple) | "type-safety theatre" |
 
 
 
