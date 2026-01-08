@@ -47,6 +47,8 @@ menu:
 
 18. [내 안의 그대 (Jazz Ver.) -- Suh Young-eun](https://www.youtube.com/watch?v=EbfxLz0SOlI)
 
+19. [3분 40초 (3 minutes 40 seconds) — 전유나](https://open.spotify.com/track/4pYWltpMVOKICtzQhh2znT?si=4b21edd060ba4ddb) (what a lovely tune, [see the lyrics](https://www.music-flo.com/detail/track/50146/details))
+
 
 ## 2024
 1. If *feels* like something to move!
