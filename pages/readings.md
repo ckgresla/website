@@ -82,6 +82,7 @@ weight: 3
 | [Tensor Logic: The Language of AI](https://www.alphaxiv.org/pdf/2510.12269) | Ya know, everything exists on some N-dimensional tensor... |
 | [Lánczos interpolation explained](https://mazzo.li/posts/lanczos.html) | Now this is a good example of explaining something |
 | [Stringly-typed: it's not that simple!](https://www.hacklewayne.com/stringly-typed-it-s-not-that-simple) | "type-safety theatre" |
+| [The Adolescense of Technology](https://www.darioamodei.com/essay/the-adolescence-of-technology#1-i-m-sorry-dave) | "Here we go!" *mario voice* |
 
 
 
