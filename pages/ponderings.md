@@ -9,6 +9,8 @@ menu:
     weight: 3
 ---
 
+## 2026
+1. [c'mon guys](https://www.reddit.com/r/videos/comments/6koq18/youre_dereferencing_a_null_pointer/)!
 
 ## 2025
 1. It isn't ml hacking until you have had to allocate two swapfiles in order to get a long running data preprocessing job over the finish line.
@@ -48,7 +50,6 @@ menu:
 18. [내 안의 그대 (Jazz Ver.) -- Suh Young-eun](https://www.youtube.com/watch?v=EbfxLz0SOlI)
 
 19. [3분 40초 (3 minutes 40 seconds) — 전유나](https://open.spotify.com/track/4pYWltpMVOKICtzQhh2znT?si=4b21edd060ba4ddb) (what a lovely tune, [see the lyrics](https://www.music-flo.com/detail/track/50146/details))
-
 
 ## 2024
 1. If *feels* like something to move!
