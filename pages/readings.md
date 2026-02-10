@@ -83,7 +83,7 @@ weight: 3
 | [Lánczos interpolation explained](https://mazzo.li/posts/lanczos.html) | Now this is a good example of explaining something |
 | [Stringly-typed: it's not that simple!](https://www.hacklewayne.com/stringly-typed-it-s-not-that-simple) | "type-safety theatre" |
 | [The Adolescense of Technology](https://www.darioamodei.com/essay/the-adolescence-of-technology#1-i-m-sorry-dave) | "Here we go!" *mario voice* |
-
+| [店舗オーナーを経たからこそ、できること](https://pieceofsign.jp/blogs/stories/the-latte-tokyo-story-1) | The Latte Tokyo closed, these are the owner's omoi |
 
 
 
