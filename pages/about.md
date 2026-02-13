@@ -8,7 +8,7 @@ permalink: "/about/"
 # image: "/assets/images/personal/profile-250px.jpg" #static image, default
 # below, iroje like effect (CKG added)
 base_image: "/assets/images/personal/profile-250px.jpg"
-focus_image: "/assets/images/personal/portrait-meme.png"
+focus_image: "/assets/images/personal/squirtle-tongue.gif"
 ---
 
 
