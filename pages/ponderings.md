@@ -14,6 +14,8 @@ menu:
 
 2. In what episode did [Misty freaking spit this banger](https://www.youtube.com/watch?v=YO6RQ7Nn2uU) out in???
 
+3. "Supervising superintelligent interns." -- an apt description of what we are doing with our dear comrades Claude & GPT-\* in this new era of coding.
+
 
 ## 2025
 1. It isn't ml hacking until you have had to allocate two swapfiles in order to get a long running data preprocessing job over the finish line.
