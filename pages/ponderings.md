@@ -16,6 +16,10 @@ menu:
 
 3. "Supervising superintelligent interns." -- an apt description of what we are doing with our dear comrades Claude & GPT-\* in this new era of coding.
 
+4. What is a hunch? --> "Always right."
+
+5. And related, knowing that something is going to happen doesn't make it hurt any less, you just had an expectation that was vindicated.
+
 
 ## 2025
 1. It isn't ml hacking until you have had to allocate two swapfiles in order to get a long running data preprocessing job over the finish line.
