@@ -20,6 +20,8 @@ menu:
 
 5. And related, knowing that something is going to happen doesn't make it hurt any less, you just had an expectation that was vindicated.
 
+6. "In-distributioning" your test set is: ugly, inelegant, scam-esque, and I don't like it -- but hey, the universe is in some sense a training set...
+
 
 ## 2025
 1. It isn't ml hacking until you have had to allocate two swapfiles in order to get a long running data preprocessing job over the finish line.
