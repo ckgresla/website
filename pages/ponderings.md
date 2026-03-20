@@ -22,6 +22,9 @@ menu:
 
 6. "In-distributioning" your test set is: ugly, inelegant, scam-esque, and I don't like it -- but hey, the universe is in some sense a training set...
 
+7. [김광석 - 말하지 못한 내 사랑](https://www.youtube.com/watch?v=vi93RcKZ5Q8) -- one of the coolest cats of all time
+
+
 
 ## 2025
 1. It isn't ml hacking until you have had to allocate two swapfiles in order to get a long running data preprocessing job over the finish line.
