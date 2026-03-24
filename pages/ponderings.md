@@ -24,6 +24,8 @@ menu:
 
 7. [김광석 - 말하지 못한 내 사랑](https://www.youtube.com/watch?v=vi93RcKZ5Q8) -- one of the coolest cats of all time
 
+8. [El Canario - No Quiero Piedras En Mi Camino](https://www.youtube.com/watch?v=faVH4FwFrNk) -- aiiigooo, being in "this situation" is correct/honest, but painful
+
 
 
 ## 2025
