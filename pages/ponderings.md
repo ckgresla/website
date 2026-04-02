@@ -26,6 +26,7 @@ menu:
 
 8. [El Canario - No Quiero Piedras En Mi Camino](https://www.youtube.com/watch?v=faVH4FwFrNk) -- aiiigooo, being in "this situation" is correct/honest, but painful
 
+9. I feel like it is only in machine learning where a program can exit with a massive traceback and you can be happy knowing that your training run succeeded. (such is life, ahem wandb)
 
 
 ## 2025
