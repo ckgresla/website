@@ -28,6 +28,8 @@ menu:
 
 9. I feel like it is only in machine learning where a program can exit with a massive traceback and you can be happy knowing that your training run succeeded. (such is life, ahem wandb)
 
+10. cynical: "SaaS" always stood for "Slop-as-a-Service", that the slop is starting to be written by floating point brains doesn't change the nature of it
+
 
 ## 2025
 1. It isn't ml hacking until you have had to allocate two swapfiles in order to get a long running data preprocessing job over the finish line.
