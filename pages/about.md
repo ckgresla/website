@@ -1,7 +1,7 @@
 ---
 layout: basic
 title: "About"
-description: "Why hello there"
+description: "Why hello there!"
 use_description_as_title: true
 date: 2018-11-28T15:15:34+10:00
 permalink: "/about/"
@@ -12,11 +12,16 @@ focus_image: "/assets/images/personal/squirtle-tongue.gif"
 ---
 
 
-Whats up!
+Im Chris Kerwell Gresla, an Indian & German, American bloke from Chicago. I love statistics, food, music (like jazz), life, and cool people/models (probably like you if you are reading this).
 
-My name is Chris, and I do a bit of ML engineering and research at [Wafer Systems](https://wafer.systems/). Currently, I am primarily focused on developing multimodal action models in order to create a "self-driving phone". I was born and raised in the city of Chicago and currently live in San Francisco.
+Currently I am doing a fair bit of machine learning at [Wafer Systems](https://wafer.systems/). We are making an "operating system that understands you better than yourself" -- its pretty cool, and there is too much context for this section (lets chat).
 
-[Github](https://github.com/ckgresla) \| [X](https://x.com/thepapabosh) \| [Linkedin](https://www.linkedin.com/in/chriskerwellgresla/) \| [Spotify](https://open.spotify.com/user/1258747599?nd=1)
+At the moment, I am based in San Francisco.
+
+
+If you care, here are some places I reside online: [ 
+  [Github](https://github.com/ckgresla), [X](https://x.com/thepapabosh), [LinkedIn](https://www.linkedin.com/in/chriskerwellgresla/), [Spotify](https://open.spotify.com/user/1258747599?nd=1)
+  ]
 
 
 
