@@ -1,0 +1,52 @@
+---
+title: "5월의 어느 날 (One Day In May)"
+artist: "테원, 허쉬 (taeone, Hersh)"
+sort_artist: "Taeone & Hersh"
+language: "Korean"
+source: ""
+year: 2026
+blurb: ""
+---
+
+| Original | Romanization | English |
+|----------|--------------|---------|
+| 널 바라보는 순간 | neol baraboneun sungan | The moment I look at you |
+| 붉게 비추는 햇살 | bulkke bichuneun haetsal | The sunlight shining red |
+| 나를 눈부시게 해 | nareul nunbusige hae | Makes me dazzle, blinds my eyes |
+| 살랑이는 바람이 내게 | sallangineun barami naege | When the gentle breeze |
+| 불어올 때면 나른해져 더 | bureool ttaemyeon nareunhaejeo deo | Blows toward me, I grow even more drowsy |
+| 둘이서 손 잡고 걸을 땐 | duriseo son japgo georeul ttaen | When we walk hand in hand |
+| 달콤 했던 우리 추억을 | dalkom haetdeon uri chueogeul | We talk about our sweet memories |
+| 얘길 하곤 했었지 | yaegil hagon haesseotji | We used to talk and talk |
+| Only you | Only you | Only you |
+| 해맑은 너의 미소 | haemalgeun neoui miso | Your bright, innocent smile |
+| 시든 내 맘은 너로 피워져 | sideun nae mameun neoro piwojyeo | My withered heart blooms again because of you |
+| Only you | Only you | Only you |
+| 내게 다가온 너라는 선물 | naege dagaon neoraneun seonmul | You, the gift that came to me |
+| 영원히 함께해줘 | yeongwonhi hamkkehae-jwo | Stay with me forever |
+| Only you | Only you | Only you |
+| 너에게 닿을땐 | neoege daeultten | When I reach you |
+| 오직 너로 모두 물들여져 | ojik neoro modu muldeuryeojeo | Everything gets dyed only by you |
+| Only you | Only you | Only you |
+| 이 푸른 하늘 아래 노래해 | i pureun haneul arae noraehae | I sing under this blue sky |
+| 5월의 어느 날 | owolui eoneu nal | One day in May |
+| 노을에 물든 해변 | noeure muldeun haebyeon | The beach dyed by the sunset |
+| 바다의 입맞춤 | badaui ipmatchum | The sea's gentle kiss |
+| 잔잔한 파도와 | janjanhan padowa | With the calm waves |
+| 하얀 모래 위 너와 나 | hayan morae wi neowa na | You and I on the white sand |
+| 둘이서 발 맞춰 걸을 땐 | duriseo bal matchwo georeul ttaen | When we walk in step together |
+| 달콤했던 우리 사랑을 | dalkomhaetdeon uri sarangeul | We whisper about our sweet love |
+| 속삭이곤 했었지 | soksagigon haesseotji | We used to whisper it over and over |
+| Only you | Only you | Only you |
+| 해맑은 너의 미소 | haemalgeun neoui miso | Your bright, innocent smile |
+| 시든 내 맘은 너로 피워져 | sideun nae mameun neoro piwojyeo | My withered heart blooms again because of you |
+| Only you | Only you | Only you |
+| 내게 다가온 너라는 선물 | naege dagaon neoraneun seonmul | You, the gift that came to me |
+| 영원히 함께해줘 | yeongwonhi hamkkehae-jwo | Stay with me forever |
+| Only you | Only you | Only you |
+| 너에게 닿을땐 | neoege daeultten | When I reach you |
+| 오직 너로 모두 물들여져 | ojik neoro modu muldeuryeojeo | Everything gets dyed only by you |
+| Only you | Only you | Only you |
+| 이 푸른 하늘 아래 노래해 | i pureun haneul arae noraehae | I sing under this blue sky |
+| 5월의 어느 날 | owolui eoneu nal | One day in May |
+{: .lyrics}

@@ -16,6 +16,9 @@ main:
   - name: "Readings"
     url: /readings/
     weight: 3
+  - name: "Bangers"
+    url: /bangers/
+    weight: 4
   # NOTE: this is a nice dropdown, could be handy for specific project pages (each a distill perhaps...)
   #     + additionally, this demonstrates how to show icons for the child items in a dropdown (need light & dark versions of each)
   # - name: Projects
@@ -69,6 +72,9 @@ footer_secondary:
     weight: 2
   - name: Readings
     url: /readings/
+    weight: 2
+  - name: Bangers
+    url: /bangers/
     weight: 2
   # no contact page atm
   # - name: Contact

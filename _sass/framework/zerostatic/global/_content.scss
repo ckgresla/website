@@ -192,7 +192,7 @@ h5 {
     width: 100%;
     margin: 24px 0; // Add margin and reduce size
     position: relative;
-    
+
     td,
     tr,
     th {
@@ -200,10 +200,82 @@ h5 {
       padding: 6px 10px; // Reduced from 8px 12px
       border: 1px solid var(--color-border);
     }
-    
+
     th {
       font-weight: 500; // Subtle header weight
       background-color: var(--color-background-secondary);
     }
   }
+
+  // Lyrics tables: clean, Dia-style. Single hairline below the header
+  // and below each body row; no outer rectangle, no vertical lines.
+  table.lyrics {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 0;
+    width: 100%;
+    margin: 32px 0;
+    font-size: 14px;
+
+    tr {
+      border: 0;
+    }
+
+    th,
+    td {
+      border: 0;
+      border-bottom: 1px solid var(--color-border);
+      padding: 7px 16px 7px 0;
+      vertical-align: top;
+      line-height: 1.4;
+      word-break: keep-all;
+      overflow-wrap: break-word;
+      background: transparent;
+    }
+
+    th {
+      font-weight: 600;
+      color: var(--color-text-primary);
+      font-size: 13px;
+      padding-bottom: 9px;
+    }
+
+    th:nth-child(1) { width: 30%; }
+    th:nth-child(2) { width: 35%; }
+    th:nth-child(3) { width: 35%; }
+
+    // Middle column body cells (3-column layout = romanization).
+    // Lighter gray for visual hierarchy; headers stay black.
+    td:nth-child(2):not(:last-child) {
+      color: var(--color-text-tertiary);
+    }
+  }
+}
+
+// Banger page header — title + artist + listen link.
+.banger-header {
+  // ~2 empty newlines of breathing room before the lyrics table.
+  // em scales with the local font-size, so this stays sensible on mobile.
+  margin-bottom: 3em;
+
+  .banger-title {
+    margin: 0 0 4px;
+  }
+
+  .banger-artist {
+    margin: 0 0 8px;
+    color: var(--color-text-tertiary);
+    font-size: 16px;
+  }
+
+  .banger-source {
+    margin: 0;
+    font-size: 16px;
+  }
+}
+
+.banger-back {
+  margin-top: 48px;
+  font-size: 14px;
+  color: var(--color-text-tertiary);
 }

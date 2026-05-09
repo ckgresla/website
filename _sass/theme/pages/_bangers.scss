@@ -1,0 +1,39 @@
+.bangers-container {
+  max-width: 720px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.bangers-content {
+  width: 100%;
+
+  ol.bangers-list {
+    list-style: decimal;
+    padding-left: 24px;
+    margin: 32px 0 64px 0;
+
+    li {
+      padding: 12px 0;
+      line-height: 1.5;
+      margin: 0;
+
+      &::marker {
+        color: var(--color-text-secondary);
+        font-weight: 500;
+      }
+    }
+
+    .banger-link {
+      font-weight: 500;
+    }
+
+    .banger-blurb {
+      margin: 6px 0 0 0;
+      color: var(--color-text-tertiary);
+      font-size: 14px;
+      line-height: 1.45;
+      max-width: none;
+    }
+  }
+}

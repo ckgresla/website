@@ -25,6 +25,9 @@ collections:
     output: true
     permalink: /napkins/:path/
     # this sets the url path for each post, so that it is /napkins/post-name
+  bangers:
+    output: true
+    permalink: /bangers/:path/
 
 defaults:
   - scope:
@@ -38,6 +41,13 @@ defaults:
     values:
       layout: post
       weight: 999
+  - scope:
+      path: ""
+      type: bangers
+    values:
+      layout: banger
+      description: "song info"
+      use_description_as_title: true
   - scope:
       path: "images"
     values:

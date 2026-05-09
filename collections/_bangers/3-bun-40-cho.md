@@ -1,0 +1,34 @@
+---
+title: "3분 40초 (3 Minutes 40 Seconds)"
+artist: "전유나 (Jeon Yu-na)"
+sort_artist: "Jeon Yu-na"
+language: "Korean"
+source: "https://open.spotify.com/track/4pYWltpMVOKICtzQhh2znT?si=4b21edd060ba4ddb"
+year: 2025
+blurb: "what a lovely tune"
+---
+
+| Original | Romanization | English |
+|----------|--------------|---------|
+| 잠깐만 나에게 귀를 귀울여봐여 3분 40초동안만 | Jamkkanman na-ege gwireul guiulyeobwayo sambun sasip cho donganman | Just for a moment, lend me your ear—for three minutes forty seconds. |
+| 하던일 멈추고 내 노래소리에 귀를 귀울여요 | hadeon il meomchugo nae norae sorie gwireul guiuryeoyo | Stop what you're doing and listen to my song. |
+| 너무나 바쁘게 살지는 않았나요 | neomuna bappeuge saljineun anatnayo | Haven't you been living too busily? |
+| 돌아보면 그 자린걸 | dorabomyeon geu jarin-geol | When you look back, you're still in the same place. |
+| 너무나 힘겹게 살진 않았나요 | neomuna himgyeopge saljin anatnayo | Haven't you been living too painfully? |
+| 우린 하루 하루를 | urin haru harureul | We go through day by day, |
+| 사랑에 지치고 일에 지치고 | sarange jichigo ire jichigo | Tired of love and tired of work, |
+| 이유없이 지내온 많은 시간들 | iyu eopsi jinae-on maneun sigandeul | So many hours passed without a reason. |
+| 잠시라도 우리 모두에게 휴식이 필요해요 | jamsirado uri modu-ege hyusigi pil-yohaeyo | Even for a moment, we all need a rest. |
+| 움추렸던 어깨펴고 가슴 활짝 열어보아요 | umchuryeotdeon eokkae pyeogo gaseum haljjak yeoreoboayo | Straighten your hunched shoulders and open your heart wide. |
+| 내 노래가 들리는 지금 3분 40초동안만 음~ 음~ | nae noraega deullineun jigeum sambun sasip cho donganman eum~ eum~ | While my song is playing now—just for three minutes forty seconds—mm, mm. |
+| 너무나 바쁘게 살지는 않았나요 | neomuna bappeuge saljineun anatnayo | Haven't you been living too busily? |
+| 돌아보면 그 자린걸 | dorabomyeon geu jarin-geol | When you look back, you're still in the same place. |
+| 너무나 힘겹게 살진 않았나요 우린 하루 하루를 | neomuna himgyeopge saljin anatnayo urin haru harureul | Haven't you been living too painfully? We go through day by day. |
+| 사랑에 지치고 일에 지치고 | sarange jichigo ire jichigo | Tired of love and tired of work, |
+| 이유없이 지내온 많은 시간들 | iyu eopsi jinae-on maneun sigandeul | So many hours passed without a reason. |
+| 잠시라도 우리 모두에게 휴식이 필요해요 | jamsirado uri modu-ege hyusigi pil-yohaeyo | Even for a moment, we all need a rest. |
+| 움추렸던 어깨펴고 가슴 활짝 열어보아요 | umchuryeotdeon eokkae pyeogo gaseum haljjak yeoreoboayo | Straighten your hunched shoulders and open your heart wide. |
+| 내 노래가 들리는 지금 3분 40초동안만 | nae noraega deullineun jigeum sambun sasip cho donganman | While my song is playing now—just for three minutes forty seconds. |
+| 움추렸던 어깨펴고 가슴 활짝 열어보아요 | umchuryeotdeon eokkae pyeogo gaseum haljjak yeoreoboayo | Straighten your hunched shoulders and open your heart wide. |
+| 내 노래가 들리는 지금 3분 40초동안만 | nae noraega deullineun jigeum sambun sasip cho donganman | While my song is playing now—just for three minutes forty seconds. |
+{: .lyrics}
