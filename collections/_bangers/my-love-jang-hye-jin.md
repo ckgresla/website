@@ -3,7 +3,7 @@ title: "My Love"
 artist: "장혜진 (Jang Hye-jin)"
 sort_artist: "Jang Hye-jin"
 language: "Korean"
-source: ""
+spotify: "https://open.spotify.com/track/4etqo7caNeKAI0RxqOJuVP"
 year: 2026
 blurb: ""
 ---

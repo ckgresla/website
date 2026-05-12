@@ -3,7 +3,8 @@ title: "잊혀지는 것들에 대하여 (About The Things Forgotten)"
 artist: "성시경 (Seong Si-gyeong)"
 sort_artist: "Seong Si-gyeong"
 language: "Korean"
-source: ""
+spotify: "https://open.spotify.com/track/6h5XDQlLhrqSERsaw8sn2S"
+youtube: "https://www.youtube.com/watch?v=JdI2c3cKDmY"
 year: 2026
 blurb: ""
 ---

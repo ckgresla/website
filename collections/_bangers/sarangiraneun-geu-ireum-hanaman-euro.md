@@ -3,7 +3,8 @@ title: "사랑이라는 그 이름 하나만으로 (With Just The Name Called Lo
 artist: "장혜진 (Jang Hye-jin)"
 sort_artist: "Jang Hye-jin"
 language: "Korean"
-source: ""
+spotify: "https://open.spotify.com/track/0mpSO8bwG6K0befldrpAay"
+youtube: "https://www.youtube.com/watch?v=ay-3QGyMGws"
 year: 2026
 blurb: ""
 ---

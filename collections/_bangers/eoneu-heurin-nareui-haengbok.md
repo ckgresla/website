@@ -3,7 +3,7 @@ title: "어느 흐린 날의 행복 (The Happiness of a Cloudy Day)"
 artist: "성시경 (Seong Si-gyeong)"
 sort_artist: "Seong Si-gyeong"
 language: "Korean"
-source: ""
+spotify: "https://open.spotify.com/track/57YiUqWEsvRVYI0zr3gaDl"
 year: 2026
 blurb: ""
 ---

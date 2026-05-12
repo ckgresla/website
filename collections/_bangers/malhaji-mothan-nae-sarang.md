@@ -3,7 +3,7 @@ title: "말하지 못한 내사랑 (The Love I Couldn't Speak)"
 artist: "김광석 (Kim Kwang-seok)"
 sort_artist: "Kim Kwang-seok"
 language: "Korean"
-source: "https://www.youtube.com/watch?v=vi93RcKZ5Q8"
+youtube: "https://www.youtube.com/watch?v=vi93RcKZ5Q8"
 year: 2026
 blurb: "one of the coolest cats of all time"
 ---

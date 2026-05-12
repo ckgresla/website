@@ -3,7 +3,8 @@ title: "후회하지 말아요 (Don't Regret It)"
 artist: "성시경 (Seong Si-gyeong)"
 sort_artist: "Seong Si-gyeong"
 language: "Korean"
-source: ""
+spotify: "https://open.spotify.com/track/0xUSpM5sccBhSiBhWy5i30"
+youtube: "https://www.youtube.com/watch?v=WLDP-PamhYY"
 year: 2026
 blurb: ""
 ---

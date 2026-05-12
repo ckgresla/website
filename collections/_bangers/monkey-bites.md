@@ -3,7 +3,7 @@ title: "モンキー・バイツ (Monkey Bites)"
 artist: "馬渡 松子 (Mawatari Matsuko)"
 sort_artist: "Mawatari Matsuko"
 language: "Japanese"
-source: ""
+youtube: "https://www.youtube.com/watch?v=d4J6iniPa9g"
 year: 2026
 blurb: ""
 ---

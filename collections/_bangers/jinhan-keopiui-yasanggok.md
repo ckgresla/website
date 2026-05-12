@@ -3,7 +3,7 @@ title: "진한 커피의 야상곡 (The Nocturne of Strong Coffee)"
 artist: "빛과 소금 (Bitgwa Sogeum)"
 sort_artist: "Bitgwa Sogeum"
 language: "Korean"
-source: ""
+youtube: "https://www.youtube.com/watch?v=nYipm83q4hk"
 year: 2026
 blurb: ""
 ---

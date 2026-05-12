@@ -1,6 +1,6 @@
 ---
 title: "Bangers"
-description: "\"All art, aspires to music.\""
+description: "All art, aspires to music."
 use_description_as_title: true
 layout: bangers
 permalink: /bangers/

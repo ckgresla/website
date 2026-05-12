@@ -3,7 +3,7 @@ title: "사랑하는 날에 (On the Day We Love)"
 artist: "서영은 (Suh Young-eun)"
 sort_artist: "Suh Young-eun"
 language: "Korean"
-source: ""
+youtube: "https://www.youtube.com/watch?v=4EXCBQwPAHo"
 year: 2026
 blurb: ""
 ---

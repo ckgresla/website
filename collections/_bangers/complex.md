@@ -3,7 +3,7 @@ title: "Complex"
 artist: "장혜진 (Jang Hye-jin)"
 sort_artist: "Jang Hye-jin"
 language: "Korean"
-source: ""
+spotify: "https://open.spotify.com/track/0OL5DoBctrzWd0FfW9dj2x"
 year: 2026
 blurb: ""
 ---

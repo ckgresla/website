@@ -3,7 +3,7 @@ title: "기억의 습작 (A Sketch of Memory)"
 artist: "김동률 (Kim Dong Ryul)"
 sort_artist: "Kim Dong Ryul"
 language: "Korean"
-source: ""
+youtube: "https://www.youtube.com/watch?v=2uMX_opOvDI"
 year: 2026
 blurb: ""
 ---

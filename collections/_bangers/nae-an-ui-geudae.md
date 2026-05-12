@@ -3,7 +3,7 @@ title: "내 안의 그대 (Jazz Ver.) (You Inside Me)"
 artist: "서영은 (Suh Young-eun)"
 sort_artist: "Suh Young-eun"
 language: "Korean"
-source: "https://www.youtube.com/watch?v=EbfxLz0SOlI"
+youtube: "https://www.youtube.com/watch?v=EbfxLz0SOlI"
 year: 2025
 blurb: ""
 ---

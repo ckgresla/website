@@ -3,7 +3,7 @@ title: "3분 40초 (3 Minutes 40 Seconds)"
 artist: "전유나 (Jeon Yu-na)"
 sort_artist: "Jeon Yu-na"
 language: "Korean"
-source: "https://open.spotify.com/track/4pYWltpMVOKICtzQhh2znT?si=4b21edd060ba4ddb"
+spotify: "https://open.spotify.com/track/4pYWltpMVOKICtzQhh2znT?si=4b21edd060ba4ddb"
 year: 2025
 blurb: "what a lovely tune"
 ---

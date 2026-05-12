@@ -13,7 +13,11 @@ body_classes: page-banger
             {% if page.artist %}
               <p class="banger-artist">by {{ page.artist }}</p>
             {% endif %}
-            {% if page.source %}
+            {% if page.spotify or page.youtube %}
+              <p class="banger-source">listen to it on:
+                {% if page.spotify %}<a href="{{ page.spotify }}">spotify</a>{% endif %}{% if page.spotify and page.youtube %}, {% endif %}{% if page.youtube %}<a href="{{ page.youtube }}">youtube</a>{% endif %}
+              </p>
+            {% elsif page.source %}
               <p class="banger-source"><a href="{{ page.source }}">listen to it</a></p>
             {% endif %}
           </div>

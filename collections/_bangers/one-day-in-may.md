@@ -3,7 +3,7 @@ title: "5월의 어느 날 (One Day In May)"
 artist: "테원, 허쉬 (taeone, Hersh)"
 sort_artist: "Taeone & Hersh"
 language: "Korean"
-source: ""
+youtube: "https://www.youtube.com/watch?v=4TnuLIc2YYc"
 year: 2026
 blurb: ""
 ---

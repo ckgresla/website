@@ -3,7 +3,7 @@ title: "Boogie-Woogie Lonesome High-Heel"
 artist: "今井美樹 (Miki Imai)"
 sort_artist: "Miki Imai"
 language: "Japanese"
-source: ""
+youtube: "https://www.youtube.com/watch?v=Xj5TJ3qI_H0"
 year: 2026
 blurb: ""
 ---

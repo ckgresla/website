@@ -3,7 +3,7 @@ title: "Marry Me"
 artist: "양파 (Yangpa)"
 sort_artist: "Yangpa"
 language: "Korean"
-source: ""
+youtube: "https://www.youtube.com/watch?v=1v-2cAPUJVA"
 year: 2026
 blurb: ""
 ---

@@ -3,7 +3,7 @@ title: "그런 나 (That Kind of Me)"
 artist: "장혜진 (Jang Hye-jin)"
 sort_artist: "Jang Hye-jin"
 language: "Korean"
-source: ""
+spotify: "https://open.spotify.com/track/3NveIX7BkaIWgGRqePkzL0"
 year: 2026
 blurb: ""
 ---

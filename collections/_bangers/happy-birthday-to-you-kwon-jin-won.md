@@ -3,7 +3,7 @@ title: "Happy Birthday To You"
 artist: "권진원 (Kwon Jin Won)"
 sort_artist: "Kwon Jin Won"
 language: "Korean"
-source: ""
+youtube: "https://www.youtube.com/watch?v=swesD9Mi_0I"
 year: 2026
 blurb: ""
 ---

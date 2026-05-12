@@ -3,7 +3,7 @@ title: "Yangyang (Ocean Breeze)"
 artist: "Jeong Mijo (정미조)"
 sort_artist: "Jeong Mijo"
 language: "Korean"
-source: "https://open.spotify.com/track/5a8uz8DkP788NImvmwHISs?si=fe12dc51937a4895"
+spotify: "https://open.spotify.com/track/5a8uz8DkP788NImvmwHISs?si=fe12dc51937a4895"
 year: 2026
 blurb: ""
 ---

@@ -3,7 +3,7 @@ title: "No Quiero Piedras En Mi Camino"
 artist: "José Alberto \"El Canario\""
 sort_artist: "El Canario"
 language: "Spanish"
-source: "https://www.youtube.com/watch?v=faVH4FwFrNk"
+youtube: "https://www.youtube.com/watch?v=faVH4FwFrNk"
 year: 2026
 blurb: "aiiigooo, being in 'this situation' is correct/honest, but painful"
 ---

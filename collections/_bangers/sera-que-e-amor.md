@@ -3,7 +3,7 @@ title: "Será Que É Amor (Could It Be Love?)"
 artist: "Arlindo Cruz"
 sort_artist: "Arlindo Cruz"
 language: "Portuguese"
-source: "https://youtu.be/pWlSqYvVDRg?si=m-cvANqhVtWpdEIZ"
+youtube: "https://youtu.be/pWlSqYvVDRg?si=m-cvANqhVtWpdEIZ"
 year: 2025
 blurb: "what is AMOR?"
 ---
