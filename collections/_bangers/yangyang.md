@@ -1,5 +1,5 @@
 ---
-title: "Yangyang (Ocean Breeze)"
+title: "양양 (Yangyang)"
 artist: "Jeong Mijo (정미조)"
 sort_artist: "Jeong Mijo"
 language: "Korean"
