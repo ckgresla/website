@@ -30,6 +30,8 @@ menu:
 
 10. cynical: "SaaS" always stood for "Slop-as-a-Service", that the slop is starting to be written by floating point brains doesn't change the nature of it
 
+11. The only "chump" is the one who thinks of other people as "chumps".
+
 
 ## 2025
 1. It isn't ml hacking until you have had to allocate two swapfiles in order to get a long running data preprocessing job over the finish line.
@@ -69,6 +71,7 @@ menu:
 18. [내 안의 그대 (Jazz Ver.) -- Suh Young-eun](https://www.youtube.com/watch?v=EbfxLz0SOlI)
 
 19. [3분 40초 (3 minutes 40 seconds) — 전유나](https://open.spotify.com/track/4pYWltpMVOKICtzQhh2znT?si=4b21edd060ba4ddb) (what a lovely tune, [see the lyrics](https://www.music-flo.com/detail/track/50146/details))
+
 
 
 ## 2024
