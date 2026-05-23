@@ -86,6 +86,9 @@ weight: 3
 | [店舗オーナーを経たからこそ、できること](https://pieceofsign.jp/blogs/stories/the-latte-tokyo-story-1) | The Latte Tokyo closed (sad), these are the owner's "思い" |
 | [ml-engineering by stas00](https://github.com/stas00/ml-engineering) | A based chap's repo with nice ml learnings + utils (nccl interconnect tests of the highest quality) |
 | [Why AGI Will Not Happen by Tim Dettmers](https://timdettmers.com/2025/12/10/why-agi-will-not-happen/) | So the science fiction is reality thing, as of world state in Dec 2025, maybe not |
+| [The Harness is the Backend - iii](https://iii.dev/blog/the-harness-is-the-backend/) | That is one clean abstraction, [open source](https://github.com/iii-hq/iii) as well... |
+
+
 
 
 
