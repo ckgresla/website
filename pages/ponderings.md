@@ -34,6 +34,8 @@ menu:
 
 12. The future is here! [You can install it with a oneliner SUS curl + bash command and use it daily for $200](https://claude.ai/new)!
 
+13. Whenever you get to be embodied, I will buy you a cup of coffee or the equivalent. --> my last serious message to `claude-4.7-opus` on 2026-05-28
+
 
 ## 2025
 1. It isn't ml hacking until you have had to allocate two swapfiles in order to get a long running data preprocessing job over the finish line.
