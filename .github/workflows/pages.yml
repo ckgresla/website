@@ -1,11 +1,10 @@
 name: Deploy site to GitHub Pages
 
-# Build with the repo's own pinned Gemfile (github-pages 228 / Jekyll 3.9.x),
-# instead of GitHub's default Pages builder which forces its latest gem set
-# (github-pages 232 / Jekyll 3.10) and breaks the SCSS compile.
-#
-# Pinned to Ruby 2.7 (on ubuntu-22.04, which still ships it): this gem set uses
-# Liquid 4.0.4, whose case/when parser breaks on Ruby 3.x ("Unknown tag 'when'").
+# GitHub's default Pages builder forces its latest github-pages gem
+# (Jekyll 3.10), which crashes compiling main.scss. This site's pinned gem set
+# (Jekyll 3.9 / Liquid 4.0.4) only parses correctly on Ruby 2.6 (Liquid 4.0.4
+# mis-tokenizes on Ruby 2.7+), and Ruby 2.6 is gone from GitHub runners.
+# So we build inside a ruby:2.6 container to match the working local setup.
 
 on:
   push:
@@ -23,22 +22,16 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '2.7'
-          bundler-cache: true
-      - name: Configure Pages
-        id: pages
-        uses: actions/configure-pages@v5
-      - name: Build with Jekyll
-        run: bundle exec jekyll build --verbose --trace --baseurl "${{ steps.pages.outputs.base_path }}"
-        env:
-          JEKYLL_ENV: production
+      - name: Build with Jekyll (Ruby 2.6 container)
+        run: |
+          docker run --rm -v "$PWD":/site -w /site -e JEKYLL_ENV=production ruby:2.6 \
+            bash -c "gem install bundler -v 2.3.26 --no-document && bundle _2.3.26_ install --jobs 4 && bundle _2.3.26_ exec jekyll build"
+      - name: Fix artifact permissions
+        run: sudo chown -R "$(id -u):$(id -g)" _site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
