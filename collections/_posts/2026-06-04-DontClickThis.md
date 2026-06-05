@@ -1,0 +1,167 @@
+---
+title: "don't click this"
+date: 2026-06-04
+---
+
+Nothing to see here. Just a good boy. All the way over there. WAY over there. Minding his own business (not yours)...
+
+
+note: ...whatever you do, do not hover over (or tap) this image...
+
+<!-- Assets:
+     Flames - "Animated fire by nevit", Nevit Dilmen, CC BY-SA 3.0 (Wikimedia, keyed transparent)
+     Explosion - GIPHY transparent sticker "fire explosion" (9EsyyKUeCt9C8SsC2G)
+     Lightning - GIPHY transparent sticker "blue lightning electric" by wahssidelines (U8NKXnYVXUDr2AQ8FJ)
+     Lips - emoji. Meteors - procedural CSS on varied arcs. Sizing is vmin-based to scale across screens. -->
+<div class="dog-reveal" onclick="this.classList.toggle('is-open')">
+  <img class="dog-reveal-base" src="/assets/images/posts/dont-click/dog-far.jpg" alt="A good dog, at a safe and respectful distance, trotting across a tennis court">
+
+  <div class="dog-reveal-popup" onclick="event.stopPropagation(); this.parentNode.classList.remove('is-open')">
+
+    <span class="dr-firebg" aria-hidden="true"></span>
+
+    <div class="dr-fx" aria-hidden="true">
+      <i class="dr-meteor" style="--x:92%;  --y:-6vh;  --ang:135deg; --tx:-113vmin; --ty:113vmin; --s:1.4;  --t:5s;   --d:0s"></i>
+      <i class="dr-meteor" style="--x:70%;  --y:-10vh; --ang:120deg; --tx:-80vmin;  --ty:139vmin; --s:0.7;  --t:6s;   --d:1.3s"></i>
+      <i class="dr-meteor" style="--x:120%; --y:10vh;  --ang:150deg; --tx:-139vmin; --ty:80vmin;  --s:1.15; --t:4.5s; --d:2.6s"></i>
+      <i class="dr-meteor" style="--x:50%;  --y:-12vh; --ang:105deg; --tx:-41vmin;  --ty:155vmin; --s:0.55; --t:6.5s; --d:3.4s"></i>
+      <i class="dr-meteor" style="--x:115%; --y:30vh;  --ang:160deg; --tx:-150vmin; --ty:55vmin;  --s:0.9;  --t:5.5s; --d:4.1s"></i>
+      <i class="dr-meteor" style="--x:84%;  --y:-8vh;  --ang:143deg; --tx:-128vmin; --ty:96vmin;  --s:1.5;  --t:4.8s; --d:2s"></i>
+      <i class="dr-meteor" style="--x:33%;  --y:-10vh; --ang:115deg; --tx:-68vmin;  --ty:145vmin; --s:0.65; --t:6.2s; --d:1s"></i>
+      <i class="dr-meteor" style="--x:128%; --y:50vh;  --ang:165deg; --tx:-155vmin; --ty:41vmin;  --s:1.2;  --t:5.2s; --d:3s"></i>
+      <i class="dr-meteor" style="--x:60%;  --y:-8vh;  --ang:128deg; --tx:-99vmin;  --ty:126vmin; --s:0.85; --t:5.8s; --d:0.5s"></i>
+      <i class="dr-meteor" style="--x:100%; --y:-6vh;  --ang:152deg; --tx:-141vmin; --ty:75vmin;  --s:1.05; --t:4.6s; --d:2.4s"></i>
+
+      <img class="dr-bolt" src="/assets/images/posts/dont-click/lightning.gif" alt="" style="left:26%; top:20%; height:38vmin; --t:2.6s; --d:0s">
+      <img class="dr-bolt" src="/assets/images/posts/dont-click/lightning.gif" alt="" style="left:75%; top:26%; height:32vmin; --t:3s;   --d:0.9s">
+      <img class="dr-bolt" src="/assets/images/posts/dont-click/lightning.gif" alt="" style="left:52%; top:14%; height:28vmin; --t:3.4s; --d:1.8s">
+
+      <img class="dr-nuke" src="/assets/images/posts/dont-click/explosion.gif" alt="" style="left:12%; top:22%; width:46vmin; --t:3s;   --d:0s">
+      <img class="dr-nuke" src="/assets/images/posts/dont-click/explosion.gif" alt="" style="left:82%; top:28%; width:26vmin; --t:2.8s; --d:0.6s">
+      <img class="dr-nuke" src="/assets/images/posts/dont-click/explosion.gif" alt="" style="left:30%; top:72%; width:18vmin; --t:2.5s; --d:1.4s">
+      <img class="dr-nuke" src="/assets/images/posts/dont-click/explosion.gif" alt="" style="left:68%; top:64%; width:36vmin; --t:3.2s; --d:1s">
+      <img class="dr-nuke" src="/assets/images/posts/dont-click/explosion.gif" alt="" style="left:48%; top:88%; width:12vmin; --t:2.4s; --d:2s">
+      <img class="dr-nuke" src="/assets/images/posts/dont-click/explosion.gif" alt="" style="left:20%; top:48%; width:26vmin; --t:2.9s; --d:0.3s">
+      <img class="dr-nuke" src="/assets/images/posts/dont-click/explosion.gif" alt="" style="left:90%; top:55%; width:18vmin; --t:2.6s; --d:1.8s">
+      <img class="dr-nuke" src="/assets/images/posts/dont-click/explosion.gif" alt="" style="left:58%; top:16%; width:36vmin; --t:3.1s; --d:2.4s">
+      <img class="dr-nuke" src="/assets/images/posts/dont-click/explosion.gif" alt="" style="left:38%; top:36%; width:12vmin; --t:2.3s; --d:0.9s">
+      <img class="dr-nuke" src="/assets/images/posts/dont-click/explosion.gif" alt="" style="left:76%; top:84%; width:46vmin; --t:3.4s; --d:1.5s">
+    </div>
+
+    <div class="dog-reveal-frame">
+      <img src="/assets/images/posts/dont-click/dog-close.jpg" alt="The same dog, now extremely and unavoidably in your face">
+
+      <span class="dr-kiss" aria-hidden="true">&#128139;</span>
+
+      <span class="fl" style="left:-2%;  top:8%;   --w:22vmin; --h:22vmin; --r:-40deg; --ft:.5s;  --fd:0s"></span>
+      <span class="fl" style="left:6%;   top:0%;   --w:20vmin; --h:20vmin; --r:-14deg; --ft:.45s; --fd:.2s"></span>
+      <span class="fl" style="left:22%;  top:-2%;  --w:23vmin; --h:23vmin; --r:10deg;  --ft:.6s;  --fd:.35s"></span>
+      <span class="fl" style="left:38%;  top:1%;   --w:18vmin; --h:18vmin; --r:-8deg;  --ft:.5s;  --fd:.1s"></span>
+      <span class="fl" style="left:54%;  top:-2%;  --w:22vmin; --h:22vmin; --r:18deg;  --ft:.55s; --fd:.3s"></span>
+      <span class="fl" style="left:70%;  top:0%;   --w:20vmin; --h:20vmin; --r:-12deg; --ft:.5s;  --fd:.15s"></span>
+      <span class="fl" style="left:86%;  top:2%;   --w:20vmin; --h:20vmin; --r:24deg;  --ft:.48s; --fd:.4s"></span>
+      <span class="fl" style="left:102%; top:6%;   --w:23vmin; --h:23vmin; --r:64deg;  --ft:.52s; --fd:.05s"></span>
+      <span class="fl" style="left:102%; top:26%;  --w:25vmin; --h:25vmin; --r:92deg;  --ft:.5s;  --fd:.25s"></span>
+      <span class="fl" style="left:103%; top:46%;  --w:25vmin; --h:25vmin; --r:80deg;  --ft:.6s;  --fd:.1s"></span>
+      <span class="fl" style="left:102%; top:66%;  --w:25vmin; --h:25vmin; --r:104deg; --ft:.5s;  --fd:.32s"></span>
+      <span class="fl" style="left:102%; top:86%;  --w:23vmin; --h:23vmin; --r:120deg; --ft:.47s; --fd:.5s"></span>
+      <span class="fl" style="left:88%;  top:101%; --w:22vmin; --h:22vmin; --r:166deg; --ft:.55s; --fd:.18s"></span>
+      <span class="fl" style="left:68%;  top:102%; --w:25vmin; --h:25vmin; --r:196deg; --ft:.5s;  --fd:.4s"></span>
+      <span class="fl" style="left:50%;  top:101%; --w:23vmin; --h:23vmin; --r:180deg; --ft:.6s;  --fd:.08s"></span>
+      <span class="fl" style="left:32%;  top:102%; --w:22vmin; --h:22vmin; --r:158deg; --ft:.5s;  --fd:.28s"></span>
+      <span class="fl" style="left:14%;  top:101%; --w:22vmin; --h:22vmin; --r:205deg; --ft:.52s; --fd:.12s"></span>
+      <span class="fl" style="left:-2%;  top:86%;  --w:23vmin; --h:23vmin; --r:248deg; --ft:.5s;  --fd:.36s"></span>
+      <span class="fl" style="left:-3%;  top:66%;  --w:25vmin; --h:25vmin; --r:272deg; --ft:.55s; --fd:.22s"></span>
+      <span class="fl" style="left:-3%;  top:46%;  --w:25vmin; --h:25vmin; --r:288deg; --ft:.5s;  --fd:.46s"></span>
+      <span class="fl" style="left:-2%;  top:26%;  --w:25vmin; --h:25vmin; --r:256deg; --ft:.5s;  --fd:.14s"></span>
+    </div>
+  </div>
+</div>
+
+<style>
+  .dog-reveal { display: block; width: 100%; max-width: 28rem; margin: 1.5rem auto 0; cursor: zoom-in; -webkit-tap-highlight-color: transparent; }
+  .dog-reveal-base { display: block; width: 100%; height: auto; border-radius: 0.5rem; }
+
+  .dog-reveal-popup { position: fixed; inset: 0; z-index: 9999; display: flex; align-items: center; justify-content: center; background: #000; visibility: hidden; overflow: hidden; }
+
+  /* Fire fills the stage; tile size in vmin so it scales across screens. */
+  .dr-firebg {
+    position: absolute; inset: 0; z-index: 1; background-color: #160300;
+    background-image: url(/assets/images/posts/dont-click/flames-t.gif);
+    background-repeat: repeat; background-size: 22vmin auto; background-position: center bottom;
+  }
+
+  .dog-reveal-frame { position: relative; display: inline-block; line-height: 0; }
+  .dog-reveal-frame > img:first-of-type {
+    display: block; width: min(92vw, 69vh); height: auto; border-radius: 0.75rem;
+    position: relative; z-index: 2; box-shadow: 0 0 3rem rgba(255, 90, 0, 0.6);
+  }
+
+  /* Lips emoji: quick smooch pop in, then fade out. */
+  .dr-kiss {
+    position: absolute; left: 48%; top: 72%; translate: -50% -50%;
+    font-size: 30vmin; line-height: 1; z-index: 6; pointer-events: none;
+    opacity: 0; transform-origin: center;
+    filter: drop-shadow(0 0.4rem 0.6rem rgba(0,0,0,.5));
+    animation: dr-kiss 2s ease-out infinite;
+  }
+  @keyframes dr-kiss {
+    0% { opacity: 0; scale: 0.2; } 8% { opacity: 1; scale: 1.3; } 14% { scale: 1; }
+    42% { opacity: 1; scale: 1; } 58% { opacity: 0; scale: 1.12; } 100% { opacity: 0; scale: 1.12; }
+  }
+
+  /* Flame licks: size in vmin so they scale with the screen. */
+  .fl {
+    position: absolute; width: var(--w, 20vmin); height: var(--h, 20vmin);
+    translate: -50% -50%; rotate: var(--r, 0deg);
+    background: url(/assets/images/posts/dont-click/flames-t.gif) no-repeat center bottom;
+    background-size: contain; pointer-events: none; z-index: 3;
+    animation: fl-flick var(--ft, .5s) ease-in-out infinite alternate; animation-delay: var(--fd, 0s);
+  }
+  @keyframes fl-flick { from { scale: 1; opacity: .82; } to { scale: 1.07; opacity: 1; } }
+
+  .dr-fx { position: absolute; inset: 0; z-index: 5; pointer-events: none; overflow: hidden; }
+
+  /* Meteors: vmin-based size; each on its own arc (--ang + matching --tx/--ty). */
+  .dr-meteor {
+    position: absolute; left: var(--x); top: var(--y);
+    width: calc(var(--s, 1) * 20vmin); height: calc(var(--s, 1) * 0.22vmin);
+    background: linear-gradient(to right, rgba(191,219,254,0), rgba(191,219,254,.85) 70%, #fff);
+    border-radius: 1vmin; rotate: var(--ang, 135deg); opacity: 0;
+    filter: drop-shadow(0 0 0.4vmin rgba(160,200,255,.65));
+    animation: dr-meteor var(--t, 5s) linear infinite; animation-delay: var(--d, 0s);
+  }
+  .dr-meteor::after {
+    content: ""; position: absolute; right: 0; top: 50%;
+    width: calc(var(--s, 1) * 0.55vmin); height: calc(var(--s, 1) * 0.55vmin);
+    margin-top: calc(var(--s, 1) * -0.275vmin); border-radius: 50%;
+    background: #fff; box-shadow: 0 0 calc(var(--s, 1) * 1vmin) calc(var(--s, 1) * 0.2vmin) rgba(190,220,255,.9);
+  }
+  @keyframes dr-meteor {
+    0% { translate: 0 0; opacity: 0; } 3% { opacity: .9; }
+    22% { translate: var(--tx) var(--ty); opacity: .9; }
+    23%, 100% { translate: var(--tx) var(--ty); opacity: 0; }
+  }
+
+  .dr-bolt {
+    position: absolute; translate: -50% -50%; opacity: 0; pointer-events: none;
+    animation: dr-bolt var(--t, 3s) linear infinite; animation-delay: var(--d, 0s);
+  }
+  @keyframes dr-bolt {
+    0%, 36%, 56%, 100% { opacity: 0; } 40% { opacity: 1; } 46% { opacity: .2; } 50% { opacity: 1; } 54% { opacity: .05; }
+  }
+
+  .dr-nuke {
+    position: absolute; translate: -50% -50%; opacity: 0; pointer-events: none;
+    animation: dr-nuke var(--t, 2.8s) ease-out infinite; animation-delay: var(--d, 0s);
+  }
+  @keyframes dr-nuke {
+    0%, 66%, 100% { opacity: 0; scale: .4; }
+    72% { opacity: 1; scale: .9; } 84% { opacity: 1; scale: 1; } 99% { opacity: 0; scale: 1.15; }
+  }
+
+  @media (prefers-reduced-motion: reduce) { .dr-fx { display: none; } .fl, .dr-kiss { animation: none; } .dr-kiss { opacity: 1; } }
+
+  @media (hover: hover) { .dog-reveal-popup { pointer-events: none; } .dog-reveal:hover .dog-reveal-popup { visibility: visible; } }
+  @media (hover: none) { .dog-reveal.is-open .dog-reveal-popup { visibility: visible; pointer-events: auto; cursor: zoom-out; } }
+</style>
