@@ -88,6 +88,7 @@ weight: 3
 | [Why AGI Will Not Happen by Tim Dettmers](https://timdettmers.com/2025/12/10/why-agi-will-not-happen/) | So the science fiction is reality thing, as of world state in Dec 2025, maybe not |
 | [The Harness is the Backend - iii](https://iii.dev/blog/the-harness-is-the-backend/) | That is one clean abstraction, [open source](https://github.com/iii-hq/iii) as well... |
 | [Twelve Virtues of Rationality](https://www.lesswrong.com/posts/7ZqGiPHTpiDMwqMN2/twelve-virtues-of-rationality) | Its a nice read, accompany a coffee |
+| [Why Japanese companies do so many different things](https://davidoks.blog/p/why-japanese-companies-do-so-many) | "Most importantly, Toto has a very lucrative sideline in the fabrication of memory chips." -- Japan is the best |
 
 
 
