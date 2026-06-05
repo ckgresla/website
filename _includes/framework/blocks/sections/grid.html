@@ -28,42 +28,40 @@
     {% endif %}
 
     {% for card in cards limit: limit %}
-      {% case collection %}
-        {% when 'posts' %}
-          <div class="col-12 col-md-6 {{ columns }} mb-gutter mt-gutter {% if forloop.first %}mt-0{% endif %} {% if forloop.last %}mb-0{% endif %} mt-md-0">
-            {% include theme/cards/card-post.html
-              title=card.title 
-              thumbnail=card.thumbnail
-              
-              url=card.url 
-            %}
-          </div>
-        {% when 'projects' %}
-          <div class="col-12 col-md-6 {{ columns }} mb-gutter mt-gutter {% if forloop.first %}mt-0{% endif %} {% if forloop.last %}mb-0{% endif %} mt-md-0">
-            {% include theme/cards/card-project.html
-              title=card.title 
-              description=card.description
-              thumbnail=card.thumbnail
-              authors=card.authors
-              categories=card.categories
-              date=card.date
-              url=card.url 
-              weight=card.weight
-              client=card.client
-              icon=card.icon
-              fa_icon=card.fa_icon
-            %}
-          </div>
-        {% else %}
+      {% if collection == 'posts' %}
         <div class="col-12 col-md-6 {{ columns }} mb-gutter mt-gutter {% if forloop.first %}mt-0{% endif %} {% if forloop.last %}mb-0{% endif %} mt-md-0">
-            {% include theme/cards/card-post.html 
-              title=card.title 
-              description=card.description
-              thumbnail=card.thumbnail
-              url=card.url 
-            %}
-          </div>
-      {% endcase %}
+          {% include theme/cards/card-post.html
+            title=card.title
+            thumbnail=card.thumbnail
+            url=card.url
+          %}
+        </div>
+      {% elsif collection == 'projects' %}
+        <div class="col-12 col-md-6 {{ columns }} mb-gutter mt-gutter {% if forloop.first %}mt-0{% endif %} {% if forloop.last %}mb-0{% endif %} mt-md-0">
+          {% include theme/cards/card-project.html
+            title=card.title
+            description=card.description
+            thumbnail=card.thumbnail
+            authors=card.authors
+            categories=card.categories
+            date=card.date
+            url=card.url
+            weight=card.weight
+            client=card.client
+            icon=card.icon
+            fa_icon=card.fa_icon
+          %}
+        </div>
+      {% else %}
+        <div class="col-12 col-md-6 {{ columns }} mb-gutter mt-gutter {% if forloop.first %}mt-0{% endif %} {% if forloop.last %}mb-0{% endif %} mt-md-0">
+          {% include theme/cards/card-post.html
+            title=card.title
+            description=card.description
+            thumbnail=card.thumbnail
+            url=card.url
+          %}
+        </div>
+      {% endif %}
     {% endfor %}
 
     <div class="col-12">
@@ -77,4 +75,4 @@
     </div>
 
   </div>
-{% endif %} 
+{% endif %}

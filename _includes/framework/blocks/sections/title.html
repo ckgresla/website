@@ -11,17 +11,12 @@
 
       {% if date %}
         <div class="title-date">
-          {% assign day = date | date: "%-d"  %}
-          {% case day %}
-            {% when '1', '21', '31' %}
-              {{ day }}st
-            {% when '2', '22' %}
-              {{ day }}nd
-            {% when '3', '23' %}
-              {{ day }}rd
-            {% else %}
-              {{ day }}th
-          {% endcase %}
+          {% assign day = date | date: "%-d" %}
+          {% if day == '1' or day == '21' or day == '31' %}{{ day }}st
+          {% elsif day == '2' or day == '22' %}{{ day }}nd
+          {% elsif day == '3' or day == '23' %}{{ day }}rd
+          {% else %}{{ day }}th
+          {% endif %}
           {{ date | date: "of %B, %Y" }}
         </div>
       {% endif %}
@@ -31,13 +26,13 @@
           <span>{{ badge }}</span>
         </div>
       {% endif %}
-      
+
       {% if title %}
         <div class="title-heading">
           <h1>{{ title }}</h1>
         </div>
       {% endif %}
-      
+
       {% if description %}
         <div class="title-description">
           <p>{{ description }}</p>
