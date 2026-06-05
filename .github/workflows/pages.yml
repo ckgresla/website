@@ -3,6 +3,9 @@ name: Deploy site to GitHub Pages
 # Build with the repo's own pinned Gemfile (github-pages 228 / Jekyll 3.9.x),
 # instead of GitHub's default Pages builder which forces its latest gem set
 # (github-pages 232 / Jekyll 3.10) and breaks the SCSS compile.
+#
+# Pinned to Ruby 2.7 (on ubuntu-22.04, which still ships it): this gem set uses
+# Liquid 4.0.4, whose case/when parser breaks on Ruby 3.x ("Unknown tag 'when'").
 
 on:
   push:
@@ -20,14 +23,14 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: '2.7'
           bundler-cache: true
       - name: Configure Pages
         id: pages
