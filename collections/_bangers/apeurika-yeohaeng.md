@@ -1,5 +1,5 @@
 ---
-title: "아프리카 여행 (Apeurika Yeohaeng)"
+title: "아프리카 여행 (Trip to Africa)"
 artist: "Jang Hye-jin (장혜진)"
 sort_artist: "Jang Hye-jin"
 language: "Korean"

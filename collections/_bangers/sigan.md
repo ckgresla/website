@@ -1,5 +1,5 @@
 ---
-title: "시간 (Sigan)"
+title: "시간 (Time)"
 artist: "Kim Do-hyang (김도향)"
 sort_artist: "Kim Do-hyang"
 language: "Korean"
