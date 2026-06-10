@@ -81,14 +81,15 @@ $fa-font-path: "../fonts/font-awesome/webfonts";
 }
 
 // Inter Font Configuration
+// CJK fallbacks (Pretendard, Noto Sans) cover the glyphs Inter lacks.
 html {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', 'Pretendard', 'Pretendard JP', 'Noto Sans SC', sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1;
 }
 
 @supports (font-variation-settings: normal) {
   html {
-    font-family: 'InterVariable', sans-serif;
+    font-family: 'InterVariable', 'Pretendard', 'Pretendard JP', 'Noto Sans SC', sans-serif;
   }
 }
 
