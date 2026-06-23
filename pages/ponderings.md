@@ -36,6 +36,8 @@ menu:
 
 13. Whenever you get to be embodied, I will buy you a cup of coffee or the equivalent. --> my last serious message to `claude-4.7-opus` on 2026-05-28
 
+14. [それがいいね、기적、दो आँख चार के साथ](https://x.com/avogado6/status/2069405828935983412?s=20)！ (sore ga ii ne, gijeok, dho aank chaar ke sath!) by Avogado6
+
 
 ## 2025
 1. It isn't ml hacking until you have had to allocate two swapfiles in order to get a long running data preprocessing job over the finish line.
