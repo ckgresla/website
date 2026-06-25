@@ -1,0 +1,68 @@
+---
+title: "난 사랑에 빠졌죠 (I Fell in Love)"
+artist: "Park Ji-yoon (박지윤)"
+sort_artist: "Park Ji-yoon"
+language: "Korean"
+spotify: "https://open.spotify.com/track/4haz9e7o2X1iUElYql7XQ1?si=eb6eedd5ab7048d0"
+year: 2026
+blurb: ""
+---
+
+| Original | Romanization | English |
+|----------|--------------|---------|
+| 난 사랑에 빠졌죠 | nan sarange ppajyeotjyo | I fell in love |
+| 나 내가 왜 이러죠 | na naega wae ireojyo | M-me, why am I like this |
+| 정말 이상하죠 | jeongmal isanghajyo | It's really strange |
+| 그대가 없인 하루가 | geudaega eopsin haruga | Without you, a day |
+| 너무 길어요 | neomu gireoyo | Feels so long |
+| 날 사랑한 사람은 | nal saranghan sarameun | There were many people |
+| 많이 있었지만 | mani isseotjiman | Who loved me before |
+| 언제나 내겐 | eonjena naegen | But to me, it was always |
+| 귀찮은 일이었는데 | gwichaneun irieotneunde | Just something bothersome |
+| 사랑을 받는 것만 | sarangeul batneun geonman | I was only used to |
+| 익숙했던 나 | iksukhaetdeon na | Being the one loved |
+| 그대 내게 뭘 했길래 | geudae naege mwol haetgillae | What did you do to me |
+| 내가 달라질까 | naega dallajilkka | That I'm changing like this |
+| 나조차 궁금하지만 | najocha gunggeumhajiman | Even I'm curious about it |
+| 난 사랑에 빠졌죠 | nan sarange ppajyeotjyo | I fell in love |
+| 나밖에 모르던 그 못된 내가 | nabakke moreudeon geu motdoen naega | The awful me who only cared about myself |
+| 나보다 그댈 생각해요 | naboda geudael saenggakhaeyo | Now thinks of you more than me |
+| 한 사람에게만 이렇게 하려고 | han saramegeman ireoke haryeogo | Maybe I was saving this side of me |
+| 그랬나봐요 | geuraetnabayo | Just for one person |
+| 아껴둔 내 맘을 받아요 | akkyeodun nae mameul badayo | Please take the heart I've been saving |
+| 나 어제는 말예요 | na eoje neun malyeyo | You know, yesterday |
+| 관심도 없었던 | gwansimdo eopseotdeon | I caught myself picking out |
+| 남자 옷들을 | namja otdeureul | Men's clothes |
+| 고르는 날 발견했죠 | goreuneun nal balgyeonhaetjyo | Even though I never cared before |
+| 꼭 배우지 않아도 | kkok baeuji anhado | Even without being taught |
+| 사랑은 이렇게 | sarangeun ireoke | Love, just like this |
+| 날 바꾸네요 | nal bakkuneyo | Changes me |
+| 그대만 생각하게 | geudaeman saenggakage | So I think only of you |
+| 사랑을 받는 것만 | sarangeul batneun geonman | I was only used to |
+| 익숙했던 나 | iksukhaetdeon na | Being the one loved |
+| 이젠 모두 주고 싶어 | ijen modu jugo shipeo | Now I want to give it all |
+| 그대에게만은 | geudae-egeman eun | Only to you |
+| 그대도 나와 같나요 | geudaedo nawa gatnayo | Are you the same as me? |
+| 난 사랑에 빠졌죠 | nan sarange ppajyeotjyo | I fell in love |
+| 나밖에 모르던 그 못된 내가 | nabakke moreudeon geu motdoen naega | The awful me who only cared about myself |
+| 나보다 그댈 생각해요 | naboda geudael saenggakhaeyo | Now thinks of you more than me |
+| 한 사람에게만 이렇게 하려고 | han saramegeman ireoke haryeogo | Maybe I meant to be like this |
+| 그랬나봐요 | geuraetnabayo | Only for one person |
+| 아껴둔 내 맘을 받아요 | akkyeodun nae mameul badayo | Please take the heart I've been saving |
+| 이별이란 말은 없겠죠 | ibyeoriran mareun eopgetjyo | There won't be such things as goodbye, right |
+| OH BABY | oh baby | Oh baby |
+| 나에겐 첫사랑인데 | naegen cheotsarang-inde | This is my first love |
+| 혹시 이 사랑이 깨지면 | hokshi i sarangi kkaejimyeon | If by chance this love breaks |
+| 이제 나는 다시는 사랑을 | ije naneun dashineun sarangeul | I might never be able |
+| 못하게 될지도 난 몰라요 | mothage dweljido nan mollayo | To love again, I don't know |
+| 난 사랑에 사랑에 | nan sarange sarange | I'm in love, in love |
+| 그러던 내가 그 못된 내가 | geureodeon naega geu motdoen naega | The me who used to be like that, that awful me |
+| 나보다 그댈 생각해요 그래요 | naboda geudael saenggakhaeyo geuraeyo | Thinks of you more than me, yes it's true |
+| 그대에게만 그대에게만 | geudae-egeman geudae-egeman | Only to you, only to you |
+| 이러려고 그랬나요 | ireoryeogo geuraetnayo | Maybe this is who I was meant to be for |
+| 오 아껴둔 내 맘을 받아요 | o akkyeodun nae mameul badayo | Oh, please accept the heart I've kept for you |
+| 난 사랑에 사랑에 | nan sarange sarange | I'm in love, in love |
+| 그러던 내가 그 못된 내가 | geureodeon naega geu motdoen naega | The me who used to be like that, that awful me |
+| 나보다 그댈 생각해요 | naboda geudael saenggakhaeyo | Thinks of you more than me |
+| 난 사랑에 빠졌죠 | nan sarange ppajyeotjyo | I fell in love |
+{: .lyrics}
