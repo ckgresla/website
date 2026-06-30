@@ -171,7 +171,9 @@
       case "dotted": return Y + "." + p2(M + 1) + "." + p2(D);
       case "doy": return "Day " + dayOfYear(now) + " · " + Y;
       case "words": return "the " + ordinalWord(D) + " of " + MONF[M];
-      default: return DOWF[dow] + " — " + MONF[M] + " " + ordinal(D) + " " + Y; // long
+      case "longd": return DOWC[dow] + " " + MONF[M] + " " + D + " " + Y;               // Mon June 29 2026
+      case "longdow": return DOWF[dow] + ", " + MONF[M] + " " + ordinal(D) + " " + Y;    // Monday, June 29th 2026
+      default: return MONF[M] + " " + D + " " + Y;                                       // long → June 29 2026
     }
   }
   function spanText(node, t) { if (!node) return; node.textContent = t; node.style.display = t ? "" : "none"; }
@@ -306,15 +308,8 @@
   });
   window.addEventListener("resize", function () { setTrack(true, 0); });
 
-  // --- Screen wake lock (drives the "awake" indicator) ------------------------
-  function setAwake(on) { if (el.awake) el.awake.textContent = on ? "awake" : "idle"; if (el.status) el.status.classList.toggle("idle", !on); }
-  function acquireWake() {
-    if (!("wakeLock" in navigator)) { setAwake(true); return; }
-    navigator.wakeLock.request("screen").then(function (wl) {
-      setAwake(true);
-      wl.addEventListener("release", function () { setAwake(false); });
-    }).catch(function () { setAwake(false); });
-  }
+  // --- Screen wake lock (keeps the display on; "awake" stays lit) -------------
+  function acquireWake() { if ("wakeLock" in navigator) navigator.wakeLock.request("screen").catch(function () {}); }
   document.addEventListener("visibilitychange", function () { if (document.visibilityState === "visible") acquireWake(); });
   acquireWake();
 
