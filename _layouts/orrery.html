@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <title>Orrery</title>
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Orrery">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+
+  <link rel="manifest" href="{{ '/assets/orrery.webmanifest' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/orrery/icon-180.png' | relative_url }}">
+
+  <style>
+    @font-face { font-family:'Inter'; font-style:normal; font-weight:100 900; font-display:swap;
+      src:url('{{ "/assets/fonts/inter-latin-wght.woff2" | relative_url }}') format('woff2'); }
+    @font-face { font-family:'JetBrains Mono'; font-style:normal; font-weight:100 800; font-display:swap;
+      src:url('{{ "/assets/fonts/jetbrains-mono-latin-wght.woff2" | relative_url }}') format('woff2'); }
+
+    :root { --bg:#000; --fg:#fff; --muted:#7c7c80; --accent:#c4d2ff; --accent-on:#0a0a0a; --tile:#141416; --switch-off:#3a3a3c; --line:#2c2c30; }
+    @media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) {
+      --bg:#fff; --fg:#0b0b0b; --muted:#8a8a8e; --accent:#5b6bd6; --accent-on:#fff; --tile:#f1f1f4; --switch-off:#d1d1d6; --line:#e2e2e6; } }
+    :root[data-theme="light"] { --bg:#fff; --fg:#0b0b0b; --muted:#8a8a8e; --accent:#5b6bd6; --accent-on:#fff; --tile:#f1f1f4; --switch-off:#d1d1d6; --line:#e2e2e6; }
+    :root[data-theme="dark"]  { --bg:#000; --fg:#fff; --muted:#7c7c80; --accent:#c4d2ff; --accent-on:#0a0a0a; --tile:#141416; --switch-off:#3a3a3c; --line:#2c2c30; }
+
+    * { margin:0; padding:0; box-sizing:border-box; -webkit-user-select:none; user-select:none; -webkit-tap-highlight-color:transparent; -webkit-touch-callout:none; }
+    html, body { height:100%; }
+    body { background:var(--bg); color:var(--fg); font-family:'Inter', system-ui, sans-serif; overflow:hidden; position:fixed; inset:0; touch-action:none;
+      transition:background-color .5s ease, color .5s ease; }
+    canvas#view { position:fixed; inset:0; width:100%; height:100%; display:block; }
+
+    /* HUD */
+    .hud { position:fixed; top:max(env(safe-area-inset-top),16px); left:max(env(safe-area-inset-left),18px); right:max(env(safe-area-inset-right),18px);
+      display:flex; justify-content:space-between; align-items:flex-start; pointer-events:none; z-index:4; }
+    .hud .title { font-size:14px; font-weight:600; letter-spacing:.18em; }
+    .hud .date { font-family:'JetBrains Mono', monospace; font-size:12px; color:var(--muted); margin-top:4px; }
+    .iconbtn { pointer-events:auto; width:40px; height:40px; border-radius:12px; background:var(--tile); border:0; color:var(--fg); cursor:pointer;
+      display:flex; align-items:center; justify-content:center; }
+    .iconbtn svg { width:20px; height:20px; stroke:currentColor; fill:none; stroke-width:1.6; }
+
+    /* Info card */
+    #info { position:fixed; left:max(env(safe-area-inset-left),18px); bottom:calc(max(env(safe-area-inset-bottom),16px) + 96px); z-index:4;
+      background:color-mix(in srgb, var(--bg) 72%, transparent); -webkit-backdrop-filter:blur(16px); backdrop-filter:blur(16px);
+      border:1px solid var(--line); border-radius:14px; padding:13px 15px; min-width:172px; opacity:0; transform:translateY(6px);
+      transition:opacity .2s, transform .2s; pointer-events:none; }
+    #info.on { opacity:1; transform:none; }
+    #info .nm { font-size:16px; font-weight:600; }
+    #info .ty { font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--accent); margin-top:1px; }
+    #info dl { display:grid; grid-template-columns:auto auto; gap:3px 14px; margin-top:9px; font-family:'JetBrains Mono', monospace; font-size:11.5px; }
+    #info dt { color:var(--muted); } #info dd { text-align:right; }
+
+    /* Scrubber */
+    #scrub { position:fixed; left:0; right:0; bottom:0; z-index:4; padding:12px max(env(safe-area-inset-left),18px) calc(max(env(safe-area-inset-bottom),14px) + 4px) max(env(safe-area-inset-right),18px);
+      display:flex; flex-direction:column; gap:8px; }
+    #scrub .row { display:flex; align-items:center; gap:12px; }
+    #scrub .now { pointer-events:auto; flex:0 0 auto; font:inherit; font-size:12px; font-weight:600; color:var(--accent-on); background:var(--accent); border:0; border-radius:9px; padding:7px 12px; cursor:pointer; }
+    #scrub .now.idle { background:var(--tile); color:var(--muted); }
+    #scrub .play { pointer-events:auto; width:34px; height:34px; flex:0 0 auto; border-radius:9px; background:var(--tile); border:0; color:var(--fg); cursor:pointer; display:flex; align-items:center; justify-content:center; }
+    #scrub .play svg { width:15px; height:15px; fill:currentColor; }
+    .track { position:relative; flex:1; height:34px; cursor:pointer; touch-action:none; }
+    .track .rail { position:absolute; top:50%; left:0; right:0; height:3px; transform:translateY(-50%); background:var(--tile); border-radius:2px; }
+    .track .mid { position:absolute; top:50%; left:50%; width:1px; height:12px; transform:translate(-50%,-50%); background:var(--muted); }
+    .track .knob { position:absolute; top:50%; width:18px; height:18px; border-radius:50%; background:var(--accent); transform:translate(-50%,-50%); box-shadow:0 1px 3px rgba(0,0,0,.4); }
+
+    /* Menu (shared look with the clock) */
+    #menu { position:fixed; inset:0; z-index:10; display:grid; overflow-y:auto; -webkit-overflow-scrolling:touch;
+      background:color-mix(in srgb, var(--bg) 78%, transparent); -webkit-backdrop-filter:blur(24px); backdrop-filter:blur(24px);
+      opacity:0; visibility:hidden; transition:opacity .26s, visibility .26s; }
+    #menu.open { opacity:1; visibility:visible; }
+    .menu-inner { margin:auto; width:100%; max-width:360px; padding:calc(env(safe-area-inset-top) + 36px) 28px calc(env(safe-area-inset-bottom) + 30px);
+      display:flex; flex-direction:column; gap:20px; transform:translateY(10px) scale(.985); transition:transform .26s; }
+    #menu.open .menu-inner { transform:none; }
+    .field { display:flex; flex-direction:column; gap:9px; }
+    .field > .lbl { font-size:12px; letter-spacing:.16em; text-transform:uppercase; color:var(--muted); font-weight:600; padding-left:2px; }
+    .seg { display:flex; background:var(--tile); border-radius:14px; padding:4px; gap:4px; }
+    .seg button { flex:1; border:0; background:transparent; color:var(--muted); font:inherit; font-size:14px; font-weight:500; padding:12px 0; border-radius:10px; cursor:pointer; transition:background .2s, color .2s; }
+    .seg button.on { background:var(--accent); color:var(--accent-on); }
+    .row2 { display:flex; align-items:center; justify-content:space-between; padding:2px; }
+    .row2 .lbl { font-size:16px; font-weight:500; }
+    .switch { width:52px; height:32px; border-radius:16px; background:var(--switch-off); position:relative; transition:background .2s; border:0; cursor:pointer; flex:0 0 auto; }
+    .switch.on { background:var(--accent); }
+    .switch::after { content:""; position:absolute; top:3px; left:3px; width:26px; height:26px; border-radius:50%; background:#fff; transition:transform .2s; box-shadow:0 1px 3px rgba(0,0,0,.35); }
+    .switch.on::after { transform:translateX(20px); }
+    .menu-hint { text-align:center; font-size:12px; color:var(--muted); letter-spacing:.05em; padding-top:4px; }
+  </style>
+</head>
+<body>
+  <canvas id="view"></canvas>
+
+  <div class="hud">
+    <div>
+      <div class="title" id="vtitle">ORRERY</div>
+      <div class="date" id="vdate">—</div>
+    </div>
+    <button class="iconbtn" id="gear" aria-label="Settings">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5 5l2.1 2.1M16.9 16.9 19 19M19 5l-2.1 2.1M7.1 16.9 5 19"/></svg>
+    </button>
+  </div>
+
+  <div id="info" aria-hidden="true">
+    <div class="nm" data-role="nm">—</div>
+    <div class="ty" data-role="ty">—</div>
+    <dl>
+      <dt>from Sun</dt><dd data-role="rsun">—</dd>
+      <dt>from Earth</dt><dd data-role="rearth">—</dd>
+      <dt>ecliptic λ</dt><dd data-role="lon">—</dd>
+    </dl>
+  </div>
+
+  <div id="scrub">
+    <div class="row">
+      <button class="play" id="play" aria-label="Play"><svg id="playicon" viewBox="0 0 24 24"><path d="M7 5l12 7-12 7z"/></svg></button>
+      <div class="track" id="track">
+        <div class="rail"></div><div class="mid"></div><div class="knob" id="knob"></div>
+      </div>
+      <button class="now idle" id="now">Now</button>
+    </div>
+  </div>
+
+  <div id="menu" aria-hidden="true">
+    <div class="menu-inner">
+      <div class="field"><span class="lbl">View</span>
+        <div class="seg" data-set="view"><button data-val="orrery">Orrery</button><button data-val="sky">Sky</button></div></div>
+      <div class="field"><span class="lbl">Detail</span>
+        <div class="seg" data-set="level"><button data-val="1">Planets</button><button data-val="2">Dwarfs</button><button data-val="3">Comets</button></div></div>
+      <div class="row2"><span class="lbl">Labels</span><button class="switch" data-toggle="labels"></button></div>
+      <div class="row2"><span class="lbl">Orbits</span><button class="switch" data-toggle="orbits"></button></div>
+      <div class="field"><span class="lbl">Theme</span>
+        <div class="seg" data-set="theme"><button data-val="auto">Auto</button><button data-val="light">Light</button><button data-val="dark">Dark</button></div></div>
+      <div class="menu-hint">tap anywhere to close</div>
+    </div>
+  </div>
+
+  <script src="{{ '/assets/js/orrery.js' | relative_url }}"></script>
+</body>
+</html>

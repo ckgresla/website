@@ -22,6 +22,9 @@ main:
   - name: "Clock"
     url: /clock/
     weight: 5
+  - name: "Orrery"
+    url: /orrery/
+    weight: 6
   # NOTE: this is a nice dropdown, could be handy for specific project pages (each a distill perhaps...)
   #     + additionally, this demonstrates how to show icons for the child items in a dropdown (need light & dark versions of each)
   # - name: Projects
