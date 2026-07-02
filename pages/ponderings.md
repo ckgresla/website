@@ -38,6 +38,8 @@ menu:
 
 14. [それがいいね、기적、दो आँख चार के साथ](https://x.com/avogado6/status/2069405828935983412?s=20)！ (sore ga ii ne, gijeok, dho aank chaar ke sath!) by Avogado6
 
+15. [Slim Dusty - G'day G'day](https://youtu.be/ECuGNHdVaKg?si=IhmSClB0JAxJDxVk)
+
 
 ## 2025
 1. It isn't ml hacking until you have had to allocate two swapfiles in order to get a long running data preprocessing job over the finish line.
