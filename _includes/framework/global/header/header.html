@@ -2,8 +2,10 @@
   <div class="header-content">
     <!-- Page title on the left for desktop -->
     <div class="header-title">
-      {% if page.description and page.use_description_as_title %}
-        <h1 class="page-title">{{ page.description }}</h1>
+      {% comment %} `tagline` overrides the title text when set (a text-only
+      per-page override); otherwise the plain title. Styling is unchanged. {% endcomment %}
+      {% if page.tagline %}
+        <h1 class="page-title">{{ page.tagline }}</h1>
       {% elsif page.title %}
         <h1 class="page-title">{{ page.title }}</h1>
       {% endif %}
@@ -17,5 +19,11 @@
       <!-- The actual title bar/menu for navigation -->
       {% include framework/global/menu/menu-main-vertical.html %}
     </div>
+
+    <!-- Page `description` as its own element, bottom-left of the header field.
+         Separate from the title/tagline. Skipped on the home page. -->
+    {% if page.description and page.url != '/' and page.url != '/index.html' %}
+      <p class="header-desc">{{ page.description }}</p>
+    {% endif %}
   </div>
 </div>

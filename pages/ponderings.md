@@ -1,7 +1,6 @@
 ---
 title: "Ponderings"
-description: "Thoughts, musings, & contemplations on stuff."
-use_description_as_title: true
+tagline: "Thoughts, musings, & contemplations on stuff."
 layout: ponderings
 permalink: /ponderings/
 menu:

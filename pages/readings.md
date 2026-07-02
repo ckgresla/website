@@ -1,8 +1,7 @@
 ---
 layout: readings
 title: "Readings"
-description: "Brilliant pieces, all worth perusing"
-use_description_as_title: true
+tagline: "Brilliant pieces, all worth perusing"
 weight: 3
 ---
 

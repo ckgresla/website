@@ -4,7 +4,7 @@
       {% if item.child %}
         <!-- Handle dropdown items if needed -->
         <li class="menu-item{% if item.url == page.url %} active{% endif %}">
-          <a href="{{ item.url | relative_url }}" class="menu-link">{{ item.name }}</a>
+          <a href="{{ item.url | relative_url }}" class="menu-link" data-text="{{ item.name }}">{{ item.name }}</a>
         </li>
       {% else %}
         {% comment %}
@@ -20,7 +20,7 @@
         {% endif %}
         
         <li class="menu-item{% if is_active %} active{% endif %}">
-          <a href="{{ item.url | relative_url }}" class="menu-link">{{ item.name }}</a>
+          <a href="{{ item.url | relative_url }}" class="menu-link" data-text="{{ item.name }}">{{ item.name }}</a>
         </li>
       {% endif %}
     {% endfor %}

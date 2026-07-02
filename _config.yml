@@ -46,8 +46,7 @@ defaults:
       type: bangers
     values:
       layout: banger
-      description: "song info"
-      use_description_as_title: true
+      tagline: "song info"
   - scope:
       path: "images"
     values:

@@ -3,6 +3,8 @@
   <meta name="description" content="{{ page.meta_description }}"/>
 {% elsif page.description %}
   <meta name="description" content="{{ page.description }}"/>
+{% elsif page.tagline %}
+  <meta name="description" content="{{ page.tagline }}"/>
 {% endif %}
 
 <meta property="og:type" content="{{ site.seo.meta_opengraph_type }}"/>
@@ -15,7 +17,9 @@
 {% if page.meta_description %}
   <meta property="og:description" content="{{ page.meta_description }}"/>
 {% elsif page.description %}
-  <meta name="description" content="{{ page.description }}"/>
+  <meta property="og:description" content="{{ page.description }}"/>
+{% elsif page.tagline %}
+  <meta property="og:description" content="{{ page.tagline }}"/>
 {% endif %}
 {% if page.meta_image %}
 <meta property="og:image" content="{{ page.meta_image }}"/>
