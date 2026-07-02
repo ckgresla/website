@@ -1,5 +1,8 @@
-// TODO@CKG --> this should match up with the style of the other elements in the vertical menu bar (full color on active)
-// + we should make the menu/nav bar NOT highlightable! (like RSMS)
+// The logo is a magician's wand (inline SVG). Rod uses `currentColor` so it
+// follows the same inactive/active colour logic as the rest of the vertical
+// menu (faded by default, lavender on the home page). The white tip uses
+// --color-primary, so it inverts automatically in dark mode. wand.js keeps the
+// browser-tab favicon in sync with the wand (theme-aware).
 .logos {
   a {
     display: block;
@@ -19,19 +22,20 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    
+
     // Default inactive state (matches other menu items)
     opacity: 0.5;
     color: var(--color-text-secondary);
-    
+
     &:hover {
       opacity: 0.7;
       color: var(--color-text-primary);
     }
-    
+
     .logo-image {
       margin-right: 4px;
       opacity: inherit; // Inherit the parent opacity
+      line-height: 0;   // No extra box around the inline svg
     }
     .logo-text {
       font-size: 26px;
@@ -43,56 +47,35 @@
       }
     }
   }
-  
+
   // Active state when on home page
   &.active .logo,
   .logo.active {
     opacity: 1;
-            color: var(--color-accent-lavender);
-    // color: var(--color-text-primary);
-    
+    color: var(--color-accent-lavender);
+
     &:hover {
       opacity: 1; // Stay full opacity on hover when active
     }
   }
-  
-  .logo-desktop {
-    display: none;
-    @include media-breakpoint-up(sm) {
-      display: flex;
-    }
-  }
-  .logo-mobile {
-    display: flex;
-    @include media-breakpoint-up(sm) {
-      display: none;
-    }
-  }
-  .logo-desktop-invert {
-    display: none;
-  }
-  .logo-mobile-invert {
-    display: none;
-  }
 }
 
-html[data-mode="dark"] {
-  .logo-desktop {
-    display: none;
-  }
-  .logo-mobile {
-    display: none;
-  }
-  .logo-desktop-invert {
-    display: none;
-    @include media-breakpoint-up(sm) {
-      display: flex;
-    }
-  }
-  .logo-mobile-invert {
-    display: flex;
-    @include media-breakpoint-up(sm) {
-      display: none;
-    }
+// --- The wand itself --------------------------------------------------------
+.logo-wand {
+  overflow: visible; // let the spell pop outside the icon box
+  display: block;
+
+  // Size relative to the type scale, capped — matches the old circle (~28px) and
+  // sits with the nav line height. Aspect comes from the viewBox.
+  width: auto;
+  height: 1.75rem;
+  max-width: 1.75rem;
+  max-height: 1.75rem;
+
+  // White cylindrical tip: a slightly-inset stroke in --color-primary (white in
+  // light, near-black in dark). The rod under it shows as a hairline keyline, so
+  // the tip stays visible on a white page and inverts with the theme.
+  .wand-cap {
+    stroke: var(--color-primary);
   }
 }
