@@ -1,11 +1,23 @@
 // NOTE: this is where most of the text is stylized!
 
+// Vertical rhythm — the type scale and every vertical gap are measured in "lines"
+// (rem multiples of the body line-height), not fixed pixels, so the whole thing
+// stays proportional across mobile and desktop from one value.
+//
+// line-height 1.25 → exactly 20px at the 16px root: an integer (no sub-pixel
+// rounding, so line boxes tile evenly even at DPR 1) that sits just below Inter's
+// natural content box (~21.6px). Because the lines pack a hair tighter than their
+// glyph box, the ::selection rectangles overlap instead of leaving leading gaps —
+// a selected paragraph is one solid block in every browser and at any DPR.
+$body-lh: 1.25;
+$line: 1.25rem; // one visual line = 20px at the 16px root
+
 .content {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   font-family: $font-family-base;
   color: var(--color-text-primary);
-  line-height: 1.5; // Added for better readability
+  line-height: $body-lh;
   
 h1,
 h2,
@@ -18,40 +30,15 @@ h5 {
   letter-spacing: -0.02em; // Subtle tightening for better appearance
 }
 
-h1 {
-  margin-top: 64px;
-  margin-bottom: 24px;
-  font-size: 36px;
-  font-weight: 600;
-}
-
-h2 {
-  margin-top: 48px;
-  margin-bottom: 16px;
-  font-size: 28px;
-  font-weight: 500;
-}
-
-h3 {
-  margin-top: 40px;
-  margin-bottom: 12px;
-  font-size: 20px;
-  font-weight: 500;
-}
-
-h4 {
-  margin-top: 32px;
-  margin-bottom: 8px;
-  font-size: 16px;
-  font-weight: 500;
-}
-
-h5 {
-  margin-top: 24px;
-  margin-bottom: 8px;
-  font-size: 14px;
-  font-weight: 700;
-}
+// Heading scale in rem; margins in line-multiples (mt reserves space above,
+// mb a tight gap below). Sizes: 32 / 24 / 20 / 16 / 14px at the 16px root.
+// Top margins carry an extra line of breathing room so a section title is
+// clearly separated from the text that precedes it.
+h1 { margin: #{$line * 3}    0 #{$line * 0.75}; font-size: 2rem;     font-weight: 600; }
+h2 { margin: #{$line * 2.75} 0 #{$line * 0.5};  font-size: 1.5rem;   font-weight: 550; }
+h3 { margin: #{$line * 2.5}  0 #{$line * 0.5};  font-size: 1.25rem;  font-weight: 550; }
+h4 { margin: #{$line * 1.75} 0 #{$line * 0.25}; font-size: 1rem;     font-weight: 600; }
+h5 { margin: #{$line * 1.75} 0 #{$line * 0.25}; font-size: 0.875rem; font-weight: 700; }
 
 > h1,
 h2,
@@ -65,29 +52,20 @@ h5 {
 
   
   p {
-    line-height: 1.6;
-    margin-bottom: 16px;
+    line-height: $body-lh; // 1.35 — seamless ::selection with Inter (no gap-lines)
+    margin: 0 0 $line;     // one visual line between paragraphs
     font-family: $font-family-base;
     color: var(--color-text-primary);
-    max-width: 65ch;  // Add line length limit for better readability
+    max-width: 65ch;       // line-length cap for readability
   }
-  
-  ul {
-    margin: 16px 0; // Reduced and simplified
-    list-style: disc;
-    padding-left: 20px; // Better than margin for list indentation
-  }
-  
-  ol {
-    margin: 16px 0; // Reduced and simplified
-    list-style: decimal;
-    padding-left: 20px; // Better than margin for list indentation
-  }
-  
+
+  ul { margin: $line 0; list-style: disc;    padding-left: 1.25rem; }
+  ol { margin: $line 0; list-style: decimal; padding-left: 1.25rem; }
+
   li {
-    margin-left: 0; // Remove since we're using padding-left on ul/ol
-    line-height: 1.5; // Increased from 1.2
-    margin-bottom: 4px; // Add small spacing between list items
+    margin-left: 0;
+    line-height: $body-lh;
+    margin-bottom: #{$line * 0.25}; // quarter-line between items
   }
 
   // links (hyperlinks) with style, more subtle approach
@@ -165,9 +143,9 @@ h5 {
   
   // More subtle blockquotes
   blockquote {
-    margin: 40px 0;
+    margin: #{$line * 1.5} 0;
     border-left: 4px solid var(--color-text-primary);
-    padding: 20px 16px; // Reduced padding
+    padding: #{$line * 0.5} 1rem;
     background-color: var(--color-background-primary);
     &::before {
       content: "";
@@ -180,8 +158,8 @@ h5 {
       font-family: $font-family-base;
       letter-spacing: 0.5px; // Reduced from 1px
       font-weight: 400;
-      font-size: 16px;
-      line-height: 1.5; // Reduced from 1.6
+      font-size: 1rem;
+      line-height: $body-lh;
       margin: 0;
     }
   }
