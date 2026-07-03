@@ -32,7 +32,10 @@
     position: relative;
     font-size: 1.5em;
     font-weight: 500;
-    margin: 5em 0 1em 0; // generous top = visual break between years
+    // Generous top = visual break between years. The bottom gap matches a row
+    // divider's spacing to the row below it (0.375em half-gap; the ol adds no
+    // top margin), so the year underline reads as just another divider.
+    margin: 5em 0 0.375em 0;
     padding-bottom: 0.5em;
 
     &::after {
@@ -59,7 +62,7 @@
     gap: 0.75em 2em; // row col
     list-style: decimal;
     padding-left: 1.25em;
-    margin: 1em 0 0 0;
+    margin: 0; // year <h2> already sets the gap above the first row
     width: 100%;
     box-sizing: border-box;
 
