@@ -4,13 +4,14 @@
 // (rem multiples of the body line-height), not fixed pixels, so the whole thing
 // stays proportional across mobile and desktop from one value.
 //
-// line-height 1.25 → exactly 20px at the 16px root: an integer (no sub-pixel
-// rounding, so line boxes tile evenly even at DPR 1) that sits just below Inter's
-// natural content box (~21.6px). Because the lines pack a hair tighter than their
-// glyph box, the ::selection rectangles overlap instead of leaving leading gaps —
-// a selected paragraph is one solid block in every browser and at any DPR.
-$body-lh: 1.25;
-$line: 1.25rem; // one visual line = 20px at the 16px root
+// line-height 1.3125 → exactly 21px at the 16px root. This is the largest
+// integer line-height that still tiles the ::selection highlight seamlessly with
+// Inter: it sits just under Inter's content box (~21.6px), so the selection
+// rectangles butt together with no leading gap, and being an integer it never
+// rounds unevenly (no gap-lines at DPR 1). 22px+ reopens the seams. (Airier,
+// OpenAI-style spacing would need a body font with taller metrics than Inter.)
+$body-lh: 1.3125;
+$line: 1.25rem; // spacing unit: one visual line = 20px at the 16px root
 
 .content {
   font-size: 1rem;
