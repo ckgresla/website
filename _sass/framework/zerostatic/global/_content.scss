@@ -4,14 +4,15 @@
 // (rem multiples of the body line-height), not fixed pixels, so the whole thing
 // stays proportional across mobile and desktop from one value.
 //
-// line-height 1.3125 → exactly 21px at the 16px root. This is the largest
-// integer line-height that still tiles the ::selection highlight seamlessly with
-// Inter: it sits just under Inter's content box (~21.6px), so the selection
-// rectangles butt together with no leading gap, and being an integer it never
-// rounds unevenly (no gap-lines at DPR 1). 22px+ reopens the seams. (Airier,
-// OpenAI-style spacing would need a body font with taller metrics than Inter.)
-$body-lh: 1.3125;
-$line: 1.25rem; // spacing unit: one visual line = 20px at the 16px root
+// Baseline rhythm on a 24px line — 16px / 1.5 — matching Inter's own designer's
+// site (rsms.me). ::selection only tiles seamlessly at this airy line-height when
+// text lands on whole-pixel rows: Inter's content box (~21.6px) is shorter than
+// the 24px line, so a fractional row would expose the leftover leading as
+// gap-lines, while an integer row hides it. So every vertical metric here — and
+// in the header chrome above the content — is a whole number of pixels, keeping
+// the grid on whole pixels down the page.
+$body-lh: 1.5;
+$line: 1.5rem; // one visual line = 24px at the 16px root
 
 .content {
   font-size: 1rem;
@@ -31,15 +32,15 @@ h5 {
   letter-spacing: -0.02em; // Subtle tightening for better appearance
 }
 
-// Heading scale in rem; margins in line-multiples (mt reserves space above,
-// mb a tight gap below). Sizes: 32 / 24 / 20 / 16 / 14px at the 16px root.
-// Top margins carry an extra line of breathing room so a section title is
-// clearly separated from the text that precedes it.
-h1 { margin: #{$line * 3}    0 #{$line * 0.75}; font-size: 2rem;     font-weight: 600; }
-h2 { margin: #{$line * 2.75} 0 #{$line * 0.5};  font-size: 1.5rem;   font-weight: 550; }
-h3 { margin: #{$line * 2.5}  0 #{$line * 0.5};  font-size: 1.25rem;  font-weight: 550; }
-h4 { margin: #{$line * 1.75} 0 #{$line * 0.25}; font-size: 1rem;     font-weight: 600; }
-h5 { margin: #{$line * 1.75} 0 #{$line * 0.25}; font-size: 0.875rem; font-weight: 700; }
+// Heading scale in rem; margins in line-multiples. Per-heading line-heights are
+// chosen to land on whole pixels (integer px) so headings don't knock the prose
+// below them off the whole-pixel grid. Sizes/line-heights (px): 32/40, 24/30,
+// 20/24, 16/24, 14/21.
+h1 { margin: #{$line * 2.5}  0 #{$line * 0.5};  font-size: 2rem;     font-weight: 600; line-height: 1.25; }
+h2 { margin: #{$line * 2.25} 0 #{$line * 0.5};  font-size: 1.5rem;   font-weight: 550; line-height: 1.25; }
+h3 { margin: #{$line * 2}    0 #{$line * 0.5};  font-size: 1.25rem;  font-weight: 550; line-height: 1.2; }
+h4 { margin: #{$line * 1.5}  0 #{$line * 0.25}; font-size: 1rem;     font-weight: 600; line-height: 1.5; }
+h5 { margin: #{$line * 1.5}  0 #{$line * 0.25}; font-size: 0.875rem; font-weight: 700; line-height: 1.5; }
 
 > h1,
 h2,

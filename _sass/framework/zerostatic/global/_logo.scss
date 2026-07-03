@@ -65,13 +65,13 @@
   overflow: visible; // let the spell pop outside the icon box
   display: block;
 
-  // Size relative to the type scale, capped. ~1.05rem (≈17px) — 60% of the old
-  // circle size, a smaller mark that sits lightly above the nav. Aspect comes
-  // from the viewBox.
+  // ~60% of the old circle — a smaller mark above the nav. 1.0625rem = 17px
+  // exactly (integer) so the logo doesn't push the nav height off the whole-pixel
+  // grid. Aspect comes from the viewBox.
   width: auto;
-  height: 1.05rem;
-  max-width: 1.05rem;
-  max-height: 1.05rem;
+  height: 1.0625rem;
+  max-width: 1.0625rem;
+  max-height: 1.0625rem;
 
   // White cylindrical tip: a slightly-inset stroke in --color-primary (white in
   // light, near-black in dark). The rod under it shows as a hairline keyline, so
