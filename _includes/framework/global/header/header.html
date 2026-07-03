@@ -1,29 +1,24 @@
-<div id="header" class="header-vertical">
-  <div class="header-content">
-    <!-- Page title on the left for desktop -->
-    <div class="header-title">
-      {% comment %} `tagline` overrides the title text when set (a text-only
-      per-page override); otherwise the plain title. Styling is unchanged. {% endcomment %}
-      {% if page.tagline %}
-        <h1 class="page-title">{{ page.tagline }}</h1>
-      {% elsif page.title %}
-        <h1 class="page-title">{{ page.title }}</h1>
-      {% endif %}
-    </div>
-
-    
-    <!-- Logo and vertical navigation on the right -->
-    <div class="header-nav">
-      <!-- Logo at top of menu list -->
-      {% include framework/global/header/logo.html %}
-      <!-- The actual title bar/menu for navigation -->
-      {% include framework/global/menu/menu-main-vertical.html %}
-    </div>
-
-    <!-- Page `description` as its own element, bottom-left of the header field.
-         Separate from the title/tagline. Skipped on the home page. -->
+<!-- The shared header row for every page: page title/tagline (+ description) on
+     the left, the wand over the left-aligned menu on the right. It fills the
+     canonical .page container (see default.html), so the title lands on the
+     container's left edge and the nav on its right edge — identically on every
+     page. -->
+<header class="page-head">
+  <div class="page-head-title">
+    {% comment %} `tagline` overrides the title text when set (a text-only
+    per-page override); otherwise the plain title. {% endcomment %}
+    {% if page.tagline %}
+      <h1 class="page-title">{{ page.tagline }}</h1>
+    {% elsif page.title %}
+      <h1 class="page-title">{{ page.title }}</h1>
+    {% endif %}
     {% if page.description and page.url != '/' and page.url != '/index.html' %}
-      <p class="header-desc">{{ page.description }}</p>
+      <p class="page-desc">{{ page.description }}</p>
     {% endif %}
   </div>
-</div>
+
+  <nav class="page-nav">
+    {% include framework/global/header/logo.html %}
+    {% include framework/global/menu/menu-main-vertical.html %}
+  </nav>
+</header>

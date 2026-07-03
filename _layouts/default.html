@@ -45,10 +45,12 @@
 <body class="page {% if page.body_classes %}{{ page.body_classes }}{% elsif layout.body_classes %}{{ layout.body_classes }}{% endif %}{% if site.header.fixed %} has-fixed-header{% else %} has-static-header{% endif %}">
 
 {% include framework/global/menu/menu-main-mobile.html %}
-{% include framework/global/header/header.html %}
 
-<div id="wrapper" class="wrapper">     
-  {{ content }}
+<div class="site-page">
+  {% include framework/global/header/header.html %}
+  <main id="wrapper" class="page-main">
+    {{ content }}
+  </main>
 </div>
 
 {% if site.footer.enable_footer %}

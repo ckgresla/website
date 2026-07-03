@@ -95,54 +95,69 @@ html[data-mode='dark'] {
 
 @import 'style';
 
-// Vertical Header Styles
-.header-vertical {
-  position: static;
-  background: var(--color-background);
-  padding: 14rem 0 2rem;
-  
-  .header-content {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    position: relative; // anchor for the bottom-right description
+// ── Canonical page shell ────────────────────────────────────────────────────
+// ONE container, shared by the header row and all content, so the title/nav and
+// the content column align on every page *by construction* — no per-page width
+// drift. Every vertical metric is an integer number of pixels, keeping text on
+// the whole-pixel grid (seamless ::selection). Per-page needs (e.g. ponderings'
+// grid) override only their own content region, never this shell.
+.site-page {
+  // `body.page` is a centering flex column, which would otherwise shrink this to
+  // its content width (different per page); force full width so the 1080 cap +
+  // auto margins give identical edges on every page.
+  align-self: stretch;
+  width: 100%;
+  max-width: 1080px;         // page width, in the rsms range
+  margin: 0 auto;
+  padding: 8rem 2rem 5rem;   // 128 / 32 / 80 — integer
+}
+
+.page-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3rem;                 // 48px
+  margin-bottom: 4rem;       // 64px down to the content
+
+  .page-head-title { flex: 1; min-width: 0; }
+
+  .page-title {
+    font-family: $font-family-heading;
+    font-size: 1.8rem;
+    line-height: 1.25;       // 28.8 × 1.25 = 36px — integer
+    font-weight: 600;
+    color: var(--color-text-primary);
+    margin: 0;
   }
 
-  // Page description pinned to the bottom-right of the header field, ~1/3 wide.
-  .header-desc {
-    position: absolute;
-    left: 2rem;   // align with the title's left edge
-    bottom: 0;    // sit on the nav's bottom line ("Bangers"), bottom-left of the field
-    max-width: 33%;
-    margin: 0;
-    text-align: left;
+  .page-desc {
+    margin: 0.75rem 0 0;     // 12px
     font-size: 0.95rem;
-    line-height: 1.5;
-    color: var(--color-text-primary);
+    line-height: 1.5;        // 24px
+    color: var(--color-text-secondary);
+    max-width: 48ch;
   }
-  
-  .header-title {
-    flex: 1;
-    
-    .page-title {
-      font-family: $font-family-heading;
-      font-size: 1.8rem;
-      font-weight: 600;
-      color: var(--color-text-primary);
-      margin: 0;
-      text-align: left;
-    }
-  }
-  
-  .header-nav {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-  }
+}
+
+// Wand over the left-aligned menu, pinned to the container's right edge.
+.page-nav {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;                 // 16px between the wand and the menu
+}
+
+// Content region — every layout drops its markup here. Flatten the vendored
+// Bootstrap grid and the old per-page containers so content fills this one
+// column; prose becomes a left-aligned reading measure via `p { max-width:65ch }`.
+.page-main {
+  .section { padding: 0; }
+  .container { max-width: none; width: 100%; margin: 0; padding: 0; }
+  .row { margin: 0; justify-content: flex-start; }
+  [class*="col-"] { flex: 0 0 100%; max-width: 100%; padding: 0; }
+  .ponderings-container,
+  .bangers-container { max-width: none; margin: 0; width: 100%; }
 }
 
 // Vertical Menu Styles
@@ -167,6 +182,8 @@ html[data-mode='dark'] {
       display: block;
       font-family: $font-family-heading;
       font-size: 1.25rem;
+      line-height: 1.2; // 20px × 1.2 = 24px — integer, so the nav (which drives
+                        // the header height) stays on the whole-pixel grid
       font-weight: 500;
       color: var(--color-text-secondary);
       text-decoration: none;
@@ -196,29 +213,20 @@ html[data-mode='dark'] {
   }
 }
 
-// Mobile styles
+// Mobile — the shell stacks: title, then the nav, then content.
 @media (max-width: 768px) {
-  .header-vertical {
-    padding: 7rem 0 2rem;
-    
-    .header-content {
-      padding: 0 1rem;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 4rem;
-    }
-    
-    .header-nav {
-      gap: 0.75rem;
-    }
+  .site-page {
+    padding: 3rem 1.25rem 4rem;
+  }
 
-    // On mobile the header stacks, so flow the description in below the nav
-    // instead of absolutely pinning it (which overlaps the stacked menu).
-    .header-desc {
-      position: static;
-      max-width: none;
-      text-align: left;
-    }
+  .page-head {
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .page-nav {
+    gap: 0.75rem;
   }
 
   .menu-vertical .menu-list {
