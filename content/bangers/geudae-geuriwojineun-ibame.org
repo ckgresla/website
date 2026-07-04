@@ -1,0 +1,31 @@
+#+title: 그대 그리워지는 이밤에 (Geudae Geuriwojineun Ibame, On This Night I Miss You)
+#+artist: 쿨 (Kul)
+#+sort_artist: Kul
+#+language: Korean
+#+spotify: https://open.spotify.com/track/1TA2EkbFjrHtJzawJRfBSV?si=9886334290cc4fce
+#+youtube: https://www.youtube.com/watch?v=m2gND_RFDq4
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 작은 설레임에 햇살이 밤이오면 | jageun seolleime haetsari bami omyeon | When the night comes with a small flutter and sunlight piled up |
+| 별을 보며 그댈 기다리네 | byeoreul bomyeo geudael gidarine | I look at the stars and wait for you |
+| 그대 들리나요 나의 속삭임이 | geudae deullinayo naui soksagimi | Can you hear it, my whisper |
+| 바람결에 띄워보네요 | baramgyeore ttwieo boneyo | I send it off on the wind |
+| 살포시 웃고있는 그 입술 | salposi utgo inneun geu ipsul | Those gently smiling lips |
+| 떨리는 작은 손 더 이상은 숨길 수가 없어 | tteolrineun jageun son deo isangeun sumgil suga eopseo | Your trembling little hand, I can’t hide it any longer |
+| 오늘 난 말할 거예요 | oneul nan malhal geoyeyo | Today I’m going to say it |
+| 그대 눈 마주 바라보며 | geudae nun maju barabomyeo | While looking straight into your eyes |
+| 너만을 사랑한다고 | neomaneul saranghandago | That I love only you |
+| 오늘 밤은 너무 짧죠 | oneul bameun neomu jjaljyo | Tonight is much too short |
+| 너에게 내 맘을 보여주길 | neoege nae mameul boyeojugil | I want to show you my heart |
+| 그대 들리나요 나의 속삭임이 | geudae deullinayo naui soksagimi | Can you hear it, my whisper |
+| 머릿속에 녹아 버려요 | meorissoge noga beoryeoyo | It melts away inside my head |
+| 사랑이란 이런가요 | sarangiran ireongayo | Is this what love is |
+| 그대 맘도 이런가요 | geudae mamdo ireongayo | Is your heart like this too |
+| 말해줘요 우리 사랑을 | malhaejwoyo uri sarangeul | Tell me about our love |
+| 낮은 빗소리가 내게 들려오면 | najeun bitsoriga naege deullyeoomyeon | When the soft sound of rain reaches me |
+| 웃음 속에 그댈 그려보네 | useum soge geudael geuryeobone | I picture you within my smile |
+| 그대 들리나요 나의 속삭임이 | geudae deullinayo naui soksagimi | Can you hear it, my whisper |
+| 빗물 속에 젖어 드네요 | bitmul soge jeojeo deuneyo | As it soaks into the falling rain |

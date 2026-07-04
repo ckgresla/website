@@ -1,0 +1,27 @@
+#+title: 슬픈 발자욱 (Seulpeun Baljaukg, Sad Footsteps)
+#+artist: 박지희 (Park Ji-hee)
+#+sort_artist: Park Ji-hee
+#+language: Korean
+#+spotify: https://open.spotify.com/track/3i84VgYkK8RtAslJWUNloF?si=e564a8b3fd2c460a
+#+youtube: https://www.youtube.com/watch?v=HRkRgzt2yY4
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 그대 마음에 여행을 떠나 | geudae maeume yeohaengeul tteona | I set off on a journey into your heart |
+| 이렇게 걸어가지 | ireoke georeogaji | And walk along like this |
+| 너무도 여린 그 길위엔 | neomudo yeorin geu gir-wien | On that oh-so-fragile path |
+| 슬픈 발자욱 너무 많아 | seulpeun baljaukg neomu man-a | There are too many sad footprints |
+| 그댄 슬퍼도 눈물이 없어 | geudaen seulpeodo nunmuri eopseo | Even when you’re sad, you have no tears |
+| 쓸쓸히 웃곤 하지 | sseulsseulhi utgon haji | You just give a lonely little smile |
+| 너무도 깊은 마음목엔 | neomudo gipeun maeummogen | In the deepest corner of your heart |
+| 눈물이 가득 고여있지 | nunmuri gadeuk goyeoitji | Tears are gathered, filling it up |
+| 그 마음을 한걸음 거닐면 | geu maeumeul hangeoreum geonilmyeon | When I stroll one step through that heart |
+| 힘겨워 아파하는 그대 추억 | himgyeowo apahaneun geudae chueok | Your memories struggle and ache |
+| 내 짙은 사랑의 발자욱들이 | nae jiteun sarangui baljaukgdeuri | Could the deep footprints of my love |
+| 눈물을 씻을 수는 없을까 | nunmureul ssiseul suneun eopseulkka | Somehow wipe away those tears? |
+| 그대 마음에 여행을 떠나 | geudae maeume yeohaengeul tteona | I set off on a journey into your heart |
+| 이렇게 걸어가지 | ireoke georeogaji | And walk along like this |
+| 너무도 여린 그 길위엔 | neomudo yeorin geu gir-wien | On that so-fragile path |
+| 슬픈 발자욱이 너무 많아 | seulpeun baljaugi neomu man-a | There are too many sad footprints |
