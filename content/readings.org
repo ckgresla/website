@@ -1,5 +1,6 @@
 #+title: Readings
 #+tagline: Brilliant pieces, all worth perusing
+#+body_class: center
 
 | Title         | Thought   | 
 |------+------|
