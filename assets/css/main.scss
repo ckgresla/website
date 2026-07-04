@@ -329,9 +329,11 @@ pre {
   .banger-source { margin: 0; font-size: 0.875rem; line-height: 21px; }
   .banger-back { margin-top: 48px; }
 
-  // lyrics tables ({.lyrics} in content) — three parallel columns, small type
+  // lyrics tables ({.lyrics} in content) — parallel texts in equal columns:
+  // every language gets the same room and rows align cleanly.
   .lyrics {
     width: 100%; // fill the reading column
+    table-layout: fixed;
     font-size: 0.875rem;
     line-height: 21px;
     th, td { padding: 6px 16px 6px 0; }
