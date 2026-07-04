@@ -21,6 +21,21 @@ disableKinds = ["taxonomy", "term", "rss", "sitemap", "robotsTXT"]
   [markup.highlight]
     noClasses = false # classes + our own tiny palette, so code follows dark mode
 
+# Section-wide front matter (kept here because org keywords are flat — the
+# .org content files can't express nested cascade blocks).
+[[cascade]]
+  [cascade.params]
+    body_class = 'center' # napkins read on the centered column
+  [cascade.target]
+    path = '{/napkins,/napkins/**}'
+
+[[cascade]]
+  [cascade.params]
+    body_class = 'center'
+    tagline = 'song info' # the common masthead for every song — egalitarian
+  [cascade.target]
+    path = '{/bangers,/bangers/**}'
+
 [menus]
   # The ● home link is hardcoded in the header partial, above these.
   [[menus.main]]

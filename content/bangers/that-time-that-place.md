@@ -1,9 +1,0 @@
----
-title: "That Time That Place"
-artist: "Sung Si Kyung"
-sort_artist: "Sung Si Kyung"
-language: "Korean"
-youtube: "https://youtu.be/4p_OF9SKdoI?si=uEtEoKyctA2OOG7O"
-year: 2013
-blurb: ""
----

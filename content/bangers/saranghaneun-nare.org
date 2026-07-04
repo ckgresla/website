@@ -1,0 +1,31 @@
+#+title: 사랑하는 날에 (On the Day We Love)
+#+artist: 서영은 (Suh Young-eun)
+#+sort_artist: Suh Young-eun
+#+language: Korean
+#+youtube: https://www.youtube.com/watch?v=4EXCBQwPAHo
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+|작은 설레임과 전해오는 따스함   |jageun seolleimgwa jeonhaeoneun ttaseuham    |The small flutter and the warmth that’s passed along|
+|웃음진 그대 얼굴 사랑인걸 아나요 |useumjin geudae eolgul sarangingeol anayo    |Your smiling face… do you know that it is love?     |
+|그대 두려움으로           |geudae duryeoumeuro                          |With your fear                                      |
+|소중한 사랑을 잃지를 마세요    |sojunghan sarangeul iljireul maseyo          |Please don’t lose this precious love                |
+|서서히 스며드는 사랑의 향기에   |seoseo-hi seumyeodeuneun sarangui hyanggie   |In the slowly seeping scent of love                 |
+|젖어드는 그대 모습 느낄 수 있나요|jeojeodeuneun geudae moseup neukkil su innayo|Can you feel how you’re soaking in it?              |
+|그대 망설임으로           |geudae mangseorimeuro                        |With your hesitation                                |
+|소중한 사랑을 놓치지 마세요    |sojunghan sarangeul nochijji maseyo          |Please don’t let this precious love slip away       |
+|살며시 눈을 떠봐요         |salmyeosi nuneul tteobwayo                   |Gently, try opening your eyes                       |
+|당신의 사랑이 보여요        |dangsine sarangi boyeoyo                     |You can see your love there                         |
+|이제 눈을 감아요 한 걸음 다가와 |ije nuneul gamayo han georeum dagawa         |Now close your eyes, take one step closer           |
+|우리의 사랑 느껴봐요        |uriui sarang neukkyeobwayo                   |And try to feel our love                            |
+|언제부터인지 달라진 그대      |eonjebuteoinji dallajin geudae               |I don’t know since when, but you’ve changed         |
+|서로의 모습이 닮아가는 걸 아나요 |seoroui moseubi dalmaganeun geol anayo       |Do you know our faces are becoming alike?           |
+|또 다시 기다림으로         |tto dasi gidarimeuro                         |With waiting yet again                              |
+|소중한 사랑을 보내지 마세요    |sojunghan sarangeul bonaeji maseyo           |Please don’t let this precious love go              |
+|살며시 눈을 떠봐요         |salmyeosi nuneul tteobwayo                   |Gently, try opening your eyes                       |
+|당신의 사랑이 보여요        |dangsine sarangi boyeoyo                     |You can see your love there                         |
+|이제 눈을 감아요 한 걸음 다가와 |ije nuneul gamayo han georeum dagawa         |Now close your eyes, take one step closer           |
+|우리의 사랑 우리의 사랑      |uriui sarang uriui sarang                    |Our love, our love                                  |
+|우리의 사랑을 느껴봐요       |uriui sarangeul neukkyeobwayo                |Try to feel our love                                |

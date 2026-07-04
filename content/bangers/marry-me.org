@@ -1,0 +1,39 @@
+#+title: Marry Me
+#+artist: 양파 (Yangpa)
+#+sort_artist: Yangpa
+#+language: Korean
+#+youtube: https://www.youtube.com/watch?v=1v-2cAPUJVA
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| It’s like walking on the moon | It’s like walking on the moon | It’s like walking on the moon |
+| 그대와 걸으면 | geudaewa georeumyeon | When I walk with you |
+| Feels like flying through the sky | Feels like flying through the sky | It feels like flying through the sky |
+| 살짝 입 맞추면 | saljjak ip majchumyeon | When we gently kiss |
+| 혀끝에 맴도는 열두 번 더 미룬 말 | hyeokkeute maemdoneun yeoldu beon deo mirun mal | The words I’ve put off saying a dozen more times on the tip of my tongue |
+| 오늘만은 말해줘 | oneulmaneun malhaejwo | Just for today, please say it |
+| Just marry me | Just marry me | Just marry me |
+| 아파처럼 돌봐줘 졸린지 배고픈지 | appacheoreom dolbwajwo jollinji baegopeunji | Take care of me like I’m hurt, whether I’m sleepy or hungry |
+| 춥다 하면 너는 품 안에 꼭 안아줘 | chupdahamyeon neoreun pumane kkok anajwo | When I say I’m cold, hold me tight in your arms |
+| 언제 어디를 가든 주머니 너흰 날 데려가 | eonje eodil gadeun jumeonie neohin nal deryeoga | Wherever you go, always take me in your pocket |
+| 바쁘다고 혼자 두지는 마 | bappeudago honja dujineun ma | Don’t leave me alone just because you’re busy |
+| 하루에도 몇 번씩 마주 보며 얘기해 | haruedo myeot beonssik majubomyeo yaegihae | Let’s sit face to face and talk several times a day |
+| 세상에서 가장 달콤한 말 | sesangeseo gajang dalkomhan mal | The sweetest words in the world |
+| I love you ~ | I love you ~ | I love you ~ |
+| 너그럽게 봐줄게 술 취해 늦더라도 | neogeureopge bwajulge sul chwihae neutdeorado | I’ll be generous even if you’re drunk and late |
+| 시시한 농담에도 크게 웃어줄게 | sisihan nongdamedo keuge useojulge | I’ll laugh out loud even at your lame jokes |
+| 세상에 지칠 때 내게 기대 쉬어 | sesange jichil ttae naege gidae swieo | When you’re tired of the world, lean on me and rest |
+| 우리 사이 운명인 걸 믿어 보기로 해 | uri sai unmyeongingeol mideo bogiro hae | Let’s try believing that what we have is destiny |
+| 하루에도 몇 번씩 부드러운 입술로 | haruedo myeot beonssik budeureoun ipsullo | Several times a day, with your soft lips |
+| 세상에서 가장 달콤한 맛 | sesangeseo gajang dalkomhan mas | The sweetest taste in the world |
+| Kiss kiss kiss | Kiss kiss kiss | Kiss kiss kiss |
+| 비밀스러운 상상해 그대와 걸으면 | bimilsereoun sangsanghae geudaewa georeumyeon | I secretly imagine, when I walk with you |
+| 무슨 꿈을 꾸길래 그리 즐겁냐고 | museun kkumeul kkugillae geuri jeulgeopnyago | What dream are you having that makes you so happy |
+| 담백한 미소에 나도 따라 웃게 되는 걸 | dambaekhan misoe nado ttara usge doeneungeol | Your simple smile makes me smile along with you |
+| 이런 내 맘 하늘은 알아요 | ireon nae mam haneureun arayo | Heaven knows how I feel |
+| 하늘만 아나 봐 | haneulman anabwa | Maybe only heaven knows |
+| 오늘만은 | oneulmaneun | Just for today |
+| 오늘만은 | oneulmaneun | Just for today |
+| 오늘만은 | oneulmaneun | Just for today |
