@@ -20,13 +20,14 @@
 
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
-{{/* Inter + Inter Display straight from the source; CJK fallbacks: Inter has no
-     CJK glyphs, so Korean/Japanese fall to Pretendard and anything else (e.g.
-     Chinese) to Noto Sans. Dynamic subsets only download glyphs in use. */}}
-<link rel="preconnect" href="https://rsms.me" crossorigin>
+{{/* Fonts are self-hosted latin-subset variable woff2s (@font-face in the
+     stylesheet) — preloaded so the first paint uses them and navigation never
+     re-downloads. Only the CJK fallbacks (Pretendard for Korean/Japanese,
+     Noto Sans for the rest) stay on a CDN: dynamic subsets, fetched only on
+     pages whose glyphs need them. */}}
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/inter-latin-wght.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/inter-display-semibold.woff2" crossorigin>
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-<link rel="stylesheet" href="https://rsms.me/inter/inter-display.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-jp-dynamic-subset.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap">

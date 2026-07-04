@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <title>Clock</title>
+
+  <!-- iOS standalone (Add to Home Screen → fullscreen, no Safari chrome) -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Clock">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+
+  <link rel="manifest" href="/assets/clock.webmanifest">
+  <link rel="apple-touch-icon" href="/assets/images/clock/icon-180.png">
+
+  <style>
+    @font-face {
+      font-family: 'Inter'; font-style: normal; font-weight: 100 900; font-display: swap;
+      src: url('/assets/fonts/inter-latin-wght.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: 'JetBrains Mono'; font-style: normal; font-weight: 100 800; font-display: swap;
+      src: url('/assets/fonts/jetbrains-mono-latin-wght.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: 'Inter'; font-style: italic; font-weight: 100 900; font-display: swap;
+      src: url('/assets/fonts/inter-latin-wght-italic.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: 'JetBrains Mono'; font-style: italic; font-weight: 100 800; font-display: swap;
+      src: url('/assets/fonts/jetbrains-mono-latin-wght-italic.woff2') format('woff2');
+    }
+
+    :root {
+      --bg:#000; --fg:#fff; --muted:#7c7c80; --accent:#c4d2ff; --accent-on:#0a0a0a;
+      --tile:#141416; --switch-off:#3a3a3c;
+    }
+    @media (prefers-color-scheme: light) {
+      :root:not([data-theme="dark"]) {
+        --bg:#fff; --fg:#0b0b0b; --muted:#8a8a8e; --accent:#6f7fe0; --accent-on:#fff;
+        --tile:#f1f1f4; --switch-off:#d1d1d6;
+      }
+    }
+    :root[data-theme="light"] { --bg:#fff; --fg:#0b0b0b; --muted:#8a8a8e; --accent:#6f7fe0; --accent-on:#fff; --tile:#f1f1f4; --switch-off:#d1d1d6; }
+    :root[data-theme="dark"]  { --bg:#000; --fg:#fff; --muted:#7c7c80; --accent:#c4d2ff; --accent-on:#0a0a0a; --tile:#141416; --switch-off:#3a3a3c; }
+
+    * { margin:0; padding:0; box-sizing:border-box;
+        -webkit-user-select:none; user-select:none; -webkit-tap-highlight-color:transparent; -webkit-touch-callout:none; }
+    html, body { height:100%; }
+    body {
+      background:var(--bg); color:var(--fg);
+      font-family:'Inter', system-ui, -apple-system, sans-serif;
+      overflow:hidden; position:fixed; inset:0; touch-action:none;
+      transition:background-color .55s ease, color .55s ease;
+    }
+    #clock { position:fixed; inset:0; overflow:hidden; }
+    .num { font-variant-numeric:tabular-nums; }
+
+    /* Swipeable face track + size scales (main + independent subtitle) */
+    .views { display:flex; height:100%; width:100%; --scale:1; --date-scale:1; position:relative; z-index:1;
+      transition:transform .38s cubic-bezier(.22,.61,.36,1); will-change:transform; }
+
+    /* Moon — its own grid placement, sits behind the time */
+    #moon { position:absolute; inset:0; z-index:0; display:none; align-items:center; justify-content:center; pointer-events:none; --moon-scale:1;
+      padding:calc(env(safe-area-inset-top) + 24px) calc(env(safe-area-inset-right) + 26px)
+              calc(env(safe-area-inset-bottom) + 30px) calc(env(safe-area-inset-left) + 26px); }
+    #moon.on { display:flex; }
+    #moon.mv-top { align-items:flex-start; } #moon.mv-middle { align-items:center; } #moon.mv-bottom { align-items:flex-end; }
+    #moon.mh-left { justify-content:flex-start; } #moon.mh-center { justify-content:center; } #moon.mh-right { justify-content:flex-end; }
+    #moon svg { width:calc(clamp(56px,17vw,108px) * var(--moon-scale)); height:auto; display:block; transform:rotate(-45deg); }
+    .views.dragging { transition:none; }
+    .views.italic .time, .views.italic .date { font-style:italic; }
+
+    .view { flex:0 0 100%; width:100%; height:100%; display:flex; position:relative;
+      align-items:center; justify-content:center;
+      padding:calc(env(safe-area-inset-top) + 28px) calc(env(safe-area-inset-right) + 30px)
+              calc(env(safe-area-inset-bottom) + 34px) calc(env(safe-area-inset-left) + 30px); }
+    .stack { display:flex; flex-direction:column; align-items:center; }
+    .time, .date { text-align:center; }
+
+    /* 3×3 position */
+    .views.v-top .view { align-items:flex-start; } .views.v-middle .view { align-items:center; } .views.v-bottom .view { align-items:flex-end; }
+    .views.h-left .view { justify-content:flex-start; } .views.h-center .view { justify-content:center; } .views.h-right .view { justify-content:flex-end; }
+    .views.h-left .stack { align-items:flex-start; } .views.h-center .stack { align-items:center; } .views.h-right .stack { align-items:flex-end; }
+    .views.h-left .time, .views.h-left .date { text-align:left; }
+    .views.h-center .time, .views.h-center .date { text-align:center; }
+    .views.h-right .time, .views.h-right .date { text-align:right; }
+
+    /* ---- Quiet ---- */
+    .quiet .time { font-weight:var(--time-weight,200); font-size:calc(clamp(70px,21vw,150px) * var(--scale)); letter-spacing:-.03em; line-height:1; }
+    .quiet .ampm { font-weight:300; font-size:.32em; color:var(--muted); margin-left:.16em; vertical-align:.95em; }
+    .quiet .qsecs { font-weight:300; font-size:.32em; color:var(--accent); margin-left:.12em; vertical-align:.95em; }
+    .quiet .date { margin-top:calc(26px * var(--scale)); font-weight:500; font-size:calc(clamp(13px,3.7vw,18px) * var(--date-scale)); letter-spacing:.01em; color:var(--muted); }
+
+    /* ---- Mono ---- */
+    .mono { font-family:'JetBrains Mono', ui-monospace, monospace; }
+    .mono .status { display:flex; align-items:center; gap:9px; margin-bottom:16px; color:var(--muted); font-size:13px; letter-spacing:.02em; }
+    .mono .status .dot { width:9px; height:9px; border-radius:50%; background:var(--accent); transition:background .3s; }
+    .mono .status.idle .dot { background:var(--muted); }
+    .mono .time { font-weight:var(--time-weight,500); font-size:calc(clamp(46px,15vw,92px) * var(--scale)); letter-spacing:-.02em; line-height:1.05; }
+    .mono .ampm { font-size:.5em; color:var(--muted); margin-left:.3em; }
+    .mono .msecs { color:var(--accent); font-weight:400; font-size:calc(clamp(24px,8vw,42px) * var(--scale)); margin-top:10px; }
+    .mono .date { margin-top:16px; color:var(--muted); font-size:calc(13px * var(--date-scale)); letter-spacing:.04em; }
+
+    /* Word / pirate / wizard formats wrap and shrink */
+    .time.words { font-weight:var(--time-weight,300); font-size:calc(clamp(30px,8.5vw,54px) * var(--scale)); line-height:1.15; letter-spacing:-.01em; max-width:min(88vw,9em); }
+    .mono .time.words { font-weight:var(--time-weight,500); }
+    .time.words .ampm, .time.words .qsecs { display:none; }
+
+    /* ---- Page dots ---- */
+    .dots { position:absolute; left:0; right:0; bottom:max(env(safe-area-inset-bottom),14px);
+      display:flex; gap:8px; justify-content:center; pointer-events:none; opacity:0; transition:opacity .45s ease; z-index:5; }
+    .dots.show { opacity:.5; }
+    .dots i { width:6px; height:6px; border-radius:50%; background:var(--muted); transition:background .3s, transform .3s; }
+    .dots i.on { background:var(--fg); transform:scale(1.15); }
+
+    /* ---- Menu (scrollable, never crowds the hint) ---- */
+    #menu { position:fixed; inset:0; z-index:10; display:grid; overflow-y:auto; -webkit-overflow-scrolling:touch;
+      background:color-mix(in srgb, var(--bg) 76%, transparent);
+      -webkit-backdrop-filter:blur(24px); backdrop-filter:blur(24px);
+      opacity:0; visibility:hidden; transition:opacity .26s ease, visibility .26s; }
+    #menu.open { opacity:1; visibility:visible; }
+    .menu-inner { margin:auto; width:100%; max-width:360px;
+      padding:calc(env(safe-area-inset-top) + 32px) 28px calc(env(safe-area-inset-bottom) + 30px);
+      display:flex; flex-direction:column; gap:20px;
+      transform:translateY(10px) scale(.985); transition:transform .26s ease; }
+    #menu.open .menu-inner { transform:none; }
+    .menu-card { display:flex; flex-direction:column; gap:19px; }
+    .field { display:flex; flex-direction:column; gap:9px; }
+    .field > .lbl { font-size:12px; letter-spacing:.16em; text-transform:uppercase; color:var(--muted); font-weight:600; padding-left:2px; }
+
+    .seg { display:flex; background:var(--tile); border-radius:14px; padding:4px; gap:4px; }
+    .seg button { flex:1; border:0; background:transparent; color:var(--muted); font:inherit; font-size:15px; font-weight:500; padding:13px 0; border-radius:10px; cursor:pointer; transition:background .2s, color .2s; }
+    .seg button.on { background:var(--accent); color:var(--accent-on); }
+
+    .pills { display:flex; flex-wrap:wrap; gap:8px; }
+    .pills button { border:0; background:var(--tile); color:var(--muted); font:inherit; font-size:14px; font-weight:500; padding:10px 14px; border-radius:11px; cursor:pointer; transition:background .2s, color .2s; }
+    .pills button.on { background:var(--accent); color:var(--accent-on); }
+
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:5px; background:var(--tile); padding:5px; border-radius:14px; }
+    .grid button { height:46px; border:0; background:transparent; border-radius:9px; cursor:pointer; display:flex; padding:9px; transition:background .2s; }
+    .grid button > i { width:7px; height:7px; border-radius:50%; background:var(--muted); transition:background .2s; }
+    .grid button.on { background:var(--accent); } .grid button.on > i { background:var(--accent-on); }
+    .grid button:nth-child(3n+1) { justify-content:flex-start; } .grid button:nth-child(3n+2) { justify-content:center; } .grid button:nth-child(3n) { justify-content:flex-end; }
+    .grid button:nth-child(-n+3) { align-items:flex-start; } .grid button:nth-child(n+4):nth-child(-n+6) { align-items:center; } .grid button:nth-child(n+7) { align-items:flex-end; }
+
+    .slider { -webkit-appearance:none; appearance:none; width:100%; height:30px; background:transparent; cursor:pointer; }
+    .slider::-webkit-slider-runnable-track { height:6px; border-radius:3px; background:var(--tile); }
+    .slider::-webkit-slider-thumb { -webkit-appearance:none; width:26px; height:26px; border-radius:50%; background:var(--accent); margin-top:-10px; box-shadow:0 1px 3px rgba(0,0,0,.35); }
+    .slider::-moz-range-track { height:6px; border-radius:3px; background:var(--tile); }
+    .slider::-moz-range-thumb { width:26px; height:26px; border:0; border-radius:50%; background:var(--accent); box-shadow:0 1px 3px rgba(0,0,0,.35); }
+
+    .swatches { display:flex; flex-wrap:wrap; gap:11px; align-items:center; }
+    .swatches .sw { width:34px; height:34px; border-radius:50%; border:0; cursor:pointer; padding:0; background:var(--c,#888);
+      box-shadow:0 0 0 2px var(--bg), 0 0 0 2px transparent; transition:box-shadow .15s; }
+    .swatches .sw.on { box-shadow:0 0 0 2px var(--bg), 0 0 0 4px var(--fg); }
+    .swatches .sw-default { background:linear-gradient(135deg,#c4d2ff,#6f7fe0); }
+    .swatches .sw-custom { position:relative; overflow:hidden;
+      background:conic-gradient(from 0deg, #ff6b6b, #f2c14e, #7ee0b8, #5ac8fa, #8e8cff, #ff7eb6, #ff6b6b); }
+    .swatches .sw-custom input { position:absolute; inset:-6px; width:46px; height:46px; opacity:0; border:0; cursor:pointer; }
+
+    .row { display:flex; align-items:center; justify-content:space-between; padding:2px; }
+    .row .lbl { font-size:16px; font-weight:500; }
+    .switch { width:52px; height:32px; border-radius:16px; background:var(--switch-off); position:relative; transition:background .2s; border:0; cursor:pointer; flex:0 0 auto; }
+    .switch.on { background:var(--accent); }
+    .switch::after { content:""; position:absolute; top:3px; left:3px; width:26px; height:26px; border-radius:50%; background:#fff; transition:transform .2s; box-shadow:0 1px 3px rgba(0,0,0,.35); }
+    .switch.on::after { transform:translateX(20px); }
+    .menu-hint { text-align:center; font-size:12px; color:var(--muted); letter-spacing:.05em; padding-top:4px; }
+
+    @media (prefers-reduced-motion: reduce) { .views, body, .dots, #menu, .menu-inner { transition-duration:.01ms; } }
+  </style>
+</head>
+<body>
+  <div id="clock">
+    <div id="moon"></div>
+    <div class="views" id="views">
+
+      <section class="view quiet" data-view="quiet">
+        <div class="stack">
+          <div class="time num">
+            <span data-role="hm">9:41</span><span class="ampm" data-role="ampm"></span><span class="qsecs num" data-role="qsecs"></span>
+          </div>
+          <div class="date" data-role="date">Friday — June 26th 2026</div>
+        </div>
+      </section>
+
+      <section class="view mono" data-view="mono">
+        <div class="stack">
+          <div class="status"><span class="dot"></span><span data-role="awake">awake</span></div>
+          <div class="time num"><span data-role="hm">09:41</span><span class="ampm" data-role="ampm"></span></div>
+          <div class="msecs num" data-role="msecs">23</div>
+          <div class="date" data-role="date">2026-06-26 FRI</div>
+        </div>
+      </section>
+
+    </div>
+    <div class="dots" id="dots"></div>
+  </div>
+
+  <div id="menu" aria-hidden="true">
+    <div class="menu-inner">
+      <div class="menu-card">
+        <div class="field"><span class="lbl">Face</span>
+          <div class="seg" data-set="face"><button data-val="quiet">Quiet</button><button data-val="mono">Mono</button></div></div>
+
+        <div class="field"><span class="lbl">Time format</span>
+          <div class="pills" data-set="timeFormat">
+            <button data-val="military">24h</button><button data-val="h12">12h</button><button data-val="h12ap">12h AM/PM</button>
+            <button data-val="words">Words</button><button data-val="pirate">Pirate</button><button data-val="wizard">Wizard</button>
+          </div></div>
+
+        <div class="field"><span class="lbl">Date format</span>
+          <div class="pills" data-set="dateFormat">
+            <button data-val="off">Off</button><button data-val="iso">ISO</button>
+            <button data-val="long">Long</button><button data-val="longd">Long Mon</button><button data-val="longdow">Long Monday</button>
+            <button data-val="short">Short</button><button data-val="dotted">Dotted</button><button data-val="doy">Day</button><button data-val="words">Words</button>
+          </div></div>
+
+        <div class="field"><span class="lbl">Position</span>
+          <div class="grid" data-set="position">
+            <button data-val="tl"><i></i></button><button data-val="tc"><i></i></button><button data-val="tr"><i></i></button>
+            <button data-val="ml"><i></i></button><button data-val="mc"><i></i></button><button data-val="mr"><i></i></button>
+            <button data-val="bl"><i></i></button><button data-val="bc"><i></i></button><button data-val="br"><i></i></button>
+          </div></div>
+
+        <div class="field"><span class="lbl">Size</span>
+          <input class="slider" type="range" data-slider="size" min="0.45" max="1.7" step="0.01" aria-label="Size"></div>
+
+        <div class="field"><span class="lbl">Date size</span>
+          <input class="slider" type="range" data-slider="dateSize" min="0.6" max="2.2" step="0.01" aria-label="Date size"></div>
+
+        <div class="field"><span class="lbl">Weight</span>
+          <div class="pills" data-set="weight">
+            <button data-val="auto">Auto</button><button data-val="thin">Thin</button><button data-val="regular">Regular</button><button data-val="semibold">Semibold</button><button data-val="bold">Bold</button>
+          </div></div>
+
+        <div class="field"><span class="lbl">Moon</span>
+          <div class="pills" data-set="moon">
+            <button data-val="off">Off</button><button data-val="live">Live</button>
+            <button data-val="new">New</button><button data-val="cres">Crescent</button><button data-val="quarter">Quarter</button><button data-val="gibbous">Gibbous</button><button data-val="full">Full</button>
+          </div></div>
+
+        <div class="field"><span class="lbl">Moon position</span>
+          <div class="grid" data-set="moonPos">
+            <button data-val="tl"><i></i></button><button data-val="tc"><i></i></button><button data-val="tr"><i></i></button>
+            <button data-val="ml"><i></i></button><button data-val="mc"><i></i></button><button data-val="mr"><i></i></button>
+            <button data-val="bl"><i></i></button><button data-val="bc"><i></i></button><button data-val="br"><i></i></button>
+          </div></div>
+
+        <div class="field"><span class="lbl">Moon size</span>
+          <input class="slider" type="range" data-slider="moonSize" min="0.4" max="2.5" step="0.01" aria-label="Moon size"></div>
+
+        <div class="field"><span class="lbl">Theme</span>
+          <div class="seg" data-set="theme"><button data-val="auto">Auto</button><button data-val="light">Light</button><button data-val="dark">Dark</button></div></div>
+
+        <div class="field"><span class="lbl">Accent</span>
+          <div class="swatches" data-set="accent">
+            <button class="sw sw-default" data-val="default" aria-label="Default"></button>
+            <button class="sw" data-val="#8e8cff" style="--c:#8e8cff"></button>
+            <button class="sw" data-val="#7ee0b8" style="--c:#7ee0b8"></button>
+            <button class="sw" data-val="#f2c14e" style="--c:#f2c14e"></button>
+            <button class="sw" data-val="#ff6b6b" style="--c:#ff6b6b"></button>
+            <button class="sw" data-val="#ff7eb6" style="--c:#ff7eb6"></button>
+            <button class="sw" data-val="#5ac8fa" style="--c:#5ac8fa"></button>
+            <label class="sw sw-custom" aria-label="Custom color"><input type="color" data-role="customcolor"></label>
+          </div></div>
+
+        <div class="row"><span class="lbl">Italic</span><button class="switch" data-toggle="italic" aria-label="Italic"></button></div>
+        <div class="row"><span class="lbl">Seconds</span><button class="switch" data-toggle="seconds" aria-label="Seconds"></button></div>
+      </div>
+      <div class="menu-hint">tap anywhere to close</div>
+    </div>
+  </div>
+
+  <script src="/assets/js/clock.js"></script>
+</body>
+</html>

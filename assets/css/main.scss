@@ -43,6 +43,61 @@
   }
 }
 
+// ── Fonts: self-hosted, downloaded once ──
+// Latin-subset variable woff2s served from /assets/fonts (plus preloads in
+// head.html) — no third-party font CDN on the critical path, so navigation
+// never re-triggers a font swap. Only the CJK fallbacks stay on a CDN
+// (per-page dynamic subsets, loaded solely on pages that use them).
+@font-face {
+  font-family: 'InterVariable';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/assets/fonts/inter-latin-wght.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'InterVariable';
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/assets/fonts/inter-latin-wght-italic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/assets/fonts/inter-latin-wght.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/assets/fonts/inter-latin-wght-italic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'InterDisplay';
+  font-style: normal;
+  font-weight: 600; // the masthead weight — the only display cut we use
+  font-display: swap;
+  src: url('/assets/fonts/inter-display-semibold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'JetBrains Mono NL';
+  font-style: normal;
+  font-weight: 100 800;
+  font-display: swap;
+  src: url('/assets/fonts/jetbrains-mono-latin-wght.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'JetBrains Mono NL';
+  font-style: italic;
+  font-weight: 100 800;
+  font-display: swap;
+  src: url('/assets/fonts/jetbrains-mono-latin-wght-italic.woff2') format('woff2');
+}
+
 // CJK fallback chain — Inter has no CJK glyphs; Korean/Japanese fall to
 // Pretendard, everything else (e.g. Chinese) to Noto Sans.
 $sans: 'Inter', 'Pretendard', 'Pretendard JP', 'Noto Sans SC', -apple-system, 'Helvetica Neue', Arial, sans-serif;
@@ -342,6 +397,12 @@ pre {
     // body cells only, the column header stays ink
     td:nth-child(2):not(:last-child) { color: var(--color-text-secondary); }
   }
+}
+
+// ── Wide pages: content fills the whole container (readings' table) ──
+.main--wide {
+  > * { grid-column: 1 / 7; min-width: 0; }
+  .content p { max-width: none; }
 }
 
 // ── Ponderings: the one wide page (3-column year grid) ──
