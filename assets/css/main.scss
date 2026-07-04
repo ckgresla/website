@@ -316,14 +316,16 @@ pre {
   }
 }
 
+// Banger singles are left-aligned pages (not centered): title, artist, and
+// lyrics all start at the container's left edge, under the masthead title.
+.main--banger {
+  > * { grid-column: 1 / 7; min-width: 0; }
+  .content table { width: calc(100% * 7 / 9); } // lyrics get room, from the left
+  .content p { max-width: none; }
+}
+
 .banger {
-  // The header block (title, artist, listen-on) left-aligns with the lyrics
-  // table beneath it — same 7/9 bleed, so they share a left edge.
-  .banger-header {
-    margin-bottom: 48px;
-    width: 140%;
-    margin-left: -20%;
-  }
+  .banger-header { margin-bottom: 48px; }
   .banger-title { margin: 0 0 12px; font-size: 2rem; line-height: 2.5rem; font-weight: 600; }
   .banger-artist { margin: 0 0 6px; color: var(--color-text-secondary); }
   .banger-source { margin: 0; font-size: 0.875rem; line-height: 21px; }
@@ -358,8 +360,10 @@ pre {
         height: 1px;
         background: var(--color-border);
       }
-      &:first-of-type { margin-top: 0; }
     }
+    // go-org wraps each headline in its own .outline-2 div, so
+    // :first-of-type would match every year — target the first wrapper.
+    > .outline-2:first-child h2 { margin-top: 0; }
 
     ol {
       display: grid;
@@ -449,9 +453,9 @@ pre {
   .site-title { font-size: 1.75rem; line-height: 2.25rem; } // 36px
 
   // The menu stays a vertical column on mobile (rsms-style): the dot, then
-  // each item on its own line.
+  // each item on its own line, a clear two-line breath below the title.
   .menu {
-    margin-top: 24px;
+    margin-top: 48px;
 
     a { font-size: 1.25rem; line-height: 2rem; }
     .menu-dot { font-size: 1.5rem; }
@@ -459,12 +463,12 @@ pre {
 
   .main { display: block; }
   .main--center > * { width: 100%; }
-  .main--center .content .banger-header { width: 100%; margin-left: 0; }
 
   // Tables linearize, rsms-style: each row becomes a vertical group (the
   // lyric line, then its romanization and translation; the reading, then
   // the thought) instead of squeezed side-by-side columns.
-  .main--center .content table {
+  .main--center .content table,
+  .main--banger .content table {
     width: 100%;
     margin-left: 0;
     display: block;
