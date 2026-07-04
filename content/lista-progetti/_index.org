@@ -6,7 +6,7 @@
 #+begin_export html
 <div class="progetto-viz" aria-hidden="true"><span class="viz-clock">23:42</span></div>
 #+end_export
-An offline, fullscreen PWA clock — moon phases in three styles, orientation lock, installs to a home screen.
+Offline-compatible progressive web app with: moon phases, face customizability, and fun.
 
 2026 · live at [[/clock/][clock]]
 
@@ -22,6 +22,6 @@ A growing set of hand-drawn SVG icons. Wobbly on purpose.
 #+begin_export html
 <div class="progetto-viz" aria-hidden="true"><span class="viz-key">⌘</span><span class="viz-key">⇥</span></div>
 #+end_export
-A tiny macOS window switcher — Cmd+Tab, but it knows about windows. One Swift file, no dependencies.
+Switching windows on macOS the way it should be done, functional and elegante.
 
 2026 · github
