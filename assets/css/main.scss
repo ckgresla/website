@@ -580,7 +580,7 @@ pre {
     position: absolute;
     inset: 0;
     opacity: 0;
-    transition: opacity 0.25s ease;
+    // no transition: the swap is instant — the abruptness is part of the fun
   }
   &:hover .focus { opacity: 1; }
 }
