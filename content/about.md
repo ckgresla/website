@@ -1,6 +1,7 @@
 ---
 title: "About"
 tagline: "Why hello there!"
+body_class: center
 date: 2018-11-28T15:15:34+10:00
 # iroje-like hover effect: the focus image fades in over the base
 base_image: "/assets/images/personal/profile-250px.jpg"

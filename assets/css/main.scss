@@ -132,7 +132,8 @@ body {
     color: var(--color-text-secondary);
     text-decoration: none;
     font-weight: 500;
-    line-height: 1.5; // 24px — the menu stays on the line grid
+    font-size: 1.5rem;   // 24px on a 32px line — rsms's own menu metrics
+    line-height: 2rem;
     transition: color 0.15s ease;
 
     &:hover { color: var(--color-text-primary); }
@@ -140,10 +141,10 @@ body {
   }
 
   // The dot: home link and site mark in one glyph. Being text, it sits on the
-  // same 24px line box as the menu items — no icon/line-grid mismatch.
+  // same 32px line box as the menu items — no icon/line-grid mismatch.
   .menu-dot {
-    font-size: 1.25rem;
-    line-height: 24px;
+    font-size: 2rem; // 32px — title-sized, like rsms's
+    line-height: 2rem;
   }
 }
 
@@ -151,6 +152,21 @@ body {
   @include cols;
 
   > * { grid-column: 1 / 5; min-width: 0; }
+}
+
+// Centered reading pages (napkins, bangers, about — via body_class: center):
+// the content sits on the page's centerline, spanning the middle 7/9 of the
+// container (think 3 columns: the full center one plus the inner thirds of
+// each neighbor).
+.main--center {
+  > * {
+    grid-column: 1 / 7;
+    width: calc(100% * 7 / 9);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .content p { max-width: none; } // the column is the measure
 }
 
 // ── Content typography — whole-pixel rhythm ──
@@ -404,7 +420,11 @@ pre {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 0 16px;
+
+    a { font-size: 1.25rem; line-height: 2rem; }
+    .menu-dot { font-size: 1.5rem; }
   }
 
   .main { display: block; }
+  .main--center > * { width: 100%; }
 }
