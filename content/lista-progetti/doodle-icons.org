@@ -1,7 +1,0 @@
-#+title: The Doodle Icons
-#+tagline: The Doodle Icons
-#+body_class: center
-
-A growing set of hand-drawn SVG icons — wobbly on purpose.
-
-The gallery is coming together; first strokes soon.

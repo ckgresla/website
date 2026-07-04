@@ -59,6 +59,6 @@ disableKinds = ["taxonomy", "term", "rss", "sitemap", "robotsTXT"]
     url = "/bangers/"
     weight = 5
   [[menus.main]]
-    name = "Lista Progetti"
-    url = "/lista-progetti/"
+    name = "Clock"
+    url = "/clock/"
     weight = 6
