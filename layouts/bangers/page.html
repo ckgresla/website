@@ -1,6 +1,9 @@
 {{ define "main" }}
 <article class="content banger">
   <header class="banger-header">
+    {{/* The masthead says "song info" on every banger (cascaded tagline);
+         the song's own title lives here, right above its artist. */}}
+    <h1 class="banger-title">{{ .Title }}</h1>
     {{ with .Params.artist }}<p class="banger-artist">by {{ . }}</p>{{ end }}
     {{ if or .Params.spotify .Params.youtube }}
     <p class="banger-source">listen to it on:
