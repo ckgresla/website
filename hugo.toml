@@ -31,9 +31,9 @@ disableKinds = ["taxonomy", "term", "rss", "sitemap", "robotsTXT"]
 
 [[cascade]]
   [cascade.params]
-    body_class = 'banger' # singles are left-aligned; the list page opts back
-    tagline = 'song info' # into 'center' in its own front matter. The tagline
-  [cascade.target]        # is the common masthead for every song — egalitarian.
+    body_class = 'center' # songs sit on the same centered 7/9 column as the
+    tagline = 'song info' # rest, text left-aligned within it. The tagline is
+  [cascade.target]        # the common masthead for every song — egalitarian.
     path = '{/bangers,/bangers/**}'
 
 [menus]
