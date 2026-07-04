@@ -1,26 +1,29 @@
-// clock.js — a tappable, swipeable, offline clock with a settings menu.
+// clock.js — a tappable, offline clock with a settings menu.
 //   • tap                → open the menu; tap off a control → back to clock
-//   • swipe ←→           → switch Face (Quiet ↔ Mono)
-//   • drag ↕ / pinch     → zoom the time size, live
-//   • menu               → Face · Time/Date format · Position · Size · Date size ·
-//                          Weight · Italic · Theme · Accent · Seconds (all persisted)
+//   • drag ↕ / pinch     → zoom the time (or date/moon under your finger), live
+//   • menu               → Font · Time/Date format · Position · Size · Date size ·
+//                          Weight · Moon · Orientation · Theme · Accent · Italic ·
+//                          Seconds (all persisted)
+//   • font               → Sans (Inter) or Mono (JetBrains Mono), same view
+//   • orientation        → Auto / Portrait / Landscape (locks when fullscreen)
 //   • theme              → Auto follows the system light/dark mode, animated
-//   • wake lock          → keeps the display awake while visible ("awake" reflects it)
+//   • wake lock          → keeps the display awake while visible
+//   • fullscreen         → installed PWA runs edge-to-edge (manifest display:fullscreen);
+//                          in a browser tab, the first tap requests the Fullscreen API
 //   • service worker     → loads offline on reload, permanently cached
+//
+// One view today. The .views flex track is kept so future views (timer, alarm…)
+// can be appended without reworking layout.
 (function () {
   "use strict";
 
   var root = document.documentElement;
   var track = document.getElementById("views");
-  var dotsEl = document.getElementById("dots");
   var menu = document.getElementById("menu");
   var moonEl = document.getElementById("moon");
-  var viewEls = Array.prototype.slice.call(track.querySelectorAll(".view"));
-  var FACES = viewEls.map(function (el) { return el.dataset.view; });
 
   var WEIGHTS = { thin: 200, regular: 400, semibold: 600, bold: 700 };
   var PRESETS = ["#8e8cff", "#7ee0b8", "#f2c14e", "#ff6b6b", "#ff7eb6", "#5ac8fa"];
-  var SIZE_MIN = 0.45, SIZE_MAX = 1.7;
   var POS = {
     tl: ["top", "left"], tc: ["top", "center"], tr: ["top", "right"],
     ml: ["middle", "left"], mc: ["middle", "center"], mr: ["middle", "right"],
@@ -29,40 +32,31 @@
 
   // --- Settings (persisted) ---------------------------------------------------
   var DEFAULTS = {
-    face: "quiet", timeFormat: "h12", dateFormat: "long", position: "mc",
+    font: "sans", timeFormat: "h12", dateFormat: "long", position: "mc",
     size: 1, dateSize: 1, weight: "auto", italic: false, theme: "auto",
-    accent: "default", seconds: false, moon: "off", moonPos: "tr", moonSize: 1
+    orientation: "auto", accent: "default", seconds: false,
+    moon: "off", moonStyle: "filled", moonPos: "tr", moonSize: 1
   };
   var settings = load("clock.settings", null) || {};
   for (var dk in DEFAULTS) if (!(dk in settings)) settings[dk] = DEFAULTS[dk];
   if (typeof settings.size !== "number") settings.size = 1;       // migrate old s/m/l/xl
   if (typeof settings.dateSize !== "number") settings.dateSize = 1;
   if (typeof settings.moonSize !== "number") settings.moonSize = 1;
+  if (settings.font !== "mono") settings.font = "sans";           // migrate old face:quiet/mono
+  delete settings.face;
 
   function load(key, d) { try { var v = localStorage.getItem(key); return v === null ? d : JSON.parse(v); } catch (e) { return d; } }
   function persist() { try { localStorage.setItem("clock.settings", JSON.stringify(settings)); } catch (e) {} }
-  function faceIndex() { var i = FACES.indexOf(settings.face); return i < 0 ? 0 : i; }
-  function clampSize(v) { return Math.min(SIZE_MAX, Math.max(SIZE_MIN, v)); }
 
   // --- Element refs -----------------------------------------------------------
-  function q(face, sel) { var v = viewEls[FACES.indexOf(face)]; return v ? v.querySelector(sel) : null; }
+  function q(sel) { return track.querySelector(sel); }
   var el = {
-    qtime: q("quiet", ".time"), qhm: q("quiet", '[data-role="hm"]'), qampm: q("quiet", '[data-role="ampm"]'),
-    qsecs: q("quiet", '[data-role="qsecs"]'), qdate: q("quiet", '[data-role="date"]'),
-    mtime: q("mono", ".time"), mhm: q("mono", '[data-role="hm"]'), mampm: q("mono", '[data-role="ampm"]'),
-    msecs: q("mono", '[data-role="msecs"]'), mdate: q("mono", '[data-role="date"]'),
-    status: q("mono", ".status"), awake: q("mono", '[data-role="awake"]')
+    time: q(".time"), hm: q('[data-role="hm"]'), ampm: q('[data-role="ampm"]'),
+    secs: q('[data-role="secs"]'), date: q('[data-role="date"]')
   };
 
-  // --- Page dots --------------------------------------------------------------
-  viewEls.forEach(function () { dotsEl.appendChild(document.createElement("i")); });
-  var dotEls = Array.prototype.slice.call(dotsEl.children);
-  var dotsTimer;
-  function flashDots() { dotsEl.classList.add("show"); clearTimeout(dotsTimer); dotsTimer = setTimeout(function () { dotsEl.classList.remove("show"); }, 1700); }
-
   // --- Apply settings ---------------------------------------------------------
-  function setTrack(animated, dragPx) { track.classList.toggle("dragging", !animated); track.style.transform = "translateX(" + (-faceIndex() * track.clientWidth + (dragPx || 0)) + "px)"; }
-  function applyFace(animated) { setTrack(animated !== false, 0); dotEls.forEach(function (d, i) { d.classList.toggle("on", i === faceIndex()); }); }
+  function applyFont() { track.classList.toggle("font-mono", settings.font === "mono"); }
   function applyPosition() { var p = POS[settings.position] || POS.mc; track.classList.remove("v-top", "v-middle", "v-bottom", "h-left", "h-center", "h-right"); track.classList.add("v-" + p[0], "h-" + p[1]); }
   function applySize() { track.style.setProperty("--scale", settings.size); }
   function applyDateSize() { track.style.setProperty("--date-scale", settings.dateSize); }
@@ -93,6 +87,40 @@
     } else { root.style.removeProperty("--accent"); root.style.removeProperty("--accent-on"); }
   }
 
+  // --- Orientation + fullscreen (immersive) -----------------------------------
+  // Orientation lock only works while the document is fullscreen (browser) or the
+  // app is an installed fullscreen/standalone PWA. All calls are best-effort.
+  function isStandalone() {
+    return (window.matchMedia && (matchMedia("(display-mode: fullscreen)").matches || matchMedia("(display-mode: standalone)").matches)) ||
+      navigator.standalone === true;
+  }
+  function requestFullscreen() {
+    var e = document.documentElement;
+    var fn = e.requestFullscreen || e.webkitRequestFullscreen;
+    if (fn && !document.fullscreenElement && !document.webkitFullscreenElement) {
+      try { var p = fn.call(e); if (p && p.catch) p.catch(function () {}); } catch (err) {}
+    }
+  }
+  function applyOrientation() {
+    if (!(screen.orientation && screen.orientation.lock)) return;
+    try {
+      if (settings.orientation === "auto") {
+        if (screen.orientation.unlock) screen.orientation.unlock();
+      } else {
+        var p = screen.orientation.lock(settings.orientation); // "portrait" | "landscape"
+        if (p && p.catch) p.catch(function () {});
+      }
+    } catch (err) {}
+  }
+  // First user gesture: go fullscreen (browser tabs) so annotations vanish like
+  // iOS standalone, then honour the orientation lock.
+  var immersed = false;
+  function enterImmersive() {
+    if (immersed) return; immersed = true;
+    if (!isStandalone()) requestFullscreen();
+    setTimeout(applyOrientation, 60);
+  }
+
   // --- Moon -------------------------------------------------------------------
   var MOON_P = { new: 0, cres: 0.12, quarter: 0.25, gibbous: 0.38, full: 0.5 };
   var SYNODIC = 29.530588853, NEW_MOON_REF = Date.UTC(2000, 0, 6, 18, 14) / 86400000;
@@ -103,13 +131,47 @@
     return "M0 " + (-r) + " A" + r + " " + r + " 0 0 " + limbSweep + " 0 " + r +
       " A" + rx.toFixed(2) + " " + r + " 0 0 " + termSweep + " 0 " + (-r) + " Z";
   }
+  // Is unit point (u,v) lit at phase p? (u right+, disk radius 1) — same
+  // terminator math as litPath, used by the blocky "pixel" style.
+  function isLit(u, v, p) {
+    var w = Math.sqrt(Math.max(0, 1 - v * v));
+    var t = Math.cos(2 * Math.PI * p) * w;
+    return p < 0.5 ? (u > t) : (u < -t);
+  }
+  function pixelMoon(p, lit, unlit, r) {
+    var n = 13, cell = (2 * r) / n, gap = cell * 0.13, s = "";
+    for (var j = 0; j < n; j++) for (var i = 0; i < n; i++) {
+      var cx = -r + (i + 0.5) * cell, cy = -r + (j + 0.5) * cell, u = cx / r, v = cy / r;
+      if (u * u + v * v > 1.0) continue;
+      s += '<rect x="' + (cx - cell / 2 + gap).toFixed(2) + '" y="' + (cy - cell / 2 + gap).toFixed(2) +
+        '" width="' + (cell - 2 * gap).toFixed(2) + '" height="' + (cell - 2 * gap).toFixed(2) +
+        '" fill="' + (isLit(u, v, p) ? lit : unlit) + '"/>';
+    }
+    return s;
+  }
   function moonSVG(p) {
-    // The luminous shape — no gray disk. White on dark, ink on light. The fixed
-    // 45° tilt is in CSS (#moon svg { transform: rotate(-45deg) }).
+    // White on dark, ink on light; the fixed 45° tilt is in CSS. The style knob
+    // swaps between the solid shape and three "technical" renders.
     var r = 40, dark = root.getAttribute("data-theme") !== "light";
     var lit = dark ? "#ffffff" : "#111114";
-    return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">' +
-      '<path d="' + litPath(r, p) + '" fill="' + lit + '"/></svg>';
+    var dim = dark ? "#3a3a42" : "#cfcfd6", unlit = dark ? "#2f2f37" : "#d6d6dd";
+    var disc = '<circle cx="0" cy="0" r="' + r + '" fill="none" stroke="' + dim + '" stroke-width="3"/>';
+    var inner;
+    switch (settings.moonStyle) {
+      case "hollow":
+        inner = disc + '<path d="' + litPath(r, p) + '" fill="none" stroke="' + lit + '" stroke-width="4.5"/>';
+        break;
+      case "diagram":
+        inner = disc + '<path d="' + litPath(r, p) + '" fill="' + lit + '"/>' +
+          '<circle cx="0" cy="0" r="' + r + '" fill="none" stroke="' + lit + '" stroke-width="1.4" opacity="0.5"/>';
+        break;
+      case "pixel":
+        inner = pixelMoon(p, lit, unlit, r);
+        break;
+      default: // filled — the luminous shape, no disc
+        inner = '<path d="' + litPath(r, p) + '" fill="' + lit + '"/>';
+    }
+    return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">' + inner + '</svg>';
   }
   function placeMoon() {
     var pos = POS[settings.moonPos] || POS.tr;
@@ -181,16 +243,10 @@
 
   function render(now) {
     var f = fmt(now), s = now.getSeconds(), showSecs = settings.seconds && !f.words;
-
-    el.qtime.classList.toggle("words", f.words);
-    if (f.words) { el.qhm.textContent = f.main; spanText(el.qampm, ""); spanText(el.qsecs, ""); }
-    else { el.qhm.textContent = (f.military ? p2(f.H) : f.h12) + ":" + p2(f.m); spanText(el.qampm, f.ap); spanText(el.qsecs, showSecs ? p2(s) : ""); }
-
-    el.mtime.classList.toggle("words", f.words);
-    if (f.words) { el.mhm.textContent = f.main; spanText(el.mampm, ""); el.msecs.style.display = "none"; }
-    else { el.mhm.textContent = p2(f.military ? f.H : f.h12) + ":" + p2(f.m); spanText(el.mampm, f.ap); el.msecs.style.display = showSecs ? "" : "none"; if (showSecs) el.msecs.textContent = p2(s); }
-
-    var d = dateStr(now); setDate(el.qdate, d); setDate(el.mdate, d);
+    el.time.classList.toggle("words", f.words);
+    if (f.words) { el.hm.textContent = f.main; spanText(el.ampm, ""); spanText(el.secs, ""); }
+    else { el.hm.textContent = (f.military ? p2(f.H) : f.h12) + ":" + p2(f.m); spanText(el.ampm, f.ap); spanText(el.secs, showSecs ? p2(s) : ""); }
+    setDate(el.date, dateStr(now));
   }
   var tickN = 0;
   function tick() {
@@ -220,12 +276,13 @@
   function closeMenu() { menuOpen = false; menu.classList.remove("open"); menu.setAttribute("aria-hidden", "true"); }
 
   function applyKey(key) {
-    if (key === "face") applyFace(true);
+    if (key === "font") applyFont();
     else if (key === "position") applyPosition();
     else if (key === "weight") applyWeight();
     else if (key === "theme") onThemeChange();
+    else if (key === "orientation") applyOrientation();
     else if (key === "accent") applyAccent();
-    else if (key === "moon") renderMoon();
+    else if (key === "moon" || key === "moonStyle") renderMoon();
     else if (key === "moonPos") placeMoon();
     // timeFormat / dateFormat are reflected by render()
   }
@@ -248,6 +305,8 @@
   });
 
   // --- Gestures ---------------------------------------------------------------
+  // Vertical drag / pinch resize the element under the finger; a tap opens the
+  // menu. There is no horizontal view switch (single view for now).
   var sx = 0, sy = 0, st = 0, baseScale = 1, dragging = false, locked = null, rtarget = "time";
   var pinching = false, pinchStart = 0, pinchBase = 1;
   function setLive(t, v) { var s = SCALERS[t]; settings[s.key] = Math.min(s.max, Math.max(s.min, v)); s.apply(); }
@@ -256,8 +315,7 @@
   function resizeTarget(x, y) {
     var ms = moonEl.firstElementChild;
     if (settings.moon !== "off" && hitEl(ms, x, y, 14)) return "moon";
-    var d = settings.face === "quiet" ? el.qdate : el.mdate;
-    if (d && d.style.display !== "none" && hitEl(d, x, y, 16)) return "date";
+    if (el.date && el.date.style.display !== "none" && hitEl(el.date, x, y, 16)) return "date";
     return "time";
   }
 
@@ -265,22 +323,19 @@
   function movePointer(e, p) {
     var dx = p.clientX - sx, dy = p.clientY - sy;
     if (locked === null && (Math.abs(dx) > 8 || Math.abs(dy) > 8)) locked = Math.abs(dx) > Math.abs(dy) ? "x" : "y";
-    if (locked === "x") { e.preventDefault(); var idx = faceIndex(); var edge = (idx === 0 && dx > 0) || (idx === viewEls.length - 1 && dx < 0); setTrack(false, edge ? dx * 0.35 : dx); }
-    else if (locked === "y") { e.preventDefault(); setLive(rtarget, baseScale + (-dy) / 700); }
+    if (locked === "y") { e.preventDefault(); setLive(rtarget, baseScale + (-dy) / 700); }
+    // locked === "x": no-op (no horizontal view switch)
   }
   function endPointer(e, p) {
     dragging = false;
     var dx = p.clientX - sx, dy = p.clientY - sy, dt = Date.now() - st;
     if (locked === null && Math.abs(dx) < 10 && Math.abs(dy) < 10 && dt < 350) { openMenu(); return; }
-    if (locked === "x") {
-      var idx = faceIndex(), th = track.clientWidth * 0.22;
-      if (Math.abs(dx) > th || (Math.abs(dx) > 40 && dt < 250)) { if (dx < 0 && idx < viewEls.length - 1) idx++; else if (dx > 0 && idx > 0) idx--; settings.face = FACES[idx]; }
-      persist(); applyFace(true); flashDots();
-    } else if (locked === "y") { persist(); } // size already applied live
+    if (locked === "y") persist(); // size already applied live
   }
 
   track.addEventListener("touchstart", function (e) {
     if (menuOpen) return;
+    enterImmersive();
     if (e.touches.length === 2) {
       pinching = true; dragging = false; pinchStart = tdist(e.touches);
       rtarget = resizeTarget((e.touches[0].clientX + e.touches[1].clientX) / 2, (e.touches[0].clientY + e.touches[1].clientY) / 2);
@@ -296,19 +351,20 @@
     if (pinching) { if (e.touches.length < 2) { pinching = false; persist(); } return; }
     if (dragging) endPointer(e, e.changedTouches[0]);
   });
-  track.addEventListener("mousedown", function (e) { if (!menuOpen) startPointer(e); });
+  track.addEventListener("mousedown", function (e) { if (!menuOpen) { enterImmersive(); startPointer(e); } });
   window.addEventListener("mousemove", function (e) { if (dragging) movePointer(e, e); });
   window.addEventListener("mouseup", function (e) { if (dragging) endPointer(e, e); });
   window.addEventListener("keydown", function (e) {
     if (e.key === "Escape" && menuOpen) closeMenu();
     else if (menuOpen) return;
-    else if (e.key === "ArrowRight" || e.key === "ArrowLeft") { var idx = faceIndex() + (e.key === "ArrowRight" ? 1 : -1); if (idx >= 0 && idx < viewEls.length) { settings.face = FACES[idx]; persist(); applyFace(true); flashDots(); } }
     else if (e.key === "ArrowUp") { setLive("time", settings.size + 0.06); persist(); }
     else if (e.key === "ArrowDown") { setLive("time", settings.size - 0.06); persist(); }
   });
-  window.addEventListener("resize", function () { setTrack(true, 0); });
 
-  // --- Screen wake lock (keeps the display on; "awake" stays lit) -------------
+  // Re-assert the orientation lock when we enter/leave fullscreen.
+  document.addEventListener("fullscreenchange", function () { if (document.fullscreenElement) applyOrientation(); });
+
+  // --- Screen wake lock (keeps the display on) --------------------------------
   function acquireWake() { if ("wakeLock" in navigator) navigator.wakeLock.request("screen").catch(function () {}); }
   document.addEventListener("visibilitychange", function () { if (document.visibilityState === "visible") acquireWake(); });
   acquireWake();
@@ -320,6 +376,9 @@
   }
 
   // --- Go ---------------------------------------------------------------------
-  applyTheme(); applyPosition(); applySize(); applyDateSize(); applyMoonSize(); applyWeight(); applyItalic(); applyAccent(); applyFace(false);
+  applyTheme(); applyFont(); applyPosition(); applySize(); applyDateSize(); applyMoonSize();
+  applyWeight(); applyItalic(); applyAccent();
   renderMoon(); render(new Date()); tick();
+  // Installed PWA is already fullscreen — honour the saved orientation on load.
+  if (isStandalone()) applyOrientation();
 })();

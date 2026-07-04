@@ -3,8 +3,9 @@
   "short_name": "Clock",
   "start_url": "/clock/",
   "scope": "/clock/",
-  "display": "standalone",
-  "orientation": "portrait",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone", "minimal-ui"],
+  "orientation": "any",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [

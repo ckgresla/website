@@ -15,7 +15,7 @@
 // To ship a production update, bump CACHE_VERSION; the browser swaps to the new
 // bundle in the background the next time it's online.
 const DEV = ['localhost', '127.0.0.1', '0.0.0.0', '[::1]'].indexOf(self.location.hostname) !== -1;
-const CACHE_VERSION = 'v3';
+const CACHE_VERSION = 'v5';
 const CACHE = 'clock-' + CACHE_VERSION;
 
 const ASSETS = [
