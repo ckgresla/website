@@ -1,0 +1,13 @@
+{{ define "main" }}
+<article class="content">
+  {{/* Two same-size images stacked; the focus one fades in on hover (the
+       iroje.com-style portrait on the about page). */}}
+  {{ if and .Params.base_image .Params.focus_image }}
+  <div class="hover-swap hover-swap--portrait">
+    <img class="focus" src="{{ .Params.focus_image }}" alt="">
+    <img class="base" src="{{ .Params.base_image }}" alt="">
+  </div>
+  {{ end }}
+  {{ .Content }}
+</article>
+{{ end }}

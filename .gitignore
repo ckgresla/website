@@ -4,11 +4,10 @@ npm-debug.log
 
 # Ruby 
 
-# Jekyll
-_site
-.jekyll-metadata
-.sass-cache
-.jekyll-cache
+# Hugo
+public
+resources
+.hugo_build.lock
 
 # Temporary files
 tmp

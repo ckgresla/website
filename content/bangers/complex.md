@@ -1,0 +1,30 @@
+---
+title: "Complex"
+artist: "장혜진 (Jang Hye-jin)"
+sort_artist: "Jang Hye-jin"
+language: "Korean"
+spotify: "https://open.spotify.com/track/0OL5DoBctrzWd0FfW9dj2x"
+year: 2026
+blurb: ""
+---
+
+| Original | Romanization | English |
+|----------|--------------|---------|
+| 너는 모르겠지 | neoneun moreugetji | You probably don't know |
+| 너의 눈속에 숨어있는걸 | neoui nunsoge sum-eoitneungeol | What's hiding inside your eyes |
+| 애써 침착한 척 감추려해도 소용없는데 | aesseo chimchakhan cheok gamchuryeohaedo soyong eomneunde | Even if you pretend to stay calm and try to hide it, it's no use |
+| 나는 볼 수 있었지 | naneun bol su isseotji | I was able to see it |
+| 아직 마술처럼 여전히 남아있는 | ajik masulcheoreom yeojeonhi nama inneun | Still remaining there like magic |
+| 결코 변하지 않는 어린 아이 같은 그 눈빛 | gyeolko byeonhaji anneun eorin ai gateun geu nunbit | That childlike gaze that never, ever changes |
+| 작은 일에도 넌 쉽게 마음을 보여주는걸 | jageun ir-edo neon swipge maeumeul boyeojuneungeol | Even over small things, you show your heart so easily |
+| 애써 담담한 척 숨기려해도 느낄 수 있어 | aesseo damdamhan cheok sumgiryeohaedo neukkil su isseo | Even if you act indifferent and try to hide it, I can feel it |
+| 변덕스런 거라고 모두 비웃어도 상관없이 | byeondeokseureon georago modu biuseodo sanggwaneopsi | Even if everyone laughs and calls it fickle, it doesn't matter |
+| 남자 같지 않아도 씩씩하지 않아도 괜찮아 | namja gatji anado ssikssikhaji anado gwaenchanha | It's okay if you're not "manly," if you're not all tough and brave |
+| 아무도 흉내낼 수 없는 게 있지 | amudo hyungnaenael su eomneun ge itji | There's something no one can imitate |
+| 이 세상에 단 하나 너만 갖고 있는 건 | i sesange dan hana neoman gatgo inneun geon | In this world, only you possess it |
+| 그 무엇과도 바꿀 수가 없는 걸 모르니 | geu mueotgwado bakkul suga eomneun geol moreuni | Don't you know it can't be traded for anything? |
+| 억지로 변해가려 하지 않아도 | eokjiro byeonhaegaryeo haji anado | You don't have to force yourself to change |
+| 난 그런 너의 변덕이 늘 보기 좋았어 | nan geureon neoui byeondeogi neul bogi joasseo | I've always liked that fickleness of yours |
+| 달라지지 마 그리고 언제나 그대로 있어 | dallajiji ma geurigo eonjena geudaero isseo | Don't change; just stay the way you are, always |
+| 똑같은 건 싫어 억지로 찍어낸 그림처럼 | ttokgateun geon silheo eokjiro jjigeonaen geurimcheoreom | I hate things that are all the same, like mass-produced pictures |
+{.lyrics}

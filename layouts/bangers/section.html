@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="content">
+  {{ .Content }}
+  <ol class="bangers-list">
+    {{ range sort .Pages "Params.sort_artist" }}
+    <li>
+      <a class="banger-link" href="{{ .RelPermalink }}">{{ .Title }}</a> &mdash; {{ .Params.artist }}
+      {{ with .Params.blurb }}<p class="banger-blurb">{{ . }}</p>{{ end }}
+    </li>
+    {{ end }}
+  </ol>
+</div>
+{{ end }}

@@ -1,0 +1,14 @@
+{{/* Two same-size images; the focus one fades in on hover (iroje.com-style).
+     Ensure both images have identical dimensions. */}}
+<figure class="hover-swap{{ if .Get "full" }} figure-full{{ end }}">
+  <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}" rel="noopener"{{ end }}>
+    <img class="focus" src="{{ .Get "focus_src" }}" alt="{{ .Get "alt" }}">
+    <img class="base" src="{{ .Get "base_src" }}" alt="{{ .Get "alt" }}">
+  </a>
+  {{ if or (.Get "title") (.Get "caption") }}
+  <figcaption>
+    {{ with .Get "title" }}<h4>{{ . }}</h4>{{ end }}
+    {{ with .Get "caption" }}<p>{{ . }}</p>{{ end }}
+  </figcaption>
+  {{ end }}
+</figure>

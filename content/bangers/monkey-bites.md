@@ -1,0 +1,37 @@
+---
+title: "モンキー・バイツ (Monkey Bites)"
+artist: "馬渡 松子 (Mawatari Matsuko)"
+sort_artist: "Mawatari Matsuko"
+language: "Japanese"
+youtube: "https://www.youtube.com/watch?v=d4J6iniPa9g"
+year: 2026
+blurb: ""
+---
+
+| Original | Romanization | English |
+|----------|--------------|---------|
+| ごめんなさい あんまり急に 真顔で見られて | Gomennasai anmari kyū ni magao de mirarete | Sorry, when you suddenly look at me so serious like that, |
+| 平然なふり 装うことに必死になる いやなヤツかもしれない | Heizen na furi yosōu koto ni hisshi ni naru iya na yatsu kamo shirenai | I desperately pretend to stay calm – maybe that makes me a lousy person. |
+| 今日は私が奢る 奢る ワリカンはシラける | Kyō wa watashi ga ogoru, ogoru, warikan wa shirakeru | Today I'm treating you, I'm treating you – splitting the bill just kills the mood. |
+| 楽しく飲れば いいじゃない いいじゃない 深く考えないで | Tanoshiku noreba ii ja nai, ii ja nai, fukaku kangaenaide | Let's just drink and have fun, it's fine, really – don't overthink it. |
+| とびきりのマーク (いいマーク) つけてあげたい ホントのとこはね | Tobikiri no māku (ii māku) tsukete agetai honto no toko wa ne | What I really want is to leave an extra-special mark (a nice mark) on you. |
+| AH ここは NIPPON なんだから | Ah koko wa NIPPON nandakara | Ah, but this is Japan after all, |
+| あからさまでも気が引ける | Akarasama demo ki ga hikeru | so being that blatant makes me hesitate. |
+| ごめんなさい 人前で 抱きしめられたら | Gomennasai hitomae de dakishimeraretara | Sorry, if you hugged me in front of everyone, |
+| 冷めてしまう 75日は長いよ 古いヤツかもしれない | Samete shimau nanajūgo-nichi wa nagai yo furui yatsu kamo shirenai | I'd cool off – "seventy‑five days" feels so long; maybe I'm old‑fashioned. |
+| 熱いコーヒー奢って 奢って もっと何か話そう | Atsui kōhī ogotte, ogotte, motto nanika hanasō | Buy me a hot coffee, go on, and let's talk about something more. |
+| くっつかなくても いいじゃない いいじゃない 逃げる訳じゃない | Kuttsukanakute mo ii ja nai, ii ja nai, nigeru wake ja nai | It's fine even if we don't cling together – it's not like I'm running away. |
+| 怪しいマーク (いいマーク) 残してほしい ホントのとこはね | Ayashii māku (ii māku) nokoshite hoshii honto no toko wa ne | Honestly, I want you to leave some suspicious little marks (good marks) on me. |
+| AH ここは NIPPON なんだから | Ah koko wa NIPPON nandakara | Ah, but this is Japan after all, |
+| 遠慮気味でもさまになる | Enryo-gimi demo sama ni naru | so even a held‑back kind of love somehow suits us. |
+| とびきりのマーク (いいマーク) つけてあげるよ 誰も見てない | Tobikiri no māku (ii māku) tsukete ageru yo dare mo mitenai | I'll give you an extra-special mark (a nice mark); no one's looking. |
+| AH ここは NIPPON なんだから | Ah koko wa NIPPON nandakara | Ah, but this is Japan after all, |
+| あからさまでも気が引ける | Akarasama demo ki ga hikeru | so being too obvious still makes me shy. |
+| ひとりじめのマーク (いいマーク) つけてほしいよ 心の壁に | Hitorijime no māku (ii māku) tsukete hoshii yo kokoro no kabe ni | I want your "all‑mine" mark (a nice mark) on the walls of my heart. |
+| AH ここは NIPPON なんだから | Ah koko wa NIPPON nandakara | Ah, but this is Japan after all, |
+| しおらしいのも素敵ね MONKEY BITES | Shiorashii no mo suteki ne, MONKEY BITES | so being demure is lovely too – monkey bites. |
+| AH ここは NIPPON なんだから | Ah koko wa NIPPON nandakara | Ah, but this is Japan after all, |
+| あからさまでも気が引ける | Akarasama demo ki ga hikeru | and still, being too blatant makes me hesitate. |
+| AH ここは NIPPON なんだから | Ah koko wa NIPPON nandakara | Ah, but this is Japan after all, |
+| しおらしいのも素敵ね MONKEY BITES | Shiorashii no mo suteki ne, MONKEY BITES | and that shy sweetness is kind of wonderful – monkey bites. |
+{.lyrics}

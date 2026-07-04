@@ -1,0 +1,16 @@
+{{ define "main" }}
+<article class="content banger">
+  <header class="banger-header">
+    {{ with .Params.artist }}<p class="banger-artist">by {{ . }}</p>{{ end }}
+    {{ if or .Params.spotify .Params.youtube }}
+    <p class="banger-source">listen to it on:
+      {{- with .Params.spotify }} <a href="{{ . }}">spotify</a>{{ end }}{{ if and .Params.spotify .Params.youtube }},{{ end }}
+      {{- with .Params.youtube }} <a href="{{ . }}">youtube</a>{{ end }}</p>
+    {{ else }}
+      {{ with .Params.source }}<p class="banger-source"><a href="{{ . }}">listen to it</a></p>{{ end }}
+    {{ end }}
+  </header>
+  {{ .Content }}
+  <p class="banger-back"><a href="/bangers/">&larr; back to bangers</a></p>
+</article>
+{{ end }}

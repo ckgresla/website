@@ -1,0 +1,4 @@
+---
+title: "Napkins"
+description: "Napkins, because what other name would be as apt for a set of short blog posts?"
+---

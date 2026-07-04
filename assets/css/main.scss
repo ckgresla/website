@@ -1,269 +1,410 @@
----
----
+// ─────────────────────────────────────────────────────────────────────────────
+// One stylesheet for the whole site, in the spirit of rsms.me:
+//   · every metric sits on an 8px unit grid; type is 16px on a 24px line
+//   · all vertical metrics are whole pixels, so text lands on integer rows and
+//     ::selection paints seamlessly (no leading gap-lines between lines)
+//   · one 6-column grid (64px gutters, 1216px container) shared by the header
+//     and the content — pages align by construction, overrides are per-page
+//     grid-column spans, nothing else
+// ─────────────────────────────────────────────────────────────────────────────
 
-// Light mode colors
-$primary: {{ site.colors.primary | default: '#FFFFFF' | remove: '"' | remove: "'" }};
-$background: {{ site.colors.background | default: '#FFFFFF' | remove: '"' | remove: "'" }};
-$background-secondary: {{ site.colors.background_secondary | default: '#F5F5F5' | remove: '"' | remove: "'" }};
-$text-primary: {{ site.colors.text_primary | default: '#000000' | remove: '"' | remove: "'" }};
-$text-secondary: {{ site.colors.text_secondary | default: '#B6B6B6' | remove: '"' | remove: "'" }};
-$text-tertiary: {{ site.colors.text_tertiary | default: '#999999' | remove: '"' | remove: "'" }};
-$border-color: {{ site.colors.border | default: '#E5E5E5' | remove: '"' | remove: "'" }};
+// ── Tokens ──
+:root {
+  --color-background: #ffffff;
+  --color-background-secondary: #f5f5f5;
+  --color-text-primary: #000000;
+  --color-text-secondary: #b6b6b6;
+  --color-text-tertiary: #999999;
+  --color-border: #e5e5e5;
 
-// Dark mode colors
-$primary-dark: {{ site.colors.primary_dark | default: '#000000' | remove: '"' | remove: "'" }};
-$background-dark: {{ site.colors.background_dark | default: '#000000' | remove: '"' | remove: "'" }};
-$background-secondary-dark: {{ site.colors.background_secondary_dark | default: '#111111' | remove: '"' | remove: "'" }};
-$text-primary-dark: {{ site.colors.text_primary_dark | default: '#FFFFFF' | remove: '"' | remove: "'" }};
-$text-secondary-dark: {{ site.colors.text_secondary_dark | default: '#666666' | remove: '"' | remove: "'" }};
-$text-tertiary-dark: {{ site.colors.text_tertiary_dark | default: '#999999' | remove: '"' | remove: "'" }};
-$border-color-dark: {{ site.colors.border_dark | default: '#333333' | remove: '"' | remove: "'" }};
+  // code tokens (chroma)
+  --code-comment: #999999;
+  --code-keyword: #0550ae;
+  --code-string: #0a7d33;
+  --code-number: #953800;
+  --code-function: #6639ba;
+}
 
-// Accent colors (same for light/dark)
-$accent-lavender: {{ site.colors.accent_lavender | default: '#C4D2FF' | remove: '"' | remove: "'" }};
-$accent-sage: {{ site.colors.accent_sage | default: '#A8D5BA' | remove: '"' | remove: "'" }};
-$accent-peach: {{ site.colors.accent_peach | default: '#FFB5A7' | remove: '"' | remove: "'" }};
-$accent-gold: {{ site.colors.accent_gold | default: '#F9E79F' | remove: '"' | remove: "'" }};
-$accent-coral: {{ site.colors.accent_coral | default: '#FF6B6B' | remove: '"' | remove: "'" }};
-$accent-mint: {{ site.colors.accent_mint | default: '#B8E6B8' | remove: '"' | remove: "'" }};
-$accent-rose: {{ site.colors.accent_rose | default: '#F8BBD9' | remove: '"' | remove: "'" }};
-$accent-sky: {{ site.colors.accent_sky | default: '#87CEEB' | remove: '"' | remove: "'" }};
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #000000;
+    --color-background-secondary: #111111;
+    --color-text-primary: #ffffff;
+    --color-text-secondary: #666666;
+    --color-text-tertiary: #999999;
+    --color-border: #333333;
 
-$colors-light: (
-    "primary": $primary,
-    "background": $background,
-    "background-secondary": $background-secondary,
-    "text-primary": $text-primary,
-    "text-secondary": $text-secondary,
-    "text-tertiary": $text-tertiary,
-    "border": $border-color,
-    "accent-lavender": $accent-lavender,
-    "accent-sage": $accent-sage,
-    "accent-peach": $accent-peach,
-    "accent-gold": $accent-gold,
-    "accent-coral": $accent-coral,
-    "accent-mint": $accent-mint,
-    "accent-rose": $accent-rose,
-    "accent-sky": $accent-sky
-);
-
-$colors-dark: (
-    "primary": $primary-dark,
-    "background": $background-dark,
-    "background-secondary": $background-secondary-dark,
-    "text-primary": $text-primary-dark,
-    "text-secondary": $text-secondary-dark,
-    "text-tertiary": $text-tertiary-dark,
-    "border": $border-color-dark,
-    "accent-lavender": $accent-lavender,
-    "accent-sage": $accent-sage,
-    "accent-peach": $accent-peach,
-    "accent-gold": $accent-gold,
-    "accent-coral": $accent-coral,
-    "accent-mint": $accent-mint,
-    "accent-rose": $accent-rose,
-    "accent-sky": $accent-sky
-);
-
-// Keep this for backward compatibility with existing code
-$zs-colors-light-css-vars: ();
-@each $color, $value in $colors-light {
-  $zs-colors-light-css-vars: map-merge(
-    $zs-colors-light-css-vars,
-    (#{$color}: var(--color-#{$color}))
-  )
-};
-
-// CJK fallback chain — Inter has no CJK glyphs, so per-glyph fallback hands
-// Korean/Japanese to Pretendard and everything else (e.g. Chinese) to Noto Sans.
-$font-family-heading: {{ site.fonts.heading | default: 'Inter' }}, "Pretendard", "Pretendard JP", "Noto Sans SC", -apple-system, serif;
-$font-family-base: {{ site.fonts.base | default: 'Inter' }}, "Pretendard", "Pretendard JP", "Noto Sans SC", -apple-system, "Helvetica Neue", Arial, sans-serif;
-$font-family-monospace: {{ site.fonts.monospace | default: 'JetBrains Mono NL' }}, SFMono-Regular, Menlo, Monaco, Consolas, "Courier New", monospace;
-$font-family-logo: {{ site.fonts.logo | default: 'Inter' }}, "Pretendard", "Pretendard JP", "Noto Sans SC", -apple-system, "Helvetica Neue", Arial, sans-serif;
-
-:root {  
-  @each $color, $value in $colors-light {
-    --color-#{$color}: #{$value};
+    --code-comment: #767676;
+    --code-keyword: #79c0ff;
+    --code-string: #7ee787;
+    --code-number: #ffa657;
+    --code-function: #d2a8ff;
   }
 }
 
-html[data-mode='dark'] {
-  @each $color, $value in $colors-dark {
-      --color-#{$color}: #{$value};
-  }
+// CJK fallback chain — Inter has no CJK glyphs; Korean/Japanese fall to
+// Pretendard, everything else (e.g. Chinese) to Noto Sans.
+$sans: 'Inter', 'Pretendard', 'Pretendard JP', 'Noto Sans SC', -apple-system, 'Helvetica Neue', Arial, sans-serif;
+$sans-var: 'InterVariable', 'Pretendard', 'Pretendard JP', 'Noto Sans SC', -apple-system, 'Helvetica Neue', Arial, sans-serif;
+$display: 'InterDisplay', 'Inter', 'Pretendard', 'Pretendard JP', 'Noto Sans SC', sans-serif;
+$mono: 'JetBrains Mono NL', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+// ── Base ──
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  font-family: $sans;
+  font-feature-settings: 'liga' 1, 'calt' 1;
+  -webkit-font-smoothing: antialiased;
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-text-tertiary) transparent;
+}
+@supports (font-variation-settings: normal) {
+  html { font-family: $sans-var; }
 }
 
-@import 'style';
+body {
+  margin: 0;
+  background: var(--color-background);
+  color: var(--color-text-primary);
+  font-size: 1rem;
+  line-height: 1.5; // 24px
+}
 
-// ── Canonical page shell ────────────────────────────────────────────────────
-// ONE container, shared by the header row and all content, so the title/nav and
-// the content column align on every page *by construction* — no per-page width
-// drift. Every vertical metric is an integer number of pixels, keeping text on
-// the whole-pixel grid (seamless ::selection). Per-page needs (e.g. ponderings'
-// grid) override only their own content region, never this shell.
-.site-page {
-  // `body.page` is a centering flex column, which would otherwise shrink this to
-  // its content width (different per page); force full width so the 1080 cap +
-  // auto margins give identical edges on every page.
-  align-self: stretch;
-  width: 100%;
-  max-width: 1080px;         // page width, in the rsms range
+::selection {
+  background-color: var(--color-text-primary);
+  color: var(--color-background);
+}
+
+::-webkit-scrollbar { width: 8px; background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-text-tertiary); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-text-secondary); }
+
+// ── Layout: the one grid ──
+// 1216px container, 64px side padding, 6 columns with 64px gutters.
+// Column width at full size: (1088 − 5×64) / 6 = 128px.
+// Prose spans columns 1–4 (704px); the menu sits on columns 5–6.
+.site {
+  max-width: 1216px;
   margin: 0 auto;
-  padding: 8rem 2rem 5rem;   // 128 / 32 / 80 — integer
+  padding: 0 64px 96px;
 }
 
-.page-head {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 3rem;                 // 48px
-  margin-bottom: 4rem;       // 64px down to the content
-
-  .page-head-title { flex: 1; min-width: 0; }
-
-  .page-title {
-    font-family: $font-family-heading;
-    font-size: 1.8rem;
-    line-height: 1.25;       // 28.8 × 1.25 = 36px — integer
-    font-weight: 600;
-    color: var(--color-text-primary);
-    margin: 0;
-  }
-
-  .page-desc {
-    margin: 0.75rem 0 0;     // 12px
-    font-size: 0.95rem;
-    line-height: 1.5;        // 24px
-    color: var(--color-text-secondary);
-    max-width: 48ch;
-  }
+@mixin cols {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  column-gap: 64px;
 }
 
-// Wand over the left-aligned menu, pinned to the container's right edge.
-.page-nav {
-  flex: 0 0 auto;
+.masthead {
+  @include cols;
+  align-items: start;
+  padding-top: 240px;
+  margin-bottom: 96px;
+}
+
+.masthead-title { grid-column: 1 / 5; }
+
+.site-title {
+  font-family: $display;
+  font-size: 2rem;
+  line-height: 2.5rem; // 40px
+  font-weight: 600;
+  margin: 0;
+}
+
+.masthead-desc {
+  margin: 12px 0 0;
+  color: var(--color-text-secondary);
+  max-width: 48ch;
+}
+
+.menu {
+  grid-column: 5 / 7;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 1rem;                 // 16px between the wand and the menu
-}
+  user-select: none;
 
-// Content region — every layout drops its markup here. Flatten the vendored
-// Bootstrap grid and the old per-page containers so content fills this one
-// column; prose becomes a left-aligned reading measure via `p { max-width:65ch }`.
-.page-main {
-  .section { padding: 0; }
-  .container { max-width: none; width: 100%; margin: 0; padding: 0; }
-  .row { margin: 0; justify-content: flex-start; }
-  [class*="col-"] { flex: 0 0 100%; max-width: 100%; padding: 0; }
-  .ponderings-container,
-  .bangers-container { max-width: none; margin: 0; width: 100%; }
-}
+  a {
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.5; // 24px — the menu stays on the line grid
+    transition: color 0.15s ease;
 
-// Vertical Menu Styles
-.menu-vertical {
-  user-select: none; // Prevents text selection
-  -webkit-user-select: none; // Safari support
-  -moz-user-select: none; // Firefox support
-  -ms-user-select: none; // IE support
-
-  .menu-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    align-items: flex-start;
+    &:hover { color: var(--color-text-primary); }
+    &.is-active { color: var(--color-text-primary); }
   }
-  
-  .menu-item {
-    .menu-link {
-      display: block;
-      font-family: $font-family-heading;
-      font-size: 1.25rem;
-      line-height: 1.2; // 20px × 1.2 = 24px — integer, so the nav (which drives
-                        // the header height) stays on the whole-pixel grid
-      font-weight: 500;
+
+  // The dot: home link and site mark in one glyph. Being text, it sits on the
+  // same 24px line box as the menu items — no icon/line-grid mismatch.
+  .menu-dot {
+    font-size: 1.25rem;
+    line-height: 24px;
+  }
+}
+
+.main {
+  @include cols;
+
+  > * { grid-column: 1 / 5; min-width: 0; }
+}
+
+// ── Content typography — whole-pixel rhythm ──
+.content {
+  h1, h2, h3, h4, h5, h6 { font-weight: 600; }
+  h1 { margin: 60px 0 12px; font-size: 2rem;    line-height: 1.25; } // 40px
+  h2 { margin: 54px 0 12px; font-size: 1.5rem;  line-height: 1.25; } // 30px
+  h3 { margin: 48px 0 12px; font-size: 1.25rem; line-height: 1.2;  } // 24px
+  h4 { margin: 36px 0 6px;  font-size: 1rem;    line-height: 1.5;  } // 24px
+  h5 { margin: 36px 0 6px;  font-size: 0.875rem; line-height: 1.5; } // 21px
+  > :first-child { margin-top: 0; }
+
+  p { margin: 0 0 24px; max-width: 65ch; }
+
+  a {
+    color: inherit;
+    text-underline-offset: 2px;
+    text-decoration-color: var(--color-text-secondary);
+    &:hover { text-decoration-color: var(--color-text-primary); }
+  }
+
+  ul, ol {
+    margin: 0 0 24px;
+    padding-left: 24px;
+    li { margin-bottom: 6px; }
+    li::marker { color: var(--color-text-secondary); }
+  }
+
+  blockquote {
+    margin: 0 0 24px;
+    padding-left: 16px;
+    border-left: 2px solid var(--color-border);
+    color: var(--color-text-tertiary);
+    p:last-child { margin-bottom: 0; }
+  }
+
+  hr {
+    border: 0;
+    height: 1px;
+    background: var(--color-border);
+    margin: 48px 0;
+  }
+
+  img { max-width: 100%; height: auto; }
+
+  figure {
+    margin: 24px 0;
+    figcaption {
+      margin-top: 8px;
       color: var(--color-text-secondary);
-      text-decoration: none;
-      padding: 0 0;
-      transition: color 0.2s ease;
-
-      // Reserve the bold width so the active item going bold never reflows the
-      // menu (keeps its horizontal position identical across pages).
-      &::after {
-        content: attr(data-text);
-        display: block;
-        height: 0;
-        overflow: hidden;
-        visibility: hidden;
-        font-weight: 700;
-      }
-
-      &:hover {
-        color: var(--color-text-primary);
-      }
-    }
-    
-    &.active .menu-link {
-      color: var(--color-text-primary);
-      font-weight: 700;
+      font-size: 0.875rem;
+      line-height: 21px;
+      h4, p { margin: 0; font-size: inherit; line-height: inherit; max-width: none; }
+      h4 { color: var(--color-text-primary); font-weight: 500; }
     }
   }
-}
+  .figure-full { img { width: 100%; } }
 
-// Mobile — the shell stacks: title, then the nav, then content.
-@media (max-width: 768px) {
-  .site-page {
-    padding: 3rem 1.25rem 4rem;
-  }
-
-  .page-head {
-    flex-direction: column;
-    gap: 2rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .page-nav {
-    gap: 0.75rem;
-  }
-
-  .menu-vertical .menu-list {
-    gap: 0.375rem;
+  table {
+    border-collapse: collapse;
+    margin: 0 0 24px;
+    th, td { text-align: left; vertical-align: top; padding: 6px 24px 6px 0; }
+    th { border-bottom: 1px solid var(--color-text-primary); font-weight: 600; }
+    td { border-bottom: 1px solid var(--color-border); }
   }
 }
 
-// Scrollbar styles
-html {
-  overflow-y: scroll;
-  scrollbar-gutter: stable;
+// ── Code ──
+code {
+  font-family: $mono;
+  font-size: 0.8125rem; // 13px
+  background: var(--color-background-secondary);
+  padding: 2px 5px;
+  border-radius: 3px;
 }
 
-::-webkit-scrollbar {
-  width: 8px;
-  background: transparent;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--color-text-tertiary);
+pre {
+  margin: 0 0 24px;
+  padding: 16px;
+  background: var(--color-background-secondary);
   border-radius: 4px;
-  transition: background-color 0.2s ease;
+  overflow-x: auto;
+  line-height: 21px; // 13px mono on a 21px line — integer
+
+  code { background: none; padding: 0; border-radius: 0; }
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: var(--color-text-secondary);
+.highlight {
+  .c, .ch, .cm, .c1, .cs, .cp, .cpf { color: var(--code-comment); font-style: italic; }
+  .k, .kc, .kd, .kn, .kp, .kr, .kt, .nt, .ow { color: var(--code-keyword); }
+  .s, .sa, .sb, .sc, .dl, .sd, .s2, .se, .sh, .si, .sx, .sr, .s1, .ss { color: var(--code-string); }
+  .m, .mb, .mf, .mh, .mi, .il, .mo { color: var(--code-number); }
+  .nf, .fm, .nd { color: var(--code-function); }
+  .nb, .bp, .nc, .nn { color: var(--code-keyword); }
 }
 
-::-webkit-scrollbar-thumb:active {
-  background: var(--color-text-primary);
+// ── Napkins: post list ──
+.post-list {
+  .post-item { margin-bottom: 48px; }
+  .post-item-title {
+    margin: 0 0 6px;
+    font-size: 1.25rem;
+    line-height: 1.2; // 24px
+    font-weight: 600;
+    a { text-decoration: none; &:hover { text-decoration: underline; } }
+  }
+  .post-item-desc { margin: 0 0 6px; color: var(--color-text-secondary); }
+  .post-item-date { color: var(--color-text-tertiary); font-size: 0.875rem; line-height: 21px; }
 }
 
-html {
-  scrollbar-width: thin;
-  scrollbar-color: var(--color-text-tertiary) transparent;
+// ── Bangers ──
+.bangers-list {
+  li { padding: 6px 0; }
+  li::marker { color: var(--color-text-secondary); font-weight: 500; }
+  .banger-link {
+    font-weight: 500;
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
+  }
+  .banger-blurb {
+    margin: 6px 0 0;
+    color: var(--color-text-tertiary);
+    font-size: 0.875rem;
+    line-height: 21px;
+  }
+}
+
+.banger {
+  .banger-header { margin-bottom: 48px; }
+  .banger-artist { margin: 0 0 6px; color: var(--color-text-secondary); }
+  .banger-source { margin: 0; font-size: 0.875rem; line-height: 21px; }
+  .banger-back { margin-top: 48px; }
+
+  // lyrics tables ({.lyrics} in content) — three parallel columns, small type
+  .lyrics {
+    font-size: 0.875rem;
+    line-height: 21px;
+    th, td { padding: 6px 16px 6px 0; }
+  }
+}
+
+// ── Ponderings: the one wide page (3-column year grid) ──
+.main--ponderings {
+  > .content { grid-column: 1 / 7; }
+
+  .content {
+    // Year headings read as another row divider: underline at the same rhythm.
+    h2 {
+      position: relative;
+      margin: 120px 0 9px;
+      padding-bottom: 12px;
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0; left: 0; right: 0;
+        height: 1px;
+        background: var(--color-border);
+      }
+      &:first-of-type { margin-top: 0; }
+    }
+
+    ol {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      align-items: start;
+      gap: 18px 48px; // row col
+      padding-left: 24px;
+      margin: 0;
+    }
+
+    li {
+      position: relative;
+      margin: 0;
+      padding: 0;
+    }
+
+    // Full-width row dividers: drawn by the first item of each row, spanning
+    // (N × 100%) + ((N−1) × column-gap).
+    li::before {
+      content: '';
+      position: absolute;
+      top: -9.5px; // middle of the 18px row gap
+      left: 0;
+      height: 1px;
+      background: var(--color-border);
+      pointer-events: none;
+      display: none;
+    }
+    li:nth-child(3n + 1):not(:first-child)::before {
+      display: block;
+      width: calc(300% + 96px); // 3 columns + 2 gaps
+    }
+
+    @media (max-width: 900px) {
+      ol { grid-template-columns: repeat(2, 1fr); }
+      li::before { display: none; }
+      li:nth-child(2n + 1):not(:first-child)::before {
+        display: block;
+        width: calc(200% + 48px);
+      }
+    }
+
+    @media (max-width: 600px) {
+      ol { grid-template-columns: 1fr; gap: 12px; }
+      li::before { display: none; }
+      li:not(:first-child)::before {
+        display: block;
+        top: -6.5px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+// ── Hover-swap images (iroje-style: focus image fades in over the base) ──
+.hover-swap {
+  position: relative;
+
+  a { display: block; }
+  img { display: block; }
+
+  .focus {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+  }
+  &:hover .focus { opacity: 1; }
+}
+
+.hover-swap--portrait {
+  width: 230px; // the images' natural size (230×250) — integer height keeps
+  margin-bottom: 24px; // the text below it on the whole-pixel grid
+  img { width: 100%; }
+}
+
+// ── Mobile: the grid stacks ──
+@media (max-width: 768px) {
+  .site { padding: 0 24px 64px; }
+
+  .masthead {
+    display: block;
+    padding-top: 72px;
+    margin-bottom: 48px;
+  }
+
+  .site-title { font-size: 1.75rem; line-height: 2.25rem; } // 36px
+
+  .menu {
+    margin-top: 24px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0 16px;
+  }
+
+  .main { display: block; }
 }

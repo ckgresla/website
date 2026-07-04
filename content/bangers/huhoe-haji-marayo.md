@@ -1,0 +1,40 @@
+---
+title: "후회하지 말아요 (Don't Regret It)"
+artist: "성시경 (Seong Si-gyeong)"
+sort_artist: "Seong Si-gyeong"
+language: "Korean"
+spotify: "https://open.spotify.com/track/0xUSpM5sccBhSiBhWy5i30"
+youtube: "https://www.youtube.com/watch?v=WLDP-PamhYY"
+year: 2026
+blurb: ""
+---
+
+| Original | Romanization | English |
+|----------|--------------|---------|
+| 그리워할수록 그리운 그만큼 | Geuriwohalsurok geuriun geuman-keum | The more I miss you, the more I long for you |
+| 조금 멀리 떨어진 곳에 앉아 | Jogeum meolli tteoreojin gose anja | Sitting a little far away |
+| 말없이 바라보네요 | Mal-eopsi baraboneyo | I just look at you without a word |
+| 저 어둠 속의 별처럼 가까울 수 없어 | Jeo eodum soge byeolcheoreom gakkaul su eopsseo | Like a star in the dark, I can't get close |
+| 해맑은 미소도 숨소리마저도 | Haemalgeun misodo sumsorimajeodo | Your bright smile, even the sound of your breath |
+| 놓치기 아까운 그 날을 찾아 | Nochigi akkawin geu nareul chaja | I search for that day too precious to lose |
+| 또 그댈 잡고 있네요 | Tto geudael japgo itneyo | And I'm holding onto you again |
+| 세상이 바빠도 좀 천천히 잊죠 우리 | Sesangi bappado jom cheoncheonhi ijjyo uri | Even if the world is busy, let's forget slowly, you and I |
+| 조금만 덜 잘해줬다면 | Jogeumman deol jalhaejwossdamyeon | If only I'd treated you a little less kindly |
+| 그댄 더 쉬웠을 텐데 | Geudaen deo swiweosseul tende | It would have been easier for you |
+| 덧없던 시간이 아픔으로 | Deodeoptteon sigani apeumeuro | Those fleeting times turned into pain |
+| 견뎌냈으니 괜찮아요 난 | Gyeondyeonaesseuni gwaenchanayo nan | But I endured them, so I'm okay |
+| 남겨진 추억은 아리는 | Namgyeojin chueogeun arineun | The memories left behind will sting |
+| 깊은 가시로 남겠지만 | Gipeun gasiro namgetjiman | And remain as deep thorns |
+| 후횐 없죠 다시는 없을 사랑 | Huhwein eopjyo dasineun eopseul sarang | But I have no regrets; a love like this won't come again |
+| 가파른 슬픔도 더 자란 습관도 | Gapareun seulpeumdo deo jaran seupgwan-do | The steep sorrow and the grown habits |
+| 다음 사랑이 다 거둬준대도 | Daeum sarangi da geodwojundaedo | Even if the next love takes them all away |
+| 좀 남겨두기로 해요 | Jom namgyeodugiro haeyo | Let's leave a little behind |
+| 혹 운명이 다시 우릴 찾을 날을 위해 | Hok unmyeongi dasi uril chajeul nareul wihae | For the day fate might bring us together again |
+| 조금만 덜 받았더라면 | Jogeumman deol badattdeoramyeon | If only I'd received a little less from you |
+| 그댄 덜 미안할 텐데 | Geudaen deol mianhal tende | You would feel less sorry |
+| 서롤 위했던 많은 노력을 | Seorol wihaetdeon maneun noreogeul | All the effort we made for each other |
+| 그대 잊을까 걱정이죠 난 | Geudae ijeulkka geokjeongijyo nan | I'm afraid that you might forget it |
+| 먼 훗날 서로 맘 시리게 | Meon hutnal seoro mam sirige | One far-off day, it may chill our hearts |
+| 할 못된 바람 되겠지만 | Hal motdoen baram doegessjiman | And turn into a cruel wish between us |
+| 후회하지 말기로 해요 우리 | Huhoe haji malgiro haeyo uri | But let's promise we won't regret it, you and I |
+{.lyrics}

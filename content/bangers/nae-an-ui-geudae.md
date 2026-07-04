@@ -1,0 +1,40 @@
+---
+title: "내 안의 그대 (Jazz Ver.) (You Inside Me)"
+artist: "서영은 (Suh Young-eun)"
+sort_artist: "Suh Young-eun"
+language: "Korean"
+youtube: "https://www.youtube.com/watch?v=EbfxLz0SOlI"
+year: 2025
+blurb: ""
+---
+
+| Original | Romanization | English |
+|----------|--------------|---------|
+| 슬픔은 없을것 같아요 | Seulpeumeun eopseul geot gat-ayo | I don't think there will be sorrow. |
+| 우산없이 비오는 거리를 걸어도 | Usan eopsi bioneun georireul georeodo | Even if I walk a rainy street without an umbrella, |
+| 나는 행복할것 같아요 내 안에 그대가 왔잖아요 | Naneun haengbokhal geot gat-ayo nae ane geudaega watjanayo | I think I'll be happy; you've come into me. |
+| 그대와 내가 마주쳤던 순간에 나는 다시 태어난거죠 | Geudewa naega majuchyeotdeon sungane naneun dasi taeeonangeojyo | The moment we met, I was born again. |
+| 그대가 없던 어제의 나는 없던 것과 같아요 | Geudega eopdeon eojeye naneun eopdeon geotgwa gat-ayo | The me from yesterday without you is as if it never existed. |
+| 기억조차 없는 걸요 | Giyeok jocha eomneun geol-yo | I can't even remember it. |
+| 어떡하죠 내 심장이 고장났나봐 | Eotteokhajyo nae simjangi gojangnatnabwa | What do I do? My heart seems broken. |
+| 그대만 생각하면 터질것만 같아요 | Geudaeman saenggakhamyeon teojilgeotman gat-ayo | When I think only of you, it feels like it will burst. |
+| 어떡하죠 나는 그대 뒷모습에도 자꾸만 눈물이 나요 | Eotteokhajyo naneun geudae dwitmoseub-edo jakkuman nunmuri nayo | What do I do? Even your back makes me keep crying. |
+| 그대가 이름을 부를때 나는 내가 나인게 | Geudega ireumeul bureul ttae naneun naega nainge | When you call my name, being myself |
+| 너무 행복하죠 그대가 날 보고 웃을땐 | Neomu haengbokhajyo geudega nal bogo useul ttaen | Makes me so happy; when you smile at me, |
+| 난 모든 세상에 감사해요 | Nan modeun sesange gamsahaeyo | I'm grateful to the whole world. |
+| 난 괜찮아요 혹시 어려워마요 | Nan gwaenchanayo hoksi eoryeowomayo | I'm okay—don't worry if it's hard. |
+| 다시 혼자가 된다해도 | Dasi honjaga doenda-haedo | Even if I become alone again, |
+| 내 안에 그대 있음이 나를 살아가게 할테니 | Nae ane geudae isseumi nareul saragage halt-eni | Your presence inside me will keep me living. |
+| 그대가 날 지킬테죠 | Geudega nal jikiltejyo | You will protect me. |
+| 어떡하죠 내 심장이 고장났나봐 그대만 생각하면 터질것만 같아요 | Eotteokhajyo nae simjangi gojangnatnabwa geudaeman saenggakhamyeon teojilgeotman gat-ayo | What do I do? My heart seems broken; thinking of you makes it feel like it'll burst. |
+| 어떡하죠 나는 그대 뒷모습에도 자꾸만 눈물이 나요 | Eotteokhajyo naneun geudae dwitmoseub-edo jakkuman nunmuri nayo | What do I do? Even your back makes me keep crying. |
+| 내가 밤새 그댈 그리워 한다면 | Naega bamsae geudael geuriwo handamyeon | If I miss you all night long, |
+| 그대 꿈에 가게 될까요 | Geudae kkume gage doelkkayo | Will I be able to go into your dream? |
+| 잠든 그대 꿈에 나 찾아가 | Jamdeun geudae kkume na chajaga | I'll find you in your sleeping dream, |
+| 입 맞추고 돌아 올까요 | Ip matchugo dora olkkayo | Give a kiss and come back, will I? |
+| 어떡하죠 첫사랑은 슬프다는데 | Eotteokhajyo cheotsarangeun seulpeudaneunde | What do I do? They say first love is sad. |
+| 나 지금 누구라도 사랑하고 올까요 | Na jigeum nugurado saranghago olkkayo | Should I go love someone right now and come back? |
+| 어떡하죠 사랑만도 너무 아픈데 | Eotteokhajyo sarang mando neomu apeunde | What do I do? Love itself already hurts so much. |
+| 이별은 난 모를래요 | Ibyeoreun nan moreullae-yo | I don't want to know breakup. |
+| 어떡하죠 나는 그대 뒷모습에도 자꾸만 눈물이 나요 | Eotteokhajyo naneun geudae dwitmoseub-edo jakkuman nunmuri nayo | What do I do? Even your back makes me keep crying. |
+{.lyrics}
