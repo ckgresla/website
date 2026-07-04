@@ -143,11 +143,24 @@ body {
     &.is-active { color: var(--color-text-primary); }
   }
 
-  // The dot: home link and site mark in one glyph. Being text, it sits on the
-  // same 32px line box as the menu items — no icon/line-grid mismatch.
+  // The dot: home link and site mark. Drawn, not typed — Inter has no U+25CF,
+  // so a text ● fell back to whichever font each page happened to load
+  // (Pretendard on CJK-heavy pages, the system font elsewhere) and changed
+  // size between pages. A circle of our own is identical everywhere, and
+  // currentColor keeps the dimmed/active/hover behavior.
   .menu-dot {
-    font-size: 2rem; // 32px — title-sized, like rsms's
     line-height: 2rem;
+    margin-bottom: 8px; // the breath under the dot, as on rsms
+
+    &::before {
+      content: '';
+      display: block;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: currentColor;
+      margin: 8px 0; // centers the dot in its 32px line box
+    }
   }
 }
 
@@ -451,7 +464,6 @@ pre {
     margin-top: 48px;
 
     a { font-size: 1.25rem; line-height: 2rem; }
-    .menu-dot { font-size: 1.5rem; }
   }
 
   .main { display: block; }
