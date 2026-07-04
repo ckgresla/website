@@ -462,6 +462,10 @@ pre {
     @media (max-width: 900px) {
       ol { grid-template-columns: repeat(2, 1fr); }
       li::before { display: none; }
+      // the desktop 3-col rule outranks the generic reset above — silence it
+      // explicitly, then the 2-col rule (later, same specificity) re-enables
+      // row-start dividers for the 2-col grid
+      li:nth-child(3n + 1):not(:first-child)::before { display: none; }
       li:nth-child(2n + 1):not(:first-child)::before {
         display: block;
         width: calc(200% + 48px);
@@ -472,6 +476,15 @@ pre {
       ol { grid-template-columns: 1fr; gap: 12px; }
       li::before { display: none; }
       li:not(:first-child)::before {
+        display: block;
+        top: -6.5px;
+        width: 100%;
+      }
+      // the nth-child rules above outrank the generic :not(:first-child)
+      // override — without these, odd/3n+1 items keep their multi-column
+      // divider widths and drag horizontal scroll onto phones
+      li:nth-child(2n + 1):not(:first-child)::before,
+      li:nth-child(3n + 1):not(:first-child)::before {
         display: block;
         top: -6.5px;
         width: 100%;
