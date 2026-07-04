@@ -60,9 +60,9 @@
     #clock { position:fixed; inset:0; overflow:hidden; }
     .num { font-variant-numeric:tabular-nums; }
 
-    /* Swipeable face track + size scales (main + independent subtitle) */
-    .views { display:flex; height:100%; width:100%; --scale:1; --date-scale:1; position:relative; z-index:1;
-      transition:transform .38s cubic-bezier(.22,.61,.36,1); will-change:transform; }
+    /* View track + size scales (main + independent subtitle). One view today;
+       the flex track is kept so future views (timer, alarm…) can be added. */
+    .views { display:flex; height:100%; width:100%; --scale:1; --date-scale:1; position:relative; z-index:1; }
 
     /* Moon — its own grid placement, sits behind the time */
     #moon { position:absolute; inset:0; z-index:0; display:none; align-items:center; justify-content:center; pointer-events:none; --moon-scale:1;
@@ -72,7 +72,6 @@
     #moon.mv-top { align-items:flex-start; } #moon.mv-middle { align-items:center; } #moon.mv-bottom { align-items:flex-end; }
     #moon.mh-left { justify-content:flex-start; } #moon.mh-center { justify-content:center; } #moon.mh-right { justify-content:flex-end; }
     #moon svg { width:calc(clamp(56px,17vw,108px) * var(--moon-scale)); height:auto; display:block; transform:rotate(-45deg); }
-    .views.dragging { transition:none; }
     .views.italic .time, .views.italic .date { font-style:italic; }
 
     .view { flex:0 0 100%; width:100%; height:100%; display:flex; position:relative;
@@ -90,33 +89,23 @@
     .views.h-center .time, .views.h-center .date { text-align:center; }
     .views.h-right .time, .views.h-right .date { text-align:right; }
 
-    /* ---- Quiet ---- */
-    .quiet .time { font-weight:var(--time-weight,200); font-size:calc(clamp(70px,21vw,150px) * var(--scale)); letter-spacing:-.03em; line-height:1; }
-    .quiet .ampm { font-weight:300; font-size:.32em; color:var(--muted); margin-left:.16em; vertical-align:.95em; }
-    .quiet .qsecs { font-weight:300; font-size:.32em; color:var(--accent); margin-left:.12em; vertical-align:.95em; }
-    .quiet .date { margin-top:calc(26px * var(--scale)); font-weight:500; font-size:calc(clamp(13px,3.7vw,18px) * var(--date-scale)); letter-spacing:.01em; color:var(--muted); }
+    /* ---- The clock face (one view; Font toggle swaps Sans ↔ Mono) ---- */
+    .time { font-weight:var(--time-weight,200); font-size:calc(clamp(70px,21vw,150px) * var(--scale)); letter-spacing:-.03em; line-height:1; }
+    .ampm { font-weight:300; font-size:.32em; color:var(--muted); margin-left:.16em; vertical-align:.95em; }
+    .secs { font-weight:300; font-size:.32em; color:var(--accent); margin-left:.12em; vertical-align:.95em; }
+    .date { margin-top:calc(26px * var(--scale)); font-weight:500; font-size:calc(clamp(13px,3.7vw,18px) * var(--date-scale)); letter-spacing:.01em; color:var(--muted); }
 
-    /* ---- Mono ---- */
-    .mono { font-family:'JetBrains Mono', ui-monospace, monospace; }
-    .mono .status { display:flex; align-items:center; gap:9px; margin-bottom:16px; color:var(--muted); font-size:13px; letter-spacing:.02em; }
-    .mono .status .dot { width:9px; height:9px; border-radius:50%; background:var(--accent); transition:background .3s; }
-    .mono .status.idle .dot { background:var(--muted); }
-    .mono .time { font-weight:var(--time-weight,500); font-size:calc(clamp(46px,15vw,92px) * var(--scale)); letter-spacing:-.02em; line-height:1.05; }
-    .mono .ampm { font-size:.5em; color:var(--muted); margin-left:.3em; }
-    .mono .msecs { color:var(--accent); font-weight:400; font-size:calc(clamp(24px,8vw,42px) * var(--scale)); margin-top:10px; }
-    .mono .date { margin-top:16px; color:var(--muted); font-size:calc(13px * var(--date-scale)); letter-spacing:.04em; }
+    /* Mono typeface variant */
+    .views.font-mono .time, .views.font-mono .ampm, .views.font-mono .secs, .views.font-mono .date { font-family:'JetBrains Mono', ui-monospace, monospace; }
+    .views.font-mono .time { font-weight:var(--time-weight,400); font-size:calc(clamp(52px,16vw,116px) * var(--scale)); letter-spacing:-.02em; line-height:1.05; }
+    .views.font-mono .ampm { font-size:.42em; margin-left:.22em; vertical-align:.9em; }
+    .views.font-mono .secs { font-size:.42em; margin-left:.18em; vertical-align:.9em; }
+    .views.font-mono .date { letter-spacing:.05em; }
 
     /* Word / pirate / wizard formats wrap and shrink */
     .time.words { font-weight:var(--time-weight,300); font-size:calc(clamp(30px,8.5vw,54px) * var(--scale)); line-height:1.15; letter-spacing:-.01em; max-width:min(88vw,9em); }
-    .mono .time.words { font-weight:var(--time-weight,500); }
-    .time.words .ampm, .time.words .qsecs { display:none; }
-
-    /* ---- Page dots ---- */
-    .dots { position:absolute; left:0; right:0; bottom:max(env(safe-area-inset-bottom),14px);
-      display:flex; gap:8px; justify-content:center; pointer-events:none; opacity:0; transition:opacity .45s ease; z-index:5; }
-    .dots.show { opacity:.5; }
-    .dots i { width:6px; height:6px; border-radius:50%; background:var(--muted); transition:background .3s, transform .3s; }
-    .dots i.on { background:var(--fg); transform:scale(1.15); }
+    .views.font-mono .time.words { font-weight:var(--time-weight,500); }
+    .time.words .ampm, .time.words .secs { display:none; }
 
     /* ---- Menu (scrollable, never crowds the hint) ---- */
     #menu { position:fixed; inset:0; z-index:10; display:grid; overflow-y:auto; -webkit-overflow-scrolling:touch;
@@ -171,7 +160,7 @@
     .switch.on::after { transform:translateX(20px); }
     .menu-hint { text-align:center; font-size:12px; color:var(--muted); letter-spacing:.05em; padding-top:4px; }
 
-    @media (prefers-reduced-motion: reduce) { .views, body, .dots, #menu, .menu-inner { transition-duration:.01ms; } }
+    @media (prefers-reduced-motion: reduce) { .views, body, #menu, .menu-inner { transition-duration:.01ms; } }
   </style>
 </head>
 <body>
@@ -179,33 +168,23 @@
     <div id="moon"></div>
     <div class="views" id="views">
 
-      <section class="view quiet" data-view="quiet">
+      <section class="view" data-view="clock">
         <div class="stack">
           <div class="time num">
-            <span data-role="hm">9:41</span><span class="ampm" data-role="ampm"></span><span class="qsecs num" data-role="qsecs"></span>
+            <span data-role="hm">9:41</span><span class="ampm" data-role="ampm"></span><span class="secs num" data-role="secs"></span>
           </div>
           <div class="date" data-role="date">Friday — June 26th 2026</div>
         </div>
       </section>
 
-      <section class="view mono" data-view="mono">
-        <div class="stack">
-          <div class="status"><span class="dot"></span><span data-role="awake">awake</span></div>
-          <div class="time num"><span data-role="hm">09:41</span><span class="ampm" data-role="ampm"></span></div>
-          <div class="msecs num" data-role="msecs">23</div>
-          <div class="date" data-role="date">2026-06-26 FRI</div>
-        </div>
-      </section>
-
     </div>
-    <div class="dots" id="dots"></div>
   </div>
 
   <div id="menu" aria-hidden="true">
     <div class="menu-inner">
       <div class="menu-card">
-        <div class="field"><span class="lbl">Face</span>
-          <div class="seg" data-set="face"><button data-val="quiet">Quiet</button><button data-val="mono">Mono</button></div></div>
+        <div class="field"><span class="lbl">Font</span>
+          <div class="seg" data-set="font"><button data-val="sans">Sans</button><button data-val="mono">Mono</button></div></div>
 
         <div class="field"><span class="lbl">Time format</span>
           <div class="pills" data-set="timeFormat">
@@ -244,6 +223,12 @@
             <button data-val="new">New</button><button data-val="cres">Crescent</button><button data-val="quarter">Quarter</button><button data-val="gibbous">Gibbous</button><button data-val="full">Full</button>
           </div></div>
 
+        <div class="field"><span class="lbl">Moon style</span>
+          <div class="pills" data-set="moonStyle">
+            <button data-val="filled">Filled</button><button data-val="hollow">Hollow</button>
+            <button data-val="diagram">Diagram</button><button data-val="pixel">Pixel</button>
+          </div></div>
+
         <div class="field"><span class="lbl">Moon position</span>
           <div class="grid" data-set="moonPos">
             <button data-val="tl"><i></i></button><button data-val="tc"><i></i></button><button data-val="tr"><i></i></button>
@@ -253,6 +238,9 @@
 
         <div class="field"><span class="lbl">Moon size</span>
           <input class="slider" type="range" data-slider="moonSize" min="0.4" max="2.5" step="0.01" aria-label="Moon size"></div>
+
+        <div class="field"><span class="lbl">Orientation</span>
+          <div class="seg" data-set="orientation"><button data-val="auto">Auto</button><button data-val="portrait">Portrait</button><button data-val="landscape">Landscape</button></div></div>
 
         <div class="field"><span class="lbl">Theme</span>
           <div class="seg" data-set="theme"><button data-val="auto">Auto</button><button data-val="light">Light</button><button data-val="dark">Dark</button></div></div>
