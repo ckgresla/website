@@ -1,5 +1,5 @@
-#+title: Progetti
-#+description: lista progetti
+#+title: Lista Progetti
+#+description: Things, in various states of built.
 #+body_class: progetti
 
 * [[/clock/][Clock]]
@@ -10,7 +10,7 @@ An offline, fullscreen PWA clock — moon phases in three styles, orientation lo
 
 2026 · live at [[/clock/][clock]]
 
-* [[/progetti/doodle-icons/][The Doodle Icons]]
+* [[/lista-progetti/doodle-icons/][The Doodle Icons]]
 #+begin_export html
 <div class="progetto-viz" aria-hidden="true"><svg viewBox="0 0 120 40" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="20" cy="20" r="11"/><path d="M56 9 l-7 22 M49 31 q14 -8 14 -22 q3 14 14 22"/><path d="M96 31 q-4 -12 4 -22 q8 10 4 22 z"/></svg></div>
 #+end_export
