@@ -1,0 +1,8 @@
+{{ define "main" }}
+{{/* The whole index is content/progetti/_index.org — one org file, one
+     headline per project. go-org wraps each headline in an .outline-2 div;
+     the CSS lays those out as the grid cells. */}}
+<div class="content progetti">
+  {{ .Content }}
+</div>
+{{ end }}
