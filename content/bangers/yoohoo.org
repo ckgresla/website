@@ -1,0 +1,46 @@
+#+title: 유후 (Yoohoo, 2007 Remake)
+#+artist: 서영은 (Suh Young-eun)
+#+sort_artist: Suh Young-eun
+#+language: Korean
+#+spotify: https://open.spotify.com/track/49ZeUF3BjMvqlt1S8dPb3i?si=761e8b15b91740d2
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original                                 | Romanization                                             | English                                                                      |
+|------+------+------|
+| 하늘끝까지 모두 들리도록 약속해          | haneulkkeutkkaji modu deullidorok yaksokhae              | Promise so it can be heard all the way to the sky’s end                      |
+| 마주잡은 두손 다신 놓지 않을래           | majujabeun duson dasin nochi anheullae                   | I won’t ever let go of these two hands we’re holding                         |
+| 너를 향한 마음 하늘 가득 채워지도록      | neoreul hyanghan maeum haneul gadeuk chaewojidorok       | So my heart toward you fills the whole sky                                   |
+| 작은 하나까지 사랑할거야                 | jageun hanakkaji saranghalgeoya                          | I’ll love you down to the smallest little bit                                |
+| 세상끝까지 모두 들리도록 외쳐봐          | sesangkkeutkkaji modu deullidorok oechyeobwa             | Shout so the whole world can hear, to the world’s very end                   |
+| 마주잡은 두손 다신 놓진 말아줘           | majujabeun duson dasin nochin marajwo                    | Please don’t ever let go of these two hands we’re holding                    |
+| 예쁜 꿈속처럼 언제라도 변함없기를        | yeppeun kkumsokcheoreom eonjerado byeonham eopgireul     | May it never change, just like a pretty dream                                |
+| 작은 하나까지 사랑해주기                 | jageun hanakkaji saranghaejugi                           | Loving each and every little part of you                                     |
+| 두갈래로 긴머릴 묶어두고                 | dugallaero ginmeoril mukkeodugo                          | I’ll tie my long hair into two bunches                                       |
+| 챙이 넓은 오렌지 모자를 써야지           | chaengi neolbeun orenji mojareul sseoyaji                | And put on a wide-brimmed orange hat                                         |
+| 그 누구도 없는 그곳에 가면 유후~         | geu nugudo eomneun geugose gamyeon yoohoo                | If I go to that place where nobody else is, yoohoo                           |
+| 마냥 바라만 봐도 행복할 것 같아          | manyang baraman bwado haengbokhal geot gata              | I feel like I’d be happy just gazing around                                  |
+| 태연한척 숨겨봐도 웃음이 자꾸만 삐져나와 | taeyeonhancheok sumgyeobwado useumi jakkuman ppijyeonawa | Even if I pretend to be calm and try to hide it, my smile keeps slipping out |
+| 손꼽으며 내내 기다리던 오늘이야          | sonkkobeumyeo naenae gidarideon oneuriya                 | It’s the day I’ve been counting down and waiting for all along               |
+| 하늘끝까지 모두 들리도록 약속해          | haneulkkeutkkaji modu deullidorok yaksokhae              | Promise so it can be heard all the way to the sky’s end                      |
+| 마주잡은 두손 다신 놓지 않을래           | majujabeun duson dasin nochi anheullae                   | I won’t ever let go of these two hands we’re holding                         |
+| 너를 향한 마음 하늘 가득 채워지도록      | neoreul hyanghan maeum haneul gadeuk chaewojidorok       | So my heart toward you fills the whole sky                                   |
+| 작은 하나까지 사랑할거야                 | jageun hanakkaji saranghalgeoya                          | I’ll love you down to the smallest little bit                                |
+| 세상끝까지 모두 들리도록 외쳐봐          | sesangkkeutkkaji modu deullidorok oechyeobwa             | Shout so the whole world can hear, to the world’s very end                   |
+| 마주잡은 두손 다신 놓진 말아줘           | majujabeun duson dasin nochin marajwo                    | Please don’t ever let go of these two hands we’re holding                    |
+| 예쁜 꿈속처럼 언제라도 변함없기를        | yeppeun kkumsokcheoreom eonjerado byeonham eopgireul     | May it never change, just like a pretty dream                                |
+| 작은 하나까지 사랑해주기                 | jageun hanakkaji saranghaejugi                           | Loving each and every little part of you                                     |
+| 하늘 높이 구름에 입맞추고 유후~          | haneul nopi gureume ipmachugo yoohoo                     | I kiss the clouds up high in the sky, yoohoo                                 |
+| 파란 향기 바다에 벌써 취했나봐           | paran hyanggi badae beolsseo chwihaetnabwa               | I must already be drunk on the blue-scented sea                              |
+| 태연한척 숨겨봐도 웃음이 자꾸만 삐져나와 | taeyeonhancheok sumgyeobwado useumi jakkuman ppijyeonawa | Even if I pretend to be calm and try to hide it, my smile keeps slipping out |
+| 세련되지 못하게 촌스럽게 들떠서          | seryeondoegi mothage chonseureopge deultteoseo           | All giddy in an unpolished, country-bumpkin way                              |
+| 손꼽으며 내내 기다리던 오늘이야          | sonkkobeumyeo naenae gidarideon oneuriya                 | It’s the day I’ve been counting and waiting for all along                    |
+| 하늘끝까지 모두 들리도록 약속해          | haneulkkeutkkaji modu deullidorok yaksokhae              | Promise so it can be heard all the way to the sky’s end                      |
+| 마주잡은 두손 다신 놓지 않을래           | majujabeun duson dasin nochi anheullae                   | I won’t ever let go of these two hands we’re holding                         |
+| 너를 향한 마음 하늘 가득 채워지도록      | neoreul hyanghan maeum haneul gadeuk chaewojidorok       | So my heart toward you fills the whole sky                                   |
+| 작은 하나까지 사랑할거야                 | jageun hanakkaji saranghalgeoya                          | I’ll love you down to the smallest little bit                                |
+| 세상끝까지 모두 들리도록 외쳐봐          | sesangkkeutkkaji modu deullidorok oechyeobwa             | Shout so the whole world can hear, to the world’s very end                   |
+| 마주잡은 두손 다신 놓진 말아줘           | majujabeun duson dasin nochin marajwo                    | Please don’t ever let go of these two hands we’re holding                    |
+| 예쁜 꿈속처럼 언제라도 변함없기를        | yeppeun kkumsokcheoreom eonjerado byeonham eopgireul     | May it never change, just like a pretty dream                                |
+| 작은 하나까지 사랑할래                   | jageun hanakkaji saranghallae                            | I’ll love you down to every last little part                                 |
+| 하나까지 사랑해주기                      | hanakkaji saranghaejugi                                  | Loving you completely, every single bit                                      |

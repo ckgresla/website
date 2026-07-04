@@ -1,0 +1,16 @@
+{{/* The shared header row on every page: title (tagline overrides it when set)
+     on the left, the menu on the right — with the ● dot as the home link, the
+     site's pre-wand mark. Both sit on the same 6-column grid as the content,
+     so everything aligns by construction. */}}
+<header class="masthead">
+  <div class="masthead-title">
+    <h1 class="site-title">{{ or .Params.tagline .Title }}</h1>
+    {{ if and .Description (not .IsHome) }}<p class="masthead-desc">{{ .Description }}</p>{{ end }}
+  </div>
+  <nav class="menu" aria-label="Main">
+    <a class="menu-dot{{ if .IsHome }} is-active{{ end }}" href="/" aria-label="Home"></a>
+    {{ range site.Menus.main }}
+    <a{{ if hasPrefix $.RelPermalink .URL }} class="is-active"{{ end }} href="{{ .URL }}">{{ .Name }}</a>
+    {{ end }}
+  </nav>
+</header>

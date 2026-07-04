@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <!-- No-JS fallback: a black rod with a white cylindrical tip. wand.js swaps in
+       a rasterised, theme-aware copy at runtime. The embedded style inverts the
+       colours in dark mode so the tab icon stays legible either way. -->
+  <style>
+    .rod { stroke: #141414; }
+    .tip { stroke: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .rod { stroke: #f5f5f5; }
+      .tip { stroke: #0a0a0a; }
+    }
+  </style>
+  <g fill="none" stroke-linecap="round">
+    <path class="rod" d="M10 42 40 12" stroke-width="9.6"/>
+    <path class="tip" d="M34.96 17.04 40 12" stroke-width="8.4"/>
+  </g>
+</svg>

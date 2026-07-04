@@ -1,0 +1,87 @@
+#+title: Readings
+#+tagline: Brilliant pieces, all worth perusing
+#+body_class: wide
+
+| Title         | Thought   | 
+|------+------|
+| [[https://www.goodreads.com/quotes/21898-then-out-spake-brave-horatius-the-captain-of-the-gate][Horatius' Last Stand]] | Is there a better way to go? |
+| [[/pdfs/jonathan-livingston-seagull.pdf][Jonathan Livingston Seagull]] | no limits eh? |
+| [[https://darioamodei.com/machines-of-loving-grace][Machines of Loving Grace]] | "A country of geniuses in a datacenter" |
+| [[https://situational-awareness.ai/][Situational Awareness]] | Things are gonna get interesting with the next few OOMs... |
+| [[http://catb.org/~esr/faqs/loginataka.html][The Logintaka]] | a dialogue between a Guru and a Newbie |
+| [[http://www.catb.org/~esr/faqs/hacker-howto.html][How To Become A Hacker]] | Sounds like a good group of folks |
+| [[http://incompleteideas.net/IncIdeas/BitterLesson.html][The Bitter Lesson]] | Make search and learning limited by compute, then increase compute. |
+| [[http://incompleteideas.net/IncIdeas/KeytoAI.html][Self-Verification, The Key to AI]] | Experience is bitterest, but it is the best way to learn |
+| [[https://poets.org/text/poetry-and-ambition][Poetry and Ambition]] | McPoems? shit |
+| [[https://www.hindutemplealbany.org/wp-content/uploads/2016/08/Sri_Hanuman_Chalisa_English.pdf][Hanuman Chalisa]] | Jai Shri Hanuman! |
+| [[https://en.m.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_VII/Chapter_IX][The Anabasis of Alexander]] | That's a pretty good reply, given the context |
+| [[https://fs.blog/brain-food/october-30-2022/#:~:text=%E2%80%9CYoung%20lawyers%20frequently,to%20do%20it.%E2%80%99%E2%80%9D][Mozart, Writing Symphonies and Young Lawyers with Questions]] | The master is just the student which is furthest along! |
+| [[http://pespmc1.vub.ac.be/OCCAMRAZ.html][Occam's Razor]] | simpler! |
+| [[https://www.poetryfoundation.org/poems/46783/gunga-din][Gunga Din]] | You're a better man than I... |
+| [[https://whyevolutionistrue.com/2018/09/03/richard-feynmans-letter-to-his-dead-wife/][I love my wife. My wife is dead.]] | You will probably want a drink for this "fine-man"'s letter. |
+| [[https://poets.org/poem/be-drunk][Be Drunk]] | Wine, Poetry or Virtue? |
+| [[/pdfs/a-mathematicians-apology-hardy.pdf][A Mathematician's Apology]] | A peek into the mind of a mathematician |
+| [[https://matt.might.net/articles/electric-meat/][Electric Meat]] | Grab a few things! |
+| [[/pdfs/on-bullshit-frankfurt.pdf][On Bullshit]] | Its despicable! |
+| [[/pdfs/hubbard1899.pdf][A Message to Garcia]] | Are you capable of carrying the letter? |
+| [[/pdfs/you-and-your-research.pdf][You and Your Research]] | There IS difference between "Good" and "Great" |
+| [[https://slatestarcodex.com/2015/08/17/the-goddess-of-everything-else-2/][The Goddess of Everything Else]] | Wouldn't it be based if we did some of that? |
+| [[https://www.reddit.com/r/HFY/comments/lom9cb/kindness_to_kin][Kindness to Kin]] | Reject fitness score, embrace cripplemind |
+| [[https://forum.effectivealtruism.org/posts/jk7A3NMdbxp65kcJJ/500-million-but-not-a-single-one-more][500 Million, Not a Single One More]] | get vaxxed! |
+| [[https://www.ribbonfarm.com/2010/07/26/a-big-little-idea-called-legibility/][A Big Little Idea called Legibility]] | An Authoritarian High-Modernist Recipe for Failure |
+| [[https://kottke.org/15/04/the-glass-is-already-broken][The Glass is already Broken]] | Enjoy it! |
+| [[https://astralcodexten.substack.com/p/your-book-review-the-laws-of-trading][The Laws of Trading -- Review]] | You're always trading! |
+| [[http://xiaodong-yu.blogspot.com/2011/06/forward-de-mystifying-good-research-and.html][Good Research and Good Papers]] | What constitutes a good paper? |
+| [[https://a16z.com/the-techno-optimist-manifesto/?utm_source=alphasignalai.beehiiv.com&utm_medium=newsletter&utm_campaign=using-llms-to-train-robots-changes-everything][The Techno-Optimist Manifesto]] | ai ~= alchemy, we ought work with it to build Nuclear Fusion. |
+| [[https://distill.pub/2017/research-debt/][Research Debt]] | Debt exists everywhere. |
+| [[/pdfs/HOWTO-ai-research-MIT.pdf][How to Do Research (MIT AI Lab)]] | A fantastic collection of timeless, ad-hoc research advices |
+| [[https://worksinprogress.co/issue/the-maintenance-race][The Maintenance Race]] | Skilled maintainers advise never trying to solve a new or complex problem without a thorough mulling first. |
+| [[/pdfs/jibun-kaigi.pdf][Jibun Kaigi]] | A titular meeting of the selves! |
+| [[https://cs.stanford.edu/people/widom/paper-writing.html][Tips for Writing Technical Papers]] | by Jennifer Widom? it should be Wisdom! |
+| [[/pdfs/the-pragmatic-scientist-Krishnan.pdf][Notes from The Pragmatic Scientist]] | Useful items to keep in mind |
+| [[https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/][The Ten Commandments of Egoless Programming]] | It is always good to refer back to this, especially when wheels have been spun. |
+| [[https://michaelnielsen.org/blog/principles-of-effective-research/][Principles of Effective Research]] | Hamming's essay provides the raison d'etere, this provides the practical |
+| [[https://github.com/facebookresearch/metaseq/tree/main/projects/OPT/chronicles][The OPT-175B Logbook]] | What a fun time! |
+|[[/pdfs/TheArtOfDoingScienceAndEngineering-Hamming.pdf][The Art of Science and Engineering]] | This really ought to be required reading for anyone looking to do something useful in Science and/or Engineering, If nothing else read Chapters 18-through-20 on Simulations, quite a useful perspective for the way things seem to be going. |
+| [[/pdfs/vox-populi.pdf][Vox Populi]] | "In these democratic days..." |
+| [[https://how.complexsystems.fail/][How Complex Systems Fail]] | They tend to fail in non-trivial & intertwined manners |
+| [[https://daringfireball.net/projects/markdown/syntax#list][Markdown Syntax]] | A take on markdown from the creator himself, John Guber |
+| [[https://gist.github.com/knubie/37dd3b3006d9675d80a28e39ab045c5f][Conscious intention to redirect attention]] | FOCUS |
+| [[https://karpathy.github.io/2019/04/25/recipe/][A Recipe for Training Neural Networks - Karpathy]] | Timeless! |
+| [[https://github.com/google-research/tuning_playbook?tab=readme-ov-file#why-a-tuning-playbook][A DL Tuning Playbook]] | So simple, so sane. |
+| [[https://github.com/EleutherAI/cookbook][EleutherAI's cookbook]] | Worth gander mate! |
+| [[https://github.com/stas00/the-art-of-debugging][The Art of Debugging]] | Art is correct-a-mundo |
+| [[https://drive.google.com/file/d/1xezPuMhndQ9BvO3jFNny5K8qNClxK7Ap/view][Art in the Sciences of The Artificial]] | "Sometimes algorithms can be odes to certain aspects of nature rather than faithful reproductions of them. And so it goes with art." |
+| [[https://arxiv.org/pdf/cs/0310016][Debugging Backwards in Time]] | "If you've got a snake's tail and you pull on it long enough, you will get to its head." |
+| [[https://worrydream.com/MagicInk][Magic Ink]] | "An artist who paints with magic ink." |
+| [[https://cbea.ms/git-commit][How to Write a Git Commit Message]] | If for no one, do it for your future self! |
+| [[https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html][A Note About Git Commit Messages]] | For your future self, for the love of God. |
+| [[https://www.cs.yale.edu/homes/perlis-alan/quotes.html][Epigrams on Programming]] | If you program, you are in good company. |
+| [[https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/#Raw_Performance_Ranking_of_GPUs][Raw Performance Ranking of GPUs]] | [[https://www.youtube.com/watch?v=QVBjiFPMKMM][GPUs]] really do go BRRRRRR |
+| [[http://slow-science.org/][Slow Science]] | Take the time to do the thing right, le journey is le reward. |
+| [[https://stephango.com/file-over-app][File over app]] | A compelling case to use [[https://obsidian.md/][obsidian]] |
+| [[https://www.wired.com/2017/07/inside-cubas-diy-internet-revolution/][Inside Cuba's D.I.Y. Internet Revolution]] | No es fácil. |
+| [[https://hardwarelottery.github.io/][The Hardware Lottery]] | What you will discover is determined in part by the legos you have to build with. |
+| [[https://qntm.org/write][Write Like A Programmer]] | Writing is coding in a natural language |
+| [[https://www.wikiwand.com/en/articles/Tadao_Ando][Tadao Ando]] | Don't you just love concrete? |
+| [[https://asteriskmag.com/issues/10/the-origin-of-the-research-university][The Origin of the Research University]] | "18th century German bureaucrats didn’t invent the idea of making new contributions to human knowledge. Their great contribution was to institutionalize it..." |
+| [[https://arxiv.org/abs/2008.06030][On the Design of Text Editors]] | Why can't all software be as functional and [[https://github.com/rougier/elegant-emacs][ELEGANT]] as this? |
+| [[https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf][Welcome to the Era of Experience]] | In some sense, the difference between simulation and experience is the program from which you get your observations and rewards -- a process on a computer, or a process on reality.  |
+| [[https://richardcsuwandi.github.io/blog/2025/open-endedness/][The future of AI is open-ended]] | This is where things appear to be heading, or at least, ought to be. |
+| [[https://www.deeshan.com/zen.htm][10 Bulls]] | Have a read |
+| [[http://www.catb.org/esr/writings/unix-koans/recruiter.html][Master Foo and the Recruiter]] | Its a new floor, very complex! |
+| [[https://arunkprasad.com/log/amateurs-and-professionals/][Amateurs and Professionals]] | Where do you get your reward, from percieving the form or from executing the function? |
+| [[https://www.lionsroar.com/you-already-understand/][You Already Understand!]] | "I hit you! Ha ha ha ha!" |
+| [[/pdfs/InPraiseOfShadows-Tanizaki.pdf][In Praise of Shadows - Tanizaki]] | It is no coincidence that darkness and "日本" go hand in hand, it is a well-thought out relationship. |
+| [[https://blog.jxmo.io/p/there-is-only-one-model][All AI Models Might Be The Same - Morris]] | If all of these models are modeling reality, and there is only one reality, are we then just training "one true model"? |
+| [[https://arxiv.org/pdf/2111.00254v1][Equinox: neural networks in JAX via callable PyTrees and filtered transformations]] | It seems that wonderful things tend to come from thinking thoroughly about something and then sketching it out. |
+| [[https://www.alphaxiv.org/pdf/2510.12269][Tensor Logic: The Language of AI]] | Ya know, everything exists on some N-dimensional tensor... |
+| [[https://mazzo.li/posts/lanczos.html][Lánczos interpolation explained]] | Now this is a good example of explaining something |
+| [[https://www.hacklewayne.com/stringly-typed-it-s-not-that-simple][Stringly-typed: it's not that simple!]] | "type-safety theatre" |
+| [[https://www.darioamodei.com/essay/the-adolescence-of-technology#1-i-m-sorry-dave][The Adolescense of Technology]] | "Here we go!" *mario voice* |
+| [[https://pieceofsign.jp/blogs/stories/the-latte-tokyo-story-1][店舗オーナーを経たからこそ、できること]] | The Latte Tokyo closed (sad), these are the owner's "思い" |
+| [[https://github.com/stas00/ml-engineering][ml-engineering by stas00]] | A based chap's repo with nice ml learnings + utils (nccl interconnect tests of the highest quality) |
+| [[https://timdettmers.com/2025/12/10/why-agi-will-not-happen/][Why AGI Will Not Happen by Tim Dettmers]] | So the science fiction is reality thing, as of world state in Dec 2025, maybe not |
+| [[https://iii.dev/blog/the-harness-is-the-backend/][The Harness is the Backend - iii]] | That is one clean abstraction, [[https://github.com/iii-hq/iii][open source]] as well... |
+| [[https://www.lesswrong.com/posts/7ZqGiPHTpiDMwqMN2/twelve-virtues-of-rationality][Twelve Virtues of Rationality]] | Its a nice read, accompany a coffee |
+| [[https://davidoks.blog/p/why-japanese-companies-do-so-many][Why Japanese companies do so many different things]] | "Most importantly, Toto has a very lucrative sideline in the fabrication of memory chips." -- Japan is the best |

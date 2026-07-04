@@ -1,0 +1,64 @@
+# Hugo config — minimal by design.
+# Content is authored in Markdown or Org (go-org renders .org natively).
+baseURL = "https://chriskerwellgresla.net/"
+locale = "en"
+title = "Chris Kerwell Gresla"
+
+# The old Jekyll site shipped no taxonomies, RSS, or sitemap — don't start now.
+disableKinds = ["taxonomy", "term", "rss", "sitemap", "robotsTXT"]
+
+[frontmatter]
+  # Napkin posts carry their date in the filename (2022-06-08-Slug.md), which
+  # also preserves the live /napkins/<date-prefixed-slug>/ URLs.
+  date = [":filename", "date", "publishDate", "lastmod"]
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true # content uses inline HTML (about page figures, bangers tables)
+  [markup.goldmark.parser.attribute]
+    block = true # `{.lyrics}` block attributes on the bangers' lyric tables
+    title = true
+  [markup.highlight]
+    noClasses = false # classes + our own tiny palette, so code follows dark mode
+
+# Section-wide front matter (kept here because org keywords are flat — the
+# .org content files can't express nested cascade blocks).
+[[cascade]]
+  [cascade.params]
+    body_class = 'center' # napkins read on the centered column
+  [cascade.target]
+    path = '{/napkins,/napkins/**}'
+
+[[cascade]]
+  [cascade.params]
+    body_class = 'center' # songs sit on the same centered 7/9 column as the
+    tagline = 'song info' # rest, text left-aligned within it. The tagline is
+  [cascade.target]        # the common masthead for every song — egalitarian.
+    path = '{/bangers,/bangers/**}'
+
+[menus]
+  # The ● home link is hardcoded in the header partial, above these.
+  [[menus.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+  [[menus.main]]
+    name = "Napkins"
+    url = "/napkins/"
+    weight = 2
+  [[menus.main]]
+    name = "Ponderings"
+    url = "/ponderings/"
+    weight = 3
+  [[menus.main]]
+    name = "Readings"
+    url = "/readings/"
+    weight = 4
+  [[menus.main]]
+    name = "Bangers"
+    url = "/bangers/"
+    weight = 5
+  [[menus.main]]
+    name = "Clock"
+    url = "/clock/"
+    weight = 6

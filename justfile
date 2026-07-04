@@ -1,14 +1,14 @@
-# Run the server locally (as would for deploy)
-serve:
-    bundle exec jekyll serve
-
-# Run a dev server (autoreload on any changes)
+# Run a dev server (rebuilds + reloads on change)
 dev:
-    bundle exec jekyll serve --watch --livereload
+    hugo server
 
-# Run the Vale linter on the collection posts, see docs for info on the linter- https://vale.sh/docs
+# Build the site into ./public (as the deploy does)
+build:
+    hugo --minify
+
+# Run the Vale linter on the napkins, see docs for info on the linter- https://vale.sh/docs
 lint:
-    vale collections/_posts/
+    vale content/napkins/
 
 # Sort the Blog's accept words file -- cleans it up after adding in new words
 sort-vocab:

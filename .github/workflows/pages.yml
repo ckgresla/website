@@ -1,10 +1,7 @@
 name: Deploy site to GitHub Pages
 
-# GitHub's default Pages builder forces its latest github-pages gem
-# (Jekyll 3.10), which crashes compiling main.scss. This site's pinned gem set
-# (Jekyll 3.9 / Liquid 4.0.4) only parses correctly on Ruby 2.6 (Liquid 4.0.4
-# mis-tokenizes on Ruby 2.7+), and Ruby 2.6 is gone from GitHub runners.
-# So we build inside a ruby:2.6 container to match the working local setup.
+# Hugo (extended, for the SCSS pipeline) builds the site as a single static
+# binary — no Ruby containers, no gem pinning. Pin the version to match local.
 
 on:
   push:
@@ -26,16 +23,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Build with Jekyll (Ruby 2.6 container)
-        run: |
-          docker run --rm -v "$PWD":/site -w /site -e JEKYLL_ENV=production ruby:2.6 \
-            bash -c "gem install bundler -v 2.3.26 --no-document && bundle _2.3.26_ install --jobs 4 && bundle _2.3.26_ exec jekyll build"
-      - name: Fix artifact permissions
-        run: sudo chown -R "$(id -u):$(id -g)" _site
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.163.3'
+          extended: true
+      - name: Build
+        run: hugo --minify
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: public
 
   deploy:
     needs: build
