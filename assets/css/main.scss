@@ -270,8 +270,9 @@ body {
   blockquote {
     margin: 0 0 24px;
     padding-left: 16px;
-    border-left: 2px solid var(--color-border);
-    color: var(--color-text-tertiary);
+    // ink on ink: the bar is black in light mode, white in dark, and the
+    // quote reads at full strength rather than dimmed
+    border-left: 2px solid var(--color-text-primary);
     p:last-child { margin-bottom: 0; }
   }
 
