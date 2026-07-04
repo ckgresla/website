@@ -157,25 +157,18 @@ body {
   > * { grid-column: 1 / 5; min-width: 0; }
 }
 
-// Centered reading pages (napkins, bangers, about — via body_class: center):
-// the content sits on the page's centerline, spanning the middle 5/9 of the
-// container (~604px at full width, a comfortable ~75ch measure).
+// Centered reading pages (napkins, bangers list, readings, about — via
+// body_class: center): the content sits on the page's centerline, spanning
+// the middle 7/9 of the container (~846px at full width).
 .main--center {
   > * {
     grid-column: 1 / 7;
-    width: calc(100% * 5 / 9);
+    width: calc(100% * 7 / 9);
     margin-left: auto;
     margin-right: auto;
   }
 
   .content p { max-width: none; } // the column is the measure
-
-  // Data is denser than prose: tables bleed past the reading measure to the
-  // middle 7/9 of the page (140% of this 5/9 column), still centered.
-  .content table {
-    width: 140%;
-    margin-left: -20%;
-  }
 }
 
 // ── Content typography — whole-pixel rhythm ──
