@@ -14,6 +14,8 @@
   <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
   <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
 
+  <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/inter-latin-wght.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/jetbrains-mono-latin-wght.woff2" crossorigin>
   <link rel="manifest" href="/assets/clock.webmanifest">
   <link rel="apple-touch-icon" href="/assets/images/clock/icon-180.png">
 
@@ -50,10 +52,11 @@
 
     * { margin:0; padding:0; box-sizing:border-box;
         -webkit-user-select:none; user-select:none; -webkit-tap-highlight-color:transparent; -webkit-touch-callout:none; }
-    html, body { height:100%; }
+    html, body { height:100%; overscroll-behavior:none; }
     body {
       background:var(--bg); color:var(--fg);
       font-family:'Inter', system-ui, -apple-system, sans-serif;
+      font-synthesis:none; text-rendering:optimizeLegibility;
       overflow:hidden; position:fixed; inset:0; touch-action:none;
       transition:background-color .55s ease, color .55s ease;
     }
@@ -109,6 +112,7 @@
 
     /* ---- Menu (scrollable, never crowds the hint) ---- */
     #menu { position:fixed; inset:0; z-index:10; display:grid; overflow-y:auto; -webkit-overflow-scrolling:touch;
+      overscroll-behavior:contain; scrollbar-width:none; /* Android: no visible scrollbar, no pull-glow */
       background:color-mix(in srgb, var(--bg) 76%, transparent);
       -webkit-backdrop-filter:blur(24px); backdrop-filter:blur(24px);
       opacity:0; visibility:hidden; transition:opacity .26s ease, visibility .26s; }
@@ -160,6 +164,8 @@
     .switch.on::after { transform:translateX(20px); }
     .menu-hint { text-align:center; font-size:12px; color:var(--muted); letter-spacing:.05em; padding-top:4px; }
 
+    #menu::-webkit-scrollbar { display:none; }
+
     @media (prefers-reduced-motion: reduce) { .views, body, #menu, .menu-inner { transition-duration:.01ms; } }
   </style>
 </head>
@@ -207,10 +213,10 @@
           </div></div>
 
         <div class="field"><span class="lbl">Size</span>
-          <input class="slider" type="range" data-slider="size" min="0.45" max="1.7" step="0.01" aria-label="Size"></div>
+          <input class="slider" type="range" data-slider="size" min="0.2" max="1.7" step="0.01" aria-label="Size"></div>
 
         <div class="field"><span class="lbl">Date size</span>
-          <input class="slider" type="range" data-slider="dateSize" min="0.6" max="2.2" step="0.01" aria-label="Date size"></div>
+          <input class="slider" type="range" data-slider="dateSize" min="0.3" max="2.2" step="0.01" aria-label="Date size"></div>
 
         <div class="field"><span class="lbl">Weight</span>
           <div class="pills" data-set="weight">
@@ -237,7 +243,7 @@
           </div></div>
 
         <div class="field"><span class="lbl">Moon size</span>
-          <input class="slider" type="range" data-slider="moonSize" min="0.4" max="2.5" step="0.01" aria-label="Moon size"></div>
+          <input class="slider" type="range" data-slider="moonSize" min="0.2" max="2.5" step="0.01" aria-label="Moon size"></div>
 
         <div class="field"><span class="lbl">Orientation</span>
           <div class="seg" data-set="orientation"><button data-val="auto">Auto</button><button data-val="portrait">Portrait</button><button data-val="landscape">Landscape</button></div></div>

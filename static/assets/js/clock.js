@@ -65,9 +65,9 @@
   // Per-item scaling: each resizable element has its own setting, bounds, and
   // apply fn — gestures pick the one under your finger; sliders set them too.
   var SCALERS = {
-    time: { key: "size", min: 0.45, max: 1.7, apply: applySize },
-    date: { key: "dateSize", min: 0.6, max: 2.2, apply: applyDateSize },
-    moon: { key: "moonSize", min: 0.4, max: 2.5, apply: applyMoonSize }
+    time: { key: "size", min: 0.2, max: 1.7, apply: applySize },
+    date: { key: "dateSize", min: 0.3, max: 2.2, apply: applyDateSize },
+    moon: { key: "moonSize", min: 0.2, max: 2.5, apply: applyMoonSize }
   };
   var SLIDER_APPLY = { size: applySize, dateSize: applyDateSize, moonSize: applyMoonSize };
   function applyWeight() { if (settings.weight === "auto") track.style.removeProperty("--time-weight"); else track.style.setProperty("--time-weight", WEIGHTS[settings.weight]); }
