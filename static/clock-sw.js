@@ -12,21 +12,29 @@
 // To ship a production update, bump CACHE_VERSION; the browser swaps to the new
 // bundle in the background the next time it's online.
 const DEV = ['localhost', '127.0.0.1', '0.0.0.0', '[::1]'].indexOf(self.location.hostname) !== -1;
-const CACHE_VERSION = 'v6'; // v6: un-broke the worker after the Hugo port (Liquid paths were served raw)
+const CACHE_VERSION = 'v7'; // v7: tolerant install + network-first shell (v6 un-broke the Liquid-mangled worker)
 const CACHE = 'clock-' + CACHE_VERSION;
 
-const ASSETS = [
+// CRITICAL must all cache or install fails (the app shell); OPTIONAL assets
+// are cached best-effort so one missing icon can't nuke offline support.
+const CRITICAL = [
   '/clock/',
   '/assets/js/clock.js',
   '/assets/fonts/inter-latin-wght.woff2',
   '/assets/fonts/jetbrains-mono-latin-wght.woff2',
+  '/assets/clock.webmanifest'
+];
+const OPTIONAL = [
   '/assets/fonts/inter-latin-wght-italic.woff2',
   '/assets/fonts/jetbrains-mono-latin-wght-italic.woff2',
-  '/assets/clock.webmanifest',
   '/assets/images/clock/icon-180.png',
   '/assets/images/clock/icon-192.png',
   '/assets/images/clock/icon-512.png'
 ];
+
+// The shell (page + code) is fetched network-first so updates propagate even
+// without a version bump; everything else is cache-first forever.
+const NETWORK_FIRST = ['/assets/js/clock.js'];
 
 if (DEV) {
   // Dev kill-switch: purge caches, unregister, and reload open tabs so the page
@@ -43,7 +51,12 @@ if (DEV) {
   });
 } else {
   self.addEventListener('install', (event) => {
-    event.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS)).then(() => self.skipWaiting()));
+    event.waitUntil(
+      caches.open(CACHE)
+        .then((c) => c.addAll(CRITICAL)
+          .then(() => Promise.allSettled(OPTIONAL.map((u) => c.add(u)))))
+        .then(() => self.skipWaiting())
+    );
   });
   self.addEventListener('activate', (event) => {
     event.waitUntil(
@@ -55,6 +68,24 @@ if (DEV) {
   self.addEventListener('fetch', (event) => {
     const req = event.request;
     if (req.method !== 'GET') return;
+    const url = new URL(req.url);
+    const freshFirst = req.mode === 'navigate' || NETWORK_FIRST.indexOf(url.pathname) !== -1;
+
+    if (freshFirst) {
+      // network-first: latest shell when online, cached shell offline
+      event.respondWith(
+        fetch(req).then((res) => {
+          if (res && res.status === 200 && res.type === 'basic') {
+            const copy = res.clone();
+            caches.open(CACHE).then((c) => c.put(req, copy));
+          }
+          return res;
+        }).catch(() => caches.match(req, { ignoreSearch: true })
+          .then((hit) => hit || (req.mode === 'navigate' ? caches.match('/clock/') : Response.error())))
+      );
+      return;
+    }
+
     event.respondWith(
       caches.match(req, { ignoreSearch: true }).then((hit) => {
         if (hit) return hit;

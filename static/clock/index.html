@@ -16,6 +16,7 @@
 
   <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/inter-latin-wght.woff2" crossorigin>
   <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/jetbrains-mono-latin-wght.woff2" crossorigin>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/assets/clock.webmanifest">
   <link rel="apple-touch-icon" href="/assets/images/clock/icon-180.png">
 
@@ -37,18 +38,21 @@
       src: url('/assets/fonts/jetbrains-mono-latin-wght-italic.woff2') format('woff2');
     }
 
+    /* One accent, both themes (the site's rule): lavender fill with ink text.
+       --line is the hairline border; --ctl is control-label ink (AA on both
+       grounds); --muted stays for genuinely decorative text. */
     :root {
-      --bg:#000; --fg:#fff; --muted:#7c7c80; --accent:#c4d2ff; --accent-on:#0a0a0a;
-      --tile:#141416; --switch-off:#3a3a3c;
+      --bg:#000; --fg:#fff; --muted:#7c7c80; --ctl:#9a9aa0; --accent:#c4d2ff; --accent-on:#0a0a0a;
+      --line:#333; --switch-off:#3a3a3c;
     }
     @media (prefers-color-scheme: light) {
       :root:not([data-theme="dark"]) {
-        --bg:#fff; --fg:#0b0b0b; --muted:#8a8a8e; --accent:#6f7fe0; --accent-on:#fff;
-        --tile:#f1f1f4; --switch-off:#d1d1d6;
+        --bg:#fff; --fg:#0b0b0b; --muted:#8a8a8e; --ctl:#6e6e73; --accent:#c4d2ff; --accent-on:#0a0a0a;
+        --line:#e5e5e5; --switch-off:#d1d1d6;
       }
     }
-    :root[data-theme="light"] { --bg:#fff; --fg:#0b0b0b; --muted:#8a8a8e; --accent:#6f7fe0; --accent-on:#fff; --tile:#f1f1f4; --switch-off:#d1d1d6; }
-    :root[data-theme="dark"]  { --bg:#000; --fg:#fff; --muted:#7c7c80; --accent:#c4d2ff; --accent-on:#0a0a0a; --tile:#141416; --switch-off:#3a3a3c; }
+    :root[data-theme="light"] { --bg:#fff; --fg:#0b0b0b; --muted:#8a8a8e; --ctl:#6e6e73; --accent:#c4d2ff; --accent-on:#0a0a0a; --line:#e5e5e5; --switch-off:#d1d1d6; }
+    :root[data-theme="dark"]  { --bg:#000; --fg:#fff; --muted:#7c7c80; --ctl:#9a9aa0; --accent:#c4d2ff; --accent-on:#0a0a0a; --line:#333; --switch-off:#3a3a3c; }
 
     * { margin:0; padding:0; box-sizing:border-box;
         -webkit-user-select:none; user-select:none; -webkit-tap-highlight-color:transparent; -webkit-touch-callout:none; }
@@ -74,7 +78,7 @@
     #moon.on { display:flex; }
     #moon.mv-top { align-items:flex-start; } #moon.mv-middle { align-items:center; } #moon.mv-bottom { align-items:flex-end; }
     #moon.mh-left { justify-content:flex-start; } #moon.mh-center { justify-content:center; } #moon.mh-right { justify-content:flex-end; }
-    #moon svg { width:calc(clamp(56px,17vw,108px) * var(--moon-scale)); height:auto; display:block; transform:rotate(-45deg); }
+    #moon svg { width:calc(clamp(56px,17vw,108px) * var(--moon-scale)); height:auto; display:block; transform:rotate(-45deg); opacity:var(--moon-dim,1); }
     .views.italic .time, .views.italic .date { font-style:italic; }
 
     .view { flex:0 0 100%; width:100%; height:100%; display:flex; position:relative;
@@ -95,7 +99,8 @@
     /* ---- The clock face (one view; Font toggle swaps Sans ↔ Mono) ---- */
     .time { font-weight:var(--time-weight,200); font-size:calc(clamp(70px,21vw,150px) * var(--scale)); letter-spacing:-.03em; line-height:1; }
     .ampm { font-weight:300; font-size:.32em; color:var(--muted); margin-left:.16em; vertical-align:.95em; }
-    .secs { font-weight:300; font-size:.32em; color:var(--accent); margin-left:.12em; vertical-align:.95em; }
+    .secs { font-weight:300; font-size:.32em; color:var(--muted); margin-left:.12em; vertical-align:.95em; }
+    .ampm + .secs:not(:empty) { margin-left:.5em; } /* AM/PM and seconds must not read as one token */
     .date { margin-top:calc(26px * var(--scale)); font-weight:500; font-size:calc(clamp(13px,3.7vw,18px) * var(--date-scale)); letter-spacing:.01em; color:var(--muted); }
 
     /* Mono typeface variant */
@@ -124,28 +129,28 @@
     #menu.open .menu-inner { transform:none; }
     .menu-card { display:flex; flex-direction:column; gap:19px; }
     .field { display:flex; flex-direction:column; gap:9px; }
-    .field > .lbl { font-size:12px; letter-spacing:.16em; text-transform:uppercase; color:var(--muted); font-weight:600; padding-left:2px; }
+    .field > .lbl { font-size:13px; color:var(--muted); font-weight:500; padding-left:2px; }
 
-    .seg { display:flex; background:var(--tile); border-radius:14px; padding:4px; gap:4px; }
-    .seg button { flex:1; border:0; background:transparent; color:var(--muted); font:inherit; font-size:15px; font-weight:500; padding:13px 0; border-radius:10px; cursor:pointer; transition:background .2s, color .2s; }
+    .seg { display:flex; border:1px solid var(--line); border-radius:4px; padding:3px; gap:3px; }
+    .seg button { flex:1; border:0; background:transparent; color:var(--ctl); font:inherit; font-size:15px; font-weight:500; padding:12px 0; border-radius:2px; cursor:pointer; transition:background .2s, color .2s; }
     .seg button.on { background:var(--accent); color:var(--accent-on); }
 
     .pills { display:flex; flex-wrap:wrap; gap:8px; }
-    .pills button { border:0; background:var(--tile); color:var(--muted); font:inherit; font-size:14px; font-weight:500; padding:10px 14px; border-radius:11px; cursor:pointer; transition:background .2s, color .2s; }
-    .pills button.on { background:var(--accent); color:var(--accent-on); }
+    .pills button { border:1px solid var(--line); background:transparent; color:var(--ctl); font:inherit; font-size:14px; font-weight:500; padding:9px 13px; border-radius:4px; cursor:pointer; transition:background .2s, color .2s, border-color .2s; }
+    .pills button.on { background:var(--accent); border-color:var(--accent); color:var(--accent-on); }
 
-    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:5px; background:var(--tile); padding:5px; border-radius:14px; }
-    .grid button { height:46px; border:0; background:transparent; border-radius:9px; cursor:pointer; display:flex; padding:9px; transition:background .2s; }
-    .grid button > i { width:7px; height:7px; border-radius:50%; background:var(--muted); transition:background .2s; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:3px; border:1px solid var(--line); padding:3px; border-radius:4px; }
+    .grid button { height:46px; border:0; background:transparent; border-radius:2px; cursor:pointer; display:flex; padding:9px; transition:background .2s; }
+    .grid button > i { width:7px; height:7px; border-radius:50%; background:var(--ctl); transition:background .2s; }
     .grid button.on { background:var(--accent); } .grid button.on > i { background:var(--accent-on); }
     .grid button:nth-child(3n+1) { justify-content:flex-start; } .grid button:nth-child(3n+2) { justify-content:center; } .grid button:nth-child(3n) { justify-content:flex-end; }
     .grid button:nth-child(-n+3) { align-items:flex-start; } .grid button:nth-child(n+4):nth-child(-n+6) { align-items:center; } .grid button:nth-child(n+7) { align-items:flex-end; }
 
     .slider { -webkit-appearance:none; appearance:none; width:100%; height:30px; background:transparent; cursor:pointer; }
-    .slider::-webkit-slider-runnable-track { height:6px; border-radius:3px; background:var(--tile); }
-    .slider::-webkit-slider-thumb { -webkit-appearance:none; width:26px; height:26px; border-radius:50%; background:var(--accent); margin-top:-10px; box-shadow:0 1px 3px rgba(0,0,0,.35); }
-    .slider::-moz-range-track { height:6px; border-radius:3px; background:var(--tile); }
-    .slider::-moz-range-thumb { width:26px; height:26px; border:0; border-radius:50%; background:var(--accent); box-shadow:0 1px 3px rgba(0,0,0,.35); }
+    .slider::-webkit-slider-runnable-track { height:2px; border-radius:0; background:var(--line); }
+    .slider::-webkit-slider-thumb { -webkit-appearance:none; width:24px; height:24px; border-radius:50%; background:var(--accent); border:1px solid var(--line); margin-top:-11px; }
+    .slider::-moz-range-track { height:2px; border-radius:0; background:var(--line); }
+    .slider::-moz-range-thumb { width:24px; height:24px; border:1px solid var(--line); border-radius:50%; background:var(--accent); }
 
     .swatches { display:flex; flex-wrap:wrap; gap:11px; align-items:center; }
     .swatches .sw { width:34px; height:34px; border-radius:50%; border:0; cursor:pointer; padding:0; background:var(--c,#888);
@@ -158,15 +163,18 @@
 
     .row { display:flex; align-items:center; justify-content:space-between; padding:2px; }
     .row .lbl { font-size:16px; font-weight:500; }
-    .switch { width:52px; height:32px; border-radius:16px; background:var(--switch-off); position:relative; transition:background .2s; border:0; cursor:pointer; flex:0 0 auto; }
-    .switch.on { background:var(--accent); }
-    .switch::after { content:""; position:absolute; top:3px; left:3px; width:26px; height:26px; border-radius:50%; background:#fff; transition:transform .2s; box-shadow:0 1px 3px rgba(0,0,0,.35); }
-    .switch.on::after { transform:translateX(20px); }
-    .menu-hint { text-align:center; font-size:12px; color:var(--muted); letter-spacing:.05em; padding-top:4px; }
+    .switch { width:52px; height:32px; border-radius:4px; border:1px solid var(--line); background:transparent; position:relative; transition:background .2s; cursor:pointer; flex:0 0 auto; }
+    .switch.on { background:var(--accent); border-color:var(--accent); }
+    .switch::after { content:""; position:absolute; top:3px; left:3px; width:24px; height:24px; border-radius:2px; background:var(--ctl); transition:transform .2s, background .2s; }
+    .switch.on::after { transform:translateX(20px); background:var(--accent-on); }
+    .menu-hint { position:fixed; left:0; right:0; bottom:calc(env(safe-area-inset-bottom) + 12px); text-align:center; font-size:12px; color:var(--muted); letter-spacing:.05em; pointer-events:none; }
+    .menu-inner { padding-bottom:calc(env(safe-area-inset-bottom) + 56px); }
+    #menu.moon-off .moonsub { display:none; }   /* moon sub-settings only while the moon is on */
+    #menu.no-seconds .row-seconds { display:none; } /* seconds is inert in word formats */
 
     #menu::-webkit-scrollbar { display:none; }
 
-    @media (prefers-reduced-motion: reduce) { .views, body, #menu, .menu-inner { transition-duration:.01ms; } }
+    @media (prefers-reduced-motion: reduce) { .views, body, #menu, .menu-inner, .switch, .switch::after, .seg button, .pills button, .grid button, .grid button > i { transition-duration:.01ms; } }
   </style>
 </head>
 <body>
@@ -179,7 +187,7 @@
           <div class="time num">
             <span data-role="hm">9:41</span><span class="ampm" data-role="ampm"></span><span class="secs num" data-role="secs"></span>
           </div>
-          <div class="date" data-role="date">Friday — June 26th 2026</div>
+          <div class="date" data-role="date"></div>
         </div>
       </section>
 
@@ -197,6 +205,8 @@
             <button data-val="military">24h</button><button data-val="h12">12h</button><button data-val="h12ap">12h AM/PM</button>
             <button data-val="words">Words</button><button data-val="pirate">Pirate</button><button data-val="wizard">Wizard</button>
           </div></div>
+
+        <div class="row row-seconds"><span class="lbl">Seconds</span><button class="switch" data-toggle="seconds" aria-label="Seconds"></button></div>
 
         <div class="field"><span class="lbl">Date format</span>
           <div class="pills" data-set="dateFormat">
@@ -219,8 +229,8 @@
           <input class="slider" type="range" data-slider="dateSize" min="0.3" max="2.2" step="0.01" aria-label="Date size"></div>
 
         <div class="field"><span class="lbl">Weight</span>
-          <div class="pills" data-set="weight">
-            <button data-val="auto">Auto</button><button data-val="thin">Thin</button><button data-val="regular">Regular</button><button data-val="semibold">Semibold</button><button data-val="bold">Bold</button>
+          <div class="seg" data-set="weight">
+            <button data-val="auto">Auto</button><button data-val="thin">Thin</button><button data-val="regular">Reg</button><button data-val="semibold">Semi</button><button data-val="bold">Bold</button>
           </div></div>
 
         <div class="field"><span class="lbl">Moon</span>
@@ -229,20 +239,20 @@
             <button data-val="new">New</button><button data-val="cres">Crescent</button><button data-val="quarter">Quarter</button><button data-val="gibbous">Gibbous</button><button data-val="full">Full</button>
           </div></div>
 
-        <div class="field"><span class="lbl">Moon style</span>
+        <div class="field moonsub"><span class="lbl">Moon style</span>
           <div class="pills" data-set="moonStyle">
             <button data-val="filled">Filled</button><button data-val="hollow">Hollow</button>
             <button data-val="diagram">Diagram</button><button data-val="pixel">Pixel</button>
           </div></div>
 
-        <div class="field"><span class="lbl">Moon position</span>
+        <div class="field moonsub"><span class="lbl">Moon position</span>
           <div class="grid" data-set="moonPos">
             <button data-val="tl"><i></i></button><button data-val="tc"><i></i></button><button data-val="tr"><i></i></button>
             <button data-val="ml"><i></i></button><button data-val="mc"><i></i></button><button data-val="mr"><i></i></button>
             <button data-val="bl"><i></i></button><button data-val="bc"><i></i></button><button data-val="br"><i></i></button>
           </div></div>
 
-        <div class="field"><span class="lbl">Moon size</span>
+        <div class="field moonsub"><span class="lbl">Moon size</span>
           <input class="slider" type="range" data-slider="moonSize" min="0.2" max="2.5" step="0.01" aria-label="Moon size"></div>
 
         <div class="field"><span class="lbl">Orientation</span>
@@ -264,7 +274,6 @@
           </div></div>
 
         <div class="row"><span class="lbl">Italic</span><button class="switch" data-toggle="italic" aria-label="Italic"></button></div>
-        <div class="row"><span class="lbl">Seconds</span><button class="switch" data-toggle="seconds" aria-label="Seconds"></button></div>
       </div>
       <div class="menu-hint">tap anywhere to close</div>
     </div>

@@ -37,7 +37,10 @@
     orientation: "auto", accent: "default", seconds: false,
     moon: "off", moonStyle: "filled", moonPos: "tr", moonSize: 1
   };
-  var settings = load("clock.settings", null) || {};
+  // A malformed stored value (a JSON primitive or array) must not brick the
+  // app — `in` on a primitive throws before any listener attaches.
+  var stored = load("clock.settings", null);
+  var settings = (stored && typeof stored === "object" && !Array.isArray(stored)) ? stored : {};
   for (var dk in DEFAULTS) if (!(dk in settings)) settings[dk] = DEFAULTS[dk];
   if (typeof settings.size !== "number") settings.size = 1;       // migrate old s/m/l/xl
   if (typeof settings.dateSize !== "number") settings.dateSize = 1;
@@ -117,7 +120,10 @@
   var immersed = false;
   function enterImmersive() {
     if (immersed) return; immersed = true;
-    if (!isStandalone()) requestFullscreen();
+    // Fullscreen-on-first-tap is for touch devices; on desktop a click to open
+    // the menu should not hijack the whole tab.
+    var coarse = window.matchMedia && matchMedia("(pointer: coarse)").matches;
+    if (!isStandalone() && coarse) requestFullscreen();
     setTimeout(applyOrientation, 60);
   }
 
@@ -179,10 +185,19 @@
     moonEl.classList.add("mv-" + pos[0], "mh-" + pos[1]);
   }
   function renderMoon() {
-    if (settings.moon === "off") { moonEl.classList.remove("on"); moonEl.innerHTML = ""; return; }
+    if (settings.moon === "off") { moonEl.classList.remove("on"); moonEl.innerHTML = ""; updateMoonDim(); return; }
+    var phase = settings.moon === "live" ? moonPhaseNow(new Date()) : MOON_P[settings.moon];
+    if (!isFinite(phase)) { moonEl.classList.remove("on"); moonEl.innerHTML = ""; return; } // legacy/tampered enum → NaN SVG
     placeMoon();
     moonEl.classList.add("on");
-    moonEl.innerHTML = moonSVG(settings.moon === "live" ? moonPhaseNow(new Date()) : MOON_P[settings.moon]);
+    moonEl.innerHTML = moonSVG(phase);
+    updateMoonDim();
+  }
+  // When the moon shares the time's 3×3 cell it sits directly behind the
+  // digits (same color, no contrast) — dim it to a watermark there.
+  function updateMoonDim() {
+    var overlap = settings.moon !== "off" && settings.moonPos === settings.position;
+    moonEl.style.setProperty("--moon-dim", overlap ? 0.25 : 1);
   }
 
   // --- Theme ------------------------------------------------------------------
@@ -248,12 +263,22 @@
     else { el.hm.textContent = (f.military ? p2(f.H) : f.h12) + ":" + p2(f.m); spanText(el.ampm, f.ap); spanText(el.secs, showSecs ? p2(s) : ""); }
     setDate(el.date, dateStr(now));
   }
-  var tickN = 0;
+  // The scheduler aligns to second boundaries only when seconds are visible;
+  // otherwise it sleeps to the next minute (battery). retick() re-renders NOW
+  // and realigns — used when a setting changes the cadence and when the tab
+  // wakes (a throttled pending timeout may be minutes stale).
+  var tickTimer = null, lastMoonRefresh = 0;
   function tick() {
-    render(new Date());
-    if (settings.moon === "live" && (++tickN % 1800) === 0) renderMoon(); // refresh live phase ~every 30 min
-    setTimeout(tick, 1000 - (Date.now() % 1000) + 8);
+    var now = new Date();
+    render(now);
+    if (settings.moon === "live" && now.getTime() - lastMoonRefresh > 1800000) { // ~every 30 min, wall-clock
+      lastMoonRefresh = now.getTime();
+      renderMoon();
+    }
+    var perSecond = settings.seconds && !fmt(now).words;
+    tickTimer = setTimeout(tick, perSecond ? (1000 - (Date.now() % 1000) + 8) : (60000 - (Date.now() % 60000) + 8));
   }
+  function retick() { clearTimeout(tickTimer); tick(); }
 
   // --- Menu -------------------------------------------------------------------
   function syncMenu() {
@@ -277,14 +302,22 @@
 
   function applyKey(key) {
     if (key === "font") applyFont();
-    else if (key === "position") applyPosition();
+    else if (key === "position") { applyPosition(); updateMoonDim(); }
     else if (key === "weight") applyWeight();
     else if (key === "theme") onThemeChange();
     else if (key === "orientation") applyOrientation();
     else if (key === "accent") applyAccent();
     else if (key === "moon" || key === "moonStyle") renderMoon();
-    else if (key === "moonPos") placeMoon();
-    // timeFormat / dateFormat are reflected by render()
+    else if (key === "moonPos") { placeMoon(); updateMoonDim(); }
+    else if (key === "timeFormat") retick(); // words↔numeric changes the tick cadence
+    // dateFormat is reflected by render()
+    applyMenuState();
+  }
+  // Progressive disclosure: moon sub-settings only exist while the moon is on;
+  // the Seconds toggle only while a numeric time format is active.
+  function applyMenuState() {
+    menu.classList.toggle("moon-off", settings.moon === "off");
+    menu.classList.toggle("no-seconds", !!fmt(new Date()).words);
   }
   menu.addEventListener("click", function (e) {
     var btn = e.target.closest("button[data-val]");
@@ -293,7 +326,12 @@
       persist(); applyKey(key); render(new Date()); syncMenu(); return;
     }
     var sw = e.target.closest(".switch");
-    if (sw) { settings[sw.dataset.toggle] = !settings[sw.dataset.toggle]; persist(); if (sw.dataset.toggle === "italic") applyItalic(); render(new Date()); syncMenu(); return; }
+    if (sw) {
+      settings[sw.dataset.toggle] = !settings[sw.dataset.toggle]; persist();
+      if (sw.dataset.toggle === "italic") applyItalic();
+      if (sw.dataset.toggle === "seconds") retick(); // cadence change: realign now
+      render(new Date()); syncMenu(); return;
+    }
     if (e.target.closest(".slider, .swatches")) return; // sliders & custom-color: not a dismiss
     closeMenu();
   });
@@ -357,6 +395,7 @@
   window.addEventListener("keydown", function (e) {
     if (e.key === "Escape" && menuOpen) closeMenu();
     else if (menuOpen) return;
+    else if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openMenu(); } // keyboard access to settings
     else if (e.key === "ArrowUp") { setLive("time", settings.size + 0.06); persist(); }
     else if (e.key === "ArrowDown") { setLive("time", settings.size - 0.06); persist(); }
   });
@@ -366,7 +405,12 @@
 
   // --- Screen wake lock (keeps the display on) --------------------------------
   function acquireWake() { if ("wakeLock" in navigator) navigator.wakeLock.request("screen").catch(function () {}); }
-  document.addEventListener("visibilitychange", function () { if (document.visibilityState === "visible") acquireWake(); });
+  document.addEventListener("visibilitychange", function () {
+    if (document.visibilityState !== "visible") return;
+    acquireWake();
+    retick(); // timers are throttled while hidden — show the correct time immediately
+    if (settings.moon === "live") renderMoon();
+  });
   acquireWake();
 
   // --- Service worker (production only; skip on localhost so dev edits show) ---
@@ -377,7 +421,7 @@
 
   // --- Go ---------------------------------------------------------------------
   applyTheme(); applyFont(); applyPosition(); applySize(); applyDateSize(); applyMoonSize();
-  applyWeight(); applyItalic(); applyAccent();
+  applyWeight(); applyItalic(); applyAccent(); applyMenuState();
   renderMoon(); render(new Date()); tick();
   // Installed PWA is already fullscreen — honour the saved orientation on load.
   if (isStandalone()) applyOrientation();
