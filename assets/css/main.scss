@@ -481,6 +481,46 @@ pre {
   .content p { max-width: none; }
 }
 
+// ── Doodle icons: the gallery — one card per svg in assets/doodle-icons;
+// click copies the markup. Icons ink with currentColor, so dark mode is free ──
+.main--doodle {
+  > * { grid-column: 1 / 7; min-width: 0; }
+
+  .doodle-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
+    gap: 8px;
+    margin-top: 40px;
+  }
+
+  .doodle-card {
+    appearance: none;
+    border: 0;
+    background: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 8px 12px;
+    border-radius: 10px;
+
+    svg { width: 72px; height: 72px; }
+
+    &:hover, &:focus-visible { background: var(--color-background-secondary); }
+    &.copied .doodle-name { color: var(--color-text-primary); }
+  }
+
+  .doodle-name {
+    font-size: 0.75rem;
+    line-height: 1.2;
+    color: var(--color-text-tertiary);
+    overflow-wrap: anywhere;
+  }
+}
+
 // ── Ponderings: the one wide page (3-column year grid) ──
 .main--ponderings {
   > .content { grid-column: 1 / 7; }
