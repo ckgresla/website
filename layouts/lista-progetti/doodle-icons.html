@@ -1,0 +1,34 @@
+{{ define "main" }}
+{{/* The gallery inlines every svg in assets/doodle-icons — drop a new icon
+     in that folder and it appears here; nothing to edit. Icons draw with
+     currentColor, so they follow the theme for free. */}}
+<article class="content doodle">
+  {{ .Content }}
+  <div class="doodle-grid">
+    {{ range resources.Match "doodle-icons/*.svg" }}
+    <button class="doodle-card" type="button" aria-label="copy {{ path.BaseName .Name }}.svg">
+      {{ .Content | safeHTML }}
+      <span class="doodle-name">{{ path.BaseName .Name }}</span>
+    </button>
+    {{ end }}
+  </div>
+</article>
+<script>
+  // click copies the icon's markup; the caption flashes as the receipt
+  document.querySelectorAll('.doodle-card').forEach(function (card) {
+    card.addEventListener('click', function () {
+      var svg = card.querySelector('svg').outerHTML;
+      navigator.clipboard.writeText(svg).then(function () {
+        var name = card.querySelector('.doodle-name');
+        var was = name.textContent;
+        name.textContent = 'copied!';
+        card.classList.add('copied');
+        setTimeout(function () {
+          name.textContent = was;
+          card.classList.remove('copied');
+        }, 900);
+      });
+    });
+  });
+</script>
+{{ end }}
