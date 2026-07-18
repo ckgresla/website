@@ -176,6 +176,8 @@ body {
 .masthead-desc {
   margin: 12px 0 0;
   color: var(--color-text-secondary);
+  font-size: 0.875rem;
+  line-height: 22px;
   max-width: 48ch;
 }
 
@@ -227,11 +229,12 @@ body {
 
 // Centered reading pages (napkins, bangers list, readings, about — via
 // body_class: center): the content sits on the page's centerline, spanning
-// the middle 7/9 of the container (~846px at full width).
+// the middle 6/9 of the container (~725px at full width — ~90ch at the
+// 14px body, and a near-match for the old site's 720px measure).
 .main--center {
   > * {
     grid-column: 1 / 7;
-    width: calc(100% * 7 / 9);
+    width: calc(100% * 6 / 9);
     margin-left: auto;
     margin-right: auto;
   }
@@ -239,17 +242,20 @@ body {
   .content p { max-width: none; } // the column is the measure
 }
 
-// ── Content typography — whole-pixel rhythm ──
+// ── Content typography — small-Inter 14/22, whole-pixel rhythm (halves 11px) ──
 .content {
+  font-size: 0.875rem;   // 14px
+  line-height: 22px;
+
   h1, h2, h3, h4, h5, h6 { font-weight: 600; }
-  h1 { margin: 60px 0 12px; font-size: 2rem;    line-height: 1.25; } // 40px
-  h2 { margin: 54px 0 12px; font-size: 1.5rem;  line-height: 1.25; } // 30px
-  h3 { margin: 48px 0 12px; font-size: 1.25rem; line-height: 1.2;  } // 24px
-  h4 { margin: 36px 0 6px;  font-size: 1rem;    line-height: 1.5;  } // 24px
-  h5 { margin: 36px 0 6px;  font-size: 0.875rem; line-height: 1.5; } // 21px
+  h1 { margin: 44px 0 11px; font-size: 1.25rem;  line-height: 22px; } // 20px
+  h2 { margin: 44px 0 11px; font-size: 1.125rem; line-height: 22px; } // 18px
+  h3 { margin: 33px 0 11px; font-size: 1rem;     line-height: 22px; } // 16px
+  h4 { margin: 22px 0 11px; font-size: 0.875rem; line-height: 22px; }
+  h5 { margin: 22px 0 11px; font-size: 0.8125rem; line-height: 22px; }
   > :first-child { margin-top: 0; }
 
-  p { margin: 0 0 24px; max-width: 65ch; }
+  p { margin: 0 0 22px; max-width: 65ch; }
 
   a {
     color: inherit;
@@ -261,14 +267,14 @@ body {
   }
 
   ul, ol {
-    margin: 0 0 24px;
-    padding-left: 24px;
+    margin: 0 0 22px;
+    padding-left: 22px;
     li { margin-bottom: 6px; }
     li::marker { color: var(--color-text-secondary); }
   }
 
   blockquote {
-    margin: 0 0 24px;
+    margin: 0 0 22px;
     padding-left: 16px;
     // ink on ink: the bar is black in light mode, white in dark, and the
     // quote reads at full strength rather than dimmed
@@ -280,18 +286,18 @@ body {
     border: 0;
     height: 1px;
     background: var(--color-border);
-    margin: 48px 0;
+    margin: 44px 0;
   }
 
   img { max-width: 100%; height: auto; }
 
   figure {
-    margin: 24px 0;
+    margin: 22px 0;
     figcaption {
       margin-top: 8px;
       color: var(--color-text-secondary);
-      font-size: 0.875rem;
-      line-height: 21px;
+      font-size: 0.75rem;
+      line-height: 18px;
       h4, p { margin: 0; font-size: inherit; line-height: inherit; max-width: none; }
       h4 { color: var(--color-text-primary); font-weight: 500; }
     }
@@ -300,7 +306,7 @@ body {
 
   table {
     border-collapse: collapse;
-    margin: 0 0 24px;
+    margin: 0 0 22px;
     th, td { text-align: left; vertical-align: top; padding: 6px 24px 6px 0; }
     th { border-bottom: 1px solid var(--color-text-primary); font-weight: 600; }
     td { border-bottom: 1px solid var(--color-border); }
@@ -310,7 +316,7 @@ body {
 // ── Code ──
 code {
   font-family: $mono;
-  font-size: 0.8125rem; // 13px
+  font-size: 0.75rem; // 12px
   background: var(--color-background-secondary);
   padding: 2px 5px;
   border-radius: 3px;
@@ -322,7 +328,7 @@ pre {
   background: var(--color-background-secondary);
   border-radius: 4px;
   overflow-x: auto;
-  line-height: 21px; // 13px mono on a 21px line — integer
+  line-height: 18px; // 12px mono on an 18px line — integer
 
   code { background: none; padding: 0; border-radius: 0; }
 }
@@ -338,11 +344,11 @@ pre {
 
 // ── Napkins: post list ──
 .post-list {
-  .post-item { margin-bottom: 48px; }
+  .post-item { margin-bottom: 44px; }
   .post-item-title {
-    margin: 0 0 6px;
-    font-size: 1.25rem;
-    line-height: 1.2; // 24px
+    margin: 0 0 5px;
+    font-size: 1.125rem;
+    line-height: 22px;
     font-weight: 600;
     a {
       text-decoration: none;
@@ -353,8 +359,8 @@ pre {
       }
     }
   }
-  .post-item-desc { margin: 0 0 6px; color: var(--color-text-secondary); }
-  .post-item-date { color: var(--color-text-tertiary); font-size: 0.875rem; line-height: 21px; }
+  .post-item-desc { margin: 0 0 5px; color: var(--color-text-secondary); font-size: 0.875rem; line-height: 22px; }
+  .post-item-date { color: var(--color-text-tertiary); font-size: 0.75rem; line-height: 18px; }
 }
 
 // ── Bangers ──
@@ -371,18 +377,18 @@ pre {
     }
   }
   .banger-blurb {
-    margin: 6px 0 0;
+    margin: 5px 0 0;
     color: var(--color-text-tertiary);
-    font-size: 0.875rem;
-    line-height: 21px;
+    font-size: 0.75rem;
+    line-height: 18px;
   }
 }
 
 .banger {
   .banger-header { margin-bottom: 48px; }
-  .banger-title { margin: 0 0 12px; font-size: 2rem; line-height: 2.5rem; font-weight: 600; }
+  .banger-title { margin: 0 0 11px; font-size: 1.5rem; line-height: 2rem; font-weight: 600; }
   .banger-artist { margin: 0 0 6px; color: var(--color-text-secondary); }
-  .banger-source { margin: 0; font-size: 0.875rem; line-height: 21px; }
+  .banger-source { margin: 0; font-size: 0.75rem; line-height: 18px; }
   .banger-back { margin-top: 48px; }
 
   // lyrics tables ({.lyrics} in content) — parallel texts in equal columns:
@@ -390,8 +396,8 @@ pre {
   .lyrics {
     width: 100%; // fill the reading column
     table-layout: fixed;
-    font-size: 0.875rem;
-    line-height: 21px;
+    font-size: 0.8125rem;
+    line-height: 20px;
     th, td { padding: 6px 16px 6px 0; }
 
     // the romanization (middle column, only when present) reads as an aside —
