@@ -1,0 +1,37 @@
+#+title: 친퀘테레 (Cinque Terre)
+#+artist: 에피톤 프로젝트 (Epitone Project)
+#+sort_artist: Epitone Project
+#+language: Korean
+#+spotify: https://open.spotify.com/track/5gCh1JCw5CqjkLADLA5aGD?si=15d8b272ab3f4811
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 지중해의 어느 저편에 | jijunghaeui eoneu jeopyeone | Somewhere across the Mediterranean |
+| 아름다운 다섯 마을이 있어요 | areumdaun daseot maeuri isseoyo | There are five beautiful villages |
+| 비행기로 갈 수는 없고 | bihaenggiro gal suneun eopgo | You can’t get there by plane |
+| 피렌체에선가 기차를 타지요 | pirencheeseonga gichareul tajiyo | From Florence, you take a train, you know |
+| | | |
+| 음 | eum | Mmm |
+| 무거운 짐들은 잠시 내려놓고 | mugeoun jimdeureun jamsi naeryeonoko | Let’s put our heavy burdens down for a while |
+| 같이 떠날까요? | gachi tteonal kkayo? | Shall we go away together? |
+| | | |
+| 걱정은 저기 멀리에 | geokjeongeun jeogi meollie | Let your worries be far away |
+| 푸른 물결이 부는 곳에 내던지고 | pureun mulgyeori buneun gose naedeonjigo | Throw them where the blue waves blow |
+| 이제는 그대와 나와 스치는 바람 | ijeneun geudaewa nawa seuchineun baram | Now, just you and me and the passing breeze |
+| 이걸로 충분한 거지, 그래 | igeollo chungbunhan geoji, geurae | That’s more than enough, it really is |
+| | | |
+| 작은 골목 사이 사이엔 | jageun golmok sai saien | In between the little alleys |
+| 시간이 묻어서 한참을 웃어요 | sigani mudeoseo hanchameul useoyo | Time has sunk in, and we laugh for a long while |
+| 말로 다하긴 어려워요 | mallro dahagin eoryeowoyo | It’s hard to put it all into words |
+| 세상 모든 일도 마찬가지겠죠 | sesang modeun ildo machangajigetjyo | I guess everything in this world is like that |
+| | | |
+| 음 | eum | Mmm |
+| 무거운 짐들은 잠시 내려놓고 | mugeoun jimdeureun jamsi naeryeonoko | Let’s put our heavy burdens down for a while |
+| 같이 떠날까요? | gachi tteonal kkayo? | Shall we go away together? |
+| | | |
+| 걱정은 저기 멀리에 | geokjeongeun jeogi meollie | Let your worries be far away |
+| 푸른 물결이 부는 곳에 내던지고 | pureun mulgyeori buneun gose naedeonjigo | Throw them where the blue waves blow |
+| 이제는 그대와 나와 눈 앞의 바다 | ijeneun geudaewa nawa nun apeui bada | Now, just you and me and the sea before our eyes |
+| 이걸로 충분한 거지, 그래 | igeollo chungbunhan geoji, geurae | That’s more than enough, it really is |
