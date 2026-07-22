@@ -1,4 +1,5 @@
-#+title: 친퀘테레 (Cinque Terre)
+#+title: 친퀘테레
+#+title_en: Cinque Terre
 #+artist: 에피톤 프로젝트 (Epitone Project)
 #+sort_artist: Epitone Project
 #+language: Korean

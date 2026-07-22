@@ -1,4 +1,5 @@
-#+title: 시간 (Time)
+#+title: 시간
+#+title_en: Time
 #+artist: Kim Do-hyang (김도향)
 #+sort_artist: Kim Do-hyang
 #+language: Korean

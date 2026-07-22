@@ -1,4 +1,5 @@
-#+title: 아프리카 여행 (Trip to Africa)
+#+title: 아프리카 여행
+#+title_en: Trip to Africa
 #+artist: Jang Hye-jin (장혜진)
 #+sort_artist: Jang Hye-jin
 #+language: Korean

@@ -1,4 +1,5 @@
-#+title: 내 안의 그대 (Jazz Ver.) (You Inside Me)
+#+title: 내 안의 그대 (Jazz Ver.)
+#+title_en: You Inside Me
 #+artist: 서영은 (Suh Young-eun)
 #+sort_artist: Suh Young-eun
 #+language: Korean

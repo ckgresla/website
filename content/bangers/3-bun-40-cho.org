@@ -1,4 +1,5 @@
-#+title: 3분 40초 (3 Minutes 40 Seconds)
+#+title: 3분 40초
+#+title_en: 3 Minutes 40 Seconds
 #+artist: 전유나 (Jeon Yu-na)
 #+sort_artist: Jeon Yu-na
 #+language: Korean

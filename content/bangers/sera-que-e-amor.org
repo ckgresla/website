@@ -1,4 +1,5 @@
-#+title: Será Que É Amor (Could It Be Love?)
+#+title: Será Que É Amor
+#+title_en: Could It Be Love?
 #+artist: Arlindo Cruz
 #+sort_artist: Arlindo Cruz
 #+language: Portuguese

@@ -1,4 +1,5 @@
-#+title: 우리 이제 연인인가요 (Uri ije yeonin-ingayo, Are We Lovers Now?)
+#+title: 우리 이제 연인인가요
+#+title_en: Are We Lovers Now?
 #+artist: Yoon Jong Shin (윤종신, Yun Jong-sin)
 #+sort_artist: Yoon Jong Shin
 #+language: Korean

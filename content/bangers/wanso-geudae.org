@@ -1,4 +1,5 @@
-#+title: 완소그대 (My Totally Precious You)
+#+title: 완소그대
+#+title_en: My Totally Precious You
 #+artist: 서영은 (Suh Young-eun)
 #+sort_artist: Suh Young-eun
 #+language: Korean

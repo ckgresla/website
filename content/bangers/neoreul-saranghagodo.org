@@ -1,4 +1,5 @@
-#+title: 너를 사랑하고도 (Neoreul Saranghagodo, Even If I Love You)
+#+title: 너를 사랑하고도
+#+title_en: Even If I Love You
 #+artist: 전유나 (Jeon Yuna)
 #+sort_artist: Jeon Yuna
 #+language: Korean

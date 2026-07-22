@@ -1,4 +1,5 @@
-#+title: 기적 (Miracle)
+#+title: 기적
+#+title_en: Miracle
 #+artist: Kim Dong-ryul (김동률)
 #+sort_artist: Kim Dong-ryul
 #+language: Korean

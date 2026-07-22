@@ -1,4 +1,5 @@
-#+title: 그대 그리워지는 이밤에 (Geudae Geuriwojineun Ibame, On This Night I Miss You)
+#+title: 그대 그리워지는 이밤에
+#+title_en: On This Night I Miss You
 #+artist: 쿨 (Kul)
 #+sort_artist: Kul
 #+language: Korean

@@ -1,4 +1,5 @@
-#+title: 난 아무도 아니죠 (I'm Nobody)
+#+title: 난 아무도 아니죠
+#+title_en: I'm Nobody
 #+artist: Kim Dong-ryul (김동률)
 #+sort_artist: Kim Dong-ryul
 #+language: Korean

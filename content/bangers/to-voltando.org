@@ -1,4 +1,5 @@
-#+title: Tô Voltando (I’m Coming Back)
+#+title: Tô Voltando
+#+title_en: I’m Coming Back
 #+artist: Simone
 #+sort_artist: Simone
 #+language: Portuguese

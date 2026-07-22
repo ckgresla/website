@@ -1,4 +1,5 @@
-#+title: 양양 (Yangyang)
+#+title: 양양
+#+title_en: Yangyang
 #+artist: Jeong Mijo (정미조)
 #+sort_artist: Jeong Mijo
 #+language: Korean

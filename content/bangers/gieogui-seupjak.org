@@ -1,4 +1,5 @@
-#+title: 기억의 습작 (A Sketch of Memory)
+#+title: 기억의 습작
+#+title_en: A Sketch of Memory
 #+artist: 김동률 (Kim Dong Ryul)
 #+sort_artist: Kim Dong Ryul
 #+language: Korean

@@ -1,4 +1,5 @@
-#+title: Apaixonou (Till I Loved You)
+#+title: Apaixonou
+#+title_en: Till I Loved You
 #+artist: Simone
 #+sort_artist: Simone
 #+language: Portuguese

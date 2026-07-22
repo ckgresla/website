@@ -1,4 +1,5 @@
-#+title: 잊혀지는 것들에 대하여 (About The Things Forgotten)
+#+title: 잊혀지는 것들에 대하여
+#+title_en: About The Things Forgotten
 #+artist: 성시경 (Seong Si-gyeong)
 #+sort_artist: Seong Si-gyeong
 #+language: Korean

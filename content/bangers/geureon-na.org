@@ -1,4 +1,5 @@
-#+title: 그런 나 (That Kind of Me)
+#+title: 그런 나
+#+title_en: That Kind of Me
 #+artist: 장혜진 (Jang Hye-jin)
 #+sort_artist: Jang Hye-jin
 #+language: Korean

@@ -1,4 +1,5 @@
-#+title: 5월의 어느 날 (One Day In May)
+#+title: 5월의 어느 날
+#+title_en: One Day In May
 #+artist: 테원, 허쉬 (taeone, Hersh)
 #+sort_artist: Taeone & Hersh
 #+language: Korean

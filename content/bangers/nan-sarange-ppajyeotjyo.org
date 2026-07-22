@@ -1,4 +1,5 @@
-#+title: 난 사랑에 빠졌죠 (I Fell in Love)
+#+title: 난 사랑에 빠졌죠
+#+title_en: I Fell in Love
 #+artist: Park Ji-yoon (박지윤)
 #+sort_artist: Park Ji-yoon
 #+language: Korean
