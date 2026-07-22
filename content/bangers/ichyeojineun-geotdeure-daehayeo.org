@@ -1,7 +1,7 @@
 #+title: 잊혀지는 것들에 대하여
 #+title_en: About The Things Forgotten
-#+artist: 성시경 (Seong Si-gyeong)
-#+sort_artist: Seong Si-gyeong
+#+artist: 성시경 (Syung Si-Kyung)
+#+sort_artist: Syung Si-Kyung
 #+language: Korean
 #+spotify: https://open.spotify.com/track/6h5XDQlLhrqSERsaw8sn2S
 #+youtube: https://www.youtube.com/watch?v=JdI2c3cKDmY
