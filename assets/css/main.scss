@@ -376,6 +376,7 @@ pre {
       text-underline-offset: 2px;
     }
   }
+  .banger-link-artist { font-weight: 400; } // whole line clicks; artist stays quiet
   .banger-blurb {
     margin: 5px 0 0;
     color: var(--color-text-tertiary);

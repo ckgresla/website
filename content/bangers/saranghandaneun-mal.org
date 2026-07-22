@@ -1,6 +1,6 @@
 #+title: 사랑한다는 말
 #+title_en: The Words I Love You
-#+artist: Kim Dong-ryul (김동률)
+#+artist: 김동률 (Kim Dong-ryul)
 #+sort_artist: Kim Dong-ryul
 #+language: Korean
 #+spotify: https://open.spotify.com/track/4Hsps7T84Xax01bxqqtons?si=43410222721c4f62

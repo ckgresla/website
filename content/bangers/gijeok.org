@@ -1,6 +1,6 @@
 #+title: 기적
 #+title_en: Miracle
-#+artist: Kim Dong-ryul (김동률)
+#+artist: 김동률 (Kim Dong-ryul)
 #+sort_artist: Kim Dong-ryul
 #+language: Korean
 #+spotify: https://open.spotify.com/track/5y1VmiOyQJTH4h34MsbWrC?si=05a7f1b550754071

@@ -1,6 +1,6 @@
 #+title: 우리 둘
 #+title_en: Us Two
-#+artist: Kim Dong-ryul (김동률)
+#+artist: 김동률 (Kim Dong-ryul)
 #+sort_artist: Kim Dong-ryul
 #+language: Korean
 #+spotify: https://open.spotify.com/track/5aEEtEbXYfwh6c574TlMJs?si=e1f5a5e2ac1d4c78

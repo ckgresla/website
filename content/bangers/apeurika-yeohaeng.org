@@ -1,6 +1,6 @@
 #+title: 아프리카 여행
 #+title_en: Trip to Africa
-#+artist: Jang Hye-jin (장혜진)
+#+artist: 장혜진 (Jang Hye-jin)
 #+sort_artist: Jang Hye-jin
 #+language: Korean
 #+spotify: https://open.spotify.com/track/23ZREdQvCnDO2GcfGCHf4y?si=a566db29a4a74730

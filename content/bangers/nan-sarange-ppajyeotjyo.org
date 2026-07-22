@@ -1,6 +1,6 @@
 #+title: 난 사랑에 빠졌죠
 #+title_en: I Fell in Love
-#+artist: Park Ji-yoon (박지윤)
+#+artist: 박지윤 (Park Ji-yoon)
 #+sort_artist: Park Ji-yoon
 #+language: Korean
 #+spotify: https://open.spotify.com/track/4haz9e7o2X1iUElYql7XQ1?si=eb6eedd5ab7048d0

@@ -1,7 +1,7 @@
 #+title: 너를 사랑하고도
 #+title_en: Even If I Love You
-#+artist: 전유나 (Jeon Yuna)
-#+sort_artist: Jeon Yuna
+#+artist: 전유나 (Jeon Yu-na)
+#+sort_artist: Jeon Yu-na
 #+language: Korean
 #+spotify: https://open.spotify.com/track/1kKTokWMv8ctWypcIopAro?si=cf73cbc561fd4de7
 #+youtube: https://youtu.be/wTe1ljdLt1E?si=9SaXc9v5bps3FBN8

@@ -4,7 +4,7 @@
   <ol class="bangers-list">
     {{ range sort .Pages "Params.sort_artist" }}
     <li>
-      <a class="banger-link" href="{{ .RelPermalink }}">{{ .Title }}</a> &mdash; {{ .Params.artist }}
+      <a class="banger-link" href="{{ .RelPermalink }}">{{ .Title }} <span class="banger-link-artist">&mdash; {{ .Params.artist }}</span></a>
       {{ with .Params.blurb }}<p class="banger-blurb">{{ . }}</p>{{ end }}
     </li>
     {{ end }}

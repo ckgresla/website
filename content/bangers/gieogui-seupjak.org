@@ -1,7 +1,7 @@
 #+title: 기억의 습작
 #+title_en: A Sketch of Memory
-#+artist: 김동률 (Kim Dong Ryul)
-#+sort_artist: Kim Dong Ryul
+#+artist: 김동률 (Kim Dong-ryul)
+#+sort_artist: Kim Dong-ryul
 #+language: Korean
 #+youtube: https://www.youtube.com/watch?v=2uMX_opOvDI
 #+year: 2026

@@ -1,6 +1,6 @@
 #+title: 난 아무도 아니죠
 #+title_en: I'm Nobody
-#+artist: Kim Dong-ryul (김동률)
+#+artist: 김동률 (Kim Dong-ryul)
 #+sort_artist: Kim Dong-ryul
 #+language: Korean
 #+spotify: https://open.spotify.com/track/2MyVGtIWcfz6d7jCTBOZDt?si=4b3f6284ca324dc0
