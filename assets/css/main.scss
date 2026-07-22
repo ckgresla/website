@@ -18,12 +18,13 @@
   --color-border: #e5e5e5;
   --color-accent: #c4d2ff; // lavender — the one accent, same in both themes
 
-  // code tokens (chroma)
-  --code-comment: #999999;
-  --code-keyword: #0550ae;
-  --code-string: #0a7d33;
-  --code-number: #953800;
-  --code-function: #6639ba;
+  // code tokens (chroma) — readability.vim's daylight siblings: each hue
+  // locked to the vim scheme's angle, darkened to 4.5:1 on the code ground
+  --code-comment: #6467c4;  // iris (comments stay lavender-first)
+  --code-keyword: #c63b65;  // dried rose
+  --code-string: #30803b;   // sea moss
+  --code-number: #2c74af;   // harbor
+  --code-function: #916a15; // ochre
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,11 +36,12 @@
     --color-text-tertiary: #999999;
     --color-border: #333333;
 
-    --code-comment: #767676;
-    --code-keyword: #79c0ff;
-    --code-string: #7ee787;
-    --code-number: #ffa657;
-    --code-function: #d2a8ff;
+    // readability.vim, verbatim — ~/configs/vim on the website
+    --code-comment: #C9CBFF; // periwinkle
+    --code-keyword: #F28FAD; // rose
+    --code-string: #ABE9B3;  // mint
+    --code-number: #96CDFB;  // sky
+    --code-function: #FAE3B0; // cream
   }
 }
 
