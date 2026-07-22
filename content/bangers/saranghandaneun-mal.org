@@ -1,0 +1,37 @@
+#+title: 사랑한다는 말
+#+title_en: The Words I Love You
+#+artist: Kim Dong-ryul (김동률)
+#+sort_artist: Kim Dong-ryul
+#+language: Korean
+#+spotify: https://open.spotify.com/track/4Hsps7T84Xax01bxqqtons?si=43410222721c4f62
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 첨으로 사랑한다 말하던 날 | Cheomeuro saranghanda malhadeon nal | The day I first said I love you |
+| 살며시 농담처럼 흘리던 말 | Salmyeosi nongdamcheoreom heullideon mal | I casually said it like a joke |
+| 못 알아들은 걸까 딴청을 피는 걸까 | Mot aradeureun geolkka ttancheongeul pineun geolkka | Maybe you didn’t understand, or you’re pretending not to notice |
+| 괜히 어색해진 나를 보며 웃던 짓궂은 너 | Gwaenhi eosaekhaejin nareul bomyeo utteon jitkkujeun neo | I grew awkward, and you mischievously laughed at me |
+| 넌지시 나의 맘을 열었던 날 | Neonjisi naui mameul yeoreotdeon nal | The day I gently opened my heart |
+| 친구의 얘기처럼 돌려한 말 | Chinguui yaegicheoreom dolryeohan mal | I said it as if it were a friend’s story |
+| 알면서 그런 건지 날 놀리려는 건지 | Almyeonseogeureon geonji nal nolliryeoneun geonji | I wonder if you knew and still did that, or if you were teasing me |
+| 정말 멋진 친굴 뒀노라며 샐쭉 토라진 너 | Jeongmal meotjin chingul dwotnoramyeo saeljjuk torajin neo | You sulked, saying I had such a great friend |
+| 사랑한다는 말 내겐 그렇게 쉽지 않은 말 | Saranghandaneun mal naegen geureoke swipji aneun mal | The words “I love you” aren’t so easy for me |
+| 사랑해요 너무 흔해서 하기 싫은 말 | Saranghaeyo neomu heunhaeseo hagi sireun mal | “I love you” is so common that I hate to say it |
+| 하지만 나도 모르게 늘 혼자 있을 땐 | Hajiman nado moreuge neul honja isseul ttaen | But without realizing, whenever I’m alone |
+| 항상 내 입에서 맴도는 그 말 | Hangsang nae ibeseo maemdoneun geu mal | Those words are always circling on my lips |
+| 사랑한다는 말 내겐 눈으로 하고 싶은 말 | Saranghandaneun mal naegen nuneuro hago sipeun mal | “I love you” is what I want to say with my eyes |
+| 사랑해 난 맘으로 하고 싶은 말 | Saranghae nan mameuro hago sipeun mal | “I love you” is what I want to say with my heart |
+| 나 아끼고 아껴서 너에게만 하고 싶은 그 말 | Na akkigo akkyeoseo neoege-man hago sipeun geu mal | I save and save those words, to say only to you |
+| 시처럼 읊어볼까 편지로 적어볼까 | Sicheoreom eulpeobolkka pyeonjiro jeogeobolkka | Should I recite them like a poem, or write them in a letter? |
+| 그냥 너의 얼굴 그려놓고 끝내 못하는 말 | Geunyang neoui eolgul geuryeonoko kkeutnae mothaneun mal | I just draw your face and in the end still can’t say them |
+| 사랑한다는 말 내겐 그렇게 쉽지 않은 말 | Saranghandaneun mal naegen geureoke swipji aneun mal | The words “I love you” aren’t so easy for me |
+| 사랑해요 너무 흔해서 하기 싫은 말 | Saranghaeyo neomu heunhaeseo hagi sireun mal | “I love you” is so common that I don’t want to say it |
+| 하지만 나도 모르게 늘 혼자 있을 땐 | Hajiman nado moreuge neul honja isseul ttaen | But without realizing, whenever I’m alone |
+| 항상 내 입에서 맴도는 그 말 | Hangsang nae ibeseo maemdoneun geu mal | Those words always linger on my lips |
+| 사랑한다는 말 내겐 눈으로 하고 싶은 말 | Saranghandaneun mal naegen nuneuro hago sipeun mal | “I love you” is what I want to say with my eyes |
+| 사랑해 난 맘으로 하고 싶은 말 | Saranghae nan mameuro hago sipeun mal | “I love you” is what I want to say with my heart |
+| 언제나 이렇게 너에게 귀 기울이면 | Eonjena ireoke neoege gwigiu-rimyeon | Whenever I lean in and listen to you like this |
+| 말하지 않아도 들을 수 있는 말 | Malhaji anado deureul su inneun mal | I can hear those words even if you don’t say them |
+| 꼭 너에게만 하고 싶은 말 | Kkok neoege-man hago sipeun mal | Words I want to say to you, and only you |

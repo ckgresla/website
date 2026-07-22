@@ -1,0 +1,33 @@
+#+title: 우리 둘
+#+title_en: Us Two
+#+artist: Kim Dong-ryul (김동률)
+#+sort_artist: Kim Dong-ryul
+#+language: Korean
+#+spotify: https://open.spotify.com/track/5aEEtEbXYfwh6c574TlMJs?si=e1f5a5e2ac1d4c78
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 하나 둘 떠나가는 게 | hana dul tteonaganeun ge | As people leave one by one |
+| 너무나 아팠었는데 | neomuna apass-eossneunde | It used to hurt so much |
+| 그렇게 흔한 일인 걸 | geureoke heunhan ir-in geol | Now I know it’s just something common |
+| 나는 이제 알았어 | naneun ije arasseo | Now I understand |
+| 아 | a | Ah |
+| 헤어져 가는 걸까 | heeojyeo ganeun geolkka | Are we breaking up and drifting apart? |
+| 우리는 다시 만날 수 있나 | urineun dasi mannal su inna | Will the two of us ever meet again? |
+| 아 | a | Ah |
+| 기억 속 사람들은 | gieok sog saramdeureun | All the people in my memories |
+| 모두가 인연이 아니었나 | moduga inyeoni anieonnna | Were none of them meant to be? |
+| 목놓아 울어 본지가 | mongnoa ureo bonjiga | As for the last time I cried my heart out |
+| 언제였는지도 몰라 | eonjeyeossneunjido molla | I don’t even remember when it was |
+| 아픔에 익숙해져 가 | apeume iksukhaejyeo ga | I’m slowly getting used to the pain |
+| 흘릴 눈물도 없어 | heullil nunmuldo eopseo | I have no more tears left to shed |
+| 아 | a | Ah |
+| 헤어져 가는 걸까 | heeojyeo ganeun geolkka | Are we breaking up and drifting apart? |
+| 우리는 다시 만날 수 있나 | urineun dasi mannal su inna | Will the two of us ever meet again? |
+| 아 | a | Ah |
+| 기억 속 사람들은 | gieok sog saramdeureun | All the people in my memories |
+| 모두가 인연이 아니었나 | moduga inyeoni anieonnna | Were none of them ever meant to be? |
+| 아 헤어져 가는 걸까 | a heeojyeo ganeun geolkka | Ah, are we breaking up and drifting apart? |
+| 우리는 다시 만날 수 있나 | urineun dasi mannal su inna | Will the two of us ever meet again? |

@@ -1,0 +1,36 @@
+#+title: 이별을 말하는 너에게
+#+title_en: To You Who Speak of Goodbye
+#+artist: 주윤하 (Joo Yun-ha)
+#+sort_artist: Joo Yun-ha
+#+language: Korean
+#+spotify: https://open.spotify.com/track/4wTtL4gCyyH3jDuDLG5Jb1?si=5ea1ad8ca4f54ad6
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 4월이 오면 이별을 하자 | sawori omyeon ibyeoreul haja | When April comes, let’s break up |
+| 너도 들었잖아 | neodo deureotjana | You heard it too, you know |
+| 올 겨울은 더 춥대 | ol gyeoureun deo chupde | They say this winter will be even colder |
+| 따스한 봄에게 | ttaseuhan bomege | If I can send you off to the warm spring |
+| 널 보낼 수 있다면 | neol bonael su itdamyeon | If I can let you go there |
+| 난 맘이 놓일 거 같아 | nan mami noil geo gata | I think my heart could be at ease |
+| | | |
+| 눈치 없는 듯 | nunchi eomneun deut | As if I had no sense |
+| 철이 없는 듯 | cheori eomneun deut | As if I were still childish |
+| 모른 척 하려 했지만 | moreun cheok haryeo hetjiman | I tried to pretend I didn’t know |
+| 나도 알고 있어 | nado algo isseo | But I know too |
+| 너의 마음이 | neoui maeumi | Where your heart |
+| 어디를 보고 있는지 | eodireul bogo inneunji | Has really been looking all this time |
+| | | |
+| 꽤 의젓하게 | kkwae uijeoshage | I tried to be quite mature |
+| 멋진 남자인 척 | meotjin namjain cheok | Pretending to be a cool, dependable man |
+| 애써 보기도 했지만 | aesseo bogido hetjiman | I really did give it a try |
+| 아 어디서부터 잘못된 건지 | a eodiseobuteo jalmotdoen geonji | Ah, from where it all went wrong |
+| 난 도저히 모르겠어 | nan dojeohi moreugesseo | I honestly have no idea |
+| | | |
+| 4월이 오면 이별을 하자 | sawori omyeon ibyeoreul haja | When April comes, let’s break up |
+| 너도 들었잖아 | neodo deureotjana | You heard it too, remember |
+| 올 겨울은 더 춥대 | ol gyeoureun deo chupde | They say this winter will be even colder |
+| 따스한 봄날로 널 보낼수 있다면 | ttaseuhan bomnallo neol bonaelsu itdamyeon | If I can send you off into a warm spring day |
+| 난 맘이 놓일 거 같아 | nan mami noil geo gata | I think my heart could finally be at ease |
