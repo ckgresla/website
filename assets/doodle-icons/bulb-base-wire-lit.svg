@@ -9,11 +9,11 @@
     <path d="M60 66 C62.3 63.7 65 60.3 66.8 57.4"/>
   </g>
   <g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
-    <path d="M58.8 13 L58.4 5.5"/>
-    <path d="M29.5 17.5 L23.5 11.5"/>
-    <path d="M89 16.5 L94.5 10.5"/>
-    <path d="M22.5 40.5 L14.5 38.8"/>
-    <path d="M98 40 L106 38.2"/>
+    <path d="M58.8 10 L58.4 2.5"/>
+    <path d="M27 15 L21 9"/>
+    <path d="M91.5 14 L97 8"/>
+    <path d="M19.5 40 L11.5 38.3"/>
+    <path d="M101 39.5 L109 37.7"/>
   </g>
   <path fill="currentColor" d="M46 78 L74 77 L72 97 L50 98 Z"/>
 </svg>
