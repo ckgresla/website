@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <g transform="translate(-14.1,20.6) scale(0.68)">
+    <path fill="currentColor" d="M47 102 C47 98 51 96 55 97.5 C59 99 59 104 55 105.5 C51 107 47 105 47 102 Z"/>
+    <path fill="none" stroke="currentColor" stroke-width="9.6" stroke-linecap="round" stroke-linejoin="round" d="M63 63 C70 60 72 68 66 73 C58 79 46 73 46 62 C46 50 56 42 64 34 C71 27.5 74.5 17.5 69 10.5 C63.5 4.5 55.5 9 55 18 C54 33 58 56 60 78 C61 88 60 96 56 100"/>
+  </g>
+  <g transform="translate(56,-6) scale(0.58)">
+    <path fill="currentColor" d="M21.5 91 C20 84.5 26.5 79 35 80 C43.5 81 48 87.5 44.5 93 C40.5 98.5 29.5 99.5 24 95.5 C22 94 21.8 92.5 21.5 91 Z"/>
+    <path fill="currentColor" d="M65.5 85 C64 78.5 70.5 73 79 74 C87.5 75 92 81.5 88.5 87 C84.5 92.5 73.5 93.5 68 89.5 C66 88 65.8 86.5 65.5 85 Z"/>
+    <g fill="none" stroke="currentColor" stroke-width="11.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M44 88 C45.5 71 46.5 52 47.5 33.5"/>
+      <path d="M88 82 C89.5 66 90.5 48 91.5 28.5"/>
+      <path d="M47.5 33.5 C62 30.5 76.5 29.3 91.5 28.5"/>
+    </g>
+  </g>
+  <g transform="translate(50,52) scale(0.52)">
+    <path fill="currentColor" d="M37 87 C35.5 80.5 42 75 50.5 76 C59 77 63.5 83.5 60 89 C56 94.5 45 95.5 39.5 91.5 C37.5 90 37.3 88.5 37 87 Z"/>
+    <g fill="none" stroke="currentColor" stroke-width="12.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M59 84 C60.5 68 61 50 61.5 34"/>
+      <path d="M61.5 34 C70.5 36 76.5 41.5 77.5 49.5 C78 54 76.5 57 74.5 58.5"/>
+    </g>
+  </g>
+</svg>
