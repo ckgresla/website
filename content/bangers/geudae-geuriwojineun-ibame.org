@@ -1,7 +1,7 @@
 #+title: 그대 그리워지는 이밤에
 #+title_en: On This Night I Miss You
-#+artist: 쿨 (Kul)
-#+sort_artist: Kul
+#+artist: 쿨 (Cool)
+#+sort_artist: Cool
 #+language: Korean
 #+spotify: https://open.spotify.com/track/1TA2EkbFjrHtJzawJRfBSV?si=9886334290cc4fce
 #+youtube: https://www.youtube.com/watch?v=m2gND_RFDq4

@@ -25,3 +25,11 @@ A growing set of hand-drawn SVG icons. Wobbly on purpose.
 Switching windows on macOS the way it should be done, functional and elegante.
 
 2026 · github
+
+* [[/bangers/][Bangers]]
+#+begin_export html
+<div class="progetto-viz" aria-hidden="true"><svg viewBox="0 0 120 40" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path fill="currentColor" stroke="none" d="M18.5 31.5 C18 29 20.5 27.2 23.2 27.8 C26 28.4 26.8 31.4 24.8 33.2 C22.6 35 19.2 34 18.5 31.5 Z"/><path fill="currentColor" stroke="none" d="M40.5 28.5 C40 26 42.5 24.2 45.2 24.8 C48 25.4 48.8 28.4 46.8 30.2 C44.6 32 41.2 31 40.5 28.5 Z"/><path d="M25.8 30.5 C26.3 24 26.4 17.5 26.8 11.5"/><path d="M47.8 27.5 C48.3 21.5 48.4 15.5 48.8 9.5"/><path d="M26.8 11.5 C34 9.8 41.5 9.2 48.8 9.5"/><path fill="currentColor" stroke="none" d="M74.5 27.5 C74 25.2 76.3 23.5 78.8 24 C81.4 24.6 82.1 27.4 80.2 29 C78.2 30.7 75.1 29.9 74.5 27.5 Z"/><path d="M81.3 26.5 C81.9 21.5 82.3 16.5 82.8 11"/><path d="M82.8 11 C87.3 12 90.2 15 90.5 19.5"/><path d="M99 12 L104.5 9.5" stroke-width="2"/><path d="M101.5 20 L107.5 19.5" stroke-width="2"/></svg></div>
+#+end_export
+All art, aspires to music — songs kept with lyrics, romanizations, and translations.
+
+Ongoing · live at [[/bangers/][bangers]]

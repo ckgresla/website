@@ -6,6 +6,10 @@ dev:
 build:
     hugo --minify
 
+# Scaffold a new banger (pre-filled org skeleton): just new-banger my-song-slug
+new-banger slug:
+    hugo new content/bangers/{{slug}}.org
+
 # Run the Vale linter on the napkins, see docs for info on the linter- https://vale.sh/docs
 lint:
     vale content/napkins/

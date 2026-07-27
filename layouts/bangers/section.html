@@ -1,13 +1,35 @@
 {{ define "main" }}
-<div class="content">
+<div class="content bangers-index">
   {{ .Content }}
-  <ol class="bangers-list">
-    {{ range sort .Pages "Params.sort_artist" }}
-    <li>
-      <a class="banger-link" href="{{ .RelPermalink }}">{{ .Title }} <span class="banger-link-artist">&mdash; {{ .Params.artist }}</span></a>
-      {{ with .Params.blurb }}<p class="banger-blurb">{{ . }}</p>{{ end }}
-    </li>
+
+  {{/* Search is progressive enhancement: the row stays hidden unless the
+       script wakes it, so a no-JS visitor just gets the accordion. */}}
+  {{/* one icon slot on the right: magnifier while empty, ✕ while typing */}}
+  <div class="bangers-search-row" hidden>
+    <input class="bangers-search" type="search" placeholder="search songs &amp; artists" aria-label="Search songs and artists">
+    <svg class="search-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="9" cy="9" r="5.5"/><path d="M13.2 13.2 17 17"/></svg>
+    <button class="search-clear" type="button" aria-label="Clear search" hidden><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M5 5l10 10M15 5 5 15"/></svg></button>
+  </div>
+
+  <div class="bangers-groups">
+    {{ range .Pages.GroupByParam "sort_artist" "asc" }}
+    <details class="artist-group">
+      <summary>
+        <span class="artist-name">{{ (index .Pages 0).Params.artist }}</span>
+        <span class="artist-count num">{{ len .Pages }}</span>
+      </summary>
+      <ol class="bangers-list">
+        {{ range .Pages.ByTitle }}
+        <li data-search="{{ .Title }} {{ .Params.title_en }} {{ .Params.artist }} {{ .File.BaseFileName }}">
+          <a class="banger-link" href="{{ .RelPermalink }}">{{ .Title }}{{ with .Params.title_en }} <span class="banger-link-en">{{ . }}</span>{{ end }}</a>
+          {{ with .Params.blurb }}<p class="banger-blurb">{{ . }}</p>{{ end }}
+        </li>
+        {{ end }}
+      </ol>
+    </details>
     {{ end }}
-  </ol>
+  </div>
 </div>
+{{ $js := resources.Get "js/bangers-search.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $js.RelPermalink }}" defer></script>
 {{ end }}

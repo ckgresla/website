@@ -188,7 +188,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  user-select: none;
 
   a {
     color: var(--color-text-secondary);
@@ -365,32 +364,106 @@ pre {
   .post-item-date { color: var(--color-text-tertiary); font-size: 0.75rem; line-height: 18px; }
 }
 
-// ── Bangers ──
-.bangers-list {
-  li { padding: 6px 0; }
-  li::marker { color: var(--color-text-secondary); font-weight: 500; }
-  .banger-link {
-    font-weight: 500;
-    text-decoration: none;
-    &:hover, &:focus-visible {
-      text-decoration: underline;
-      text-decoration-color: var(--color-accent);
-      text-underline-offset: 2px;
-    }
+// ── Bangers: the index — artists as collapsed groups, plus search ──
+.bangers-index {
+  // hairline search row — ink line icons (magnifier, ✕), hidden until the
+  // script wakes it (no-JS visitors just get the accordion)
+  .bangers-search-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0 0 33px;
+    padding: 0 0 10px;
+    border-bottom: 1px solid var(--color-border);
+    color: var(--color-text-primary); // icons draw in ink, both themes
+
+    &:focus-within { border-bottom-color: var(--color-text-primary); }
+
+    svg { width: 16px; height: 16px; flex: 0 0 auto; display: block; }
   }
-  .banger-link-artist { font-weight: 400; } // whole line clicks; artist stays quiet
-  .banger-blurb {
-    margin: 5px 0 0;
-    color: var(--color-text-tertiary);
-    font-size: 0.75rem;
-    line-height: 18px;
+
+  .bangers-search {
+    flex: 1;
+    min-width: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    color: var(--color-text-primary);
+    font: inherit;
+    -webkit-appearance: none;
+
+    &::placeholder { color: var(--color-text-secondary); }
+    &:focus { outline: none; }
+    &::-webkit-search-cancel-button { -webkit-appearance: none; display: none; }
+  }
+
+  .search-clear {
+    border: 0;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    color: inherit;
+    display: flex;
+    &[hidden] { display: none; } // display:flex must not defeat the hidden attr
+  }
+
+  .artist-group {
+    border-top: 1px solid var(--color-border);
+    &:last-child { border-bottom: 1px solid var(--color-border); }
+
+    summary {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      padding: 10px 0; // 22px line + 20 = 42px rows
+      cursor: pointer;
+      list-style: none;
+
+      &::-webkit-details-marker { display: none; }
+
+      .artist-name { font-weight: 500; }
+      .artist-count { color: var(--color-text-secondary); font-size: 0.75rem; }
+
+      // +/− state marker, quiet, at the row's end
+      &::after { content: '+'; margin-left: auto; color: var(--color-text-secondary); }
+
+      &:hover .artist-name, &:focus-visible .artist-name {
+        text-decoration: underline;
+        text-decoration-color: var(--color-accent);
+        text-underline-offset: 2px;
+      }
+    }
+    &[open] summary::after { content: '−'; }
+  }
+
+  .bangers-list {
+    margin: 0 0 22px;
+    padding-left: 22px;
+    li { padding: 5px 0; }
+    li::marker { color: var(--color-text-secondary); }
+    .banger-link {
+      font-weight: 500;
+      text-decoration: none;
+      &:hover, &:focus-visible {
+        text-decoration: underline;
+        text-decoration-color: var(--color-accent);
+        text-underline-offset: 2px;
+      }
+    }
+    .banger-link-en { font-weight: 400; color: var(--color-text-secondary); }
+    .banger-blurb {
+      margin: 5px 0 0;
+      color: var(--color-text-tertiary);
+      font-size: 0.75rem;
+      line-height: 18px;
+    }
   }
 }
 
 .banger {
   .banger-header { margin-bottom: 48px; }
   .banger-title { margin: 0 0 11px; font-size: 1.5rem; line-height: 2rem; font-weight: 600; }
-  .banger-title-en { margin: -6px 0 5px; color: var(--color-text-secondary); font-style: italic; }
+  .banger-title-en { margin: -6px 0 5px; color: var(--color-text-secondary); }
   .banger-artist { margin: 0 0 6px; color: var(--color-text-secondary); }
   .banger-source { margin: 0; font-size: 0.75rem; line-height: 18px; }
   .banger-back { margin-top: 48px; }
