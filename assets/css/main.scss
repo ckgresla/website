@@ -501,6 +501,17 @@ pre {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
+      position: relative;
+
+      // the whole card is the title link's hit area (stretched link);
+      // links in the meta line sit above the stretch and stay clickable
+      h2 a::after { content: ''; position: absolute; inset: 0; }
+      p a { position: relative; z-index: 1; }
+      &:hover h2 a, &:focus-within h2 a {
+        text-decoration: underline;
+        text-decoration-color: var(--color-accent);
+        text-underline-offset: 2px;
+      }
     }
     .outline-text-2 { display: contents; }
     .progetto-viz { order: 1; }
@@ -529,21 +540,19 @@ pre {
   .progetto-viz {
     display: flex;
     align-items: center;
-    height: 64px;
+    min-height: 64px;
     margin-bottom: 12px;
 
     svg { width: 130px; height: 44px; }
 
-    // the bangers cell wears the doodle note-group; hovering the cell swaps
-    // in the emphasis variant (same canvas, ticks radiate around the notes)
-    svg.viz-doodle { width: 56px; height: 56px; }
-    .viz-doodle-hover { display: none; }
+    // the bangers cell wears the doodle notes, composed at native size in an
+    // expanded canvas; hovering the card reveals the tick ring around them —
+    // the notes themselves never move or scale
+    svg.viz-doodle { width: auto; height: 92px; }
+    .viz-ticks { display: none; }
   }
-  .content > .outline-2:hover .progetto-viz,
-  .content > .outline-2:focus-within .progetto-viz {
-    .viz-doodle-base { display: none; }
-    .viz-doodle-hover { display: block; }
-  }
+  .content > .outline-2:hover .viz-ticks,
+  .content > .outline-2:focus-within .viz-ticks { display: block; }
   .viz-clock {
     font-family: $mono;
     font-size: 2rem;
