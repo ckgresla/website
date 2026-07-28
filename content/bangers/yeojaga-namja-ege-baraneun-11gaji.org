@@ -1,0 +1,51 @@
+#+title: 여자가 남자에게 바라는 11가지
+#+title_en: 11 Things a Woman Wants from a Man
+#+artist: 박지윤 (Park Ji-yoon)
+#+sort_artist: Park Ji-yoon
+#+language: Korean
+#+spotify: https://open.spotify.com/track/7g2z7u8dEFrYoY80Kd1M5L?si=2254b2deaff447dc
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 사랑이 식은 거야 너 뭐야 | sarangi sigeun geoya neo mwoya | Is our love fading, what’s with you |
+| 요즘 넌, 예전의 너 같지가 않아 | yojeum neon, yejeonui neo gatjiga ana | These days you’re just not like you used to be |
+| 이젠 내가, 니꺼라고 넌 안심하는 거니 | ijen naega, nikkeorago neon ansimhaneun geoni | Now that I’m “yours,” are you just relaxed about it |
+| 잊지 마 니가 계속 이러면 | ijji ma niga gyesok ireomyeon | Don’t forget, if you keep acting like this |
+| 차갑게 나 딴 맘 먹을지도 몰라 | chagapge na ttan mam meogeuljido molla | I might go cold and change my mind, you never know |
+| 기횔 줄게 다시 한 번 내 맘을 흔들어놔봐 | gihwel julge dasi han beon nae mameul heundeureonwabwa | I’ll give you a chance, shake up my heart again |
+| All right 나만 알기 | All right naman algi | All right, only I should know your heart |
+| 내 눈만 바라보며 얘기하기 | nae nunman barabomyeo yaegihagi | Talk while looking only into my eyes |
+| 늘 20분쯤 나 늦어도 절대 화 안내기 | neul isip bunjjeum na neujeodo jeoldae hwa annaegi | Even if I’m twenty minutes late, never get mad |
+| 이젠 피곤해도 날 당연히 집까지 바래다 주기 | ijen pigonhaedo nal dangyeonhi jipkkaji baraeda jugi | Even if you’re tired, of course walk me home |
+| 지갑 속 내 사진 꺼내서 입맞추기 | jigap sok nae sajin kkeonaeseo ipmatchugi | Take my photo from your wallet and kiss it |
+| 니가 잠드는 순간도 | niga jamdeuneun sungando | Even in the moment you’re falling asleep |
+| 오늘은 친구 몇 명과 만나 | oneureun chingu myeot myeonggwa manna | Today I met up with a few friends |
+| 밥 먹고 커피도 마시러 갔는데 | bap meokgo keopido masireo ganneunde | We ate and then went for coffee |
+| 나만 빼고 친구들은 계속해 전화가 와 | naman ppaego chingudeureun gyesokhae jeonhwaga wa | Everyone but me kept getting calls |
+| 모두들 남자 친구의 전활 | modudeul namja chinguui jeonhwal | All from their boyfriends |
+| 귀찮다 하며 자랑을 하더니 | gwichanta hamyeo jarangeul hadeonni | They complained it was annoying, but bragged anyway |
+| 묻는 거야 너와 나는 다툰 게 아니냐면서 | mutneun geoya neowa naneun datun ge aninyamyeonseo | Then they asked if you and I had fought or something |
+| All right 약속해줘 | All right yaksokhaejwo | All right, promise me |
+| 하루에 3번 이상 전화하기 | harue se beon isang jeonhwahagi | Call me at least three times a day |
+| 날 믿어주기 니 하루는 내게 보고하기 | nal mideojugi ni haruneun naege bogohagi | Trust me, and report your day to me |
+| 항상 내 편이기 나 아플 땐 나보다 더 아파하기 | hangsang nae pyeonigi na apeul ttaen naboda deo apahagi | Always be on my side, hurt more than me when I’m sick |
+| 세상의 그 어떤 여자가 다가와도 | sesangui geu eotteon yeojaga dagawado | Even if any woman in the world comes close |
+| 나의 이름만 부르기 | naui ireumman bureugi | Call only my name |
+| 난 알아 처음도 지금도 변함없는 널 | nan ara cheoeumdo jigeumdo byeonham eomneun neol | I know you, unchanged from the start till now |
+| 말보다 마음이 더 큰 사람 | malboda maeumi deo keun saram | Someone whose heart is bigger than his words |
+| Oh baby 난 너의 그 사랑을 받고 있기에 | oh baby nan neoui geu sarangeul batgo itgie | Oh baby, because I’m receiving that love of yours |
+| 세상 가장 행복한 사람인걸 | sesang gajang haengbokhan saramingeol | I’m the happiest person in the world |
+| All right 나만 알기 | All right naman algi | All right, only I should know your heart |
+| 내 눈만 바라보며 얘기하기 | nae nunman barabomyeo yaegihagi | Talk while looking only into my eyes |
+| 늘 20분쯤 나 늦어도 절대 화 안내기 | neul isip bunjjeum na neujeodo jeoldae hwa annaegi | Even if I’m twenty minutes late, never get mad |
+| 이젠 피곤해도 날 당연히 집까지 바래다주기 | ijen pigonhaedo nal dangyeonhi jipkkaji baraedajugi | Even if you’re tired, of course walk me home |
+| 지갑속 내 사진 꺼내서 입맞추기 | jigapsok nae sajin kkeonaeseo ipmatchugi | Take my photo from your wallet and kiss it |
+| 니가 잠드는 순간도 | niga jamdeuneun sungando | Even in the moment you’re falling asleep |
+| All right 약속해줘 | All right yaksokhaejwo | All right, promise me |
+| 하루에 3번 이상 전화하기 | harue se beon isang jeonhwahagi | Call me at least three times a day |
+| 날 믿어주기 니 하루는 내게 보고하기 | nal mideojugi ni haruneun naege bogohagi | Trust me, and report your day to me |
+| 항상 내 편이기 나 아플 땐 나보다 더 아파하기 | hangsang nae pyeonigi na apeul ttaen naboda deo apahagi | Always be on my side, hurt more than me when I’m sick |
+| 세상의 그 어떤 여자가 다가와도 | sesangui geu eotteon yeojaga dagawado | Even if any woman in the world comes close |
+| 나의 이름만 부르기 | naui ireumman bureugi | Call only my name |

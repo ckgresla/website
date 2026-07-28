@@ -1,5 +1,6 @@
-#+title: 시간 (Time)
-#+artist: Kim Do-hyang (김도향)
+#+title: 시간
+#+title_en: Time
+#+artist: 김도향 (Kim Do-hyang)
 #+sort_artist: Kim Do-hyang
 #+language: Korean
 #+spotify: https://open.spotify.com/track/1p5qXkzr7fBzKS0zAH2Jto?si=b424bbef579749ca

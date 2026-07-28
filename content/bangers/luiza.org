@@ -1,0 +1,40 @@
+#+title: Luiza
+#+artist: Antônio Carlos Jobim
+#+sort_artist: Tom Jobim
+#+language: Portuguese
+#+spotify: https://open.spotify.com/track/2qTASec3uvfpaKsQ15rIkM?si=55f74393b8044da6
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | English |
+|------+------|
+| Rua, | Street, |
+| Espada nua | A naked sword |
+| Boia no céu imensa e amarela | In the sky a huge yellow moon, |
+| Tão redonda a lua | So round, is drifting, |
+| Como flutua | As if floating, |
+| Vem navegando o azul do firmamento | Sailing the blue of the firmament |
+| E no silêncio lento | And in the slow silence |
+| Um trovador, cheio de estrelas | A troubadour, full of stars |
+| Escuta agora a canção que eu fiz | Is now listening to the song I made |
+| Pra te esquecer Luiza | To forget you Luiza |
+| Eu sou apenas um pobre amador | I’m just a poor amateur |
+| Apaixonado | Passionate |
+| Um aprendiz do teu amor | An apprentice of your love |
+| Acorda amor | Wake up my love |
+| Que eu sei que embaixo desta neve mora um coração | For I know that underneath that snow lives a heart |
+| Vem cá, Luiza | Come here, Luiza |
+| Me dá tua mão | Give me your hand |
+| O teu desejo é sempre o meu desejo | Your desire is always my desire |
+| Vem, me exorciza | Come, exorcise me |
+| Dá-me tua boca | Give me your mouth |
+| E a rosa louca | And the lunatic rose |
+| Vem me dar um beijo | Come give me a kiss |
+| E um raio de sol | And a ray of sunshine |
+| Nos teus cabelos | In your hair |
+| Como um brilhante que partindo a luz | Like that of a diamond that, splitting the light, |
+| Explode em sete cores | Explodes in seven colors |
+| Revelando então os sete mil amores | Thus revealing the seven thousand loves |
+| Que eu guardei somente pra te dar Luiza | That I’ve kept only to give them to you Luiza |
+| Luiza | Luiza |
+| Luiza | Luiza |

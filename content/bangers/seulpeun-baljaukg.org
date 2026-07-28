@@ -1,4 +1,5 @@
-#+title: 슬픈 발자욱 (Seulpeun Baljaukg, Sad Footsteps)
+#+title: 슬픈 발자욱
+#+title_en: Sad Footsteps
 #+artist: 박지희 (Park Ji-hee)
 #+sort_artist: Park Ji-hee
 #+language: Korean

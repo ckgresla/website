@@ -1,5 +1,6 @@
-#+title: 양양 (Yangyang)
-#+artist: Jeong Mijo (정미조)
+#+title: 양양
+#+title_en: Yangyang
+#+artist: 정미조 (Jeong Mijo)
 #+sort_artist: Jeong Mijo
 #+language: Korean
 #+spotify: https://open.spotify.com/track/5a8uz8DkP788NImvmwHISs?si=fe12dc51937a4895

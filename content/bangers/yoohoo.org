@@ -1,4 +1,5 @@
-#+title: 유후 (Yoohoo, 2007 Remake)
+#+title: 유후
+#+title_en: Yoohoo (2007 Remake)
 #+artist: 서영은 (Suh Young-eun)
 #+sort_artist: Suh Young-eun
 #+language: Korean

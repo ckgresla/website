@@ -33,6 +33,8 @@
 
 15. [[https://youtu.be/ECuGNHdVaKg?si=IhmSClB0JAxJDxVk][Slim Dusty - G'day G'day]]
 
+16. When intelligence is “on tap”, what ought we spend our time on?
+
 
 * 2025
 1. It isn’t ml hacking until you have had to allocate two swapfiles in order to get a long running data preprocessing job over the finish line.

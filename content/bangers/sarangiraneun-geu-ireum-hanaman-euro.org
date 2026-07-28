@@ -1,4 +1,5 @@
-#+title: 사랑이라는 그 이름 하나만으로 (With Just The Name Called Love)
+#+title: 사랑이라는 그 이름 하나만으로
+#+title_en: With Just The Name Called Love
 #+artist: 장혜진 (Jang Hye-jin)
 #+sort_artist: Jang Hye-jin
 #+language: Korean

@@ -1,0 +1,12 @@
+#+title: NATIVE TITLE
+#+title_en: ENGLISH TITLE
+#+artist: 아티스트 (Romanization)
+#+sort_artist: Romanization
+#+language: Korean
+#+spotify:
+#+year: {{ now.Format "2006" }}
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| | | |

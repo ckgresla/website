@@ -1,0 +1,24 @@
+#+title: 깊고 오랜 사랑
+#+title_en: Deep and Long Love
+#+artist: 권진원 (Kwon Jin Won)
+#+sort_artist: Kwon Jin Won
+#+language: Korean
+#+spotify: https://open.spotify.com/track/25ZWn97nMA1B0oUxAom4EP?si=99997cf696b8409f
+#+youtube: https://www.youtube.com/watch?v=I5bNxZm4FZ0
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 너를 만나 난 행복했다 모두 꿈인 것만 같아 | Neoreul manna nan haengbokhaetda modu kkum-in geotman gata | Meeting you, I was happy; it all feels just like a dream |
+| 세상 어디라도 나는 좋아 너와 함께 가면 | Sesang eodirado naneun joa neowa hamkke gamyeon | Anywhere in this world is fine with me, as long as I go with you |
+| 너를 위해 난 살아왔다 아주 오랜 시간 동안 | Neoreul wihae nan sarawatda aju oraen sigan dongan | I have lived for you, through such a long, long time |
+| 너의 이름 가만히 불러보면 아름다운 날들 | Neoui ireum gamanhi bulleobomyeon areumdaun naldeul | When I quietly call your name, those days become beautiful |
+| 봄과 여름과 가을 또 겨울도 난 영원히 너를 사랑해 | Bomgwa yeoreumgwa gaeul tto gyeouldo nan yeongwonhi neoreul saranghae | In spring, in summer, in autumn, and in winter too, I will love you forever |
+| 너를 만나 난 행복했다 모두 꿈인 것만 같아 | Neoreul manna nan haengbokhaetda modu kkum-in geotman gata | Meeting you, I was happy; it all feels just like a dream |
+| 세상 어디라도 나는 좋아 너와 함께 가면 | Sesang eodirado naneun joa neowa hamkke gamyeon | Anywhere in this world is fine with me, as long as I go with you |
+| 봄과 여름과 가을 또 겨울도 난 영원히 너를 사랑해 | Bomgwa yeoreumgwa gaeul tto gyeouldo nan yeongwonhi neoreul saranghae | In spring, in summer, in autumn, and in winter too, I will love you forever |
+| 너를 만나 난 행복했다 모두 꿈인 것만 같아 | Neoreul manna nan haengbokhaetda modu kkum-in geotman gata | Meeting you, I was happy; it all feels just like a dream |
+| 세상 어디라도 나는 좋아 너와 함께 가면 | Sesang eodirado naneun joa neowa hamkke gamyeon | Anywhere in this world is fine with me, as long as I go with you |
+| 아 인생이 참 아름다워 천사 같은 너의 미소 | A insaengi cham areumdawo cheonsa gateun neoui miso | Ah, life is truly beautiful, with your angel-like smile |
+| 가슴 깊이 나는 사랑했다 오직 너 한 사람 | Gaseum gipi naneun saranghaetda ojik neo han saram | From deep within my heart, I have loved you—only you, one person |

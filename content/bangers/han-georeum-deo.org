@@ -1,0 +1,36 @@
+#+title: 한 걸음 더
+#+title_en: One More Step
+#+artist: 윤상 (Yoon Sang)
+#+sort_artist: Yoon Sang
+#+language: Korean
+#+spotify: https://open.spotify.com/track/3KhqKb14XrlgixQf21kGkS?si=ed63d8630b334d54
+#+youtube: https://www.youtube.com/watch?v=BW5gNz6-wM0
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 숨가쁘게 흘러가는 | sum gappeuge heulleoganeun | Flowing by, short of breath |
+| 여기 도시의 소음 속에서 | yeogi dosiui soeum sogeseo | Here, in the noise of the city |
+| 빛을 잃어가는 모든 것 | bicheul ireoganeun modeun geot | Everything that’s losing its light |
+| 놓치긴 아쉬워 | nochigin aswiwo | I’d hate to let it slip away |
+| 잠깐 동안 멈춰 서서 | jamkkan dongan meomchwo seoseo | For a moment, stop and stand still |
+| 머리 위 하늘을 봐 | meori wi haneureul bwa | Look up to the sky above your head |
+| 우리 지친 마음 조금은 | uri jichin maeum jogeumeun | Our tired hearts, just a little |
+| 쉴 수 있게 할 거야 | swil su itge hal geoya | Will be able to find some rest |
+| 한 걸음 더 천천히 간다 해도 | han georeum deo cheoncheonhi ganda haedo | One more step, even if we go slowly |
+| 그리 늦는 것은 아냐 | geuri neunneun geoseun anya | It doesn’t mean we’re that late |
+| 이 세상도 사람들 얘기처럼 | i sesangdo saramdeul yaegicheoreom | Even this world, like people say |
+| 복잡하지만은 않아 | bokjapajimaneun anha | Isn’t only complicated |
+| 잠깐 동안 멈춰 서서 | jamkkan dongan meomchwo seoseo | For a moment, stop and stand still |
+| 머리 위 하늘을 봐 | meori wi haneureul bwa | Look up to the sky above your head |
+| 우리 지친 마음 조금은 | uri jichin maeum jogeumeun | Our tired hearts, just a little |
+| 쉴 수 있게 할 거야 | swil su itge hal geoya | Will be able to find some rest |
+| 한 걸음 더 천천히 간다 해도 | han georeum deo cheoncheonhi ganda haedo | One more step, even if we go slowly |
+| 그리 늦는 것은 아냐 | geuri neunneun geoseun anya | It doesn’t mean we’re that late |
+| 이 세상도 사람들 얘기처럼 | i sesangdo saramdeul yaegicheoreom | Even this world, like people say |
+| 복잡하지만은 않아 | bokjapajimaneun anha | Isn’t only complicated |
+| 한 걸음 더 천천히 간다 해도 | han georeum deo cheoncheonhi ganda haedo | One more step, even if we go slowly |
+| 그리 늦는 것은 아냐 | geuri neunneun geoseun anya | It doesn’t mean we’re that late |
+| 이 세상도 사람들 얘기처럼 | i sesangdo saramdeul yaegicheoreom | Even this world, like people say |
+| 복잡하지만은 않아 | bokjapajimaneun anha | Isn’t only complicated |
