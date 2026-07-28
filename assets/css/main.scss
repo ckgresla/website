@@ -533,6 +533,16 @@ pre {
     margin-bottom: 12px;
 
     svg { width: 130px; height: 44px; }
+
+    // the bangers cell wears the doodle note-group; hovering the cell swaps
+    // in the emphasis variant (same canvas, ticks radiate around the notes)
+    svg.viz-doodle { width: 56px; height: 56px; }
+    .viz-doodle-hover { display: none; }
+  }
+  .content > .outline-2:hover .progetto-viz,
+  .content > .outline-2:focus-within .progetto-viz {
+    .viz-doodle-base { display: none; }
+    .viz-doodle-hover { display: block; }
   }
   .viz-clock {
     font-family: $mono;
