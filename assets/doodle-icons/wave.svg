@@ -1,5 +1,3 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
-  <defs><mask id="m-wave"><rect x="-20" y="-20" width="160" height="160" fill="white"/><path fill="black" d="M26 92 C24 72 27 54 35 45 C45 35 58 34 66 40 C70 44 71 51 67 57 C64 61 59 64 55 61 C56 69 64 82 72 92 Z"/></mask></defs>
-  <path fill="currentColor" mask="url(#m-wave)" d="M12 84 C10 56 24 28 52 22 C76 17 93 28 94 46 C94 58 90 66 88 70 C89 76 91 80 92 84 C64 90 34 89 12 84 Z"/>
-  <path fill="currentColor" d="M26 100 C28 96 84 95 88 99 C89 103 30 105 26 100 Z"/>
+  <g fill="none" stroke="currentColor" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 82 C13 61 21 42 34 30 C48 17 63 10 77 12 C93 14 103 25 102 39 C101 52 92 59 82 55 C76 53 73 47 76 43"/><path d="M12 92 C21 86 30 96 39 92 C49 87 57 97 67 93 C77 89 85 98 95 94 C100 92 105 92 109 94"/><path d="M12 105 C21 99 30 109 39 105 C49 100 57 110 67 106 C77 102 85 111 95 107 C100 105 105 105 109 107"/></g>
 </svg>
