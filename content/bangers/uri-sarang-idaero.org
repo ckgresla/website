@@ -1,0 +1,48 @@
+#+title: 우리 사랑 이대로
+#+title_en: Our Love Like This
+#+artist: 주영훈 (Joo Young Hoon) & 이혜진 (Lee Hye Jin)
+#+sort_artist: Joo Young Hoon
+#+language: Korean
+#+spotify: https://open.spotify.com/track/1OUnWZ7cruOfiEiKTzlmyz?si=f6198e5b11f04d4d
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 날 사랑할 수 있나요 | nal saranghal su itnayo | Can you love me? |
+| 그대에게 부족한 나인데 | geudae-ege bujokhan nainde | When I’m not enough for you |
+| 내겐 사랑 밖엔 드릴게 없는걸요 | naegen sarang bakken deurilge eobtneungeollyo | I have nothing but love to give you |
+| 이런 날 사랑하나요 | ireon nal saranghanayo | Do you love someone like me? |
+| 이젠 그런 말 않기로 해 | ijen geureon mal anhgiro hae | Let’s not say those things anymore |
+| 지금 맘이면 나는 충분해 | jigeum mamimyeon naneun chungbunhae | Your heart right now is enough for me |
+| 우린 세상 그 무엇보다 더 커다란 | urin sesang geu mueotboda deo keodaran | Because we have hearts more precious than anything |
+| 사랑하는 맘 있으니 | saranghaneun mam isseuni | Hearts that love each other |
+| 언젠가 우리 (먼 훗날) | eonjenga uri (meon hutnal) | Someday, the two of us (far ahead) |
+| 늙어 지쳐가도 (지쳐도) | neulgeo jichyeogado (jichyeodo) | Even when we grow old and tired (even if tired) |
+| 지금처럼만 사랑하기로 해 | jigeumcheoreomman saranghagiro hae | Let’s keep loving just like now |
+| 내 품에 안긴 채 | nae pume angin chae | While you’re held in my arms |
+| 눈을 감는 날 그날도 | nuneul gamneun nal geunaldo | Till the day we close our eyes |
+| 함께해 | hamkkehae | Let’s be together |
+| 난 외로움 뿐이었죠 | nan weroum ppunieotjyo | I used to have only loneliness |
+| 그대 없던 긴 어둠의 시간 | geudae eobtdeon gin eodumui sigan | Long, dark times when you weren’t here |
+| 이젠 행복함을 느껴요 | ije haengbokhameul neukkyeoyo | Now I can feel happiness |
+| 지금 내겐 그대 향기가 있으니 | jigeum naegen geudae hyanggiga isseuni | Because now I have your scent with me |
+| 난 무언가 느껴져요 | nan mueonga neukkyeojyeoyo | I can feel something inside |
+| 어둠을 지나 만난 태양빛 | eodumeul jina mannan taeyangbit | The sunlight I met after passing the darkness |
+| 이젠 그 무엇도 두렵지 않을걸요 | ije geu mueotdo duryeobji anheulgeollyo | Now I’m not afraid of anything |
+| 그대 내 품에 있으니 | geudae nae pume isseuni | Because you’re here in my arms |
+| 시간 흘러가 (먼 훗날) | sigan heulleoga (meon hutnal) | As time flows on (far ahead) |
+| 삶이 힘겨울 땐 (힘겨울 땐) | salmi himgyeoul ddaen (himgyeoul ddaen) | When life becomes hard (when it’s hard) |
+| 서로 어깨에 기대기로 해요 | seoro eokkae-e gidaegiro haeyo | Let’s lean on each other’s shoulders |
+| 오늘을 기억해 우리 함께할 | oneureul gieokhae uri hamkkehal | Remember today, until the day |
+| (우리 함께할) 날까지 | (uri hamkkehal) nalkkaji | (The day we’re together) comes |
+| 나는 후회하지 않아요 | naneun huhwehaji anhayo | I won’t have any regrets |
+| 우리 사랑 있으니 | uri sarang isseuni | Because we have our love |
+| 먼 훗날 삶이 힘겨울 때 | meon hutnal salmi himgyeoul ttae | Far ahead, when life becomes hard |
+| 서로 어깨에 기대기로 해요 | seoro eokkae-e gidaegiro haeyo | Let’s lean on each other’s shoulders |
+| 내 품에 안긴 채 | nae pume angin chae | While you’re in my arms |
+| 눈을 감는 날 (눈을 감는 날) | nuneul gamneun nal (nuneul gamneun nal) | On the day you close your eyes (close your eyes) |
+| 세상 끝까지 함께해 | sesang ggeutkkaji hamkkehae | Let’s be together until the end of the world |
+| 우리 이대로 (우리 이대로) | uri idaero (uri idaero) | Just like we are now (just like we are now) |
+| 지금 이대로 | jigeum idaero | Just like right now |
+| 영원히 | yeongwonhi | Forever |
