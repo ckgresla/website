@@ -1,0 +1,44 @@
+#+title: 행복
+#+title_en: Happiness
+#+artist: 김현성 (Kim Hyun-sung)
+#+sort_artist: Kim Hyun-sung
+#+language: Korean
+#+spotify: https://open.spotify.com/track/4K9vuNW5tkdBX4txUh3330?si=efd6a682b9704bc4
+#+year: 2026
+
+Ouch
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 소원이 이뤄진 행복한 순간에 | sowoni irwojin haengbokan sungan-e | In the happy moment when a wish comes true |
+| 눈물이 흘러내리는 이유는 왜일까 | nunmuri heulleonaerineun iyuneun waeilkka | Why do tears start to fall? |
+| 이제 막 창가 불이 꺼졌네요 | ije mak changga buri kkeojyeonne-yo | Just now, the light by the window went out |
+| 그대를 지켜주기 참 잘했죠 | geudaereul jikyeojugi cham jalhaetjyo | I really did well, protecting you |
+| 조금 전 식탁앞에서 두 사람 표정에 | jogeum jeon siktak apeseo du saram pyojeong-e | A moment ago, at the table, seeing the two of your faces |
+| 내가 괜히 행복해서 울었죠 | naega gwaenhi haengbokhaeseo ureo-jjyo | I pointlessly felt happy, and I cried |
+| 나 정말 못됐죠 가슴이 아파요 | na jeongmal motdoetjyo gaseumi apayo | I’m really awful, my heart hurts |
+| 그대 행복해진 미소 보고 가는데 | geudae haengbokhaejin miso bogo ganeunde | As I leave, seeing your now-happy smile |
+| 지금 그대의 앞에 있는 그 남자의 자리 | jigeum geudaeui ape inneun geu namja-ui jari | The place of that man standing in front of you now |
+| 내 자리만 같아서 눈물이 흘러 | nae jariman gataseo nunmuri heulleo | Feels just like my place, so my tears fall |
+| 늘 지금처럼 행복해요 | neul jigeumcheoreom haengbokhae-yo | Always be as happy as you are now |
+| 난 그렇다고 믿고 살게 | nan geureotago mitgo salge | I’ll live believing that it’s so |
+| 날 바라보며 흘린 눈물 모두 거둬요 | nal barabomyeo heullin nunmul modu geodwo-yo | Wipe away all the tears you shed looking at me |
+| 나 다신 오진 않을게요 | na dashin ojin anheulge-yo | I won’t ever come again |
+| 행복한 그대 바라보며 | haengbokan geudae barabomyeo | Watching you, who are happy |
+| 살아갈 수 있어요 | saragal su isseoyo | I can go on living |
+| 나 이제 갈게요 좋은 꿈 꾸세요 | na ije galgeyo joeun kkum kkuseyo | I’ll go now, have sweet dreams |
+| 그대 너무 행복해 보여서 좋아요 | geudae neomu haengbokhae boyeoseo joayo | You look so happy, and I like that |
+| 조금 전에 불이 꺼진 두 사람의 방에 | jogeum jeone buri kkeojin du saramui bang-e | In the room where the light just went out on you two |
+| 오늘 같은 행복이 영원하기를 | oneul gateun haengboki yeongwonhagireul | May this kind of happiness last forever |
+| 늘 지금처럼 행복해요 | neul jigeumcheoreom haengbokhae-yo | Always be as happy as you are now |
+| 난 그렇다고 믿고 살게 | nan geureotago mitgo salge | I’ll live believing that it’s so |
+| 날 바라보며 흘린 눈물 모두 거둬요 | nal barabomyeo heullin nunmul modu geodwo-yo | Wipe away all the tears you shed looking at me |
+| 나 다신 오진 않을게요 | na dashin ojin anheulge-yo | I won’t ever come again |
+| 행복한 그대 바라보며 | haengbokan geudae barabomyeo | Watching you, who are happy |
+| 살아갈 수 있어요 | saragal su isseoyo | I can go on living |
+| 나 다신 오진 않을 게요 | na dashin ojin anheul ge-yo | I won’t ever come again |
+| 떠난 그대 바라 보며 | tteonan geudae bara bomyeo | Looking at you, who has left |
+| 슬퍼지기 싫어요 | seulpeojigi sileoyo | I don’t want to become sad |
+| 소원이 이뤄진 행복한 순간에 | sowoni irwojin haengbokan sungan-e | In the happy moment when a wish comes true |
+| 눈물이 흘러 내리는 이유는 왜일까 | nunmuri heulleo naerineun iyuneun waeilkka | Why do tears start to fall? |
