@@ -1,7 +1,6 @@
 #+title: The Doodle Icons
 #+tagline: The Doodle Icons
-#+body_class: center
+#+layout: doodle-icons
+#+body_class: doodle
 
-A growing set of hand-drawn SVG icons — wobbly on purpose.
-
-The gallery is coming together; first strokes soon.
+A growing set of hand-drawn SVG icons — wobbly on purpose. Click any card to copy its markup; they draw in ~currentColor~, so they take whatever ink your page uses.
