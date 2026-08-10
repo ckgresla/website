@@ -1,0 +1,23 @@
+#+title: 마음에 쓰는 편지
+#+title_en: Letter On My Mind
+#+artist: 임백천 (Im Baek-cheon)
+#+sort_artist: Im Baek-cheon
+#+language: Korean
+#+spotify: https://open.spotify.com/track/7n5Kv3yFb17iuGzxTCBpAQ?si=6f8e15a917a74acf
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 밤이 아름다워 잠이 오지 않아 | bami areumdawo jami oji ana | The night is so beautiful I can't sleep |
+| 창을 열고 가만히 벽에 기대어 | changeul yeolgo gamanhi byeoge gidaeeo | I open the window and lean quietly against the wall |
+| 창가에 흐르는 별들을 바라보며 | changga-e heureuneun byeoldeureul barabomyeo | Watching the stars drift past the window |
+| 갈 수 없는 내 사랑을 노래합니다 | gal su eomneun nae sarangeul noraehamnida | I sing of a love I can't reach |
+| 그대 생각하면 잠이 오지 않아 | geudae saenggakhamyeon jami oji ana | When I think of you I can't sleep |
+| 불을 끄고 가만히 창가에 앉아 | bureul kkeugo gamanhi changga-e anja | I turn off the light and sit quietly by the window |
+| 마음에 접어놓은 수많은 얘기 속에 | maeume jeobeonoeun sumaneun yaegi soge | Among the countless words folded away in my heart |
+| 그대에게 하고픈 말 사랑합니다 | geudaeege hagopeun mal saranghamnida | The one I want to say to you: I love you |
+| 사랑하는 사람아 귀를 기울여 봐요 | saranghaneun sarama gwireul giuryeo bwayo | My love, lean in and listen |
+| 이 밤은 이렇게 당신을 부르는데 | i bameun ireoke dangsineul bureuneunde | This night is calling out for you |
+| 사랑하는 사람아 마음을 열어봐요 | saranghaneun sarama maeumeul yeoreobwayo | My love, open your heart |
+| 그리움이 가득한 이 밤을 받아 주세요 | geuriumi gadeukhan i bameul bada juseyo | Take this night so full of longing |
