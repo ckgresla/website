@@ -1,0 +1,26 @@
+#+title: 사랑이 가득한 이 밤
+#+title_en: Night Full of Love
+#+artist: 박미경 (Park Mi Kyung)
+#+sort_artist: Park Mi Kyung
+#+language: Korean
+#+spotify: https://open.spotify.com/track/2pEitA7A1WCiJsLqbOs3tE?si=2deade8a1dbe4b15
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 비오는 밤 창넓은 카페에서 와인 한 잔 | bi-oneun bam chang neoreun kape-eseo wain han jan | On a rainy night, a glass of wine in a wide-windowed café |
+| 그대와 잔을 기울일때면 | geudaewa janeul giuril ttaemyeon | When I tilt my glass with you |
+| 들리는 피아노 선율에 젖어 | deullineun piano seonyure jeojeo | Soaked in the sound of the piano |
+| 사랑에 흠뻑 취하고픈 이 밤 | sarange heumpeok chwihagopeun i bam | On this night, I want to be utterly drunk on love |
+| 그대의 어깨위에 나의 볼을 | geudaeui eokkae-wie naui boreul | Resting my cheek on your shoulder |
+| 살며시 기댄 채 나 춤을 추고파 | salmyeosi gidaen chae na chumeul chugo pa | Gently leaning there, I just want to dance |
+| 어느 흑백 영화 속 장면처럼 | eoneu heukbaek yeonghwa sok jangmyeoncheoreom | Like a scene from some black-and-white movie |
+| 그렇게 멋진 모습으로 | geureoke meotjin moseubeuro | Looking that wonderful |
+| 귀에 익은 재즈 음악 선율에 들려오는 | gwie ikeun jaejeu eumak seonyure deullyeo-oneun | To the familiar melody of jazz in my ears comes |
+| 그대의 낮은 목소리 | geudaeui najeun moksori | Your low voice |
+| 사랑으로 가득 채워버린 내 맘 | sarangeuro gadeuk chaewobeorin nae mam | My heart, completely filled to the brim with love |
+| 비가 오면 그대와 단둘이서 와인 한 잔 | biga omyeon geudaewa danduriseo wain han jan | When it rains, just the two of us, a glass of wine |
+| 바다가 보이는 그 카페에서 | badaga boineun geu kape-eseo | At that café that looks out over the sea |
+| 영원히 그대 눈길속에 잠들고파 | yeongwonhi geudae nunkkil-soge jamdeulgo pa | I want to fall asleep forever in your gaze |
+| 사랑이 가득 어린 이 밤 | sarangi gadeuk eorin i bam | On this night, so full and young with love |
