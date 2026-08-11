@@ -1,0 +1,64 @@
+#+title: GATSBY WOMAN
+#+artist: 濱田金吾 (Kingo Hamada)
+#+sort_artist: Kingo Hamada
+#+language: Japanese
+#+spotify: https://open.spotify.com/track/4O02HMxIxGLptYi4ngd0es?si=vA-CoyatQbmrzSEUhzJ6Xg
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| サラリと別離 投げつけて | sarari to wakare nagetsukete | Tossing off our goodbye like it was nothing |
+| 消えてゆく北ウイング | kiete yuku kita uingu | disappearing into the North Wing |
+| 最後まで強がりな女 | saigo made tsuyogari na onna | A woman acting tough to the very end |
+| 貴女は | anata wa | you are |
+| ギャツビー･ウーマン | gyatsubī ūman | a Gatsby woman |
+| 恋の傷痕 抉られて | koi no kizuato egurarete | The scars of love gouged open |
+| 置き去りの空港 | okizari no kūkō | left behind at the airport |
+| 何時だって 煙にまかれて | itsu datte kemuri ni makarete | I've always lived wrapped in smoke |
+| 生きてた俺さ | ikiteta ore sa | that's the man I was |
+| 甘い裏切りなら | amai uragiri nara | If it were a sweet betrayal |
+| 悔やみはしないけど 今は | kuyami wa shinai kedo ima wa | I wouldn't regret it, but now |
+| ギャツビー･ウーマン | gyatsubī ūman | Gatsby woman |
+| in the skyhigh | in the skyhigh | in the sky high |
+| 眼差し遠く | manazashi tōku | your gaze far away |
+| ギャツビー･ウーマン | gyatsubī ūman | Gatsby woman |
+| 二度とは戻らない | nido to wa modoranai | never coming back again |
+| 捨ててくれ いいさすべて | sutete kure ii sa subete | Throw it all away, it's fine |
+| 気流の中 | kiryū no naka | into the air currents |
+| 俺を飛ばしてくれ | ore o tobashite kure | let me be blown away |
+| 雨の舗道につまずいて | ame no hodō ni tsumazuite | Stumbling on the rain-slick pavement |
+| ヒール脱ぎ捨てていた | hīru nugisutete ita | you kicked off your heels |
+| はじめから気紛れな女 | hajime kara kimagure na onna | A fickle woman from the start |
+| 罪な間柄 | tsumi na aidagara | ours was a guilty affair |
+| つかの間 | tsuka no ma | For a fleeting moment |
+| ブーケかぐわせて | būke kaguwasete | the scent of your bouquet |
+| 置き去りの空港 | okizari no kūkō | left behind at the airport |
+| 何時だって | itsu datte | Always |
+| ふいを衝かれて | fui o tsukarete | caught off guard |
+| とまどう俺さ | tomadō ore sa | that's me, bewildered |
+| 人波に貴女の | hitonami ni anata no | In the crowd I lose sight |
+| 翼を見失い 今は | tsubasa o miushinai ima wa | of your wings, and now |
+| ギャツビー･ウーマン | gyatsubī ūman | Gatsby woman |
+| in the skyhigh | in the skyhigh | in the sky high |
+| くちづけ褪せて | kuchizuke asete | our kisses fading |
+| ギャツビー･ウーマン | gyatsubī ūman | Gatsby woman |
+| 此処には戻らない | koko ni wa modoranai | you won't come back here |
+| 優しげな男とせめて | yasashige na otoko to semete | At least with some gentle-seeming man |
+| 気流の中 | kiryū no naka | into the air currents |
+| 俺を飛ばしてくれ | ore o tobashite kure | let me be blown away |
+| ギャツビー･ウーマン | gyatsubī ūman | Gatsby woman |
+| in the skyhigh | in the skyhigh | in the sky high |
+| 眼差し遠く | manazashi tōku | your gaze far away |
+| ギャツビー･ウーマン | gyatsubī ūman | Gatsby woman |
+| 二度とは戻らない | nido to wa modoranai | never coming back again |
+| ギャツビー･ウーマン | gyatsubī ūman | Gatsby woman |
+| in the skyhigh | in the skyhigh | in the sky high |
+| くちづけ褪せて | kuchizuke asete | our kisses fading |
+| ギャツビー･ウーマン | gyatsubī ūman | Gatsby woman |
+| 此処には戻らない | koko ni wa modoranai | you won't come back here |
+| ギャツビー･ウーマン | gyatsubī ūman | Gatsby woman |
+| in the skyhigh | in the skyhigh | in the sky high |
+| 眼差し遠く | manazashi tōku | your gaze far away |
+| ギャツビー･ウーマン | gyatsubī ūman | Gatsby woman |
+| 二度とは戻らない | nido to wa modoranai | never coming back again |
