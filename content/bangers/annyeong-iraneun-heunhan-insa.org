@@ -1,0 +1,36 @@
+#+title: 안녕이라는 흔한 인사
+#+title_en: Ordinary Goodbye
+#+artist: 권진원 (Kwon Jin Won)
+#+sort_artist: Kwon Jin Won
+#+language: Korean
+#+spotify: https://open.spotify.com/track/3uA7fLIyM0HgRoRiR9R3A3?si=m6BRUIstTpiZjHshFrvfxA
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 우리 처음 만난 날 | uri cheoeum mannan nal | The day we first met |
+| 어색하게 웃었지 | eosaekhage useotji | we smiled awkwardly |
+| 그런 네 모습 슬퍼 보였어 | geureon ne moseup seulpeo boyeosseo | and that look of yours seemed so sad |
+| 눈부신 하늘 비처럼 | nunbusin haneul bicheoreom | like rain from a dazzling sky |
+| 우리 다시 만난 날 | uri dasi mannan nal | The day we met again |
+| 너는 울고 있었지만 | neoneun ulgo isseotjiman | you were crying, but |
+| 안녕이라고 인사를 했지 | annyeong-irago insareul haetji | you still greeted me with a hello |
+| 안녕하세요 | annyeonghaseyo | hello |
+| 안녕이라는 흔한 인사 | annyeong-iraneun heunhan insa | That ordinary greeting, hello |
+| 달콤한 향기처럼 스며 | dalkomhan hyanggicheoreom seumyeo | seeps in like a sweet scent |
+| 그냥 조금만 너의 맘에 | geunyang jogeumman neoui mame | I just hope it reaches |
+| 다가 가길 바래 | daga gagil barae | a little way into your heart |
+| 우리 이제 만나면 | uri ije mannamyeon | From now on when we meet |
+| 그냥 키스 먼저 할까요 | geunyang kiseu meonjeo halkkayo | should we just kiss first? |
+| 조심스러워 참지는 마요 | josimseureowo chamjineun mayo | don't hold back out of caution |
+| 괜찮다구요 | gwaenchantaguyo | it's okay, really |
+| 안녕이라는 흔한 인사 | annyeong-iraneun heunhan insa | That ordinary greeting, goodbye |
+| 너에겐 이별이 아니길 | neoegen ibyeori anigil | may it never mean farewell for you |
+| 절대 그런 말 안 할 거야 | jeoldae geureon mal an hal geoya | I'll never say it that way |
+| 곁에 있을 거야 | gyeote isseul geoya | I'll stay by your side |
+| 혹시 내가 없어도 | hoksi naega eopseodo | And even if I'm gone someday |
+| 지금처럼 웃었으면 해 | jigeumcheoreom useosseumyeon hae | I hope you smile like you do now |
+| 너의 그 모습 저장해둘게 | neoui geu moseup jeojanghaedulge | I'll save that image of you |
+| 가끔 꺼내볼게 | gakkeum kkeonaebolge | take it out sometimes |
+| 영원히 기억할게 | yeongwonhi gieokhalge | and remember it forever |

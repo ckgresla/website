@@ -1,7 +1,7 @@
 #+title: Blue Sea
 #+artist: 角聖子 (Seiko Sumi)
 #+sort_artist: Seiko Sumi
-#+spotify: https://open.spotify.com/track/3uA7fLIyM0HgRoRiR9R3A3?si=m6BRUIstTpiZjHshFrvfxA
+#+spotify: https://open.spotify.com/track/2o8WDKspVh6ApgIvGesAPT
 #+youtube: https://youtu.be/ECnQUxvG-Sc
 #+year: 2026
 
