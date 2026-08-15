@@ -1,0 +1,41 @@
+#+title: 환상
+#+title_en: Illusion
+#+artist: 박지윤 (Park Ji-yoon)
+#+sort_artist: Park Ji-yoon
+#+language: Korean
+#+spotify: https://open.spotify.com/track/4VfxQd3V6Vb71Vtos7FkkC?si=31d4a1e2578144d0
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 그대여 돌아 올순 없나요 | geudaeyeo dora olsun eomnayo | My dear, couldn’t you come back to me? |
+| 우리 다시 예전처럼 말예요 | uri dasi yejeoncheoreom mal-eyo | So that we could be like we were before? |
+| 서로를 가졌단 이유만으로 | seororeul gajyeotdan iyuman-euro | Just the fact that we had each other |
+| 너무도 행복했던 | neomudo haengbokhaetdeon | Made us so very happy. |
+| 그대여 지금 행복한가요 | geudaeyeo jigeum haengbokhangayo | My dear, are you happy now? |
+| 그 사람이 그렇게 해주나요 | geu sarami geureohge haejunayo | Does that person make you feel that way? |
+| 아니면 그대 내게 돌아와요 | animyeon geudae naege dorawayo | Or, if not, then come back to me. |
+| 난 항상 기다려요 | nan hangsang gidaryeoyo | I’m always waiting for you. |
+| 그대 떠난 걸 헤어졌다는걸 | geudae tteonan geol heeojyeotdaneungeol | That you left, that we broke up, |
+| 혼자라는 걸 난 믿을수가 없는 걸 | honjaraneun geol nan mideul suga eomneun geol | That I’m alone now – I just can’t believe it. |
+| 저 문을 열고 걸어들어오는 | jeo muneul yeolgo georeodeureo-oneun | I still picture you opening that door |
+| 그대 모습만 아직도 떠오르는걸 | geudae moseupman ajikdo tteooreuneungeol | And walking in; that image still comes to mind. |
+| 아직도 그댈 기다린다면 | ajikdo geudael gidarindamyeon | If I’m still waiting for you, |
+| 아직도 그대 생각에 운다면 | ajikdo geudae saenggage undamyeon | If I still cry thinking of you, |
+| 그대는 믿을 수가 없겠지요 | geudaeneun mideul suga eopgetjiyo | You probably wouldn’t be able to believe it. |
+| 날 바보라 하겠죠 | nal babora hagetjyo | You’d probably call me a fool. |
+| 그대 떠난 걸 헤어졌다는걸 | geudae tteonan geol heeojyeotdaneungeol | That you left, that we broke up, |
+| 혼자라는 걸 난 믿을수가 없는 걸 | honjaraneun geol nan mideul suga eomneun geol | That I’m alone now – I just can’t believe it. |
+| 저 문을 열고 걸어들어오는 | jeo muneul yeolgo georeodeureo-oneun | I still picture you opening that door |
+| 그대 모습만 아직도 떠오르는걸 | geudae moseupman ajikdo tteooreuneungeol | And walking in; that image still comes to mind. |
+| 그대 날 떠나 얼마나 행복해 졌나요 | geudae nal tteona eolmana haengbokhae jyeotnayo | Since you left me, have you become much happier? |
+| 내가 없는 삶이 훨씬 더 좋던가요 | naega eomneun salmi hwelssin deo jotdeongayo | Is a life without me so much better? |
+| 나는 그대 떠나간 뒤 | naneun geudae tteonagan dwi | After you went away, |
+| 텅빈 그 자리를 | teongbin geu jarireul | That empty space you left – |
+| 그 어떤 것으로도 채우질 못해요 우~ | geu eotteon geoseurodo chaeujil motaeyo u~ | I can’t fill it with anything at all, woo~ |
+| (그대 떠난걸) 그대 떠난걸 | (geudae tteonangeol) geudae tteonangeol | (That you left) that you left me – |
+| (헤어졌다는걸) 헤어졌다는걸 | (heeojyeotdaneungeol) heeojyeotdaneungeol | (That we broke up) that we broke up – |
+| 혼자라는 걸 난 믿을수가 없는 걸 | honjaraneun geol nan mideul suga eomneun geol | That I’m alone now – I just can’t believe it. |
+| 저 문을 열고 걸어들어오는 | jeo muneul yeolgo georeodeureo-oneun | I still picture you opening that door |
+| 그대 모습만 아직도 떠오르는걸 | geudae moseupman ajikdo tteooreuneungeol | And walking in; that image still comes to mind. |

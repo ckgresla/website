@@ -1,0 +1,39 @@
+#+title: 니가 참 좋아
+#+title_en: I Really Like You
+#+artist: 쥬얼리 (Jewelry)
+#+sort_artist: Jewelry
+#+language: Korean
+#+spotify: https://open.spotify.com/track/1gHDVaMmcqv15xefcLLzuL?si=2d06afcb791c420c
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 온종일 정신없이 바쁘다가도 | Onjongil jeongsin-eopsi bappeudagado | Even when I’m endlessly busy all day |
+| 틈만 나면 니가 생각나 | Teumman namyeon niga saenggangna | Whenever I get a moment, I think of you |
+| 언제부터 내 안에 살았니 | Eonjebuteo nae ane saranni | Since when did you start living inside me? |
+| 참 많이 웃게 돼 너 때문에 | Cham mani utge dwae neo ttaemune | I smile so much because of you |
+| 어느새 너의 모든 것들이 편해지나봐 | Eoneusae neoui modeun geotdeuri pyeonhaejinabwa | At some point, everything about you started to feel so comfortable |
+| 부드러운 미소도 나지막한 목소리도 | Budeureoun misodo najimakhan moksorido | Your gentle smile, your soft low voice |
+| you 아직은 얘기할 수 없지만 | you ajigeun yaegihal su eopjiman | You, I can’t tell you yet, but |
+| 나 있잖아 니가 정말 좋아 | Na itjanha niga jeongmal joa | You know, I really like you |
+| 사랑이라 말하긴 어설플지 몰라도 | Sarangira malhagin eoseolpeulji mollado | It might be awkward to call it love |
+| 아주 솔직히 그냥 니가 참 좋아 | Aju soljiki geunyang niga cham joa | But honestly, I just really like you |
+| 친구들속에 너와 함께일때면 | Chingudeul-soge neowa hamkke-ilttemyeon | When I’m with you among my friends |
+| 조심스레 행복해지고 | Josimseure haengbokhaejigo | I carefully start to feel happy |
+| 어쩌다가 니 옆에 앉으면 | Eojjeodaga ni yeope anjeumyeon | If I happen to sit next to you |
+| 세상을 다 가진 기분이 드는 걸 | Sesangeul da gajin gibuni deuneun geol | I feel like I’ve got the whole world |
+| 우연히 눈만 마주쳐도 | Uyeonhi nunman majuchyeodo | Even if our eyes just meet by chance |
+| 괜스레 발끝만 보게 되고 | Gwaenseure balkkeutman boge doego | For no reason, I end up only looking at my toes |
+| 조금씩 내 마음이 너에게 가고 있는 걸 | Jogeumssik nae maeumi neoege gago inneun geol | Little by little, my heart is moving toward you |
+| 이 세상에 두사람 너랑 나만 몰랐나봐 | I sesange dusaram neorang naman mollannabwa | I guess the only two who didn’t know were you and me |
+| you 얼마나 잘 할지는 몰라도 | you eolmana jal haljineun mollado | You, I don’t know how good I’ll be, but |
+| 나 니 곁에 서고 싶어 정말 | Na ni gyeote sego sipeo jeongmal | I really want to stand by your side |
+| 하루하루 점점 더 커져가는 이 느낌 | Haruharu jeomjeom deo keojyeoganeun i neukkim | Day by day, this feeling keeps growing |
+| 다른 말보다 그냥 니가 참 좋아 | Dareun malboda geunyang niga cham joa | More than any other words, I just really like you |
+| 손잡을 때는 어떨까 | Sonjabeul ttaeneun eotteolkka | What would it be like when we hold hands? |
+| 우리 둘이 입맞춘다면 | Uri dul-i ipmatchundamyeon | What if the two of us kissed? |
+| you 아직은 얘기할 수 없지만 | you ajigeun yaegihal su eopjiman | You, I can’t tell you yet, but |
+| 나 있잖아 니가 정말 좋아 | Na itjanha niga jeongmal joa | You know, I really like you |
+| 사랑이라 말하긴 어설플지 몰라도 | Sarangira malhagin eoseolpeulji mollado | It might be awkward to call it love |
+| 아주 솔직히 그냥 니가 참 좋아 | Aju soljiki geunyang niga cham joa | But honestly, I just really like you |

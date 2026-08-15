@@ -1,0 +1,25 @@
+#+title: 연가
+#+title_en: Love Song
+#+artist: 서목 (Seomok)
+#+sort_artist: Seomok
+#+language: Korean
+#+spotify: https://open.spotify.com/track/37jbpUHn3YAxwa8P7E5QjA?si=_vQPxtcCStCL46jLJqNdSw
+#+year: 2026
+
+The Korean version of [[https://en.wikipedia.org/wiki/P%C5%8Dkarekare_Ana][Pōkarekare Ana]], the Māori love song.
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 비바람이 치던 바다 | bibarami chideon bada | When the stormy sea |
+| 잔잔해져 오면 | janjanhaejyeo omyeon | becomes calm today |
+| 오늘 그대 오시려나 | oneul geudae osiryeona | then I wonder if you will come |
+| 저 바다 건너서 | jeo bada geonneoseo | across the sea |
+| 저 하늘에 반짝이는 | jeo haneure banjjagineun | Glittering in the sky |
+| 별빛도 아름답지만 | byeolbitdo areumdapjiman | the stars are also beautiful |
+| 사랑스런 그대 눈은 | sarangseureon geudae nuneun | but your lovely eyes |
+| 더욱 아름다워라 | deouk areumdawora | are more beautiful |
+| 그대만을 | geudaemaneul | Only for you |
+| 기다리리 | gidariri | will I wait |
+| 내사랑 영원히 | naesarang yeongwonhi | my darling, for ever |
+| 기다리리 | gidariri | I will wait |

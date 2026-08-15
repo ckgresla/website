@@ -35,6 +35,8 @@
 
 16. When intelligence is “on tap”, what ought we spend our time on?
 
+17. Life has become a lot more "asynchronous, event loop driven", now that one spends their days managing a ton of agents.
+
 
 * 2025
 1. It isn’t ml hacking until you have had to allocate two swapfiles in order to get a long running data preprocessing job over the finish line.
