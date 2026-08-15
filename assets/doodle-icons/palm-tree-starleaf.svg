@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
-  <path fill="currentColor" d="M20 109 C23 101 79 98 96 105 C103 108 101 113 94 115 C76 119 32 118 22 114 C19 113 18 111 20 109 Z"/>
-  <g fill="none" stroke="currentColor" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M65 50 C51 43 35 37 21 39 C18 39 18 35 21 33 C34 26 49 31 62 43 C57 29 47 20 36 18 C32 17 31 14 35 13 C50 12 61 23 66 40 C71 25 82 15 96 14 C100 14 101 18 98 21 C88 29 80 38 73 47 C87 39 101 39 111 44 C114 46 112 50 109 50 C95 47 83 50 72 55 C61 62 51 69 43 77 C40 80 37 77 39 73 C44 62 53 55 65 50 Z"/>
-    <path d="M44 108 C47 87 52 63 63 46 C66 42 71 44 69 49 C62 67 57 88 58 108"/>
-  </g>
-  <path fill="currentColor" d="M58 54 C57 49 62 46 66 49 C69 52 66 57 61 57 Z"/>
-  <path fill="currentColor" d="M68 57 C67 52 72 49 76 52 C79 55 76 60 71 60 Z"/>
-</svg>
