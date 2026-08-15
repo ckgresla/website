@@ -588,12 +588,24 @@ pre {
 .main--doodle {
   > * { grid-column: 1 / 7; min-width: 0; }
 
+  // icons at 1.8x the original 72px, so fewer sit on a row
   .doodle-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
-    gap: 8px;
-    margin-top: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(184px, 1fr));
+    gap: 12px;
+    margin: 0 0 12px;
   }
+
+  // family headings — the same grouping the generator uses
+  .doodle-group {
+    margin: 56px 0 16px;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-text-tertiary);
+  }
+  .doodle-group:first-of-type { margin-top: 48px; }
 
   .doodle-card {
     appearance: none;
@@ -609,7 +621,7 @@ pre {
     padding: 16px 8px 12px;
     border-radius: 10px;
 
-    svg { width: 72px; height: 72px; }
+    svg { width: 130px; height: 130px; }
 
     &:hover, &:focus-visible { background: var(--color-background-secondary); }
     &.copied .doodle-name { color: var(--color-text-primary); }
@@ -622,24 +634,23 @@ pre {
     overflow-wrap: anywhere;
   }
 
-  // the roadmap, read from icons.todo — a quiet list, not a second gallery
-  .doodle-next-head {
-    margin: 64px 0 12px;
-    font-size: 1rem;
-    font-weight: 600;
-  }
-  .doodle-next {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px 12px;
-    color: var(--color-text-tertiary);
-    font-size: 0.875rem;
+  // Most Wanted — the roadmap from icons.org, as a numbered list
+  .doodle-wanted-head { margin-top: 72px; }
 
-    li::after { content: '·'; margin-left: 12px; }
-    li:last-child::after { content: ''; }
+  .doodle-wanted {
+    margin: 0;
+    padding-left: 1.5em;
+
+    li {
+      margin-bottom: 6px;
+      &::marker { color: var(--color-text-tertiary); }
+    }
+    .wanted-name { color: var(--color-text-primary); }
+    .wanted-note {
+      color: var(--color-text-tertiary);
+      font-size: 0.875rem;
+      &::before { content: ' — '; }
+    }
   }
 }
 

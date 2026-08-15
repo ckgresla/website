@@ -1,36 +1,64 @@
 {{ define "main" }}
-{{/* The gallery inlines every svg in assets/doodle-icons — drop a new icon
-     in that folder and it appears here; nothing to edit. Icons draw with
-     currentColor, so they follow the theme for free. */}}
+{{/* The gallery is laid out in the same families the generator uses, read from
+     data/doodle_icons.json (synced by `just icons`). If the manifest is ever
+     missing we fall back to a flat glob of assets/doodle-icons, so the page
+     still renders every icon. Icons draw with currentColor and follow the
+     theme for free. */}}
 <article class="content doodle">
   {{ .Content }}
-  <div class="doodle-grid">
-    {{ range resources.Match "doodle-icons/*.svg" }}
-    <button class="doodle-card" type="button" aria-label="copy {{ path.BaseName .Name }}.svg">
-      {{ .Content | safeHTML }}
-      <span class="doodle-name">{{ path.BaseName .Name }}</span>
-    </button>
-    {{ end }}
-  </div>
 
-  {{/* The roadmap is read straight from assets/icons.org, the same checklist
-       that sits beside the svgs in the source folder (`just icons` copies it).
-       Org checkbox items look like "- [ ] wand" or "- [X] bulb — note"; we
-       take the unchecked ones and keep the name before the em-dash. */}}
+  {{ $manifest := .Site.Data.doodle_icons }}
+  {{ if $manifest }}
+    {{ range $manifest.sections }}
+    <h2 class="doodle-group">{{ .name }}</h2>
+    <div class="doodle-grid">
+      {{ range .stems }}
+        {{ with resources.Get (printf "doodle-icons/%s.svg" .) }}
+        <button class="doodle-card" type="button" aria-label="copy {{ path.BaseName .Name }}.svg">
+          {{ .Content | safeHTML }}
+          <span class="doodle-name">{{ path.BaseName .Name }}</span>
+        </button>
+        {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+  {{ else }}
+    <div class="doodle-grid">
+      {{ range resources.Match "doodle-icons/*.svg" }}
+      <button class="doodle-card" type="button" aria-label="copy {{ path.BaseName .Name }}.svg">
+        {{ .Content | safeHTML }}
+        <span class="doodle-name">{{ path.BaseName .Name }}</span>
+      </button>
+      {{ end }}
+    </div>
+  {{ end }}
+
+  {{/* Most Wanted — the roadmap, read straight from assets/icons.org, the same
+       checklist that sits beside the svgs in the source folder. Org checkbox
+       items look like "- [ ] wand" or "- [X] bulb — note"; we take the
+       unchecked ones, keeping the name before the em-dash and the note after
+       it when there is one. */}}
   {{ $todo := resources.Get "icons.org" }}
   {{ if $todo }}
     {{ $pending := slice }}
     {{ range split $todo.Content "\n" }}
       {{ if hasPrefix . "- [ ] " }}
-        {{ $name := index (split (strings.TrimPrefix "- [ ] " .) " — ") 0 }}
-        {{ $pending = $pending | append (trim $name " ") }}
+        {{ $parts := split (strings.TrimPrefix "- [ ] " .) " — " }}
+        {{ $pending = $pending | append (dict
+             "name" (trim (index $parts 0) " ")
+             "note" (cond (gt (len $parts) 1) (trim (index $parts 1) " ") "")) }}
       {{ end }}
     {{ end }}
     {{ with $pending }}
-    <h2 class="doodle-next-head">Still to draw</h2>
-    <ul class="doodle-next">
-      {{ range . }}<li>{{ . }}</li>{{ end }}
-    </ul>
+    <h2 class="doodle-group doodle-wanted-head">Most Wanted</h2>
+    <ol class="doodle-wanted">
+      {{ range . }}
+      <li>
+        <span class="wanted-name">{{ .name }}</span>
+        {{ with .note }}<span class="wanted-note">{{ . }}</span>{{ end }}
+      </li>
+      {{ end }}
+    </ol>
     {{ end }}
   {{ end }}
 </article>
