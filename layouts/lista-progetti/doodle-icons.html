@@ -7,6 +7,16 @@
 <article class="content doodle">
   {{ .Content }}
 
+  {{/* The heading is the control: pressing it collapses the gallery so the
+       Most Wanted list is right there. Its underline is the only affordance —
+       dashed when collapsed, solid when open, no caret. Default is open, so
+       without JS the page still shows everything. */}}
+  <h2 class="doodle-banner">
+    <button type="button" class="doodle-toggle" aria-expanded="true"
+            aria-controls="doodle-gallery">Gallery</button>
+  </h2>
+
+  <div id="doodle-gallery" class="doodle-gallery">
   {{ $manifest := .Site.Data.doodle_icons }}
   {{ if $manifest }}
     {{ range $manifest.sections }}
@@ -32,6 +42,7 @@
       {{ end }}
     </div>
   {{ end }}
+  </div>
 
   {{/* Most Wanted — the roadmap, read straight from assets/icons.org, the same
        checklist that sits beside the svgs in the source folder. Org checkbox
@@ -50,7 +61,7 @@
       {{ end }}
     {{ end }}
     {{ with $pending }}
-    <h2 class="doodle-group doodle-wanted-head">Most Wanted</h2>
+    <h2 class="doodle-banner doodle-wanted-head">Most Wanted</h2>
     <ol class="doodle-wanted">
       {{ range . }}
       <li>
@@ -63,19 +74,36 @@
   {{ end }}
 </article>
 <script>
-  // click copies the icon's markup; the caption flashes as the receipt
+  // the Gallery heading collapses the grid so Most Wanted is one glance away
+  (function () {
+    var toggle = document.querySelector('.doodle-toggle');
+    var gallery = document.getElementById('doodle-gallery');
+    if (!toggle || !gallery) return;
+    toggle.addEventListener('click', function () {
+      var open = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!open));
+      gallery.hidden = open;
+    });
+  })();
+
+  // click copies the icon's markup; the card gives a small press and the
+  // caption swaps to a lavender "copied!" before settling back
   document.querySelectorAll('.doodle-card').forEach(function (card) {
+    var name = card.querySelector('.doodle-name');
+    var was = name.textContent;
+    var timer;
     card.addEventListener('click', function () {
       var svg = card.querySelector('svg').outerHTML;
       navigator.clipboard.writeText(svg).then(function () {
-        var name = card.querySelector('.doodle-name');
-        var was = name.textContent;
+        clearTimeout(timer);
         name.textContent = 'copied!';
+        card.classList.remove('copied');
+        void card.offsetWidth;          // restart the animation on rapid clicks
         card.classList.add('copied');
-        setTimeout(function () {
+        timer = setTimeout(function () {
           name.textContent = was;
           card.classList.remove('copied');
-        }, 900);
+        }, 1100);
       });
     });
   });
