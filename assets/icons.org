@@ -17,7 +17,7 @@ publicly. Working notes go on plain lines beneath, which the site ignores.
   lives inline on the progetti card.
 
 * Most wanted
-- [ ] wave — the white whale, thirteen attempts and counting
+- [ ] wave
   Learned: water belongs in the icon. A wave is a shape in a medium, not a
   bounded object, so every isolated version read as hook / hair strand /
   arch / alien. Bootstrap's tsunami is the only reference that came close.
