@@ -6,6 +6,15 @@ dev:
 build:
     hugo --minify
 
+# Pull the latest doodle icons from the iCloud source-of-truth folder
+icons:
+    rsync -av --delete --include='*.svg' --exclude='*' \
+      "/Users/ckg/Library/Mobile Documents/com~apple~CloudDocs/wizardry/Wallpapers & Art/Design/hand-drawn-icons/" \
+      assets/doodle-icons/
+    cp "/Users/ckg/Library/Mobile Documents/com~apple~CloudDocs/wizardry/Wallpapers & Art/Design/hand-drawn-icons/icons.org" assets/icons.org
+    mkdir -p data
+    cp "/Users/ckg/Library/Mobile Documents/com~apple~CloudDocs/wizardry/Wallpapers & Art/Design/hand-drawn-icons/icons.json" data/doodle_icons.json
+
 # Scaffold a new banger (pre-filled org skeleton): just new-banger my-song-slug
 new-banger slug:
     hugo new content/bangers/{{slug}}.org

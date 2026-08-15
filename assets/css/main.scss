@@ -583,6 +583,125 @@ pre {
   .content p { max-width: none; }
 }
 
+// ── Doodle icons: the gallery — one card per svg in assets/doodle-icons;
+// click copies the markup. Icons ink with currentColor, so dark mode is free ──
+.main--doodle {
+  > * { grid-column: 1 / 7; min-width: 0; }
+
+  // icons at 1.8x the original 72px, so fewer sit on a row
+  .doodle-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(184px, 1fr));
+    gap: 12px;
+    margin: 0 0 12px;
+  }
+
+  // family headings — the same grouping the generator uses
+  .doodle-group {
+    margin: 56px 0 16px;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    color: var(--color-text-tertiary);
+  }
+  .doodle-group:first-of-type { margin-top: 40px; }
+
+  // Section banners: bigger than the site's own h1 (2rem), but clamped so
+  // they stay civil on a phone. "Gallery" is a button; its underline is the
+  // whole affordance — dashed when collapsed, solid when open, never a caret.
+  .doodle-banner {
+    margin: 72px 0 8px;
+    font-family: $display;
+    font-size: clamp(2.5rem, 9vw, 4rem);
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  .doodle-banner:first-of-type { margin-top: 48px; }
+
+  .doodle-toggle {
+    appearance: none;
+    border: 0;
+    background: none;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+    text-decoration-color: var(--color-accent);
+    transition: text-decoration-color 0.15s ease;
+
+    &:hover, &:focus-visible { text-decoration-color: var(--color-text-primary); }
+    &[aria-expanded="false"] { text-decoration-style: dashed; }
+  }
+
+  .doodle-gallery[hidden] { display: none; }
+
+  .doodle-card {
+    appearance: none;
+    border: 0;
+    background: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 8px 12px;
+    border-radius: 10px;
+
+    svg { width: 130px; height: 130px; }
+
+    &:hover, &:focus-visible { background: var(--color-background-secondary); }
+
+    // the copy receipt: the card dips and settles, the caption goes lavender
+    &.copied { animation: doodle-pop 0.42s cubic-bezier(0.34, 1.56, 0.64, 1); }
+    &.copied .doodle-name {
+      color: var(--color-accent);
+      font-weight: 600;
+    }
+  }
+
+  @keyframes doodle-pop {
+    0%   { transform: scale(1); }
+    35%  { transform: scale(0.94); }
+    100% { transform: scale(1); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .doodle-card.copied { animation: none; }
+  }
+
+  .doodle-name {
+    font-size: 0.75rem;
+    line-height: 1.2;
+    color: var(--color-text-tertiary);
+    overflow-wrap: anywhere;
+  }
+
+  // Most Wanted — the roadmap from icons.org, as a numbered list
+  .doodle-wanted-head { margin-top: 88px; }
+
+  .doodle-wanted {
+    margin: 0;
+    padding-left: 1.5em;
+
+    li {
+      margin-bottom: 6px;
+      &::marker { color: var(--color-text-tertiary); }
+    }
+    .wanted-name { color: var(--color-text-primary); }
+    .wanted-note {
+      color: var(--color-text-tertiary);
+      font-size: 0.875rem;
+      &::before { content: ' — '; }
+    }
+  }
+}
+
 // ── Ponderings: the one wide page (3-column year grid) ──
 .main--ponderings {
   > .content { grid-column: 1 / 7; }

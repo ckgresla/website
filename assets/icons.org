@@ -1,0 +1,48 @@
+#+title: ckg-icon-pack — icon roadmap
+#+date: 2026-07-10
+
+Edit freely — Claude keeps this in sync, and the website reads it directly
+(=just icons= copies it to =assets/icons.org=, and the doodle icons page
+renders the unchecked items as its "Most Wanted" list).
+
+Keep each =- [ ]= line self-contained: the text after the em-dash is shown
+publicly. Working notes go on plain lines beneath, which the site ignores.
+
+* Drawn
+- [X] bulb — family of ten
+  Pack and exact bodies, each with base / wire / squiggle / lit variants.
+- [X] music — nine atoms
+  Treble and bass clefs, sharp, flat, note ±shadow, whole-note,
+  notes-beamed ±shadow. The composed note-group pair was retired and now
+  lives inline on the progetti card.
+
+* Most wanted
+- [ ] wave
+  Learned: water belongs in the icon. A wave is a shape in a medium, not a
+  bounded object, so every isolated version read as hook / hair strand /
+  arch / alien. Bootstrap's tsunami is the only reference that came close.
+- [ ] palm tree — being re-cut
+- [ ] hand — being re-cut
+- [ ] lamp — the Pixar one
+  Chris has photos to share; ASK before drawing.
+- [ ] wand
+- [ ] sailboat
+- [ ] pirate boat
+- [ ] pirate flag
+- [ ] crystal ball
+- [ ] ghost
+- [ ] whiskey glass — with ice and without
+- [ ] banana — peeled and unpeeled
+- [ ] moon — a few phases, a few levels of abstraction
+- [ ] sun
+- [ ] hand signals — peace, korean heart, hang loose, middle finger
+  Re-attempt from the measured hand-three geometry; don't eyeball.
+- [ ] planets — with rings and without
+- [ ] black hole — a reach
+  Style ref: https://x.com/SciFiArchives/status/2047157765185896505/photo/1
+- [ ] broomstick
+- [ ] tree — regular and pine
+- [ ] mustang — the car
+  Ask which generation, or for a reference photo.
+
+/and more — the list is expected to grow/

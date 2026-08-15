@@ -1,0 +1,141 @@
+{
+  "sections": [
+    {
+      "name": "Coffee",
+      "stems": [
+        "mug",
+        "mug-nosteam",
+        "mug-round",
+        "mug-round-nosteam"
+      ]
+    },
+    {
+      "name": "Heart",
+      "stems": [
+        "heart",
+        "heart-filled",
+        "heart-noshadow",
+        "heart-filled-noshadow",
+        "heart-bare",
+        "heart-filled-bare"
+      ]
+    },
+    {
+      "name": "Clover",
+      "stems": [
+        "clover",
+        "clover-tag",
+        "clover-tag-straight"
+      ]
+    },
+    {
+      "name": "Umbrella",
+      "stems": [
+        "umbrella",
+        "umbrella-noshadow"
+      ]
+    },
+    {
+      "name": "Cloud",
+      "stems": [
+        "cloud",
+        "cloud-noshadow",
+        "cloud-compact",
+        "cloud-compact-noshadow",
+        "cloud-cumulus",
+        "cloud-cumulus-noshadow",
+        "cloud-drift",
+        "cloud-drift-noshadow",
+        "le-cloud"
+      ]
+    },
+    {
+      "name": "Bolt",
+      "stems": [
+        "bolt-chunky",
+        "bolt-chunky-noshadow",
+        "bolt-chunky-solid",
+        "bolt-chunky-solid-noshadow"
+      ]
+    },
+    {
+      "name": "Star",
+      "stems": [
+        "star",
+        "star-ticks",
+        "star-lit"
+      ]
+    },
+    {
+      "name": "Feather",
+      "stems": [
+        "feather",
+        "feather-underline",
+        "quill",
+        "quill-noline"
+      ]
+    },
+    {
+      "name": "Napkin",
+      "stems": [
+        "napkin",
+        "napkin-waving",
+        "napkin-stacked"
+      ]
+    },
+    {
+      "name": "Palette",
+      "stems": [
+        "palette",
+        "palette-full",
+        "palette-full-big",
+        "palette-oval-mid",
+        "palette-oval-big"
+      ]
+    },
+    {
+      "name": "Lightbulb",
+      "stems": [
+        "bulb",
+        "bulb-base",
+        "bulb-base-wire",
+        "bulb-base-wire-lit",
+        "bulb-base-wire-squiggle",
+        "bulb-base-wire-squiggle-lit",
+        "bulb-exact",
+        "bulb-exact-base",
+        "bulb-exact-base-wire",
+        "bulb-exact-base-wire-lit"
+      ]
+    },
+    {
+      "name": "Bread",
+      "stems": [
+        "bread",
+        "bread-solid"
+      ]
+    },
+    {
+      "name": "Peach",
+      "stems": [
+        "peach-solid",
+        "peach-depth-half",
+        "peach-depth-bow"
+      ]
+    },
+    {
+      "name": "Music",
+      "stems": [
+        "treble-clef",
+        "bass-clef",
+        "sharp",
+        "flat",
+        "note",
+        "note-noshadow",
+        "whole-note",
+        "notes-beamed",
+        "notes-beamed-noshadow"
+      ]
+    }
+  ]
+}
