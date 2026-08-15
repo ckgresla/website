@@ -13,16 +13,16 @@
     {{ end }}
   </div>
 
-  {{/* The roadmap is read straight from assets/icons.todo, the same checklist
+  {{/* The roadmap is read straight from assets/icons.org, the same checklist
        that sits beside the svgs in the source folder (`just icons` copies it).
-       Lines look like "[ ] wand" or "[x] bulb — note"; we take the pending
-       ones and keep just the name before the em-dash. */}}
-  {{ $todo := resources.Get "icons.todo" }}
+       Org checkbox items look like "- [ ] wand" or "- [X] bulb — note"; we
+       take the unchecked ones and keep the name before the em-dash. */}}
+  {{ $todo := resources.Get "icons.org" }}
   {{ if $todo }}
     {{ $pending := slice }}
     {{ range split $todo.Content "\n" }}
-      {{ if hasPrefix . "[ ] " }}
-        {{ $name := index (split (strings.TrimPrefix "[ ] " .) " — ") 0 }}
+      {{ if hasPrefix . "- [ ] " }}
+        {{ $name := index (split (strings.TrimPrefix "- [ ] " .) " — ") 0 }}
         {{ $pending = $pending | append (trim $name " ") }}
       {{ end }}
     {{ end }}

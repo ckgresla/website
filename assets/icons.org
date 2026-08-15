@@ -1,0 +1,42 @@
+#+title: ckg-icon-pack — icon roadmap
+#+date: 2026-07-10
+
+Edit freely — Claude keeps this in sync, and the website reads it directly
+(=just icons= copies it to =assets/icons.org=, and the doodle icons page
+renders the unchecked items as "Still to draw").
+
+* Drawn
+- [X] bulb — family of 10 (pack + exact bodies × base/wire/squiggle/lit)
+- [X] music — 9 atoms (treble/bass clefs, sharp, flat, note ±shadow,
+  whole-note, notes-beamed ±shadow); the composed note-group pair was
+  retired and now lives inline on the progetti card
+
+* Held back from the first release
+- [ ] wave — 13 rounds and still not right. Learned: water belongs in the
+  icon (a wave is a shape in a medium, not a bounded object) — every
+  isolated version read as hook / hair strand / arch / alien
+- [ ] palm tree — to be re-cut
+- [ ] hand — to be re-cut
+
+* Still to draw
+- [ ] lamp — Pixar/Luxo style; Chris has photos to share, ASK before drawing
+- [ ] wand
+- [ ] sailboat
+- [ ] pirate boat
+- [ ] pirate flag
+- [ ] crystal ball
+- [ ] ghost
+- [ ] whiskey glass — with ice AND without
+- [ ] banana — peeled AND unpeeled
+- [ ] moon — various phases + levels of abstraction
+- [ ] sun
+- [ ] hand signals — peace, korean heart, hang loose, middle finger
+  (re-attempt from the measured hand-three geometry, don't eyeball)
+- [ ] planets — a bunch of variations, with and without rings
+- [ ] black hole — reach; style ref:
+  https://x.com/SciFiArchives/status/2047157765185896505/photo/1
+- [ ] broomstick
+- [ ] tree — regular + pine
+- [ ] mustang (the car) — ask which generation / for a reference photo
+
+/and more — the list is expected to grow/

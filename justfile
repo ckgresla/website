@@ -11,7 +11,7 @@ icons:
     rsync -av --delete --include='*.svg' --exclude='*' \
       "/Users/ckg/Library/Mobile Documents/com~apple~CloudDocs/wizardry/Wallpapers & Art/Design/hand-drawn-icons/" \
       assets/doodle-icons/
-    cp "/Users/ckg/Library/Mobile Documents/com~apple~CloudDocs/wizardry/Wallpapers & Art/Design/hand-drawn-icons/icons.todo" assets/icons.todo
+    cp "/Users/ckg/Library/Mobile Documents/com~apple~CloudDocs/wizardry/Wallpapers & Art/Design/hand-drawn-icons/icons.org" assets/icons.org
 
 # Scaffold a new banger (pre-filled org skeleton): just new-banger my-song-slug
 new-banger slug:
