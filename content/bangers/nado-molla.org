@@ -1,0 +1,19 @@
+#+title: 나도 몰라
+#+title_en: I Don't Know Either
+#+artist: 박학기 (Park Haki)
+#+sort_artist: Park Haki
+#+language: Korean
+#+spotify: https://open.spotify.com/track/3LoweC5GyOZiXAmsxL9o5w?si=FRD6JUNrTpySTu_DMtivNQ
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 나는 왜 아직도 그녀를 잊지 못한걸까? 그녀를 잊지 못한걸까? | naneun wae ajikdo geunyeoreul itji motan geolkka? geunyeoreul itji motan geolkka? | Why can't I forget her still? why can't I forget her? |
+| 그러면 그녀도 아직 날 잊지 못한걸까? 아직 날 잊지 못한걸까? | geureomyeon geunyeodo ajik nal itji motan geolkka? ajik nal itji motan geolkka? | Then has she not forgotten me either? has she not forgotten me? |
+| 나도 몰라 나도 몰라 나도 몰라 으흠 나도 몰라 나도 몰라 나도 몰라 우후 | nado molla nado molla nado molla eu-heum nado molla nado molla nado molla u-hu | I don't know, I don't know, I don't know, mmm, I don't know, I don't know, I don't know, ooh |
+| 나는 왜 아직도 그녀를 사랑하는 걸까? 그녀를 사랑하는 걸까? | naneun wae ajikdo geunyeoreul saranghaneun geolkka? geunyeoreul saranghaneun geolkka? | Why do I love her still? why do I love her? |
+| 그러면 그녀도 아직 날 사랑하는 걸까? 아직 날 사랑하는 걸까? | geureomyeon geunyeodo ajik nal saranghaneun geolkka? ajik nal saranghaneun geolkka? | Then does she still love me too? does she still love me? |
+| 나도 몰라 나도 몰라 나도 몰라 으흠 나도 몰라 나도 몰라 나도 몰라 우후 | nado molla nado molla nado molla eu-heum nado molla nado molla nado molla u-hu | I don't know, I don't know, I don't know, mmm, I don't know, I don't know, I don't know, ooh |
+| 나도 몰라(나도몰라) 나도 몰라(나도몰라) 나도 몰라 으흠 나도 몰라 나도 몰라 나도 몰라 우후 | nado molla (nado molla) nado molla (nado molla) nado molla eu-heum nado molla nado molla nado molla u-hu | I don't know (I don't know), I don't know (I don't know), I don't know, mmm, I don't know, I don't know, I don't know, ooh |
+| 나도 몰라(나도몰라) 나도 몰라(나도몰라) 나도 몰라 으흠 나도 몰라 나도 몰라 나도 몰라 우후 | nado molla (nado molla) nado molla (nado molla) nado molla eu-heum nado molla nado molla nado molla u-hu | I don't know (I don't know), I don't know (I don't know), I don't know, mmm, I don't know, I don't know, I don't know, ooh |
