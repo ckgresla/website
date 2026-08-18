@@ -283,6 +283,9 @@ body {
     p:last-child { margin-bottom: 0; }
   }
 
+  // quote attributions keep the semantic tag, not the browser's italics
+  cite { font-style: normal; }
+
   hr {
     border: 0;
     height: 1px;
