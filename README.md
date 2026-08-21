@@ -2,18 +2,10 @@
 
 The personal site of Chris Kerwell Gresla — [chriskerwellgresla.net](https://chriskerwellgresla.net/).
 
-Built with [Hugo](https://gohugo.io/) (yes, this README used to say "I don't
-like hugo" — org-mode support won). Content is authored in Markdown or
-[Org](https://orgmode.org/) side by side; Hugo renders both natively. The
-layout is a small, single-grid design in the spirit of
-[rsms.me](https://rsms.me/): one 6-column grid, Inter/Inter Display, everything
-on an 8px unit with whole-pixel type metrics.
+Built with [Hugo](https://gohugo.io/) (extended); content in Markdown or
+[Org](https://orgmode.org/).
 
 ## Working on it
-
-Install Hugo (extended): `brew install hugo`
-
-See the `justfile`:
 
 - `just dev` — dev server with live reload
 - `just build` — production build into `./public`
