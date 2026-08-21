@@ -1,9 +1,6 @@
-# A Curated Tonkatsu
-
 The personal site of Chris Kerwell Gresla — [chriskerwellgresla.net](https://chriskerwellgresla.net/).
 
-Built with [Hugo](https://gohugo.io/) (extended); content in Markdown or
-[Org](https://orgmode.org/).
+Built with [Hugo](https://gohugo.io/) (extended); content in Markdown or [Org](https://orgmode.org/).
 
 ## Working on it
 
