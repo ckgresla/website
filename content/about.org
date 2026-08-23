@@ -7,7 +7,7 @@
 
 Im Chris Kerwell Gresla, an Indian & German, American bloke from Chicago. I love statistics, food, music (like jazz), life, and cool people/models (probably like you if you are reading this).
 
-Currently I am doing a fair bit of machine learning at [[https://wafer.systems/][Wafer Systems]]. We are making an “operating system that understands you better than yourself” -- its pretty cool, and there is too much context for this section (lets chat).
+Currently I am doing a fair bit of machine learning at [[https://wafer.systems/][Wafer Systems]]. We are making an “operating system that understands you better than yourself” -- my work spans the OS's model surface: the device-use agents (SFT through RLVR), the search engine over everything your phone knows, and the models and systems that personalize the OS from what it ingests of your life. Some public bits of that work: [[https://wafer.systems/blog/edm/][Evolutionary Data Making]], where frontier models act as evolutionary operators to grow our training data, and [[https://github.com/ckgresla/representax][representax]], an open-source JAX library for representation learning. There is still more context than fits this section (lets chat).
 
 At the moment, I am based in San Francisco.
 
