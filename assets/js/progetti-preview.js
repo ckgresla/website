@@ -1,9 +1,9 @@
 (() => {
   const params = new URLSearchParams(window.location.search);
-  const layouts = new Set(['shelf', 'grid', 'ledger', 'stagger']);
-  const layout = params.get('layout') || 'shelf';
+  if (params.get('theme') === 'dark') document.documentElement.dataset.reviewTheme = 'dark';
 
-  document.documentElement.dataset.projectLayout = layouts.has(layout) ? layout : 'shelf';
+  let wiggleTimer;
+  const wiggling = new Set();
 
   // Runtime-only SVG movement: the source icons stay untouched. Any element
   // can opt in by calling wiggle(element); the shared filter is created once.
@@ -20,17 +20,12 @@
       bank.classList.add('wiggle-filter-bank');
       bank.innerHTML = `
         <defs>
-          <filter id="doodle-wiggle-filter" x="-12%" y="-18%" width="124%" height="136%">
-            <feTurbulence type="fractalNoise" baseFrequency="0.010 0.014" numOctaves="2" seed="7" result="noise">
-              <animate attributeName="baseFrequency"
-                values="0.010 0.014;0.016 0.010;0.012 0.018;0.010 0.014"
-                dur="2.8s" repeatCount="indefinite" />
-            </feTurbulence>
-            <feDisplacementMap in="SourceGraphic" in2="noise" scale="3.4"
-              xChannelSelector="R" yChannelSelector="B">
-              <animate attributeName="scale" values="1.8;3.8;2.4;3.4;1.8"
-                dur="2.2s" repeatCount="indefinite" />
-            </feDisplacementMap>
+          <filter id="doodle-wiggle-filter" x="-16%" y="-20%" width="132%" height="140%"
+                  color-interpolation-filters="sRGB">
+            <feTurbulence type="fractalNoise" baseFrequency="0.022" numOctaves="2"
+                          seed="55" stitchTiles="stitch" result="noise" />
+            <feDisplacementMap in="SourceGraphic" in2="noise" scale="4.9"
+                               xChannelSelector="R" yChannelSelector="G" />
           </filter>
         </defs>`;
       document.body.append(bank);
@@ -38,12 +33,34 @@
     }
 
     element.classList.add('is-wiggling');
-    return () => element.classList.remove('is-wiggling');
+    wiggling.add(element);
+
+    if (!wiggleTimer) {
+      // A new noise seed reads as a fresh hand-drawn frame. Keep frequency
+      // fixed and vary scale only slightly—the cadence used by the reference,
+      // rather than a smooth liquid morph between turbulence fields.
+      wiggleTimer = window.setInterval(() => {
+        const turbulence = document.querySelector('#doodle-wiggle-filter feTurbulence');
+        const displacement = document.querySelector('#doodle-wiggle-filter feDisplacementMap');
+        if (!turbulence || !displacement) return;
+        turbulence.setAttribute('seed', String(Math.floor(Math.random() * 1000)));
+        displacement.setAttribute('scale', (4.75 + Math.random() * 0.5).toFixed(3));
+      }, 110);
+    }
+
+    return () => {
+      element.classList.remove('is-wiggling');
+      wiggling.delete(element);
+      if (!wiggling.size && wiggleTimer) {
+        window.clearInterval(wiggleTimer);
+        wiggleTimer = undefined;
+      }
+    };
   }
 
   window.wiggle = wiggle;
 
   if (params.get('wiggle') === '1' && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    document.querySelectorAll('.progetto-viz > svg').forEach(wiggle);
+    document.querySelectorAll('.progetto-viz svg').forEach(wiggle);
   }
 })();

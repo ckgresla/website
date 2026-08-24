@@ -1,0 +1,17 @@
+{{- $icons := slice
+  "umbrella-noshadow.svg"
+  "star.svg"
+  "heart-bare.svg"
+  "bolt-chunky-noshadow.svg"
+  "cloud-compact-noshadow.svg"
+  "clover.svg"
+-}}
+<div class="progetto-viz progetto-viz--icons" aria-hidden="true">
+  <div class="viz-icon-strip">
+    {{- range $icons }}
+      {{- with resources.Get (printf "doodle-icons/%s" .) }}
+        {{ .Content | safeHTML }}
+      {{- end }}
+    {{- end }}
+  </div>
+</div>
