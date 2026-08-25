@@ -235,8 +235,35 @@ body {
       border-radius: 50%;
       background: currentColor;
       margin: 8px 0; // centers the dot in its 32px line box
+      transform-origin: center;
+      animation: menu-dot-wobble 3.8s ease-in-out infinite;
     }
   }
+}
+
+// A compact, crisp wobble for the site mark: the dot briefly changes its
+// weight and contour, then spends most of the loop at rest.
+@keyframes menu-dot-wobble {
+  0%, 24%, 100% {
+    border-radius: 50%;
+    transform: translate(0, 0) rotate(0) scale(1);
+  }
+  4% {
+    border-radius: 46% 54% 51% 49% / 55% 47% 53% 45%;
+    transform: translate(-0.4px, 0.2px) rotate(-3deg) scale(1.07, 0.94);
+  }
+  9% {
+    border-radius: 53% 47% 45% 55% / 48% 55% 45% 52%;
+    transform: translate(0.4px, -0.4px) rotate(2deg) scale(0.95, 1.06);
+  }
+  15% {
+    border-radius: 48% 52% 54% 46% / 53% 46% 54% 47%;
+    transform: translate(-0.2px, 0.2px) rotate(-1deg) scale(1.03, 0.98);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .menu .menu-dot::before { animation: none; }
 }
 
 .main {
