@@ -527,11 +527,12 @@ pre {
       padding: 24px 0;
       border-bottom: 1px solid var(--color-border);
       position: relative;
+      cursor: pointer;
 
       // the whole card is the title link's hit area (stretched link);
       // links in the meta line sit above the stretch and stay clickable
-      h2 a::after { content: ''; position: absolute; inset: 0; }
-      p a { position: relative; z-index: 1; }
+      h2 a::after { content: ''; position: absolute; inset: 0; z-index: 1; cursor: pointer; }
+      p a { position: relative; z-index: 2; }
       &:hover h2 a, &:focus-within h2 a {
         text-decoration: underline;
         text-decoration-color: var(--color-accent);
@@ -606,36 +607,21 @@ pre {
     .viz-ticks { display: none; }
   }
   .progetto-viz--clock {
-    position: relative;
     padding: 0;
   }
   .viz-clock-shot {
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
   .viz-clock-shot--dark { display: none; }
-  .progetto-viz .viz-clock-moon {
-    position: absolute;
-    left: 9%;
-    top: 50%;
-    width: 54px;
-    height: 54px;
-    color: var(--color-accent);
-    transform: translateY(-50%) rotate(-45deg);
-    filter: drop-shadow(0 4px 10px rgba(130, 120, 184, .24));
-    pointer-events: none;
-  }
-  .viz-clock-moon-outline,
-  .viz-clock-moon-lit {
-    stroke: color-mix(in srgb, var(--color-accent) 72%, var(--color-text-primary));
-  }
-  .viz-clock-moon-lit { fill: var(--color-accent); }
   @media (prefers-color-scheme: dark) {
     .viz-clock-shot--light { display: none; }
     .viz-clock-shot--dark { display: block; }
   }
+  .progetto-viz--bangers,
+  .progetto-viz--bangers .viz-doodle { overflow: visible; }
   .progetto-viz--switcharoo {
     --switcharoo-blue: #3f78b5;
     --switcharoo-glow: rgba(63, 120, 181, .28);
@@ -736,7 +722,6 @@ pre {
       gap: 5px 7px;
     }
     .viz-icon-strip svg { width: 28px; height: 28px; }
-    .progetto-viz .viz-clock-moon { left: 0; width: 32px; height: 32px; }
     .progetto-viz--switcharoo svg { width: 48px; height: 48px; }
   }
 
@@ -773,6 +758,11 @@ html[data-review-theme='dark'] .main--progetti {
 html[data-review-theme='light'] .main--progetti .progetto-viz--switcharoo {
   --switcharoo-blue: #3f78b5;
   --switcharoo-glow: rgba(63, 120, 181, .28);
+}
+
+html[data-review-theme='light'] .main--progetti {
+  .viz-clock-shot--light { display: block; }
+  .viz-clock-shot--dark { display: none; }
 }
 
 .wiggle-filter-bank {
