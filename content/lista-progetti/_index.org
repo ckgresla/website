@@ -1,5 +1,5 @@
 #+title: Lista Progetti
-#+description: Things, in various states of built.
+#+description: A couple of fun projects
 #+body_class: progetti
 
 * [[/clock/][Clock]]
