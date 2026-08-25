@@ -597,8 +597,6 @@ pre {
     padding: 16px;
     background: transparent;
     overflow: hidden;
-    transition: transform 180ms ease;
-
     svg { width: 130px; height: 44px; }
 
     // the bangers cell wears the doodle notes, composed at native size in an
@@ -607,7 +605,10 @@ pre {
     svg.viz-doodle { width: auto; height: 88px; }
     .viz-ticks { display: none; }
   }
-  .progetto-viz--clock { padding: 0; }
+  .progetto-viz--clock {
+    position: relative;
+    padding: 0;
+  }
   .viz-clock-shot {
     display: block;
     width: 100%;
@@ -615,11 +616,37 @@ pre {
     object-fit: cover;
   }
   .viz-clock-shot--dark { display: none; }
+  .progetto-viz .viz-clock-moon {
+    position: absolute;
+    left: 9%;
+    top: 50%;
+    width: 54px;
+    height: 54px;
+    color: var(--color-accent);
+    transform: translateY(-50%) rotate(-45deg);
+    filter: drop-shadow(0 4px 10px rgba(130, 120, 184, .24));
+    pointer-events: none;
+  }
+  .viz-clock-moon-outline,
+  .viz-clock-moon-lit {
+    stroke: color-mix(in srgb, var(--color-accent) 72%, var(--color-text-primary));
+  }
+  .viz-clock-moon-lit { fill: var(--color-accent); }
   @media (prefers-color-scheme: dark) {
     .viz-clock-shot--light { display: none; }
     .viz-clock-shot--dark { display: block; }
   }
-  .progetto-viz--switcharoo svg { width: 68px; height: 68px; }
+  .progetto-viz--switcharoo {
+    --switcharoo-blue: #3f78b5;
+    --switcharoo-glow: rgba(63, 120, 181, .28);
+    transition: color 160ms ease, filter 160ms ease;
+
+    svg {
+      width: 68px;
+      height: 68px;
+      transform-origin: 50% 50%;
+    }
+  }
   .progetto-viz--icons {
     padding: 8px 0;
     overflow: visible;
@@ -638,8 +665,15 @@ pre {
       overflow: visible;
     }
   }
-  .content > .outline-2:hover .progetto-viz,
-  .content > .outline-2:focus-within .progetto-viz { transform: translateX(-8px); }
+  .content > .outline-2:hover .progetto-viz--switcharoo,
+  .content > .outline-2:focus-within .progetto-viz--switcharoo {
+    color: var(--switcharoo-blue);
+    filter: drop-shadow(0 4px 8px var(--switcharoo-glow));
+  }
+  .content > .outline-2:hover .progetto-viz--switcharoo svg,
+  .content > .outline-2:focus-within .progetto-viz--switcharoo svg {
+    animation: switcharoo-spark 520ms cubic-bezier(.22, .8, .28, 1) both;
+  }
   .content > .outline-2:hover .viz-ticks,
   .content > .outline-2:focus-within .viz-ticks { display: block; }
   @media (max-width: 900px) {
@@ -702,19 +736,43 @@ pre {
       gap: 5px 7px;
     }
     .viz-icon-strip svg { width: 28px; height: 28px; }
+    .progetto-viz .viz-clock-moon { left: 0; width: 32px; height: 32px; }
     .progetto-viz--switcharoo svg { width: 48px; height: 48px; }
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .progetto-viz { transition: none; }
-    .content > .outline-2:hover .progetto-viz,
-    .content > .outline-2:focus-within .progetto-viz { transform: none; }
+    .content > .outline-2:hover .progetto-viz--switcharoo svg,
+    .content > .outline-2:focus-within .progetto-viz--switcharoo svg { animation: none; }
   }
+}
+
+@keyframes switcharoo-spark {
+  0%   { transform: translate(0, 0) rotate(0deg) scale(1); }
+  28%  { transform: translate(2px, -4px) rotate(5deg) scale(1.08); }
+  55%  { transform: translate(-2px, 2px) rotate(-4deg) scale(.98); }
+  78%  { transform: translate(1px, -1px) rotate(2deg) scale(1.03); }
+  100% { transform: translate(0, 0) rotate(0deg) scale(1); }
 }
 
 html[data-review-theme='dark'] .main--progetti {
   .viz-clock-shot--light { display: none; }
   .viz-clock-shot--dark { display: block; }
+  .progetto-viz--switcharoo {
+    --switcharoo-blue: #96cdfb;
+    --switcharoo-glow: rgba(150, 205, 251, .3);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .main--progetti .progetto-viz--switcharoo {
+    --switcharoo-blue: #96cdfb;
+    --switcharoo-glow: rgba(150, 205, 251, .3);
+  }
+}
+
+html[data-review-theme='light'] .main--progetti .progetto-viz--switcharoo {
+  --switcharoo-blue: #3f78b5;
+  --switcharoo-glow: rgba(63, 120, 181, .28);
 }
 
 .wiggle-filter-bank {
