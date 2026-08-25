@@ -4,7 +4,7 @@
 
 * [[/clock/][Clock]]
 #+begin_export html
-<div class="progetto-viz progetto-viz--stage" aria-hidden="true"><span class="viz-clock">23:42</span></div>
+<div class="progetto-viz progetto-viz--clock" aria-hidden="true"><img class="viz-clock-shot viz-clock-shot--light" src="/assets/images/project-clock-light.png" alt=""><img class="viz-clock-shot viz-clock-shot--dark" src="/assets/images/project-clock-dark.png" alt=""></div>
 #+end_export
 Offline-compatible progressive web app with: moon phases, face customizability, and fun.
 
@@ -20,7 +20,7 @@ A growing set of hand-drawn SVG icons. Wobbly on purpose.
 
 * [[https://github.com/ckgresla/switcharoo][switcharoo]]
 #+begin_export html
-<div class="progetto-viz" aria-hidden="true"><span class="viz-key">⌘</span><span class="viz-key">⇥</span></div>
+{{< project-switcharoo-icon >}}
 #+end_export
 Switching windows on macOS the way it should be done, functional and elegante.
 
