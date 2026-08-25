@@ -60,7 +60,7 @@
 
   window.wiggle = wiggle;
 
-  if (params.get('wiggle') === '1' && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  if (params.get('wiggle') !== '0' && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     document.querySelectorAll('.progetto-viz svg').forEach(wiggle);
   }
 })();
