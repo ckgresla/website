@@ -16,7 +16,7 @@ Offline, progressive web app, be conscious of time!
 #+end_export
 A set of SVGs I am growing, "tasteful".
 
-2026 · in progress
+Ongoing
 
 * [[https://github.com/ckgresla/switcharoo][switcharoo]]
 #+begin_export html
