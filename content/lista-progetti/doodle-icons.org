@@ -3,4 +3,4 @@
 #+layout: doodle-icons
 #+body_class: doodle
 
-A growing set of hand-drawn SVG icons — wobbly on purpose. Click any card to copy its markup; they draw in ~currentColor~, so they take whatever ink your page uses.
+A growing set of hand-drawn SVG icons. Click any card to copy its markup; they draw in ~currentColor~, so they take whatever ink your page uses.
