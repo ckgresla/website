@@ -1,5 +1,5 @@
 #+title: Ponderings
-#+tagline: Thoughts, musings, & contemplations on stuff.
+#+tagline: Thoughts, musings, & contemplations.
 #+body_class: ponderings
 
 * 2026
