@@ -5,23 +5,23 @@
 * 2026
 1. [[https://www.reddit.com/r/videos/comments/6koq18/youre_dereferencing_a_null_pointer/][c’mon guys]]!
 
-2. In what episode did [[https://www.youtube.com/watch?v=YO6RQ7Nn2uU][Misty freaking spit this banger]] out in???
+2. In what episode did [[https://www.youtube.com/watch?v=YO6RQ7Nn2uU][Misty produce this banger]] in???
 
 3. “Supervising superintelligent interns.” -- an apt description of what we are doing with our dear comrades Claude & GPT-* in this new era of coding.
 
 4. What is a hunch? --> “Always right.”
 
-5. And related, knowing that something is going to happen doesn’t make it hurt any less, you just had an expectation that was vindicated.
+5. And related, knowing that something is going to happen doesn’t make it hurt any less, your expectation is simply vindicated!
 
-6. [[/assets/images/misc/nothing-left-out-of-distribution.webp][This meme]], is far more factual than I originally thought it was -- such is the nature of inductive reasoning based systems!
+6. [[https://pbs.twimg.com/media/GsKYXl3XgAAwmGu?format=jpg&name=large][This meme, is far more factual than I originally though it was]] -- such is the nature of inductive reasoning based systems!
 
 7. [[https://www.youtube.com/watch?v=vi93RcKZ5Q8][김광석 - 말하지 못한 내 사랑]] -- one of the coolest cats of all time
 
-8. [[https://www.youtube.com/watch?v=faVH4FwFrNk][El Canario - No Quiero Piedras En Mi Camino]] -- aiiigooo, being in “this situation” is correct/honest, but painful
+8. [[https://www.youtube.com/watch?v=faVH4FwFrNk][El Canario - No Quiero Piedras En Mi Camino]]
 
 9. I feel like it is only in machine learning where a program can exit with a massive traceback and you can be happy knowing that your training run succeeded. (such is life, ahem wandb)
 
-10. cynical: “SaaS” always stood for “Slop-as-a-Service”, that the slop is starting to be written by floating point brains doesn’t change the nature of it
+10. cynical: “SaaS” always stood for “Slop-as-a-Service”, that the slop is starting to be written by floating point brains doesn’t change the nature of it!
 
 11. The only “chump” is the one who thinks of other people as “chumps”.
 
@@ -29,13 +29,16 @@
 
 13. Whenever you get to be embodied, I will buy you a cup of coffee or the equivalent. --> my last serious message to ~claude-4.7-opus~ on 2026-05-28
 
-14. [[https://x.com/avogado6/status/2069405828935983412?s=20][それがいいね、기적、दो आँख चार के साथ]]！ (sore ga ii ne, gijeok, dho aank chaar ke sath!) by Avogado6
+14. [[https://x.com/avogado6/status/2069405828935983412?s=20][それがいいね、기적、दो आँख चार के साथ]]！ (sore ga ii ne, gijeok, dho aank chaar ke sath!), on "Wedding" by Avogado6
 
 15. [[https://youtu.be/ECuGNHdVaKg?si=IhmSClB0JAxJDxVk][Slim Dusty - G'day G'day]]
 
 16. When intelligence is “on tap”, what ought we spend our time on?
 
 17. Life has become a lot more "asynchronous, event loop driven", now that one spends their days managing a ton of agents.
+
+18. [[https://www.youtube.com/watch?v=XoO22GT78cI][The most delicious alcohol in the world!]]
+
 
 
 * 2025
@@ -77,12 +80,11 @@
 
 19. [[https://open.spotify.com/track/4pYWltpMVOKICtzQhh2znT?si=4b21edd060ba4ddb][3분 40초 (3 minutes 40 seconds) — 전유나]] (what a lovely tune, [[https://www.music-flo.com/detail/track/50146/details][see the lyrics]])
 
-20. [[https://x.com/Shmall/status/1910752453244625267][I trained a multimodal model to call a waymo]]
-
+20. [[https://x.com/Shmall/status/1910752453244625267][I trained a multimodal model to call a waymo]]!
 
 
 * 2024
-1. If /feels/ like something to move!
+1. Ya know, it /feels/ like something to move!
 
 2. What machine learning can discover today is useful, but it isn’t uncovering the truth!
 
@@ -116,7 +118,7 @@
 
 17. [[https://youtube.com/watch?v=fANsFnkaX-U&si=DkVuge29-GKqTg_1][Grandpa who adopted wild boar as his son]].
 
-18. Ya know, HHKBs are exactly like vintage wines -- if get this, we are friends.
+18. Ya know, HHKBs are exactly like vintage wines.
 
 
 * 2023
