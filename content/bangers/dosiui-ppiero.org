@@ -1,0 +1,24 @@
+#+title: 도시의 삐에로
+#+title_en: Pierrot of the City
+#+artist: 김정은 (Kim Jung-eun)
+#+sort_artist: Kim Jung-eun
+#+language: Korean
+#+youtube: https://youtu.be/XXRNgCmppCg?is=4Y-N5iLC-bTcYitN
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 생각없이 길을 걸어도 울적한 마음 | saenggageopsi gireul georeodo uljeokhan maeum | Even when I walk aimlessly, this melancholy heart |
+| 무엇으로 달래야 하나 | mueoseuro dallaeya hana | How can I soothe it? |
+| 비에 젖은 가로등 되어 밤이 새도록 | bie jeojeun garodeung doeeo bami saedorok | I become a rain-soaked streetlamp, through the night |
+| 타오르는 이 마음 | taoreuneun i maeum | This heart burns on |
+| 늘어지는 음악소리에 몸을 기대로 | neureojineun eumaksorie momeul gidaero | Leaning into the lingering sound of music |
+| 어디론가 가는 이 마음 | eodironga ganeun i maeum | This heart drifts somewhere |
+| 반짝이던 푸른 꿈들이 날아가버린 | banjjagideon pureun kkumdeuri naragabeorin | The shimmering blue dreams have all flown away |
+| 둥지 잃은 삐에로 | dungji ireun ppiero | A pierrot who has lost his nest |
+| 사랑도 고독도 영혼속에 잠자는 | sarangdo godokdo yeonghon soge jamjaneun | Love and loneliness, sleeping within the soul |
+| 가녀린 불꽃 | ganyeorin bulkkot | Delicate flames |
+| 언젠간 모두 나를 태워야 하리 | eonjengan modu nareul taewoya hari | Someday they will burn through all of me |
+| 춤추던 낭만의 기억위로 흐르는 노래 | chumchudeon nangmanui gieogwiro heureuneun norae | A song flows over memories of romance that once danced |
+| 연기처럼 사라진 추억속에 그리움 | yeongicheoreom sarajin chueok soge geurium | Longing within memories that vanished like smoke |

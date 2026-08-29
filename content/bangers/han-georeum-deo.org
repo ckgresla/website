@@ -7,6 +7,8 @@
 #+youtube: https://www.youtube.com/watch?v=BW5gNz6-wM0
 #+year: 2026
 
+[[https://youtu.be/xJp98nUxpmU?is=iZGjvt_ZMm04Jys4][YouTube live recording]]
+
 #+attr_html: :class lyrics
 | Original | Romanization | English |
 |------+------+------|
