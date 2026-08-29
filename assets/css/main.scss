@@ -384,8 +384,45 @@ pre {
   .post-item-date { color: var(--color-text-tertiary); font-size: 0.75rem; line-height: 18px; }
 }
 
+// The music-note group floats as one quiet doodle in both its project thumbnail
+// and the Bangers index. Keep the motion slight enough to feel hand-drawn, not
+// like a loading indicator.
+.viz-notes {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: music-notes-wiggle 3.6s ease-in-out infinite;
+}
+
+@keyframes music-notes-wiggle {
+  0%, 100% { transform: translate(-1px, 1px) rotate(-1.5deg); }
+  25%      { transform: translate(1px, -2px) rotate(.75deg); }
+  50%      { transform: translate(0, -4px) rotate(1.5deg); }
+  75%      { transform: translate(-1px, -1px) rotate(-.5deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .viz-notes { animation: none; }
+}
+
 // ── Bangers: the index — artists as collapsed groups, plus search ──
 .bangers-index {
+  // The project thumbnail's notes get a roomier, unemphasized treatment here:
+  // no surrounding tick ring, centered on the search/list column.
+  .bangers-doodle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 44px;
+    color: var(--color-text-primary);
+
+    svg {
+      display: block;
+      width: auto;
+      height: 144px;
+      overflow: visible;
+    }
+  }
+
   // hairline search row — ink line icons (magnifier, ✕), hidden until the
   // script wakes it (no-JS visitors just get the accordion)
   .bangers-search-row {
@@ -476,6 +513,13 @@ pre {
       color: var(--color-text-tertiary);
       font-size: 0.75rem;
       line-height: 18px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .bangers-doodle {
+      margin-bottom: 44px;
+      svg { height: 120px; }
     }
   }
 }

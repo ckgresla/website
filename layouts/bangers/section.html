@@ -2,6 +2,10 @@
 <div class="content bangers-index">
   {{ .Content }}
 
+  <div class="bangers-doodle" aria-hidden="true">
+    {{ partial "bangers-doodle.html" . }}
+  </div>
+
   {{/* Search is progressive enhancement: the row stays hidden unless the
        script wakes it, so a no-JS visitor just gets the accordion. */}}
   {{/* one icon slot on the right: magnifier while empty, ✕ while typing */}}
