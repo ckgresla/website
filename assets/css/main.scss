@@ -392,8 +392,23 @@ pre {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
     margin: 0 0 44px;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
     color: var(--color-text-primary);
+    font: inherit;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+
+    &:focus-visible {
+      outline: 1px solid var(--color-text-secondary);
+      outline-offset: 8px;
+    }
 
     svg {
       display: block;
@@ -796,8 +811,17 @@ html[data-review-theme='light'] .main--progetti {
 }
 .is-wiggling { filter: url('#doodle-wiggle-filter'); }
 
+// Optional emphasized layer for a pressable wiggly doodle. The layer remains
+// part of the same SVG/filter; only its visibility changes with aria-pressed.
+[data-wiggle-toggle] [data-wiggle-emphasis] {
+  opacity: 0;
+  transition: opacity 120ms ease-out;
+}
+[data-wiggle-toggle][aria-pressed='true'] [data-wiggle-emphasis] { opacity: 1; }
+
 @media (prefers-reduced-motion: reduce) {
   .is-wiggling { filter: none; }
+  [data-wiggle-toggle] [data-wiggle-emphasis] { transition: none; }
 }
 
 // ── Wide pages: content fills the whole container (readings' table) ──

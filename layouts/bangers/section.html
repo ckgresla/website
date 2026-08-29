@@ -2,9 +2,9 @@
 <div class="content bangers-index">
   {{ .Content }}
 
-  <div class="bangers-doodle" aria-hidden="true">
+  <button class="bangers-doodle" type="button" data-wiggle data-wiggle-toggle aria-label="Toggle emphasis on the music doodle" aria-pressed="false">
     {{ partial "bangers-doodle.html" . }}
-  </div>
+  </button>
 
   {{/* Search is progressive enhancement: the row stays hidden unless the
        script wakes it, so a no-JS visitor just gets the accordion. */}}
@@ -36,6 +36,4 @@
 </div>
 {{ $js := resources.Get "js/bangers-search.js" | resources.Minify | resources.Fingerprint }}
 <script src="{{ $js.RelPermalink }}" defer></script>
-{{ $wiggleJS := resources.Get "js/progetti-preview.js" | resources.Minify | resources.Fingerprint }}
-<script src="{{ $wiggleJS.RelPermalink }}" defer></script>
 {{ end }}

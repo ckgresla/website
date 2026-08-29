@@ -9,6 +9,8 @@
     <main class="main{{ with .Params.body_class }} main--{{ . }}{{ end }}">
       {{ block "main" . }}{{ end }}
     </main>
+    {{ $doodleWiggle := resources.Get "js/doodle-wiggle.js" | resources.Minify | resources.Fingerprint }}
+    <script src="{{ $doodleWiggle.RelPermalink }}" defer></script>
   </div>
 </body>
 </html>
