@@ -1,0 +1,32 @@
+#+title: You’re My Sunshine
+#+artist: 애쉬그레이 (ASHGRAY) & 서영은 (Suh Young-eun)
+#+sort_artist: ASHGRAY
+#+language: Korean
+#+spotify: https://open.spotify.com/track/5Hud5f1AzO0ii7LdPwDito?si=pnAkNY7IT8G8EXAy4WoWpQ&utm_source=copy-link
+#+youtube: https://youtu.be/WziD7q3fMyA?is=7NTKeOOv8vVeUnTJ
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 오늘 그댄 어떤가요 나와 함께 할래요 | oneul geudaen eotteongayo nawa hamkke hallaeyo | How are you today? Will you spend it with me? |
+| 햇살 좋은 날이죠 You & I 선뜻 하지 못했던 | haetsal joeun narijyo You & I seontteut haji mothaetdeon | It’s such a sunny day, You & I, and what I couldn’t bring myself to say |
+| 내 맘 전하고 싶어 oh Love | nae mam jeonhago sipeo oh Love | I want to tell you how I feel, oh Love |
+| You’re my Sunshine You’re my Sunshine | You’re my Sunshine You’re my Sunshine | You’re my Sunshine, You’re my Sunshine |
+| 오늘은 꼭 말할께요 나의 사랑 그대 뿐이라고 | oneureun kkok malhalkkeyo naui sarang geudae ppunirago | Today I’ll finally tell you that you’re my one and only love |
+| You’re my Sunshine You’re my Sunshine | You’re my Sunshine You’re my Sunshine | You’re my Sunshine, You’re my Sunshine |
+| 내 손을 부디 꼭 잡아 주세요 | nae soneul budi kkok jaba juseyo | Please hold my hand tight |
+| 내 사랑 오직 그대 뿐 | nae sarang ojik geudae ppun | You’re the one and only love for me |
+| 며칠 동안 고민했죠 그대 맘은 어떨지 | myeochil dongan gominhaetjyo geudae mameun eotteolji | I thought about it for days, wondering how you might feel |
+| 무척 불안했었죠 Day by Day 행여 내가 싫대도 | mucheok buranhaesseotjyo Day by Day haengyeo naega sildaedo | I was so anxious, Day by Day; even if you don’t like me |
+| 내겐 그대 뿐이죠 oh Love | naegen geudae ppunijyo oh Love | You’re still the only one for me, oh Love |
+| You’re my Sunshine You’re my Sunshine | You’re my Sunshine You’re my Sunshine | You’re my Sunshine, You’re my Sunshine |
+| 그대여 날 바라봐요 내 눈 속에 그대 모습을 | geudaeyeo nal barabwayo nae nun soge geudae moseubeul | My love, look at me; see your reflection in my eyes |
+| You’re my Sunshine You’re my Sunshine | You’re my Sunshine You’re my Sunshine | You’re my Sunshine, You’re my Sunshine |
+| 하루도 그대 없이는 못 살아 | harudo geudae eopsineun mot sara | I can’t live even a single day without you |
+| 날 바라봐요 I Love You | nal barabwayo I Love You | Look at me, I Love You |
+| You’re my Sunshine You’re my Sunshine | You’re my Sunshine You’re my Sunshine | You’re my Sunshine, You’re my Sunshine |
+| 오늘은 꼭 말할께요 나의 사랑 그대 뿐이라고 | oneureun kkok malhalkkeyo naui sarang geudae ppunirago | Today I’ll finally tell you that you’re my one and only love |
+| You’re my Sunshine You’re my Sunshine | You’re my Sunshine You’re my Sunshine | You’re my Sunshine, You’re my Sunshine |
+| 내 손을 부디 꼭 잡아 주세요 | nae soneul budi kkok jaba juseyo | Please hold my hand tight |
+| 내 사랑 오직 그대 뿐 | nae sarang ojik geudae ppun | You’re the one and only love for me |
