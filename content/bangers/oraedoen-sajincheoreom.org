@@ -1,0 +1,23 @@
+#+title: 오래된 사진처럼
+#+title_en: Like an Old Photograph
+#+artist: 이문세 (Lee Moon-sae)
+#+sort_artist: Lee Moon-sae
+#+language: Korean
+#+spotify: https://open.spotify.com/track/4bSc0WEWvM6vt2KBP3SPW6
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 하얗게 눈이 오던 날 그날을 잊을 수 없어 | hayahge nuni odeon nal geunareul ijeul su eopseo | The day the snow came down white, that day I can't forget |
+| 아무도 없는 우리 둘만의 시간들이 | amudo eomneun uri dulmanui sigandeuri | The hours that were ours alone, with no one else there |
+| 첨으로 가졌던 그 느낌을 | cheomeuro gajyeotdeon geu neukkimeul | That feeling I had for the first time |
+| 수줍어하던 그 눈길 소곤대던 작은 입술을 | sujubeohadeon geu nungil sogondaedeon jageun ipsureul | That bashful look, those small lips murmuring |
+| 그리움 속에 묻어두긴 너무나도 사랑스런 모습인걸 | geurium soge mudeodugin neomunado sarangseureon moseubingeol | To bury it all in longing — you were far too lovely for that |
+| 모든 것들이 변해 가듯이 | modeun geotdeuri byeonhae gadeusi | The way that everything changes |
+| 너와 함께 했던 순간들도 | neowa hamkke haetdeon sungandeuldo | So do the moments I spent with you |
+| 오래된 사진처럼 기억 속에 묻혀 버리고 | oraedoen sajincheoreom gieok soge muchyeo beorigo | Like an old photograph they get buried in memory |
+| 희미하게 하나둘씩 아주 천천히 바래져만 가네 | huimihage hanadulssik aju cheoncheonhi baraejyeoman gane | Faintly, one by one, ever so slowly, they only fade |
+| 멈출 수 없는 시간들 아쉬워했던 우리들 | meomchul su eomneun sigandeul aswiwohaetdeon urideul | Time that couldn't be stopped, and us, sorry to see it go |
+| 이제는 서로 다른 곳에 서 있는걸 | ijeneun seoro dareun gose seo inneungeol | Now we stand in different places |
+| 이미 너무나 먼 곳에 | imi neomuna meon gose | Already somewhere far too far away |
