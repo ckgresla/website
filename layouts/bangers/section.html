@@ -36,4 +36,6 @@
 </div>
 {{ $js := resources.Get "js/bangers-search.js" | resources.Minify | resources.Fingerprint }}
 <script src="{{ $js.RelPermalink }}" defer></script>
+{{ $wiggleJS := resources.Get "js/progetti-preview.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $wiggleJS.RelPermalink }}" defer></script>
 {{ end }}
