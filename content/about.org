@@ -5,16 +5,27 @@
 #+base_image: /assets/images/personal/profile-250px.jpg
 #+focus_image: /assets/images/personal/squirtle-tongue.gif
 
-Im Chris Kerwell Gresla, an Indian & German, American bloke from Chicago. I love statistics, food, music (like jazz), life, and cool people/models (probably like you if you are reading this).
 
-Currently I am doing a fair bit of machine learning at [[https://wafer.systems/][Wafer Systems]]. We are making an “operating system that understands you better than yourself” -- my work spans the OS's model surface: the device-use agents (SFT through RLVR), the search engine over everything your phone knows, and the models and systems that personalize the OS from what it ingests of your life. Some public bits of that work: [[https://wafer.systems/blog/edm/][Evolutionary Data Making]], where frontier models act as evolutionary operators to grow our training data, and [[https://github.com/ckgresla/representax][representax]], an open-source JAX library for representation learning. There is still more context than fits this section (lets chat).
+I probably fit into very few of the "typical boxes", some of my facts:
+- Half Indian, Half American
+- Born and raised in Chicago
+- Former bodybuilder (Mens & Classic physique)
+- Deleted most of my social media in 2021
+- Fell in love with statistics and that changed my life
+- Currently based in San Francisco
 
-At the moment, I am based in San Francisco.
+The last few years of my time has been spent doing machine learning at [[https://wafer.systems/][Wafer Systems]] -- where we have built an AI-native version of the android operating system. My work has primarily revolved around developing models for our OS and doing applied science. Some of the public bits:
+- [[https://wafer.systems/blog/edm/][Evolutionary Data Making]]: frontier models as evolutionary operators to grow training data
+- [[https://github.com/ckgresla/representax][representax]]: an open-source JAX library for representation learning
 
+I would love to colaborate on creative ML projects, reach out!
 
-If you care, here are some places I reside online: [[https://github.com/ckgresla][ 
-  [Github]], [[https://x.com/thepapabosh][X]], [[https://www.linkedin.com/in/chriskerwellgresla/][LinkedIn]], [[https://open.spotify.com/user/1258747599?nd=1][Spotify]]
-  ]
+My links:
+- Email: ckgresla at gmail dot com
+- Twitter: https://x.com/thepapabosh
+- LinkedIn: https://www.linkedin.com/in/chriskerwellgresla/
+- Github: https://github.com/ckgresla
+- Spotify: https://open.spotify.com/user/1258747599
 
 
 
@@ -52,7 +63,8 @@ If you care, here are some places I reside online: [[https://github.com/ckgresla
 #+end_export
 
 
-As one should not think twice about an opportunity, one shouldn’t hesitate to write down a good quote when you find it -- here is one I had the pleasure of coming about recently:
+
+You should be someone who produces quotes and celebrate other quotes, they are lovely compressions/representations of reality:
 
 #+begin_quote
 “Style’s the hardest thing to get, and it’s not something you really strive for. I’m sure that Miles never really strived to be a stylist. He just strived to be himself, to learn, to develop, and to express a strong, independent personality. And at the end of it, it had an identity and that’s why he’s a stylist. But somebody might say, ’Wow, I could be a stylist by just reaching out and being strange.’ or reaching out and being different, or novel, and of course that’s a mistake.”
@@ -71,7 +83,5 @@ As one should not think twice about an opportunity, one shouldn’t hesitate to 
 
 
 If you made it this far, you should probably say hello!
-
-ckgresla at gmail dot com
 
 ~¯\_(ツ)_/¯~
