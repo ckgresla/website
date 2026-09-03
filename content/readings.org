@@ -85,3 +85,4 @@
 | [[https://iii.dev/blog/the-harness-is-the-backend/][The Harness is the Backend - iii]] | That is one clean abstraction, [[https://github.com/iii-hq/iii][open source]] as well... |
 | [[https://www.lesswrong.com/posts/7ZqGiPHTpiDMwqMN2/twelve-virtues-of-rationality][Twelve Virtues of Rationality]] | Its a nice read, accompany a coffee |
 | [[https://davidoks.blog/p/why-japanese-companies-do-so-many][Why Japanese companies do so many different things]] | "Most importantly, Toto has a very lucrative sideline in the fabrication of memory chips." -- Japan is the best |
+| [[https://drive.google.com/file/d/1YaG9xpu-WQKBPUi8yQ4HaDYQLUSa7Y3J/view?pli=1][HOW TO SUCCEED IN MRBEAST PRODUCTION]] | Great stuff here.    |
