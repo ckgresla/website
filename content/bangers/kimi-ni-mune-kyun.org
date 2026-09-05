@@ -7,6 +7,8 @@
 #+youtube: https://youtu.be/DUmG1SlR8fs?is=PzRwDek9WqgdwF-5
 #+year: 2026
 
+“Who authorized this?”
+
 #+attr_html: :class lyrics
 | Original | Romanization | English |
 |------+------+------|
