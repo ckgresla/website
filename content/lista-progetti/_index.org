@@ -2,19 +2,19 @@
 #+description: A couple of fun projects
 #+body_class: progetti
 
-* [[/clock/][Clock]]
+* [[/bangers/][Bangers]]
 #+begin_export html
-{{< project-clock-preview >}}
+{{< project-bangers-doodle >}}
 #+end_export
-Offline, progressive web app, be conscious of time!
+A selection of some great music.
 
-2026 · live at [[/clock/][clock]]
+Ongoing · live at [[/bangers/][bangers]]
 
 * [[/lista-progetti/doodle-icons/][The Doodle Icons]]
 #+begin_export html
 {{< project-doodle-icons >}}
 #+end_export
-A set of SVGs I am growing, "tasteful".
+Is tasteful doodling a tractable task?
 
 Ongoing
 
@@ -22,14 +22,14 @@ Ongoing
 #+begin_export html
 {{< project-switcharoo-icon >}}
 #+end_export
-Switching windows should be functional & elegant.
+A tasteful replacement for cmd+tab & cmd+space on MacOS.
 
 2026 · github
 
-* [[/bangers/][Bangers]]
+* [[/clock/][Clock]]
 #+begin_export html
-{{< project-bangers-doodle >}}
+{{< project-clock-preview >}}
 #+end_export
-All art aspires to the effect of music, my selection.
+An offline progressive web app, what time is it?
 
-Ongoing · live at [[/bangers/][bangers]]
+2026 · live at [[/clock/][clock]]
