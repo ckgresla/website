@@ -137,6 +137,10 @@
         "notes-beamed",
         "notes-beamed-noshadow"
       ]
+    },
+    {
+      "name": "Kangaroo",
+      "stems": ["kangaroo"]
     }
   ]
 }
