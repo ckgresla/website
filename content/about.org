@@ -47,7 +47,7 @@ My links:
       focus_src="/assets/images/misc/focused-desk-flower.png"
       base_src="/assets/images/misc/focused-desk-hhkb.png"
       alt="Image Description"
-      title="A wild HHKB and Silent Princess inhabit a desk"
+      caption="A wild HHKB and Silent Princess inhabit a desk"
     >}}
   </div>
 </div>
