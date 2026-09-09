@@ -1,0 +1,48 @@
+#+title: Venus - Cover
+#+artist: 大比良瑞希 (Mizuki Ohira)
+#+sort_artist: Mizuki Ohira
+#+language: Japanese
+#+spotify: https://open.spotify.com/track/57tLJmxJYVA9auHYx7Cc0C?si=HrVjVi1dQbeOp9yjY5l8cA&utm_source=copy-link
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 熱い陽射しに | atsui hizashi ni | Into the blazing sunlight |
+| 飛び込む僕は | tobikomu boku wa | I dive |
+| 揺れる波間に | yureru namima ni | And among the rolling waves |
+| 溶けて消える | tokete kieru | Melt away and disappear |
+| 風に抱かれて | kaze ni dakarete | Held by the wind |
+| 思い出すのは | omoidasu no wa | What comes back to me |
+| 笑うふたりの | warau futari no | Is the two of us laughing |
+| 褪せたフィルム | aseta firumu | On faded film |
+| 眼を閉じて | me o tojite | I close my eyes |
+| 甘い | amai | A sweet |
+| 口づけは | kuchizuke wa | Kiss— |
+| 遠い夏のかけら | tōi natsu no kakera | A fragment of a distant summer |
+| 溢れる光に包まれて | afureru hikari ni tsutsumarete | Wrapped in overflowing light |
+| 僕達は影を見失った | bokutachi wa kage o miushinatta | We lost sight of our shadows |
+| 過ぎ去った日々が | sugisatta hibi ga | The days gone by |
+| 限りなく | kagirinaku | Endlessly |
+| 鮮やかに | azayaka ni | Vividly |
+| 夕闇の空に | yūyami no sora ni | In the twilight sky |
+| 蘇る | yomigaeru | Come back to life |
+| 焼けた素肌に | yaketa suhada ni | Into your sun-warmed skin |
+| 飛び込む僕は | tobikomu boku wa | I dive |
+| 揺れる谷間に | yureru tanima ni | And between your swaying curves |
+| 溶けて消える | tokete kieru | Melt away and disappear |
+| 打ち寄せる悲しみに | uchiyoseru kanashimi ni | In the sorrow that comes surging in |
+| 溺れる夜は | oboreru yoru wa | On nights when I drown |
+| 青い波間に | aoi namima ni | Among the blue waves |
+| 深く深く | fukaku fukaku | Deep, so deep |
+| 眼を閉じて | me o tojite | I close my eyes |
+| 甘い | amai | A sweet |
+| ありふれた | arifureta | Ordinary |
+| 遠い夏のかけら | tōi natsu no kakera | Fragment of a distant summer |
+| 溢れる光に包まれて | afureru hikari ni tsutsumarete | Wrapped in overflowing light |
+| 僕達は影を見失った | bokutachi wa kage o miushinatta | We lost sight of our shadows |
+| 時間より速く | jikan yori hayaku | Faster than time |
+| 駆け抜けた | kakenuketa | You raced through |
+| 君は今 | kimi wa ima | And now you |
+| 暮れかけた空に | kurekaketa sora ni | In the darkening sky |
+| 浮かんでる | ukanderu | Float |
