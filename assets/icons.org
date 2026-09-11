@@ -15,6 +15,15 @@ publicly. Working notes go on plain lines beneath, which the site ignores.
   Treble and bass clefs, sharp, flat, note ±shadow, whole-note,
   notes-beamed ±shadow. The composed note-group pair was retired and now
   lives inline on the progetti card.
+- [X] ckg spirit — blob, loop, water, air, fire (and candle), earth
+  The site's spirit as one mark drawn seven ways, each with a no-shadow
+  variant: the two general pieces, then the four elements as eight particles
+  each, and fire twice — aggressive, and calm as a candle. Baked from the
+  Eight Pebbles page in website/design/logo, which is where they move.
+- [X] kangaroo
+  The Switcharoo project's hop, folded into the generator.
+- [X] calendar — a day picked, and plain, each with a no-shadow variant
+  Drawn for the site's /chat/ booking page.
 
 * Most wanted
 - [ ] wave

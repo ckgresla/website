@@ -139,8 +139,38 @@
       ]
     },
     {
+      "name": "ckg spirit",
+      "stems": [
+        "spirit-blob",
+        "spirit-blob-noshadow",
+        "spirit-loop",
+        "spirit-loop-noshadow",
+        "spirit-water",
+        "spirit-water-noshadow",
+        "spirit-air",
+        "spirit-air-noshadow",
+        "spirit-fire",
+        "spirit-fire-noshadow",
+        "spirit-fire-candle",
+        "spirit-fire-candle-noshadow",
+        "spirit-earth",
+        "spirit-earth-noshadow"
+      ]
+    },
+    {
       "name": "Kangaroo",
-      "stems": ["kangaroo"]
+      "stems": [
+        "kangaroo"
+      ]
+    },
+    {
+      "name": "Calendar",
+      "stems": [
+        "calendar",
+        "calendar-noshadow",
+        "calendar-plain",
+        "calendar-plain-noshadow"
+      ]
     }
   ]
 }
