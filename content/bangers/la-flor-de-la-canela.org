@@ -1,0 +1,88 @@
+#+title: La Flor de la Canela
+#+title_en: The Cinnamon Flower
+#+artist: José Alberto "El Canario"
+#+sort_artist: El Canario
+#+language: Spanish
+#+spotify: https://open.spotify.com/track/6XFEoPkKtWBQsrIbtB6xKP?si=bItE0fVWRma9dl4y0afKtg&utm_source=copy-link
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | English |
+|------+------|
+| Déjame que te cuente limeña | Let me tell you, woman of Lima |
+| déjame que te diga la gloria | Let me tell you of the glory |
+| del ensueño que evoca la memoria | Of the reverie that memory calls forth |
+| del viejo puente, del río y la alameda | Of the old bridge, the river, and the promenade |
+| Déjame que te cuente limeña | Let me tell you, woman of Lima |
+| ahora que aún perfuma el recuerdo | Now, while the memory still gives off its fragrance |
+| ahora que aún se mece en un sueño | Now, while it still sways within a dream |
+| el viejo puente del río y la alameda | The old bridge, the river, and the promenade |
+| Jazmines en el pelo y rosas en la cara | Jasmine in her hair and roses in her face |
+| airosa caminaba la flor de la canela | Gracefully walked the cinnamon flower |
+| derramaba lisura que a su paso dejaba | She poured out elegance, leaving in her wake |
+| aroma de mixtura que en el pecho llevaba | The fragrance of the bouquet she carried at her breast |
+| Del puente a la alameda | From the bridge to the promenade |
+| menudo pie la lleva por la vereda que se estremece | Such dainty feet carry her down the trembling path |
+| al ritmo de su cadera | To the rhythm of her hips |
+| Recogía la risa de la brisa del río | She gathered the laughter of the river breeze |
+| y al viento la lanzaba del puente a la alameda | And cast it into the wind from the bridge to the promenade |
+| Déjame que te cuente, limeña ¡ay! | Let me tell you, woman of Lima—oh! |
+| deja que te diga morena mi pensamiento | Let me tell you my thoughts, dark-haired beauty |
+| a ver si así despiertas del sueño | To see if this might wake you from the dream |
+| del sueño que entretiene, morena, tus sentimientos | The dream that beguiles your feelings, my beauty |
+| Aspira de la lisura que da la flor de canela | Breathe in the grace the cinnamon flower gives off |
+| adornada con jazmines matizando tu hermosura | Adorned with jasmine that sets off your beauty |
+| Alfombra de nuevo el puente que engalana la alameda | Carpet the bridge anew, the bridge that adorns the promenade |
+| el río acompañará su paso por la vereda | The river will accompany her steps along the path |
+| Con mi canto mi canto mi canto | With my song, my song, my song |
+| (Déjame que te cante limeña) | (Let me sing to you, woman of Lima) |
+| Te canta tu canario limeña que Dios te bendiga muchacha por ser tan bella | Your Canary sings to you, woman of Lima—God bless you, girl, for being so beautiful |
+| (Déjame que te cante limeña) | (Let me sing to you, woman of Lima) |
+| Del puente a la alameda tu gracia envuelve y provoca el tímido mar suspirante morena limeña | From the bridge to the promenade, your grace envelops and stirs the timid, sighing sea, dark-haired woman of Lima |
+| Vámonos pa' la Feria del Hogar Lucho Cueto, no me dejes ronco okey | Let’s go to the Feria del Hogar, Lucho Cueto—don’t leave me hoarse, okay |
+| Para que bailes y goces | So you can dance and revel |
+| (Que te cante limeña) | (Let me sing to you, woman of Lima) |
+| al ritmo de la salsa peruana | To the rhythm of Peruvian salsa |
+| (Que te cante limeña) | (Let me sing to you, woman of Lima) |
+| Ritual de la Borinquen morena | A ritual from Borinquen, my beauty |
+| (Que te cante limeña) | (Let me sing to you, woman of Lima) |
+| Aroma de lisura que engalana tu belleza | A fragrance of grace that adorns your beauty |
+| (Que te cante limeña) | (Let me sing to you, woman of Lima) |
+| El ritmo acompañará tus pasos por la vereda | The rhythm will accompany your steps along the path |
+| Perú Perú Perú Perú Perú Perú, cómo, uuuhhh | Peru, Peru, Peru, Peru, Peru, Peru—come on, oooh |
+| Chimpún Callao, Chimpún Callao, Chimpún Callao, que viva Perú | Chimpún Callao, Chimpún Callao, Chimpún Callao—long live Peru |
+| (Chimpún) | (Chimpún) |
+| Acá yo me quedaré | Here is where I’ll stay |
+| (Chimpún) | (Chimpún) |
+| En Lima yo gozaré | In Lima I’ll revel |
+| (Chimpún) | (Chimpún) |
+| con una rica limeña | With a gorgeous woman of Lima |
+| (Chimpún) | (Chimpún) |
+| que me ponga a bailar como es | Who gets me dancing the way it should be done |
+| (Chimpún) | (Chimpún) |
+| Y a mis chalacos queridos | And to my beloved people of Callao |
+| (Chimpún) | (Chimpún) |
+| para que gocen la salsa | So they can revel in the salsa |
+| (Chimpún) | (Chimpún) |
+| Al barrio de la Vicky | To the La Vicky neighborhood |
+| (Chimpún) | (Chimpún) |
+| para los negros del Alianza Lima | For the Black folks of Alianza Lima |
+| (Chimpún) | (Chimpún) |
+| Por allá por Lince | Over there in Lince |
+| (Chimpún) | (Chimpún) |
+| Que no se me escapen los del Rímac | And don’t let the people of Rímac slip away from me |
+| (Chimpún) | (Chimpún) |
+| Y dale U nadie baila como tú | Go on, U—nobody dances like you |
+| (Chimpún) | (Chimpún) |
+| Así yo me comeré mi cebiche | That’s how I’ll eat my ceviche |
+| (Chimpún) | (Chimpún) |
+| Parihuela y tamalitos | Parihuela and little tamales |
+| (Chimpún) | (Chimpún) |
+| Anticuchos y picarones | Anticuchos and picarones |
+| (Chimpún) | (Chimpún) |
+| Ay qué rico es el cau-cau | Oh, how delicious cau-cau is |
+| (Chimpún) | (Chimpún) |
+| Con una chicha morada | With a purple-corn chicha |
+| (Chimpún) | (Chimpún) |
+| Brindo con un trago de pisco, a ti el Canario te canta | I toast with a glass of pisco—the Canary sings to you |
+| Es un orgullo cantarte Chabuca Granda en ritmo de salsa | It is an honor to sing to you, Chabuca Granda, in salsa rhythm |
