@@ -1,0 +1,33 @@
+#+title: 냄새나는 여자
+#+title_en: Smelly Girl
+#+artist: 10CM
+#+sort_artist: 10CM
+#+language: Korean
+#+spotify: https://open.spotify.com/track/5V3hR1xUzGhBWlyRrSEaiH?si=7rBYLkfUQW2p8uLips_ZoA&utm_source=copy-link
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 화장을 지울 때 셔츠를 벗을 때 | hwajangeul jiul ttae syeocheureul beoseul ttae | When you take off your makeup, when you take off your shirt |
+| 코끝을 지나는 그대만의 냄새 | kokkeuteul jinaneun geudaemanui naemsae | That scent only you have, drifting past my nose |
+| 예쁘지도 않고 못나지도 않은 | yeppeujido anko monnajido aneun | Neither pretty nor plain |
+| 밋밋한 얼굴의 그대만의 냄새 | minmithan eolgului geudaemanui naemsae | Your unassuming face, that scent only you have |
+| 좋다 하기엔 넌 너무 짜릿해 | jota hagien neon neomu jjaritae | To say I like you doesn't capture how you thrill me |
+| 보고 싶지 않다가도 매일 나는 느끼네 | bogo sipji antagado maeil naneun neukkine | Even when I don't miss you, I feel it every day |
+| 우 나도 몰래 너를 안은 채로 | u nado mollae neoreul aneun chaero | Ooh, before I know it, with you in my arms |
+| 풀썩 쓰러지게 돼 | pulsseok sseureojige dwae | I find myself tumbling down |
+| 샤워를 마치고 머리를 만질 때 | syaworeul machigo meorireul manjil ttae | When you finish showering and touch your hair |
+| 코끝을 맴도는 그대만의 냄새 | kokkeuteul maemdoneun geudaemanui naemsae | That scent only you have, lingering around my nose |
+| 끌리지도 않고 질리지도 않는 | kkeullijido anko jillijido anneun | Neither drawing me in nor wearing thin |
+| 밋밋한 매력의 그대만의 냄새 | minmithan maeryeogui geudaemanui naemsae | Your understated charm, that scent only you have |
+| 싫다 하기엔 넌 너무 짜릿해 | silta hagien neon neomu jjaritae | You're far too thrilling for me to say I dislike you |
+| 보고 싶지 않다가도 매일 나는 느끼네 | bogo sipji antagado maeil naneun neukkine | Even when I don't miss you, I feel it every day |
+| 우 나도 몰래 너를 안은 채로 | u nado mollae neoreul aneun chaero | Ooh, before I know it, with you in my arms |
+| 풀썩 쓰러지게 돼 | pulsseok sseureojige dwae | I find myself tumbling down |
+| 우우 나도 몰래 너를 안은 채로 | uu nado mollae neoreul aneun chaero | Ooh, ooh, before I know it, with you in my arms |
+| 덥썩 입맞추게 돼 | deopsseok immatchuge dwae | I find myself suddenly kissing you |
+| 그대만의 냄새 우 | geudaemanui naemsae u | That scent only you have, ooh |
+| 그대만의 냄새 우 | geudaemanui naemsae u | That scent only you have, ooh |
+| 그대만의 냄새 우 | geudaemanui naemsae u | That scent only you have, ooh |
+| 참 좋은 냄새 | cham joeun naemsae | Such a lovely scent |
