@@ -62,19 +62,21 @@
         .trim();
 
       const selected = tidy(String(getSelection()));
-      const selectors = [
-        '[data-lyrics-container="true"]', '[data-testid*="lyrics" i]',
-        '[class*="lyrics" i]', '[id*="lyrics" i]', 'article', 'main'
-      ];
-      const candidates = [...new Set(selectors.flatMap(selector => [...document.querySelectorAll(selector)]))];
       const textFrom = element => tidy(element.innerText || element.textContent || '');
       const score = text => {
         const lines = text.split('\n').filter(Boolean).length;
-        return text.length >= 80 && text.length <= 30000 ? lines * 100 + text.length : -1;
+        return text.length >= 80 && text.length <= 30000 && lines >= 4 ? lines * 100 + text.length : -1;
       };
-      const guessed = candidates
+      const groups = [
+        ['[data-lyrics-container="true"]', '[data-testid*="lyrics" i]', '[class*="lyrics" i]', '[id*="lyrics" i]'],
+        ['article'],
+        ['main']
+      ];
+      const pick = selectors => [...new Set(selectors.flatMap(selector => [...document.querySelectorAll(selector)]))]
         .map(textFrom)
+        .filter(text => score(text) >= 0)
         .sort((a, b) => score(b) - score(a))[0] || '';
+      const guessed = groups.map(pick).find(Boolean) || '';
       const lyrics = selected || guessed;
 
       const toast = message => {
