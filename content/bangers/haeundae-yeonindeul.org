@@ -1,0 +1,57 @@
+#+title: 해운대 연인들
+#+title_en: Haeundae Lovers
+#+artist: 남규리 (Nam Gyu-ri)
+#+sort_artist: Nam Gyu-ri
+#+language: Korean
+#+spotify: https://open.spotify.com/track/1vSWD7cH5qNzQ6Tj7nQ77I?si=na0ZYchhS_KbnY_CQmhOpA&utm_source=copy-link
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 눈부신 태양과 falling in love with you | nunbusin taeyanggwa falling in love with you | With the dazzling sun, falling in love with you |
+| 저 푸른 하늘과 falling in love with me | jeo pureun haneulgwa falling in love with me | With that blue sky, falling in love with me |
+| 뜨거운 햇살과 숨 막힐 듯 | tteugeoun haetsalgwa sum makil deut | The blazing sunshine and the almost suffocating heat |
+| 무더운 이 여름도 | mudeoun i yeoreumdo | Even in this sweltering summer |
+| 난 너와 함께 한다면 | nan neowa hamkke handamyeon | If I'm with you |
+| 더 뜨거워도 좋아 | deo tteugeowodo joa | I wouldn't mind it getting even hotter |
+| 아이스 카페라테처럼 | aiseu kaperatecheoreom | Like an iced café latte |
+| 넌 때로는 부드럽게 | neon ttaeroneun budeureopge | Sometimes you soothe me gently |
+| 또 때로는 달콤한 말로 | tto ttaeroneun dalkomhan mallo | And sometimes with sweet words |
+| 나의 맘을 시원하게 해 | naui mameul siwonhage hae | You cool my heart |
+| 파도가 부서지는 바다가 보고 싶어 | padoga buseojineun badaga bogo sipeo | I want to see the sea where the waves break |
+| 시원한 바람 속을 달리고 싶어 | siwonhan baram sogeul dalligo sipeo | I want to run through the cool breeze |
+| 따사로운 해변의 모래 위를 | ttasaroun haebyeonui morae wireul | Across the sand of the sun-warmed beach |
+| 너와 걷고 싶어 | neowa geotgo sipeo | I want to walk with you |
+| 이 여름 추억을 하나하나 쌓을거야 | i yeoreum chueogeul hanahana ssaeulgeoya | We'll build memories this summer, one by one |
+| 저 태양이 지고 또 뜰 때까지 | jeo taeyangi jigo tto tteul ttaekkaji | Until that sun sets and rises again |
+| 넌 언제나 내 곁에 함께 해줘 | neon eonjena nae gyeote hamkke haejwo | Please always stay here by my side |
+| 늘 지금처럼 | neul jigeumcheoreom | Always, just like now |
+| 수많은 사람들 | sumaneun saramdeul | So many people |
+| 수많은 차들이 바글거려도 | sumaneun chadeuri bageulgeoryeodo | Even with so many cars crowding the streets |
+| 이 여름 이 바닷가가 | i yeoreum i badatgaga | This summer, this seaside |
+| 난 너무나도 좋아 | nan neomunado joa | I love it so much |
+| 더위를 녹여주는 | deowireul nogyeojuneun | Melting the heat away |
+| 너는 꼭 아이스크림 같아서 | neoneun kkok aiseukeurim gataseo | You're just like ice cream |
+| 또 때로는 팥빙수처럼 | tto ttaeroneun patbingsucheoreom | And sometimes, like red-bean shaved ice |
+| 나의 맘을 시원하게 해 | naui mameul siwonhage hae | You cool my heart |
+| 파도가 부서지는 바다가 보고 싶어 | padoga buseojineun badaga bogo sipeo | I want to see the sea where the waves break |
+| 시원한 바람 속을 달리고 싶어 | siwonhan baram sogeul dalligo sipeo | I want to run through the cool breeze |
+| 따사로운 해변의 모래 위를 | ttasaroun haebyeonui morae wireul | Across the sand of the sun-warmed beach |
+| 너와 걷고 싶어 | neowa geotgo sipeo | I want to walk with you |
+| 이 여름 추억을 하나하나 쌓을거야 | i yeoreum chueogeul hanahana ssaeulgeoya | We'll build memories this summer, one by one |
+| 저 태양이 지고 또 뜰 때까지 | jeo taeyangi jigo tto tteul ttaekkaji | Until that sun sets and rises again |
+| 넌 언제나 내 곁에 함께 해줘 | neon eonjena nae gyeote hamkke haejwo | Please always stay here by my side |
+| 늘 지금처럼 | neul jigeumcheoreom | Always, just like now |
+| 붉은 태양 저 넓은 하늘이 | bulgeun taeyang jeo neolbeun haneuri | When the red sun and that vast sky |
+| 바다위에 물들 때 사랑을 고백해 | badawie muldeul ttae sarangeul gobaekae | Cast their colors on the sea, I confess my love |
+| 오오 여름이 난 너무 좋아 | oo yeoreumi nan neomu joa | Oh, oh, I love summer so much |
+| 너와 함께 할 수 있어 너무 좋아 | neowa hamkke hal su isseo neomu joa | I'm so happy I can be with you |
+| 내 사랑은 너라는 파도 타고 | nae sarangeun neoraneun pado tago | My love rides the wave that is you |
+| 춤추고 있어 | chumchugo isseo | And dances |
+| 이 여름 추억을 하나하나 쌓을거야 | i yeoreum chueogeul hanahana ssaeulgeoya | We'll build memories this summer, one by one |
+| 저 태양이 지고 또 뜰 때까지 | jeo taeyangi jigo tto tteul ttaekkaji | Until that sun sets and rises again |
+| 넌 언제나 내 곁에 함께해줘 | neon eonjena nae gyeote hamkkehaejwo | Please always stay here by my side |
+| 늘 지금처럼 | neul jigeumcheoreom | Always, just like now |
+| 눈부신 태양 아래 | nunbusin taeyang arae | Beneath the dazzling sun |
+| I'm falling in love | I'm falling in love | I'm falling in love |
