@@ -12,7 +12,7 @@
 // To ship a production update, bump CACHE_VERSION; the browser swaps to the new
 // bundle in the background the next time it's online.
 const DEV = ['localhost', '127.0.0.1', '0.0.0.0', '[::1]'].indexOf(self.location.hostname) !== -1;
-const CACHE_VERSION = 'v7'; // v7: tolerant install + network-first shell (v6 un-broke the Liquid-mangled worker)
+const CACHE_VERSION = 'v8'; // v8: the rebuilt clock (items, the editor, spirit.js); v7 tolerant install + network-first shell
 const CACHE = 'clock-' + CACHE_VERSION;
 
 // CRITICAL must all cache or install fails (the app shell); OPTIONAL assets
@@ -20,6 +20,8 @@ const CACHE = 'clock-' + CACHE_VERSION;
 const CRITICAL = [
   '/clock/',
   '/assets/js/clock.js',
+  '/assets/js/spirit.js',
+  '/assets/js/weather-icons.js',
   '/assets/fonts/inter-latin-wght.woff2',
   '/assets/fonts/jetbrains-mono-latin-wght.woff2',
   '/assets/clock.webmanifest'
@@ -34,7 +36,7 @@ const OPTIONAL = [
 
 // The shell (page + code) is fetched network-first so updates propagate even
 // without a version bump; everything else is cache-first forever.
-const NETWORK_FIRST = ['/assets/js/clock.js'];
+const NETWORK_FIRST = ['/assets/js/clock.js', '/assets/js/spirit.js', '/assets/js/weather-icons.js'];
 
 if (DEV) {
   // Dev kill-switch: purge caches, unregister, and reload open tabs so the page
@@ -69,6 +71,7 @@ if (DEV) {
     const req = event.request;
     if (req.method !== 'GET') return;
     const url = new URL(req.url);
+    if (url.origin !== self.location.origin) return; // the weather and geocoding APIs: straight to the network
     const freshFirst = req.mode === 'navigate' || NETWORK_FIRST.indexOf(url.pathname) !== -1;
 
     if (freshFirst) {

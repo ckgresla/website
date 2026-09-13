@@ -15,6 +15,11 @@ publicly. Working notes go on plain lines beneath, which the site ignores.
   Treble and bass clefs, sharp, flat, note ±shadow, whole-note,
   notes-beamed ±shadow. The composed note-group pair was retired and now
   lives inline on the progetti card.
+- [X] weather — twelve skies: clear, clear night, partly cloudy, cloudy, overcast, fog, drizzle, rain, heavy rain, snow, sleet, thunder; and sunrise, sunset
+  Drawn for the clock's weather item (Sept 2026): the pack's cloud lifted with
+  the weather beneath it, a wobbly sun, a crescent, the chunky bolt small and
+  solid for thunder. Each with a no-shadow variant, which is what the clock
+  uses — they float.
 - [X] ckg spirit — blob, loop, water, air, fire (and candle), earth
   The site's spirit as one mark drawn seven ways, each with a no-shadow
   variant: the two general pieces, then the four elements as eight particles

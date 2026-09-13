@@ -171,6 +171,39 @@
         "calendar-plain",
         "calendar-plain-noshadow"
       ]
+    },
+    {
+      "name": "Weather",
+      "stems": [
+        "weather-clear",
+        "weather-clear-noshadow",
+        "weather-clear-night",
+        "weather-clear-night-noshadow",
+        "weather-partly-cloudy",
+        "weather-partly-cloudy-noshadow",
+        "weather-cloudy",
+        "weather-cloudy-noshadow",
+        "weather-overcast",
+        "weather-overcast-noshadow",
+        "weather-fog",
+        "weather-fog-noshadow",
+        "weather-drizzle",
+        "weather-drizzle-noshadow",
+        "weather-rain",
+        "weather-rain-noshadow",
+        "weather-heavy-rain",
+        "weather-heavy-rain-noshadow",
+        "weather-snow",
+        "weather-snow-noshadow",
+        "weather-sleet",
+        "weather-sleet-noshadow",
+        "weather-thunder",
+        "weather-thunder-noshadow",
+        "weather-sunrise",
+        "weather-sunrise-noshadow",
+        "weather-sunset",
+        "weather-sunset-noshadow"
+      ]
     }
   ]
 }

@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
   <title>Clock</title>
 
-  <!-- iOS standalone (Add to Home Screen → fullscreen, no Safari chrome) -->
+  <!-- Installed: iOS (Add to Home Screen) and Android (Install app) both run
+       it edge-to-edge — the manifest asks for fullscreen, iOS for a
+       translucent status bar. -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -21,264 +23,176 @@
   <link rel="apple-touch-icon" href="/assets/images/clock/icon-180.png">
 
   <style>
-    @font-face {
-      font-family: 'Inter'; font-style: normal; font-weight: 100 900; font-display: swap;
-      src: url('/assets/fonts/inter-latin-wght.woff2') format('woff2');
-    }
-    @font-face {
-      font-family: 'JetBrains Mono'; font-style: normal; font-weight: 100 800; font-display: swap;
-      src: url('/assets/fonts/jetbrains-mono-latin-wght.woff2') format('woff2');
-    }
-    @font-face {
-      font-family: 'Inter'; font-style: italic; font-weight: 100 900; font-display: swap;
-      src: url('/assets/fonts/inter-latin-wght-italic.woff2') format('woff2');
-    }
-    @font-face {
-      font-family: 'JetBrains Mono'; font-style: italic; font-weight: 100 800; font-display: swap;
-      src: url('/assets/fonts/jetbrains-mono-latin-wght-italic.woff2') format('woff2');
-    }
+    @font-face { font-family:'Inter'; font-style:normal; font-weight:100 900; font-display:swap; src:url('/assets/fonts/inter-latin-wght.woff2') format('woff2'); }
+    @font-face { font-family:'JetBrains Mono'; font-style:normal; font-weight:100 800; font-display:swap; src:url('/assets/fonts/jetbrains-mono-latin-wght.woff2') format('woff2'); }
+    @font-face { font-family:'Inter'; font-style:italic; font-weight:100 900; font-display:swap; src:url('/assets/fonts/inter-latin-wght-italic.woff2') format('woff2'); }
+    @font-face { font-family:'JetBrains Mono'; font-style:italic; font-weight:100 800; font-display:swap; src:url('/assets/fonts/jetbrains-mono-latin-wght-italic.woff2') format('woff2'); }
 
     /* One accent, both themes (the site's rule): lavender fill with ink text.
        --line is the hairline border; --ctl is control-label ink (AA on both
-       grounds); --muted stays for genuinely decorative text. */
+       grounds); --muted is for genuinely decorative text. */
     :root {
-      --bg:#000; --fg:#fff; --muted:#7c7c80; --ctl:#9a9aa0; --accent:#c4d2ff; --accent-on:#0a0a0a;
-      --line:#333; --switch-off:#3a3a3c;
+      --bg:#000; --fg:#fff; --muted:#7c7c80; --ctl:#9a9aa0; --accent:#c4d2ff; --accent-on:#0a0a0a; --line:#333;
     }
     @media (prefers-color-scheme: light) {
-      :root:not([data-theme="dark"]) {
-        --bg:#fff; --fg:#0b0b0b; --muted:#8a8a8e; --ctl:#6e6e73; --accent:#c4d2ff; --accent-on:#0a0a0a;
-        --line:#e5e5e5; --switch-off:#d1d1d6;
-      }
+      :root:not([data-theme="dark"]) { --bg:#fff; --fg:#0b0b0b; --muted:#8a8a8e; --ctl:#6e6e73; --accent:#c4d2ff; --accent-on:#0a0a0a; --line:#e5e5e5; }
     }
-    :root[data-theme="light"] { --bg:#fff; --fg:#0b0b0b; --muted:#8a8a8e; --ctl:#6e6e73; --accent:#c4d2ff; --accent-on:#0a0a0a; --line:#e5e5e5; --switch-off:#d1d1d6; }
-    :root[data-theme="dark"]  { --bg:#000; --fg:#fff; --muted:#7c7c80; --ctl:#9a9aa0; --accent:#c4d2ff; --accent-on:#0a0a0a; --line:#333; --switch-off:#3a3a3c; }
+    :root[data-theme="light"] { --bg:#fff; --fg:#0b0b0b; --muted:#8a8a8e; --ctl:#6e6e73; --accent:#c4d2ff; --accent-on:#0a0a0a; --line:#e5e5e5; }
+    :root[data-theme="dark"]  { --bg:#000; --fg:#fff; --muted:#7c7c80; --ctl:#9a9aa0; --accent:#c4d2ff; --accent-on:#0a0a0a; --line:#333; }
 
     * { margin:0; padding:0; box-sizing:border-box;
         -webkit-user-select:none; user-select:none; -webkit-tap-highlight-color:transparent; -webkit-touch-callout:none; }
     html, body { height:100%; overscroll-behavior:none; }
+    /* The app fills the window as a fixed box — no vh, so a browser's address
+       bar coming and going never leaves a gap or an offset. */
     body {
       background:var(--bg); color:var(--fg);
       font-family:'Inter', system-ui, -apple-system, sans-serif;
       font-synthesis:none; text-rendering:optimizeLegibility;
-      overflow:hidden; position:fixed; inset:0; touch-action:none;
+      overflow:hidden; position:fixed; inset:0; touch-action:manipulation;
       transition:background-color .55s ease, color .55s ease;
+      --pt:calc(env(safe-area-inset-top, 0px) + 28px); --pr:calc(env(safe-area-inset-right, 0px) + 30px);
+      --pb:calc(env(safe-area-inset-bottom, 0px) + 34px); --pl:calc(env(safe-area-inset-left, 0px) + 30px);
+      --sheet-h:0px;
     }
-    #clock { position:fixed; inset:0; overflow:hidden; }
     .num { font-variant-numeric:tabular-nums; }
 
-    /* View track + size scales (main + independent subtitle). One view today;
-       the flex track is kept so future views (timer, alarm…) can be added. */
-    .views { display:flex; height:100%; width:100%; --scale:1; --date-scale:1; position:relative; z-index:1; }
+    /* ---- The face: nine anchors over the safe area. Every item sits in one
+       cell; items sharing a cell stack in order. ---- */
+    #face { position:absolute; inset:0; z-index:1; transform:translate(var(--dx, 0px), var(--dy, 0px)); transition:top .28s ease, bottom .28s ease, transform 2.4s ease; outline:none; }
+    #dim { position:absolute; inset:0; z-index:4; background:#000; opacity:var(--dim, 0); pointer-events:none; transition:opacity .4s ease; }
+    #face:focus-visible { outline:1px dashed var(--line); outline-offset:-8px; }
+    body.editing #face { top:52px; }
+    body.sheet-open #face { bottom:var(--sheet-h); }
+    .cell { position:absolute; display:flex; flex-direction:column; gap:22px; max-width:calc(100% - var(--pl) - var(--pr)); }
+    .cell.tl, .cell.tc, .cell.tr { top:var(--pt); }
+    .cell.bl, .cell.bc, .cell.br { bottom:var(--pb); }
+    .cell.ml, .cell.mc, .cell.mr { top:50%; transform:translateY(-50%); }
+    .cell.tl, .cell.ml, .cell.bl { left:var(--pl); align-items:flex-start; text-align:left; }
+    .cell.tr, .cell.mr, .cell.br { right:var(--pr); align-items:flex-end; text-align:right; }
+    .cell.tc, .cell.bc { left:50%; transform:translateX(-50%); align-items:center; text-align:center; }
+    .cell.mc { left:50%; transform:translate(-50%, -50%); align-items:center; text-align:center; }
 
-    /* Moon — its own grid placement, sits behind the time */
-    #moon { position:absolute; inset:0; z-index:0; display:none; align-items:center; justify-content:center; pointer-events:none; --moon-scale:1;
-      padding:calc(env(safe-area-inset-top) + 24px) calc(env(safe-area-inset-right) + 26px)
-              calc(env(safe-area-inset-bottom) + 30px) calc(env(safe-area-inset-left) + 26px); }
-    #moon.on { display:flex; }
-    #moon.mv-top { align-items:flex-start; } #moon.mv-middle { align-items:center; } #moon.mv-bottom { align-items:flex-end; }
-    #moon.mh-left { justify-content:flex-start; } #moon.mh-center { justify-content:center; } #moon.mh-right { justify-content:flex-end; }
-    #moon svg { width:calc(clamp(56px,17vw,108px) * var(--moon-scale)); height:auto; display:block; transform:rotate(-45deg); opacity:var(--moon-dim,1); }
-    .views.italic .time, .views.italic .date { font-style:italic; }
+    .item { position:relative; --s:1; border-radius:2px; }
+    .item.time { font-weight:var(--w, 200); font-size:calc(clamp(70px, 21vw, 150px) * var(--s)); letter-spacing:-.03em; line-height:1; white-space:nowrap; }
+    .item.time .ampm, .item.time .secs { font-weight:300; font-size:.32em; color:var(--muted); vertical-align:.95em; }
+    .item.time .ampm { margin-left:.16em; } .item.time .secs { margin-left:.12em; }
+    .item.time .ampm + .secs:not(:empty) { margin-left:.5em; } /* AM/PM and seconds must not read as one token */
+    .item.time.words { font-weight:var(--w, 300); font-size:calc(clamp(30px, 8.5vw, 54px) * var(--s)); line-height:1.15; letter-spacing:-.01em; max-width:min(88vw, 9em); white-space:normal; }
+    .item.time.words .ampm, .item.time.words .secs { display:none; }
+    .item.date { font-weight:var(--w, 500); font-size:calc(clamp(13px, 3.7vw, 18px) * var(--s)); letter-spacing:.01em; color:var(--muted); }
+    .item.italic { font-style:italic; }
+    .item.moon svg { width:calc(clamp(56px, 17vw, 108px) * var(--s)); height:auto; display:block; transform:rotate(-45deg); }
+    .item.spirit svg { width:calc(clamp(64px, 20vw, 128px) * var(--s)); height:auto; display:block; color:var(--fg); }
+    .item.weather { display:flex; align-items:center; gap:.25em; font-weight:var(--w, 500); font-size:calc(clamp(20px, 5.5vw, 30px) * var(--s)); letter-spacing:-.01em; white-space:nowrap; }
+    .item.weather svg { width:2.4em; height:2.4em; display:block; flex:0 0 auto; }
+    /* a sky's three hand frames: only the one data-f names shows */
+    svg[data-f] > g[data-f] { display:none; }
+    svg[data-f="0"] > g[data-f="0"], svg[data-f="1"] > g[data-f="1"], svg[data-f="2"] > g[data-f="2"] { display:inline; }
+    .item.weather .age { font-size:.5em; color:var(--muted); margin-left:.4em; }
+    .item .note { font-size:.6em; color:var(--muted); font-weight:500; letter-spacing:.02em; }
+    .item.sun { display:flex; align-items:center; gap:1em; font-weight:var(--w, 500); font-size:calc(clamp(13px, 3.7vw, 18px) * var(--s)); color:var(--muted); letter-spacing:.01em; white-space:nowrap; }
+    .item.sun > span { display:inline-flex; align-items:center; gap:.3em; }
+    .item.sun svg { width:2em; height:2em; display:block; color:var(--fg); }
+    .item.text { font-weight:var(--w, 500); font-size:calc(clamp(15px, 4.2vw, 22px) * var(--s)); max-width:min(88vw, 22em); white-space:pre-wrap; line-height:1.3; }
 
-    .view { flex:0 0 100%; width:100%; height:100%; display:flex; position:relative;
-      align-items:center; justify-content:center;
-      padding:calc(env(safe-area-inset-top) + 28px) calc(env(safe-area-inset-right) + 30px)
-              calc(env(safe-area-inset-bottom) + 34px) calc(env(safe-area-inset-left) + 30px); }
-    .stack { display:flex; flex-direction:column; align-items:center; }
-    .time, .date { text-align:center; }
+    /* Mono typeface */
+    body.font-mono .item.time, body.font-mono .item.date { font-family:'JetBrains Mono', ui-monospace, monospace; }
+    body.font-mono .item.time { font-weight:var(--w, 400); font-size:calc(clamp(52px, 16vw, 116px) * var(--s)); letter-spacing:-.02em; line-height:1.05; }
+    body.font-mono .item.time .ampm { font-size:.42em; margin-left:.22em; vertical-align:.9em; }
+    body.font-mono .item.time .secs { font-size:.42em; margin-left:.18em; vertical-align:.9em; }
+    body.font-mono .item.time.words { font-weight:var(--w, 500); font-size:calc(clamp(30px, 8.5vw, 54px) * var(--s)); }
+    body.font-mono .item.date { letter-spacing:.05em; }
+    body.font-mono .item.weather, body.font-mono .item.sun, body.font-mono .item.text { font-family:'JetBrains Mono', ui-monospace, monospace; }
 
-    /* 3×3 position */
-    .views.v-top .view { align-items:flex-start; } .views.v-middle .view { align-items:center; } .views.v-bottom .view { align-items:flex-end; }
-    .views.h-left .view { justify-content:flex-start; } .views.h-center .view { justify-content:center; } .views.h-right .view { justify-content:flex-end; }
-    .views.h-left .stack { align-items:flex-start; } .views.h-center .stack { align-items:center; } .views.h-right .stack { align-items:flex-end; }
-    .views.h-left .time, .views.h-left .date { text-align:left; }
-    .views.h-center .time, .views.h-center .date { text-align:center; }
-    .views.h-right .time, .views.h-right .date { text-align:right; }
+    /* ---- Editing: every item outlined and tappable; the picked one in the
+       accent. The bar above, the sheet below. ---- */
+    body.editing .item { outline:1px dashed var(--line); outline-offset:10px; cursor:pointer; }
+    body.editing .item.picked { outline:1.5px solid var(--accent); }
+    body.editing .item:focus-visible { outline:1.5px solid var(--fg); }
 
-    /* ---- The clock face (one view; Font toggle swaps Sans ↔ Mono) ---- */
-    .time { font-weight:var(--time-weight,200); font-size:calc(clamp(70px,21vw,150px) * var(--scale)); letter-spacing:-.03em; line-height:1; }
-    .ampm { font-weight:300; font-size:.32em; color:var(--muted); margin-left:.16em; vertical-align:.95em; }
-    .secs { font-weight:300; font-size:.32em; color:var(--muted); margin-left:.12em; vertical-align:.95em; }
-    .ampm + .secs:not(:empty) { margin-left:.5em; } /* AM/PM and seconds must not read as one token */
-    .date { margin-top:calc(26px * var(--scale)); font-weight:500; font-size:calc(clamp(13px,3.7vw,18px) * var(--date-scale)); letter-spacing:.01em; color:var(--muted); }
+    #bar { position:absolute; left:0; right:0; top:0; z-index:5; display:flex; align-items:center; gap:12px;
+      padding:calc(env(safe-area-inset-top, 0px) + 10px) calc(env(safe-area-inset-right, 0px) + 14px) 10px calc(env(safe-area-inset-left, 0px) + 14px);
+      opacity:0; visibility:hidden; transition:opacity .22s ease, visibility .22s; }
+    body.editing #bar { opacity:1; visibility:visible; }
+    #bar .hint { flex:1; min-width:0; text-align:center; font-size:12px; color:var(--muted); letter-spacing:.04em; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .btn { border:1px solid var(--line); background:var(--bg); color:var(--ctl); font:inherit; font-size:14px; font-weight:500; padding:9px 14px; border-radius:4px; cursor:pointer; transition:background .2s, color .2s, border-color .2s; }
+    .btn.on, .btn:active { background:var(--accent); border-color:var(--accent); color:var(--accent-on); }
 
-    /* Mono typeface variant */
-    .views.font-mono .time, .views.font-mono .ampm, .views.font-mono .secs, .views.font-mono .date { font-family:'JetBrains Mono', ui-monospace, monospace; }
-    .views.font-mono .time { font-weight:var(--time-weight,400); font-size:calc(clamp(52px,16vw,116px) * var(--scale)); letter-spacing:-.02em; line-height:1.05; }
-    .views.font-mono .ampm { font-size:.42em; margin-left:.22em; vertical-align:.9em; }
-    .views.font-mono .secs { font-size:.42em; margin-left:.18em; vertical-align:.9em; }
-    .views.font-mono .date { letter-spacing:.05em; }
+    #sheet { position:absolute; left:0; right:0; bottom:0; z-index:6; max-height:min(62%, 540px); display:flex; flex-direction:column;
+      background:var(--bg); border-top:1px solid var(--line); transform:translateY(100%); transition:transform .28s ease; }
+    #sheet.open { transform:none; }
+    .sheet-head { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:14px 20px 10px; }
+    .sheet-title { font-size:15px; font-weight:600; }
+    .sheet-body { overflow-y:auto; -webkit-overflow-scrolling:touch; overscroll-behavior:contain; scrollbar-width:none; touch-action:pan-y;
+      padding:6px 20px calc(env(safe-area-inset-bottom, 0px) + 22px); display:flex; flex-direction:column; gap:18px; }
+    .sheet-body::-webkit-scrollbar { display:none; }
 
-    /* Word / pirate / wizard formats wrap and shrink */
-    .time.words { font-weight:var(--time-weight,300); font-size:calc(clamp(30px,8.5vw,54px) * var(--scale)); line-height:1.15; letter-spacing:-.01em; max-width:min(88vw,9em); }
-    .views.font-mono .time.words { font-weight:var(--time-weight,500); }
-    .time.words .ampm, .time.words .secs { display:none; }
-
-    /* ---- Menu (scrollable, never crowds the hint) ---- */
-    #menu { position:fixed; inset:0; z-index:10; display:grid; overflow-y:auto; -webkit-overflow-scrolling:touch;
-      overscroll-behavior:contain; scrollbar-width:none; /* Android: no visible scrollbar, no pull-glow */
-      background:color-mix(in srgb, var(--bg) 76%, transparent);
-      -webkit-backdrop-filter:blur(24px); backdrop-filter:blur(24px);
-      opacity:0; visibility:hidden; transition:opacity .26s ease, visibility .26s; }
-    #menu.open { opacity:1; visibility:visible; }
-    .menu-inner { margin:auto; width:100%; max-width:360px;
-      padding:calc(env(safe-area-inset-top) + 32px) 28px calc(env(safe-area-inset-bottom) + 30px);
-      display:flex; flex-direction:column; gap:20px;
-      transform:translateY(10px) scale(.985); transition:transform .26s ease; }
-    #menu.open .menu-inner { transform:none; }
-    .menu-card { display:flex; flex-direction:column; gap:19px; }
+    /* ---- Controls (the site's language: hairlines, 4px radii, one accent) ---- */
     .field { display:flex; flex-direction:column; gap:9px; }
     .field > .lbl { font-size:13px; color:var(--muted); font-weight:500; padding-left:2px; }
-
     .seg { display:flex; border:1px solid var(--line); border-radius:4px; padding:3px; gap:3px; }
     .seg button { flex:1; border:0; background:transparent; color:var(--ctl); font:inherit; font-size:15px; font-weight:500; padding:12px 0; border-radius:2px; cursor:pointer; transition:background .2s, color .2s; }
     .seg button.on { background:var(--accent); color:var(--accent-on); }
-
-    .pills { display:flex; flex-wrap:wrap; gap:8px; }
-    .pills button { border:1px solid var(--line); background:transparent; color:var(--ctl); font:inherit; font-size:14px; font-weight:500; padding:9px 13px; border-radius:4px; cursor:pointer; transition:background .2s, color .2s, border-color .2s; }
+    .pills { display:flex; flex-wrap:wrap; align-items:center; gap:8px; }
+    .pills button { display:inline-flex; align-items:center; gap:7px; border:1px solid var(--line); background:transparent; color:var(--ctl); font:inherit; font-size:14px; font-weight:500; padding:9px 13px; border-radius:4px; cursor:pointer; transition:background .2s, color .2s, border-color .2s; }
     .pills button.on { background:var(--accent); border-color:var(--accent); color:var(--accent-on); }
-
-    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:3px; border:1px solid var(--line); padding:3px; border-radius:4px; }
+    .pills button svg { width:22px; height:22px; display:block; }
+    .grid { display:grid; grid-template-columns:repeat(3, 1fr); gap:3px; border:1px solid var(--line); padding:3px; border-radius:4px; }
     .grid button { height:46px; border:0; background:transparent; border-radius:2px; cursor:pointer; display:flex; padding:9px; transition:background .2s; }
     .grid button > i { width:7px; height:7px; border-radius:50%; background:var(--ctl); transition:background .2s; }
     .grid button.on { background:var(--accent); } .grid button.on > i { background:var(--accent-on); }
     .grid button:nth-child(3n+1) { justify-content:flex-start; } .grid button:nth-child(3n+2) { justify-content:center; } .grid button:nth-child(3n) { justify-content:flex-end; }
     .grid button:nth-child(-n+3) { align-items:flex-start; } .grid button:nth-child(n+4):nth-child(-n+6) { align-items:center; } .grid button:nth-child(n+7) { align-items:flex-end; }
-
-    .slider { -webkit-appearance:none; appearance:none; width:100%; height:30px; background:transparent; cursor:pointer; }
+    .slider { -webkit-appearance:none; appearance:none; width:100%; height:30px; background:transparent; cursor:pointer; touch-action:pan-x; }
     .slider::-webkit-slider-runnable-track { height:2px; border-radius:0; background:var(--line); }
     .slider::-webkit-slider-thumb { -webkit-appearance:none; width:24px; height:24px; border-radius:50%; background:var(--accent); border:1px solid var(--line); margin-top:-11px; }
     .slider::-moz-range-track { height:2px; border-radius:0; background:var(--line); }
     .slider::-moz-range-thumb { width:24px; height:24px; border:1px solid var(--line); border-radius:50%; background:var(--accent); }
-
     .swatches { display:flex; flex-wrap:wrap; gap:11px; align-items:center; }
-    .swatches .sw { width:34px; height:34px; border-radius:50%; border:0; cursor:pointer; padding:0; background:var(--c,#888);
+    .sw { width:34px; height:34px; border-radius:50%; border:0; cursor:pointer; padding:0; background:var(--c, #888);
       box-shadow:0 0 0 2px var(--bg), 0 0 0 2px transparent; transition:box-shadow .15s; }
-    .swatches .sw.on { box-shadow:0 0 0 2px var(--bg), 0 0 0 4px var(--fg); }
-    .swatches .sw-default { background:linear-gradient(135deg,#c4d2ff,#6f7fe0); }
-    .swatches .sw-custom { position:relative; overflow:hidden;
-      background:conic-gradient(from 0deg, #ff6b6b, #f2c14e, #7ee0b8, #5ac8fa, #8e8cff, #ff7eb6, #ff6b6b); }
-    .swatches .sw-custom input { position:absolute; inset:-6px; width:46px; height:46px; opacity:0; border:0; cursor:pointer; }
-
+    .sw.on { box-shadow:0 0 0 2px var(--bg), 0 0 0 4px var(--fg); }
+    .sw-default { background:linear-gradient(135deg, #c4d2ff, #6f7fe0); }
+    .sw-custom { position:relative; overflow:hidden; background:conic-gradient(from 0deg, #ff6b6b, #f2c14e, #7ee0b8, #5ac8fa, #8e8cff, #ff7eb6, #ff6b6b); }
+    .sw-custom input { position:absolute; inset:-6px; width:46px; height:46px; opacity:0; border:0; cursor:pointer; }
     .row { display:flex; align-items:center; justify-content:space-between; padding:2px; }
     .row .lbl { font-size:16px; font-weight:500; }
     .switch { width:52px; height:32px; border-radius:4px; border:1px solid var(--line); background:transparent; position:relative; transition:background .2s; cursor:pointer; flex:0 0 auto; }
     .switch.on { background:var(--accent); border-color:var(--accent); }
     .switch::after { content:""; position:absolute; top:3px; left:3px; width:24px; height:24px; border-radius:2px; background:var(--ctl); transition:transform .2s, background .2s; }
     .switch.on::after { transform:translateX(20px); background:var(--accent-on); }
-    .menu-hint { position:fixed; left:0; right:0; bottom:calc(env(safe-area-inset-bottom) + 12px); text-align:center; font-size:12px; color:var(--muted); letter-spacing:.05em; pointer-events:none; }
-    .menu-inner { padding-bottom:calc(env(safe-area-inset-bottom) + 56px); }
-    #menu.moon-off .moonsub { display:none; }   /* moon sub-settings only while the moon is on */
-    #menu.no-seconds .row-seconds { display:none; } /* seconds is inert in word formats */
+    .pair { display:flex; gap:8px; } .pair .btn { flex:1; } .pair input { flex:1; min-width:0; } .pair input + .btn { flex:0 0 auto; }
+    .stackf { display:flex; flex-direction:column; gap:9px; }
+    .loc-name { font-size:15px; font-weight:500; padding-left:2px; }
+    input[type="text"] { border:1px solid var(--line); background:transparent; color:var(--fg); font:inherit; font-size:15px; padding:10px 12px; border-radius:4px; width:100%; min-width:0; -webkit-user-select:text; user-select:text; }
+    input[type="text"]:focus { outline:none; border-color:var(--ctl); }
+    .adds { display:grid; grid-template-columns:repeat(2, 1fr); gap:8px; }
+    .adds button { display:flex; align-items:center; gap:10px; border:1px solid var(--line); background:transparent; color:var(--fg); font:inherit; font-size:15px; font-weight:500; padding:12px 14px; border-radius:4px; cursor:pointer; text-align:left; }
+    .adds button:active { background:var(--accent); border-color:var(--accent); color:var(--accent-on); }
+    .adds button svg { width:26px; height:26px; flex:0 0 auto; display:block; }
+    .adds button i { display:inline-block; width:26px; text-align:center; font-style:normal; color:var(--muted); font-size:13px; letter-spacing:.04em; }
 
-    #menu::-webkit-scrollbar { display:none; }
-
-    @media (prefers-reduced-motion: reduce) { .views, body, #menu, .menu-inner, .switch, .switch::after, .seg button, .pills button, .grid button, .grid button > i { transition-duration:.01ms; } }
+    @media (prefers-reduced-motion: reduce) { body, #face, #bar, #sheet, .switch, .switch::after, .seg button, .pills button, .grid button, .grid button > i, .btn { transition-duration:.01ms; } }
   </style>
 </head>
 <body>
-  <div id="clock">
-    <div id="moon"></div>
-    <div class="views" id="views">
+  <div id="face" tabindex="0" aria-label="Clock. Press Enter to edit."></div>
+  <div id="dim" aria-hidden="true"></div>
 
-      <section class="view" data-view="clock">
-        <div class="stack">
-          <div class="time num">
-            <span data-role="hm">9:41</span><span class="ampm" data-role="ampm"></span><span class="secs num" data-role="secs"></span>
-          </div>
-          <div class="date" data-role="date"></div>
-        </div>
-      </section>
-
-    </div>
+  <div id="bar" aria-hidden="true">
+    <button class="btn" data-act="done">Done</button>
+    <span class="hint">tap an item to edit it · empty space to add</span>
+    <button class="btn" data-act="clock">Clock</button>
   </div>
 
-  <div id="menu" aria-hidden="true">
-    <div class="menu-inner">
-      <div class="menu-card">
-        <div class="field"><span class="lbl">Font</span>
-          <div class="seg" data-set="font"><button data-val="sans">Sans</button><button data-val="mono">Mono</button></div></div>
-
-        <div class="field"><span class="lbl">Time format</span>
-          <div class="pills" data-set="timeFormat">
-            <button data-val="military">24h</button><button data-val="h12">12h</button><button data-val="h12ap">12h AM/PM</button>
-            <button data-val="words">Words</button><button data-val="pirate">Pirate</button><button data-val="wizard">Wizard</button>
-          </div></div>
-
-        <div class="row row-seconds"><span class="lbl">Seconds</span><button class="switch" data-toggle="seconds" aria-label="Seconds"></button></div>
-
-        <div class="field"><span class="lbl">Date format</span>
-          <div class="pills" data-set="dateFormat">
-            <button data-val="off">Off</button><button data-val="iso">ISO</button>
-            <button data-val="long">Long</button><button data-val="longd">Long Mon</button><button data-val="longdow">Long Monday</button>
-            <button data-val="short">Short</button><button data-val="dotted">Dotted</button><button data-val="doy">Day</button><button data-val="words">Words</button>
-          </div></div>
-
-        <div class="field"><span class="lbl">Position</span>
-          <div class="grid" data-set="position">
-            <button data-val="tl"><i></i></button><button data-val="tc"><i></i></button><button data-val="tr"><i></i></button>
-            <button data-val="ml"><i></i></button><button data-val="mc"><i></i></button><button data-val="mr"><i></i></button>
-            <button data-val="bl"><i></i></button><button data-val="bc"><i></i></button><button data-val="br"><i></i></button>
-          </div></div>
-
-        <div class="field"><span class="lbl">Size</span>
-          <input class="slider" type="range" data-slider="size" min="0.2" max="1.7" step="0.01" aria-label="Size"></div>
-
-        <div class="field"><span class="lbl">Date size</span>
-          <input class="slider" type="range" data-slider="dateSize" min="0.3" max="2.2" step="0.01" aria-label="Date size"></div>
-
-        <div class="field"><span class="lbl">Weight</span>
-          <div class="seg" data-set="weight">
-            <button data-val="auto">Auto</button><button data-val="thin">Thin</button><button data-val="regular">Reg</button><button data-val="semibold">Semi</button><button data-val="bold">Bold</button>
-          </div></div>
-
-        <div class="field"><span class="lbl">Moon</span>
-          <div class="pills" data-set="moon">
-            <button data-val="off">Off</button><button data-val="live">Live</button>
-            <button data-val="new">New</button><button data-val="cres">Crescent</button><button data-val="quarter">Quarter</button><button data-val="gibbous">Gibbous</button><button data-val="full">Full</button>
-          </div></div>
-
-        <div class="field moonsub"><span class="lbl">Moon style</span>
-          <div class="pills" data-set="moonStyle">
-            <button data-val="filled">Filled</button><button data-val="hollow">Hollow</button>
-            <button data-val="diagram">Diagram</button><button data-val="pixel">Pixel</button>
-          </div></div>
-
-        <div class="field moonsub"><span class="lbl">Moon position</span>
-          <div class="grid" data-set="moonPos">
-            <button data-val="tl"><i></i></button><button data-val="tc"><i></i></button><button data-val="tr"><i></i></button>
-            <button data-val="ml"><i></i></button><button data-val="mc"><i></i></button><button data-val="mr"><i></i></button>
-            <button data-val="bl"><i></i></button><button data-val="bc"><i></i></button><button data-val="br"><i></i></button>
-          </div></div>
-
-        <div class="field moonsub"><span class="lbl">Moon size</span>
-          <input class="slider" type="range" data-slider="moonSize" min="0.2" max="2.5" step="0.01" aria-label="Moon size"></div>
-
-        <div class="field"><span class="lbl">Orientation</span>
-          <div class="seg" data-set="orientation"><button data-val="auto">Auto</button><button data-val="portrait">Portrait</button><button data-val="landscape">Landscape</button></div></div>
-
-        <div class="field"><span class="lbl">Theme</span>
-          <div class="seg" data-set="theme"><button data-val="auto">Auto</button><button data-val="light">Light</button><button data-val="dark">Dark</button></div></div>
-
-        <div class="field"><span class="lbl">Accent</span>
-          <div class="swatches" data-set="accent">
-            <button class="sw sw-default" data-val="default" aria-label="Default"></button>
-            <button class="sw" data-val="#8e8cff" style="--c:#8e8cff"></button>
-            <button class="sw" data-val="#7ee0b8" style="--c:#7ee0b8"></button>
-            <button class="sw" data-val="#f2c14e" style="--c:#f2c14e"></button>
-            <button class="sw" data-val="#ff6b6b" style="--c:#ff6b6b"></button>
-            <button class="sw" data-val="#ff7eb6" style="--c:#ff7eb6"></button>
-            <button class="sw" data-val="#5ac8fa" style="--c:#5ac8fa"></button>
-            <label class="sw sw-custom" aria-label="Custom color"><input type="color" data-role="customcolor"></label>
-          </div></div>
-
-        <div class="row"><span class="lbl">Italic</span><button class="switch" data-toggle="italic" aria-label="Italic"></button></div>
-      </div>
-      <div class="menu-hint">tap anywhere to close</div>
-    </div>
+  <div id="sheet" aria-hidden="true">
+    <div class="sheet-head"><span class="sheet-title"></span><button class="btn sheet-remove" hidden>Remove</button></div>
+    <div class="sheet-body"></div>
   </div>
 
+  <script src="/assets/js/spirit.js"></script>
+  <script src="/assets/js/weather-icons.js"></script>
   <script src="/assets/js/clock.js"></script>
 </body>
 </html>
