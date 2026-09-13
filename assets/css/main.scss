@@ -221,8 +221,8 @@ body {
   // The mark: home link and site mark. Once a text ● (which fell back to
   // whichever font each page loaded), then a drawn circle; now the ckg
   // spirit's blob on its ground shadow, as an inline SVG, boiling through
-  // three drawings — and becoming the loop, boiling on, while a menu link
-  // is hovered (see /assets/js/mark.js). currentColor keeps the
+  // three drawings — and becoming the loop, boiling on, while anything on
+  // the page is hovered or focused (see /assets/js/mark.js). currentColor keeps the
   // dimmed/active/hover behavior.
   .menu-dot {
     line-height: 2rem;
