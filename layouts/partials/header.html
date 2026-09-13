@@ -1,16 +1,23 @@
 {{/* The shared header row on every page: title (tagline overrides it when set)
-     on the left, the menu on the right — with the ● dot as the home link, the
-     site's pre-wand mark. Both sit on the same 6-column grid as the content,
-     so everything aligns by construction. */}}
+     on the left, the menu on the right — with the site's mark as the home link:
+     the ckg spirit's Blob on its ground shadow, as the Eight Pebbles page draws
+     it, boiling at 8 fps through three drawings. While any menu link is hovered
+     or focused it becomes the Loop, boiling on, as if attending. The first
+     frame is inline; /assets/js/mark.js does the rest, and stays still under
+     prefers-reduced-motion. Both sit on the same 6-column grid as the
+     content, so everything aligns by construction. */}}
 <header class="masthead">
   <div class="masthead-title">
     <h1 class="site-title">{{ or .Params.tagline .Title }}</h1>
     {{ if and .Description (not .IsHome) }}<p class="masthead-desc">{{ .Description }}</p>{{ end }}
   </div>
   <nav class="menu" aria-label="Main">
-    <a class="menu-dot{{ if .IsHome }} is-active{{ end }}" href="/" aria-label="Home"></a>
+    <a class="menu-dot{{ if .IsHome }} is-active{{ end }}" href="/" aria-label="Home">
+      <svg class="mark" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><path fill="currentColor" d="M32 106 C34 100 82 99 86 105 C87 110 36 111 32 106 Z"/><g fill="currentColor"><path data-k="0" d="M99.4 62.2 C99.4 73.6 87.7 84.2 77.5 89 C67.3 93.7 47.4 95.6 38.2 90.8 C29 86.1 22.2 71.5 22.2 60.3 C22.1 49.1 28.8 30.1 38 23.5 C47.2 16.8 67.1 13.9 77.4 20.4 C87.6 26.8 99.4 50.7 99.4 62.2 Z"/><path data-k="1" d="M88.5 81 C80.5 88.1 59.7 94.5 49.1 92.3 C38.6 90.1 28.3 78 25 67.9 C21.8 57.7 23.2 39.9 29.6 31.4 C36 22.9 52.4 13.7 63.6 16.8 C74.8 19.9 92.7 39.1 96.9 49.8 C101 60.5 96.4 73.9 88.5 81 Z"/><path data-k="2" d="M58.7 93.1 C48.5 92.6 33.9 82.4 28.7 72.9 C23.5 63.5 22.1 45.5 27.6 36.3 C33.1 27.1 50.9 17.4 61.6 17.5 C72.3 17.7 87.1 27.2 91.8 37 C96.6 46.8 95.5 67 89.9 76.4 C84.4 85.7 69 93.7 58.7 93.1 Z"/><path data-k="3" d="M37.6 84.5 C30.5 76.6 25.2 53.5 27.9 42.9 C30.7 32.4 44.7 23.7 54.3 21.1 C63.9 18.5 79.1 19.6 85.3 27.5 C91.6 35.5 94.2 58.2 91.8 68.7 C89.4 79.2 79.8 87.8 70.7 90.4 C61.7 93.1 44.7 92.5 37.6 84.5 Z"/><path data-k="4" d="M26.8 61.1 C26.7 51 34.9 32.2 42.8 25.9 C50.6 19.5 65.3 17.4 73.9 22.9 C82.5 28.3 94 48.5 94.4 58.7 C94.9 68.8 84.9 79 76.5 83.6 C68 88.2 51.9 90 43.7 86.2 C35.4 82.4 27 71.1 26.8 61.1 Z"/><path data-k="5" d="M38.6 30.2 C44.8 23.5 56.4 18.5 65.2 21.7 C74.1 24.9 88.7 40.2 91.9 49.4 C95 58.6 91.9 70.9 84.2 76.8 C76.6 82.6 55.3 87.1 46 84.5 C36.7 82 29.4 70.4 28.2 61.4 C26.9 52.3 32.5 36.8 38.6 30.2 Z"/><path data-k="6" d="M59.2 21.4 C68.4 21.8 83.9 29.8 88.8 38.2 C93.6 46.6 92.6 63.5 88.3 71.8 C84 80 71.7 87.5 62.9 87.8 C54 88.1 40 82.1 35.2 73.4 C30.3 64.8 29.9 44.7 33.9 36.1 C37.9 27.4 50.1 21 59.2 21.4 Z"/><path data-k="7" d="M86 37 C92.9 44 93.7 58 89.9 66.2 C86.1 74.3 71.5 84 63.3 86.1 C55.1 88.2 46.5 85.8 40.9 78.8 C35.2 71.8 28.1 53.4 29.4 44.2 C30.7 35.1 39.2 25.4 48.7 24.2 C58.1 23 79.1 30 86 37 Z"/></g></svg>
+    </a>
     {{ range site.Menus.main }}
     <a{{ if hasPrefix $.RelPermalink .URL }} class="is-active"{{ end }} href="{{ .URL }}">{{ .Name }}</a>
     {{ end }}
   </nav>
 </header>
+<script src="/assets/js/mark.js" defer></script>

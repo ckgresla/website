@@ -218,23 +218,21 @@ body {
     &.is-active { color: var(--color-text-primary); }
   }
 
-  // The dot: home link and site mark. Drawn, not typed — Inter has no U+25CF,
-  // so a text ● fell back to whichever font each page happened to load
-  // (Pretendard on CJK-heavy pages, the system font elsewhere) and changed
-  // size between pages. A circle of our own is identical everywhere, and
-  // currentColor keeps the dimmed/active/hover behavior.
+  // The mark: home link and site mark. Once a text ● (which fell back to
+  // whichever font each page loaded), then a drawn circle; now the ckg
+  // spirit's blob on its ground shadow, as an inline SVG, boiling through
+  // three drawings — and becoming the loop, boiling on, while a menu link
+  // is hovered (see /assets/js/mark.js). currentColor keeps the
+  // dimmed/active/hover behavior.
   .menu-dot {
     line-height: 2rem;
-    margin-bottom: 8px; // the breath under the dot, as on rsms
+    margin-bottom: 8px; // the breath under the mark, as on rsms
 
-    &::before {
-      content: '';
+    .mark {
       display: block;
-      width: 16px;
-      height: 16px;
-      border-radius: 50%;
-      background: currentColor;
-      margin: 8px 0; // centers the dot in its 32px line box
+      width: 44px;  // the blob itself about the menu's 32px line; the shadow below it
+      height: 44px;
+      margin: -6px 0 -6px -5px; // the blob's left edge on the menu's, the shadow tucked under
     }
   }
 }
