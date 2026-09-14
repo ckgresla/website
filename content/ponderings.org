@@ -39,6 +39,8 @@
 
 18. [[https://www.youtube.com/watch?v=XoO22GT78cI][The most delicious alcohol in the world!]]
 
+19. The takeoff happened ~in January 2026 with `claude-4.5-opus` + a good claude code harness, but with the recent [[https://openai.com/index/gpt-6-astra/][gpt-6-astra]] release, its seems that we are gaining altitude!
+
 
 
 * 2025
