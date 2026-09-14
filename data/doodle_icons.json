@@ -204,6 +204,15 @@
         "weather-sunset",
         "weather-sunset-noshadow"
       ]
+    },
+    {
+      "name": "Clock",
+      "stems": [
+        "clock-classical",
+        "clock-classical-noshadow",
+        "clock-digital",
+        "clock-digital-noshadow"
+      ]
     }
   ]
 }

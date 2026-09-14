@@ -15,6 +15,9 @@ publicly. Working notes go on plain lines beneath, which the site ignores.
   Treble and bass clefs, sharp, flat, note ±shadow, whole-note,
   notes-beamed ±shadow. The composed note-group pair was retired and now
   lives inline on the progetti card.
+- [X] clock — classical, digital
+  A classical clock at five to four and a digital one reading 11:11, each with a
+  no-shadow variant; both wear the clock's card on the projects page (Sept 2026).
 - [X] weather — twelve skies: clear, clear night, partly cloudy, cloudy, overcast, fog, drizzle, rain, heavy rain, snow, sleet, thunder; and sunrise, sunset
   Drawn for the clock's weather item (Sept 2026): the pack's cloud lifted with
   the weather beneath it, a wobbly sun, a crescent, the chunky bolt small and

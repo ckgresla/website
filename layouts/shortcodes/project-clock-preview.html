@@ -1,4 +1,9 @@
-<div class="progetto-viz progetto-viz--clock" aria-hidden="true">
-  <img class="viz-clock-shot viz-clock-shot--light" src="/assets/images/project-clock-latest-light.png" alt="">
-  <img class="viz-clock-shot viz-clock-shot--dark" src="/assets/images/project-clock-latest-dark.png" alt="">
+{{/* The clock's card: the doodle pack's classical and digital clocks, side by
+     side, with the site's hand-drawn wiggle like the other cards. */}}
+<div class="progetto-viz progetto-viz--clock" data-wiggle aria-hidden="true">
+  {{- range slice "clock-classical.svg" "clock-digital.svg" }}
+    {{- with resources.Get (printf "doodle-icons/%s" .) }}
+      {{ .Content | safeHTML }}
+    {{- end }}
+  {{- end }}
 </div>

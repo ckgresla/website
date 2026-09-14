@@ -208,6 +208,11 @@
     var dark = S.bg === "black" || (S.bg === "system" && mq.matches) || (custom && contrastOn(S.bg) === "#fff");
     root.setAttribute("data-theme", dark ? "dark" : "light");
     ["--bg", "--fg", "--muted", "--ctl", "--line"].forEach(function (k) { root.style.removeProperty(k); });
+    // the system bars (Android standalone: the status bar, and the navigation
+    // bar where Chrome tints it) take the page's theme-color — keep it at the
+    // background, whatever it is
+    var barColor = custom ? S.bg : (dark ? "#000000" : "#ffffff");
+    document.querySelectorAll('meta[name="theme-color"]').forEach(function (m) { m.setAttribute("content", barColor); });
     if (custom) {
       var fg = dark ? "#ffffff" : "#0b0b0b";
       root.style.setProperty("--bg", S.bg); root.style.setProperty("--fg", fg);
