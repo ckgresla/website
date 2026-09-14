@@ -447,7 +447,7 @@
   function applyDrift() {
     clearInterval(driftTimer); driftTimer = null;
     if (!S.drift) { face.style.removeProperty("--dx"); face.style.removeProperty("--dy"); return; }
-    function step() { face.style.setProperty("--dx", (Math.random() * 16 - 8).toFixed(1) + "px"); face.style.setProperty("--dy", (Math.random() * 16 - 8).toFixed(1) + "px"); }
+    function step() { if (editing) return; face.style.setProperty("--dx", (Math.random() * 16 - 8).toFixed(1) + "px"); face.style.setProperty("--dy", (Math.random() * 16 - 8).toFixed(1) + "px"); }
     step(); driftTimer = setInterval(step, 180000);
   }
   function applyDim() { root.style.setProperty("--dim", S.dim); }
@@ -494,14 +494,29 @@
   function openSheet(m) {
     mode = m;
     sheetBody.scrollTop = 0;
-    body.style.setProperty("--sheet-h", sheet.offsetHeight + "px"); // the face keeps clear of the sheet
     sheet.classList.add("open"); sheet.setAttribute("aria-hidden", "false"); body.classList.add("sheet-open");
+    fitFace();
   }
   function closeSheet() {
     if (!mode) return;
     mode = null; setPicked(null);
     sheet.classList.remove("open"); sheet.setAttribute("aria-hidden", "true"); body.classList.remove("sheet-open");
+    fitFace();
   }
+  // With a sheet open, the face — still laid out at the screen's full size — is
+  // scaled to fit between the bar and the sheet, and framed as the screen.
+  function fitFace() {
+    var frame = document.getElementById("frame");
+    if (!mode) { ["--fk", "--fx", "--fy", "--fw", "--fh"].forEach(function (k) { body.style.removeProperty(k); }); return; }
+    var W = window.innerWidth, H = window.innerHeight, top = bar.offsetHeight, sh = sheet.offsetHeight, m = 12;
+    var availW = W - 2 * m, availH = H - top - sh - 2 * m;
+    var k = Math.max(0.1, Math.min(1, availW / W, availH / H));
+    var fw = W * k, fh = H * k, fx = (W - fw) / 2, fy = top + m + Math.max(0, (availH - fh) / 2);
+    body.style.setProperty("--fk", k); body.style.setProperty("--fx", fx.toFixed(1) + "px"); body.style.setProperty("--fy", fy.toFixed(1) + "px");
+    body.style.setProperty("--fw", fw.toFixed(1) + "px"); body.style.setProperty("--fh", fh.toFixed(1) + "px");
+    if (frame) frame.style.display = "block";
+  }
+  window.addEventListener("resize", function () { if (mode) fitFace(); });
 
   // Controls, in the site's language.
   function el(tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text) n.textContent = text; return n; }
@@ -659,7 +674,7 @@
     buildItemSheet(it);
     openSheet("item");
   }
-  function refreshItem(it) { var top = sheetBody.scrollTop; buildItemSheet(it); sheetBody.scrollTop = top; }
+  function refreshItem(it) { var top = sheetBody.scrollTop; buildItemSheet(it); sheetBody.scrollTop = top; fitFace(); }
   function change(it, key, v) {
     it[key] = v; persist(); styleItem(it); renderItem(it, new Date());
     if (key === "format" || key === "seconds") retick();
@@ -766,7 +781,7 @@
     buildClockSheet();
     openSheet("clock");
   }
-  function refreshClock() { var top = sheetBody.scrollTop; buildClockSheet(); sheetBody.scrollTop = top; }
+  function refreshClock() { var top = sheetBody.scrollTop; buildClockSheet(); sheetBody.scrollTop = top; fitFace(); }
   function buildClockSheet() {
     sheetTitle.textContent = "Clock";
     sheetBody.innerHTML = "";
