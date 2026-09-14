@@ -1020,22 +1020,41 @@ pre {
 
 // ── Mobile: the grid stacks ──
 @media (max-width: 768px) {
-  .site { padding: 0 24px 64px; }
+  .site { padding: 0 clamp(24px, 7vw, 64px) 64px; } // the margins ease from the desktop's 64px to 24px on a phone
 
+  // The desktop shape, carried down: the title on the left, the blob and the
+  // menu a column on the right — both faces a size down so they share the
+  // row. The menu keeps the desktop's place, two thirds across, while there
+  // is room, and never comes nearer the title than the 20px gap; on a phone
+  // the title gives way and the column hugs the right margin.
   .masthead {
-    display: block;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
     padding-top: 72px;
     margin-bottom: 48px;
   }
 
-  .site-title { font-size: 1.75rem; line-height: 2.25rem; } // 36px
+  .masthead-title {
+    flex: 0 1 calc(200% / 3 - 10px); // the desktop's four columns of six
+    min-width: 0;
+  }
+  .site-title { font-size: 1.5rem; line-height: 1.875rem; } // 24px on 30px
 
-  // The menu stays a vertical column on mobile (rsms-style): the dot, then
-  // each item on its own line, a clear two-line breath below the title.
   .menu {
-    margin-top: 48px;
+    flex: 0 0 auto;
 
-    a { font-size: 1.25rem; line-height: 2rem; }
+    a { font-size: 1.125rem; line-height: 1.75rem; } // 18px on 28px
+
+    .menu-dot {
+      margin-bottom: 6px;
+
+      .mark {
+        width: 38px;
+        height: 38px;
+        margin: -5px 0 -5px -4px;
+      }
+    }
   }
 
   .main { display: block; }
