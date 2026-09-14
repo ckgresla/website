@@ -1,5 +1,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+{{/* The site draws both themes itself (the tokens in main.scss follow the
+     system scheme). Saying so keeps a browser's own auto-darkening — Samsung
+     Internet's dark mode, Chrome's — from repainting the page in its greys;
+     theme-color gives the browser chrome the same ground. */}}
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 
 {{- $title := "" }}
 {{- if .Params.meta_title }}{{ $title = .Params.meta_title }}
