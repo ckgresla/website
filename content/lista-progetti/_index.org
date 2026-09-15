@@ -6,9 +6,9 @@
 #+begin_export html
 {{< project-edm-tree >}}
 #+end_export
-My work at Wafer: evolving sampling policies to discover better training data for search.
+Synthetic retrieval data generation, through evolutionary search and constitutional ai.
 
-2026 · [[https://wafer.systems/blog/edm/][read at Wafer]]
+Q4 2025 @ Wafer
 
 * [[/bangers/][Bangers]]
 #+begin_export html
@@ -16,7 +16,7 @@ My work at Wafer: evolving sampling policies to discover better training data fo
 #+end_export
 A selection of some great music.
 
-Ongoing · live at [[/bangers/][bangers]]
+Ongoing
 
 * [[/lista-progetti/doodle-icons/][The Doodle Icons]]
 #+begin_export html
@@ -40,4 +40,4 @@ A tasteful replacement for cmd+tab & cmd+space on MacOS.
 #+end_export
 An offline progressive web app, what time is it?
 
-2026 · live at [[/clock/][clock]]
+2026

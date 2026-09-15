@@ -685,28 +685,10 @@ pre {
   }
   .content > .outline-2:hover .viz-ticks,
   .content > .outline-2:focus-within .viz-ticks { display: block; }
+  // Two arrangements only: desktop columns or stacked text beside the preview.
   @media (max-width: 900px) {
     .content > .outline-2 {
-      grid-template-columns: minmax(150px, .8fr) minmax(220px, 1.2fr);
-      column-gap: 32px;
-    }
-    .content h2 { grid-column: 1; grid-row: 1; }
-    .content p { grid-column: 2; grid-row: 1; }
-    .content p:last-child { grid-column: 1; grid-row: 2; }
-    .progetto-viz {
-      grid-column: 2;
-      grid-row: 2;
-      justify-self: start;
-      width: 100%;
-      max-width: 240px;
-      min-height: 88px;
-      margin-top: 24px;
-    }
-  }
-
-  @media (max-width: 600px) {
-    .content > .outline-2 {
-      grid-template-columns: minmax(0, 1fr) 112px;
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
       grid-template-rows: auto auto auto;
       column-gap: 20px;
       min-height: 0;
@@ -718,7 +700,7 @@ pre {
       padding-right: 4px;
     }
     .content p {
-      grid-column: 1 / 3;
+      grid-column: 1;
       grid-row: 2;
       margin-top: 18px;
     }
@@ -730,19 +712,20 @@ pre {
     }
     .progetto-viz {
       grid-column: 2;
-      grid-row: 1;
-      align-self: start;
+      grid-row: 1 / 4;
+      align-self: stretch;
       justify-self: stretch;
-      width: 112px;
+      width: 100%;
+      min-width: 0;
       min-height: 72px;
       margin: 0;
-      padding: 10px;
+      padding: 0;
     }
     .progetto-viz svg { width: 96px; height: 38px; }
     .progetto-viz svg.viz-doodle { height: 64px; }
     .viz-icon-strip {
       grid-template-columns: repeat(3, 28px);
-      gap: 5px 7px;
+      gap: 5px 4px;
     }
     .viz-icon-strip svg { width: 28px; height: 28px; }
     .progetto-viz--clock { gap: 8px; }
@@ -772,21 +755,35 @@ pre {
 }
 .is-wiggling { filter: url('#doodle-wiggle-filter'); }
 
-// Sample different branches of the exploration tree, then cross-pollinate.
+// Reveal sampled trees within the resting field of data points.
+.main--progetti .progetto-viz--edm { padding: 4px; overflow: visible; }
+.main--progetti .progetto-viz--edm svg.edm-tree { width: 166px; height: auto; }
+@media (max-width: 900px) {
+  .main--progetti .progetto-viz--edm svg.edm-tree { width: 100%; max-width: 166px; }
+}
 .edm-sample { opacity: 0; }
 .edm-sample--one { opacity: 1; }
+.edm-tree.is-wiggling { filter: none; }
 .edm-tree.is-wiggling .edm-sample {
-  animation: edm-sampling 9s infinite;
+  filter: url('#doodle-wiggle-filter');
+  animation: edm-sampling 30s infinite;
 }
-.edm-tree.is-wiggling .edm-sample--two { animation-delay: -6s; }
-.edm-tree.is-wiggling .edm-sample--three { animation-delay: -3s; }
+// Intersperse small discoveries with the larger branching associations.
+.edm-tree.is-wiggling .edm-sample--two { animation-delay: -24s; }
+.edm-tree.is-wiggling .edm-sample--three { animation-delay: -21s; }
+.edm-tree.is-wiggling .edm-sample--four { animation-delay: -15s; }
+.edm-tree.is-wiggling .edm-sample--five { animation-delay: -12s; }
+.edm-tree.is-wiggling .edm-sample--six { animation-delay: -6s; }
+.edm-tree.is-wiggling .edm-sample--seven { animation-delay: -3s; }
+.edm-tree.is-wiggling .edm-sample--eight { animation-delay: -27s; }
+.edm-tree.is-wiggling .edm-sample--nine { animation-delay: -18s; }
+.edm-tree.is-wiggling .edm-sample--ten { animation-delay: -9s; }
 @keyframes edm-sampling {
-  0%, 27% { opacity: 1; }
-  33%, 94% { opacity: 0; }
-  100% { opacity: 1; }
+  0%, 10%, 100% { opacity: 0; }
+  2.1%, 7.2% { opacity: 1; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .edm-tree.is-wiggling .edm-sample { animation: none; }
+  .edm-tree.is-wiggling .edm-sample { animation: none; filter: none; }
 }
 
 // Optional emphasized layer for a pressable wiggly doodle. The layer remains
