@@ -772,6 +772,23 @@ pre {
 }
 .is-wiggling { filter: url('#doodle-wiggle-filter'); }
 
+// Sample different branches of the exploration tree, then cross-pollinate.
+.edm-sample { opacity: 0; }
+.edm-sample--one { opacity: 1; }
+.edm-tree.is-wiggling .edm-sample {
+  animation: edm-sampling 9s infinite;
+}
+.edm-tree.is-wiggling .edm-sample--two { animation-delay: -6s; }
+.edm-tree.is-wiggling .edm-sample--three { animation-delay: -3s; }
+@keyframes edm-sampling {
+  0%, 27% { opacity: 1; }
+  33%, 94% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .edm-tree.is-wiggling .edm-sample { animation: none; }
+}
+
 // Optional emphasized layer for a pressable wiggly doodle. The layer remains
 // part of the same SVG/filter; only its visibility changes with aria-pressed.
 [data-wiggle-toggle] [data-wiggle-emphasis] {

@@ -2,6 +2,14 @@
 #+description: A couple of fun projects
 #+body_class: progetti
 
+* [[https://wafer.systems/blog/edm/][Evolutionary Data Making]]
+#+begin_export html
+{{< project-edm-tree >}}
+#+end_export
+My work at Wafer: evolving sampling policies to discover better training data for search.
+
+2026 · [[https://wafer.systems/blog/edm/][read at Wafer]]
+
 * [[/bangers/][Bangers]]
 #+begin_export html
 {{< project-bangers-doodle >}}
