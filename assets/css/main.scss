@@ -607,7 +607,7 @@ pre {
       margin: 2px 0 0;
       color: var(--color-text-tertiary);
     }
-    p:last-child {
+    p.progetto-meta {
       grid-column: 1;
       grid-row: 2;
       align-self: end;
@@ -704,7 +704,7 @@ pre {
       grid-row: 2;
       margin-top: 18px;
     }
-    .content p:last-child {
+    .content p.progetto-meta {
       grid-column: 1;
       grid-row: 3;
       align-self: end;

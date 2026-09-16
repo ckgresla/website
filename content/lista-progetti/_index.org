@@ -5,9 +5,10 @@
 #+begin_export html
 {{< project-representax >}}
 #+end_export
-Representation learning in Jax
+Representation learning, in JAX!
 
-Ongoing
+#+attr_html: :class progetto-meta
+2026 on Github & PyPi
 
 * [[https://wafer.systems/blog/edm/][Evolutionary Data Making]]
 #+begin_export html
@@ -15,6 +16,7 @@ Ongoing
 #+end_export
 Synthetic retrieval data generation, through evolutionary search and constitutional ai.
 
+#+attr_html: :class progetto-meta
 Q4 2025 @ Wafer
 
 * [[/bangers/][Bangers]]
@@ -23,15 +25,11 @@ Q4 2025 @ Wafer
 #+end_export
 A selection of some great music.
 
-Ongoing
-
 * [[/lista-progetti/doodle-icons/][The Doodle Icons]]
 #+begin_export html
 {{< project-doodle-icons >}}
 #+end_export
 Is tasteful doodling a tractable task?
-
-Ongoing
 
 * [[https://github.com/ckgresla/switcharoo][switcharoo]]
 #+begin_export html
@@ -39,7 +37,8 @@ Ongoing
 #+end_export
 A tasteful replacement for cmd+tab & cmd+space on MacOS.
 
-2026 · github
+#+attr_html: :class progetto-meta
+Github
 
 * [[/clock/][Clock]]
 #+begin_export html
@@ -47,4 +46,5 @@ A tasteful replacement for cmd+tab & cmd+space on MacOS.
 #+end_export
 An offline progressive web app, what time is it?
 
+#+attr_html: :class progetto-meta
 2026
