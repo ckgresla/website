@@ -1,6 +1,13 @@
 #+title: Lista Progetti
-#+description: A couple of fun projects
 #+body_class: progetti
+
+* [[https://github.com/ckgresla/representax][Representax]]
+#+begin_export html
+{{< project-representax >}}
+#+end_export
+Representation learning in Jax
+
+Ongoing
 
 * [[https://wafer.systems/blog/edm/][Evolutionary Data Making]]
 #+begin_export html

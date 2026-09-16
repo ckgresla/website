@@ -756,6 +756,10 @@ pre {
 .is-wiggling { filter: url('#doodle-wiggle-filter'); }
 
 // Reveal sampled trees within the resting field of data points.
+.main--progetti .progetto-viz--representax {
+  padding: 0;
+  img { display: block; width: 100%; height: auto; }
+}
 .main--progetti .progetto-viz--edm { padding: 4px; overflow: visible; }
 .main--progetti .progetto-viz--edm svg.edm-tree { width: 166px; height: auto; }
 @media (max-width: 900px) {
