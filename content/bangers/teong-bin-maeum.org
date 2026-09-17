@@ -1,0 +1,24 @@
+#+title: 텅 빈 마음
+#+title_en: Empty Heart
+#+artist: 이승환 (Lee Seung Hwan)
+#+sort_artist: Lee Seung Hwan
+#+language: Korean
+#+spotify: https://open.spotify.com/track/4KiYPYpm4ultIp247ftPlI
+#+youtube: https://www.youtube.com/watch?v=4QfH_gAvTs8
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 미련없이 그대를 떠나보낸 내 마음속엔 | miryeoneopsi geudaereul tteonabonaen nae maeumsogen | In my heart, where I let you go without regret, |
+| 오늘은 왜 이리 허전할까요 알 수 없어요 | oneureun wae iri heojeonhalkkayo al su eopseoyo | Why does it feel so empty today? I don't know. |
+| 아침에 문득 눈뜨고 바라보니 눈부신 햇살 | achime mundeuk nuntteugo baraboni nunbusin haetsal | I open my eyes in the morning to dazzling sunlight. |
+| 내곁에 잠든건 지나간 추억 너무 허탈해 | nae gyeote jamdeun geon jinagan chueok neomu heotalhae | Only memories of the past sleep beside me. I feel so hollow. |
+| 그대 그 미소 그때 그 마음 되살아나서 날 부르네 | geudae geu miso geuttae geu maeum doesaranaseo nal bureune | Your smile, those feelings from back then, come alive and call to me. |
+| 두근거리는 내 작은 맘으론 붙잡을 수 는 없지만 | dugeungeorineun nae jageun mameuron butjabeul suneun eopjiman | Though this little, pounding heart of mine can't hold on to them, |
+| 아침에 문득 눈뜨고 바라보니 눈부신 햇살 | achime mundeuk nuntteugo baraboni nunbusin haetsal | I open my eyes in the morning to dazzling sunlight. |
+| 내곁에 잠든건 지나간 추억 너무 허탈해 | nae gyeote jamdeun geon jinagan chueok neomu heotalhae | Only memories of the past sleep beside me. I feel so hollow. |
+| 그대 그 미소 그때 그 마음 되살아나서 날 부르네 | geudae geu miso geuttae geu maeum doesaranaseo nal bureune | Your smile, those feelings from back then, come alive and call to me. |
+| 난 너를 느끼네 내 텅빈 마음 속. | nan neoreul neukkine nae teong bin maeum sok. | I feel you here, inside my empty heart. |
+| 그대 그 미소 그때 그 마음 되살아나서 날 부르네 | geudae geu miso geuttae geu maeum doesaranaseo nal bureune | Your smile, those feelings from back then, come alive and call to me. |
+| 난 너를 느끼네 내 텅빈 마음 속. | nan neoreul neukkine nae teong bin maeum sok. | I feel you here, inside my empty heart. |
