@@ -1,0 +1,45 @@
+#+title: Doobidub
+#+artist: 강타 (KANGTA)
+#+sort_artist: KANGTA
+#+language: Korean
+#+spotify: https://open.spotify.com/track/16b3vgjzjODiwMTLjmEE2G?si=pgMQovjZSKavx5VARxpFtw&utm_source=copy-link
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 모를거야 | moreul geoya | You probably don't know |
+| 얼마나 널 생각해 왔는지 | eolmana neol saenggakae wanneunji | How much I've been thinking of you. |
+| 말 못한 내 마음 넌 몰라 | mal motan nae maeum neon molla | You don't know the feelings I couldn't put into words. |
+| 아마도 넌 그랬듯이 | amado neon geuraetdeusi | You probably believe that, as always, |
+| 다정한 친구로 | dajeonghan chinguro | As a caring friend, |
+| 내 옆에 항상 있어줄 걸 믿어 | nae yeope hangsang isseojul geol mideo | You'll always be there beside me. |
+| 하지만 너는 | hajiman neoneun | But to me, you |
+| 더 이상 내 친구가 아닌데 | deo isang nae chinguga aninde | Are no longer just a friend. |
+| 하지만 네가 | hajiman nega | But, afraid you |
+| 부담 갈까 지금껏 숨기고 왔어 | budam galkka jigeumkkeot sumgigo wasseo | Might feel burdened, I've kept it hidden all this time. |
+| Huh | Huh | Huh |
+| 그냥 떠나버려 | geunyang tteonabeoryeo | Just go away. |
+| 견딜 수 없쟎아 | gyeondil su eopjana | I can't bear it, |
+| 너무 사랑하니까 | neomu saranghanikka | Because I love you so much. |
+| You are the only one | You are the only one | You are the only one |
+| That I love so much | That I love so much | That I love so much |
+| 이런마음 숨길 수 없어 | ireon maeum sumgil su eopseo | I can't hide these feelings. |
+| You are the only one | You are the only one | You are the only one |
+| That I love so much | That I love so much | That I love so much |
+| 나의 고백 받아 줘 | naui gobaek bada jwo | Please accept my confession of love. |
+| 하지만 너는 | hajiman neoneun | But to me, you |
+| 더 이상 내 친구가 아닌데 | deo isang nae chinguga aninde | Are no longer just a friend. |
+| 하지만 네가 | hajiman nega | But, afraid you |
+| 부담갈까 지금껏 숨기고 왔어 | budam galkka jigeumkkeot sumgigo wasseo | Might feel burdened, I've kept it hidden all this time. |
+| Huh | Huh | Huh |
+| 그냥 떠나버려 | geunyang tteonabeoryeo | Just go away. |
+| 견딜 수 없쟎아 | gyeondil su eopjana | I can't bear it, |
+| 너무 사랑하니까 | neomu saranghanikka | Because I love you so much. |
+| You are the only one | You are the only one | You are the only one |
+| That I love so much | That I love so much | That I love so much |
+| 이런 마음 숨길 수 없어 | ireon maeum sumgil su eopseo | I can't hide these feelings. |
+| You are the only one | You are the only one | You are the only one |
+| That I love so much | That I love so much | That I love so much |
+| 나의 고백 받아 줘 | naui gobaek bada jwo | Please accept my confession of love. |
+| 나의 고백 받아 줘 | naui gobaek bada jwo | Please accept my confession of love. |
