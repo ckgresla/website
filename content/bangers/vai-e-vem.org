@@ -1,0 +1,32 @@
+#+title: Vai e Vem
+#+title_en: Back and Forth
+#+artist: Emílio Santiago
+#+sort_artist: Emilio Santiago
+#+language: Portuguese
+#+spotify: https://open.spotify.com/track/2Fm6ytCYZCA4AxhUHHmmts?si=ShFGkBzjQy2erWKTZc5vEA&utm_source=copy-link
+#+youtube: https://youtu.be/V7tS6wZg7Mk?is=n6uuvqKHgQhjf9xW
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | English |
+|----------+---------|
+| Lá vem o nosso amor ainda disfarçando | Here comes our love, still putting on an act, |
+| Sorrindo, sonhando, fingindo | Smiling, dreaming, pretending |
+| Que vai tudo bem | That everything is fine. |
+| Pensando que consegue enganar a gente | Thinking it can fool us, |
+| Parece que nunca se cansa desse vai e vem | It never seems to tire of this back and forth. |
+| Vive alimentando a ilusão | It keeps feeding the illusion |
+| Que a gente pode ser feliz | That we can be happy, |
+| Que essa tempestade logo vai passar | That this storm will soon pass. |
+| Mas amor não é contradição | But love isn't a contradiction. |
+| Não é fugaz, não é paixão | It isn't fleeting, it isn't infatuation. |
+| Não é amor se um dia tem que se acabar | It isn't love if one day it has to end. |
+| Amor quando é amor a gente sabe que é pra vida inteira | When love is truly love, we know it's for a lifetime. |
+| Não trai, não briga | It doesn't betray, doesn't fight |
+| Por qualquer besteira | Over every little thing. |
+| Não fica nessa desse vai não vai | It doesn't keep wavering: will it last or won't it? |
+| Vai não vai | Will it or won't it? |
+| O amor faz muito bem ao coração | Love does the heart so much good. |
+| Não dá lugar pra solidão | It leaves no room for loneliness. |
+| Não fica enganando a gente | It doesn't keep deceiving us. |
+| O amor é atenção | Love is care and attention. |
