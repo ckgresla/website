@@ -5,3 +5,24 @@
 #+language: Korean
 #+youtube: https://youtu.be/2_LJ0IQZKUs?is=YH_mD2R7ePk0fon-
 #+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 누구나 혼자뿐인 거라고 | nuguna honjappunin georago | You said everyone is alone, |
+| 차갑게 웃음짓던 그대 | chagapge useumjitdeon geudae | With a cold smile. |
+| 거리엔 온통 혼자뿐인 사람들 | georien ontong honjappunin saramdeul | The streets are full of people on their own, |
+| 웃으며 거니네 | useumyeo geonine | Strolling along with smiles. |
+| 끝없이 사랑할순 없다고 | kkeuteopsi saranghalsun eopdago | You said love couldn't last forever, |
+| 차갑게 얘기하던 그대 | chagapge yaegihadeon geudae | Speaking so coldly. |
+| 어디로든지 나를 보내줘 | eodirodeunji nareul bonaejwo | Send me away, anywhere. |
+| 떠나가고 싶어 | tteonagago sipeo | I want to leave. |
+| 의미없이 슬퍼하지마 | uimieopsi seulpeohajima | Don't grieve for nothing. |
+| 세상은 슬픔뿐이야 | sesangeun seulpeumppuniya | The world is nothing but sorrow. |
+| 아무것도 남겨두지마 | amugeotdo namgyeodujima | Don't leave anything behind. |
+| 후후후- | huhuhu- | Hoo hoo hoo— |
+| Don't Go Babe | Don't Go Babe | Don't Go Babe |
+| 보이지 않는다고 사라진건 아니잖아 | boiji anneundago sarajingeon anijana | Just because you can't see it doesn't mean it's gone. |
+| Don't Go Babe | Don't Go Babe | Don't Go Babe |
+| 날 떠나가지마오 | nal tteonagajimao | Please don't leave me. |
+| Don't Go Babe | Don't Go Babe | Don't Go Babe |
