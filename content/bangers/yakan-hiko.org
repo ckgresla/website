@@ -1,0 +1,24 @@
+#+title: 夜間飛行
+#+title_en: Night Flight
+#+artist: 南佳孝 (Yoshitaka Minami)
+#+sort_artist: Yoshitaka Minami
+#+language: Japanese
+#+spotify: https://open.spotify.com/track/0i0oVuCS6mtgR2v31Udd7P?si=lC8YQ0WATYC31L5cNO-E5w&utm_source=copy-link
+#+youtube: https://www.youtube.com/watch?v=Si7uvaUnbZs
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| ぼくの声が聞こえたら | boku no koe ga kikoetara | If you can hear my voice, |
+| どうか返事をしておくれ | dōka henji o shite okure | Please answer me. |
+| 銀の星くずまたたく夜空へ | gin no hoshikuzu matataku yozora e | Into the night sky, where silver stardust twinkles, |
+| これから君をさらいに行く | kore kara kimi o sarai ni iku | I'm coming now to whisk you away. |
+| ぼくはたとえば流れ星 | boku wa tatoeba nagareboshi | Suppose I'm a shooting star, |
+| きみは優しいお月様 | kimi wa yasashii otsukisama | And you're the gentle moon. |
+| 青いセロファンつきぬけ | aoi serofan tsukinuke | Let's break through the blue cellophane |
+| カシオペア座まで出かけよう | kashiopeaza made dekakeyō | And head out to Cassiopeia. |
+| だれもぼくらに手はだせない | dare mo bokura ni te wa dasenai | No one can lay a hand on us. |
+| 月に吠える犬よbye-bye..... | tsuki ni hoeru inu yo bye-bye..... | You dogs howling at the moon, bye-bye... |
+| きみとぼくはつばさを | kimi to boku wa tsubasa o | You and I spread our wings |
+| ひろげて星空へ | hirogete hoshizora e | And fly into the starry sky. |
