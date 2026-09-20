@@ -1,0 +1,46 @@
+#+title: Lunch Menu
+#+artist: 윤종신 (Yoon Jong Shin) & 민수현 (Min Suhyun)
+#+sort_artist: Yoon Jong Shin
+#+language: Korean
+#+spotify: https://open.spotify.com/track/4h2lhS9jUOV8ZO3pZTBA26?si=I0IoJCSURmCmz6UdZxqM6w&utm_source=copy-link
+#+youtube: https://youtu.be/gJWX_-NdWTg?is=xpsAzfdCEnlWVCoc
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 투명한 물 잔 위로 | tumyeonghan mul jan wiro | Above the clear glass of water, |
+| 맞닿은 그대 입술이 만나게 될 | matdaeun geudae ipsuri mannage doel | Your lips, resting against its rim, will soon meet |
+| 내가 고른 메뉴 한 가지 | naega goreun menyu han gaji | The dish I've chosen. |
+| 부드런 빵 속처럼 | budeureon ppang sokcheoreom | Soft as the inside of bread, |
+| 웃는 그대 요즘 사는 얘기들 | unneun geudae yojeum saneun yaegideul | You smile and tell me about your days. |
+| 그대 눈을 꼭 바라봐야 해 | geudae nuneul kkok barabwaya hae | I have to look you right in the eyes. |
+| 스며드는 햇살이 머금은 | seumyeodeuneun haetsari meogeumeun | Bathed in the sunlight streaming in, |
+| 새하얀 접시 위를 수놓는 | saehayan jeopsi wireul sunonneun | The pure white plate is decorated |
+| 버무려진 색깔들에 미소 짓는 그대 | beomuryeojin saekkkaldeure miso jinneun geudae | With mingled colors that make you smile. |
+| 부디 맛있어 주길 | budi masisseo jugil | Please, let it taste wonderful. |
+| 그대 사랑하는 만큼 | geudae saranghaneun mankeum | With all the love I have for you, |
+| 정말 신중히 고른 맛집 중의 맛 | jeongmal sinjunghi goreun matjip jungui mat | I chose so carefully—the best dish from the best places. |
+| 그대 입술 향하는 동안 내내 | geudae ipsul hyanghaneun dongan naenae | The whole time it makes its way to your lips, |
+| 난 바라만 보고 있는 것은 | nan baraman bogo inneun geoseun | All I keep watching |
+| 그대의 표정들 | geudaeui pyojeongdeul | Are the expressions on your face. |
+| 그 미소 믿어도 되죠 | geu miso mideodo doejyo | I can trust that smile, can't I? |
+| 그 눈빛 그 입가 내겐 오늘도 흐뭇함이죠 | geu nunbit geu ipga naegen oneuldo heumut hamijyo | Your eyes, the corners of your mouth—they fill me with delight again today. |
+| 하루의 중간 벌써 밀려드는 행복감에 | haruui junggan beolsseo millyeodeuneun haengbokgame | It's only midday, but happiness is already washing over me. |
+| 나는 배부른 걸 | naneun baebureun geol | I'm already full. |
+| Coffee 둘 다 즐기는 것 | Coffee dul da jeulgineun geot | Coffee, something we both enjoy. |
+| 내겐 그대 생각할 때 딱이죠 | naegen geudae saenggakal ttae ttakijyo | For me, it's perfect for thinking of you. |
+| 요즘 부쩍 잦은 Coffee time | yojeum bujjeok jajeun Coffee time | Lately, there's been a lot more Coffee time. |
+| 스며드는 햇살의 방향은 | seumyeodeuneun haetsarui banghyangeun | The sunlight streaming in |
+| 어느새 바뀌어 기울어가고 | eoneusae bakkwieo giureogago | Has shifted its angle before we knew it, slanting lower. |
+| 우리들의 이야기도 마무리 분위기 | urideurui iyagido mamuri bunwigi | Our conversation is winding down too. |
+| 그대도 아쉽나요 | geudaedo aswimnayo | Do you wish we had more time too? |
+| 그대 사랑하는 만큼 | geudae saranghaneun mankeum | With all the love I have for you, |
+| 정말 신중히 고른 맛집 중의 맛 | jeongmal sinjunghi goreun matjip jungui mat | I chose so carefully—the best dish from the best places. |
+| 그대 입술 향하는 동안 내내 | geudae ipsul hyanghaneun dongan naenae | The whole time it makes its way to your lips, |
+| 난 바라만 보고 있는 것은 | nan baraman bogo inneun geoseun | All I keep watching |
+| 그대의 표정들 | geudaeui pyojeongdeul | Are the expressions on your face. |
+| 그 미소 믿어도 되죠 | geu miso mideodo doejyo | I can trust that smile, can't I? |
+| 그 눈빛 그 입가 내겐 오늘도 흐뭇함이죠 | geu nunbit geu ipga naegen oneuldo heumut hamijyo | Your eyes, the corners of your mouth—they fill me with delight again today. |
+| 하루의 중간 벌써 밀려드는 행복감에 | haruui junggan beolsseo millyeodeuneun haengbokgame | It's only midday, but happiness is already washing over me. |
+| 나는 배부른 걸 | naneun baebureun geol | I'm already full. |
