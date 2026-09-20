@@ -1,0 +1,34 @@
+#+title: 내 사랑 내 곁에
+#+title_en: My Love, Beside Me
+#+artist: 김현식 (Kim Hyun-sik)
+#+sort_artist: Kim Hyun-sik
+#+language: Korean
+#+spotify: https://open.spotify.com/track/5BKRpouE6rMJiSIa3rlUGu?si=fA1lL1meTc2rYcQsLin08A&utm_source=copy-link
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 나의 모든사랑이 떠나가는 날이 | naui modeun sarangi tteonaganeun nari | The day all my love leaves me |
+| 당신의 그 웃음 뒤에서 함께 하는데 | dangsinui geu useum dwieseo hamkke haneunde | Lingers behind that smile of yours. |
+| 철이 없는욕심에 그 많은 미련에 | cheori eomneun yoksime geu maneun miryeone | In my childish greed, in all that lingering attachment, |
+| 당신이 있는건 아닌지 아니겠지요 | dangsini inneun geon aninji anigetjiyo | Is that where you remain? Surely not. |
+| 시간은 멀어 집으로 향해 가는데 | siganeun meoreo jibeuro hyanghae ganeunde | Time slips away as I head home, |
+| 약속했던 그대만은 올줄을 모르고 | yaksokaetdeon geudaemaneun ol jureul moreugo | But you, who promised to come, never arrive. |
+| 애써 웃음 지으며 돌아오는 길은 | aesseo useum jieumyeo doraoneun gireun | On the way back, forcing a smile, |
+| 왜 그리도 낯설고 멀기만 한지 | wae geurido natseolgo meolgiman hanji | Why does the road feel so unfamiliar and so far? |
+| 저 여린가지 사이로 혼자인 날 느낄때 | jeo yeorin gaji sairo honjain nal neukkil ttae | When, among those tender branches, I feel how alone I am, |
+| 이렇게 아픈 그대 기억이 날까 | ireoke apeun geudae gieogi nalkka | Will the memory of you hurt this much? |
+| 내 사랑 그대 내곁에 있어줘 | nae sarang geudae nae gyeote isseojwo | My love, please stay beside me. |
+| 이 세상 하나뿐인 오직 그대만이 | i sesang hanappunin ojik geudaemani | Only you, the one and only in this world. |
+| 힘겨운 날에 너 마저 떠나면 | himgyeoun nare neo majeo tteonamyeon | If even you leave me in my hardest days, |
+| 비틀거릴 내가 안길곳은 어디에 | biteulgeoril naega angil goseun eodie | Where will I, stumbling, find arms to hold me? |
+| 저 여린가지 사이로 혼자인 날 느낄때 | jeo yeorin gaji sairo honjain nal neukkil ttae | When, among those tender branches, I feel how alone I am, |
+| 이렇게 아픈 그대 기억이 날까 | ireoke apeun geudae gieogi nalkka | Will the memory of you hurt this much? |
+| 내 사랑 그대 내곁에 있어줘 | nae sarang geudae nae gyeote isseojwo | My love, please stay beside me. |
+| 이 세상 하나뿐인 오직 그대만이 | i sesang hanappunin ojik geudaemani | Only you, the one and only in this world. |
+| 힘겨운 날에 너 마저 떠나면 | himgyeoun nare neo majeo tteonamyeon | If even you leave me in my hardest days, |
+| 비틀거릴 내가 안길곳은 어디에 | biteulgeoril naega angil goseun eodie | Where will I, stumbling, find arms to hold me? |
+| 비틀거릴 내가 안길곳은 어디에 | biteulgeoril naega angil goseun eodie | Where will I, stumbling, find arms to hold me? |
+| 비틀거릴 내가 안길곳은 어디에 | biteulgeoril naega angil goseun eodie | Where will I, stumbling, find arms to hold me? |
+| 비틀거릴 내가 안길곳은 어디에 | biteulgeoril naega angil goseun eodie | Where will I, stumbling, find arms to hold me? |
