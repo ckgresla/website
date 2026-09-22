@@ -1,0 +1,32 @@
+#+title: 지난 여름밤의 이야기
+#+title_en: Story of Last Summer Night
+#+artist: 권진원 (Kwon Jin Won)
+#+sort_artist: Kwon Jin Won
+#+language: Korean
+#+spotify: https://open.spotify.com/track/7lWAJWdl4IwCXLeh9guse5?si=bYVdlstcSam4l7rz2mZZcw&utm_source=copy-link
+#+youtube: https://youtu.be/biLMGq_40Os?is=makO2pbvDcvUlUlM
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 하얗게 별빛 내리던 여름밤이 | hayake byeolbit naerideon yeoreumbami | That summer night when pale starlight fell |
+| 내마음 속 한자리에 남아 있네 | nae maeum sok hanjarie nama inne | Still holds a place in my heart. |
+| 그날밤 우리의 고운 이야기들 | geunal bam uriui goun iyagideul | The sweet things we said that night |
+| 꿈결처럼 내 귓가를 맴도네 | kkumgyeolcheoreom nae gwitgareul maemdone | Linger in my ears like a dream. |
+| 아 우리는 아름다운 동화의 나라로 가고 있었네 | a urineun areumdaun donghwaui nararo gago isseonne | Ah, we were on our way to a beautiful land of fairy tales. |
+| 조금만 뛰어올라도 달빛 스민 하늘에 | jogeumman ttwieoollado dalbit seumin haneure | With just a little leap, that moonlit sky |
+| 닿을 것만 같다고 했었지 | daeul geonman gatdago haesseotji | Seemed within our reach, we said. |
+| 조금 더 뛰어 올라서서 | jogeum deo ttwieo ollaseoseo | Let's leap a little higher |
+| 수많은 별들을 모두 품에 안아보자 그랬지 | sumaneun byeoldeureul modu pume anaboja geuraetji | And gather all those countless stars into our arms, we said. |
+| 이제는 그 밤 돌이킬 수 없음에 | ijeneun geu bam dorikil su eopseume | Now that I can never bring that night back, |
+| 하릴없이 먼 하늘만 바라볼 뿐 | harireopsi meon haneulman barabol ppun | All I can do is gaze helplessly at the distant sky. |
+| 아 우리는 아름다운 동화의 나라로 가고 있었네 | a urineun areumdaun donghwaui nararo gago isseonne | Ah, we were on our way to a beautiful land of fairy tales. |
+| 조금만 뛰어올라도 달빛 스민 하늘에 | jogeumman ttwieoollado dalbit seumin haneure | With just a little leap, that moonlit sky |
+| 닿을 것만 같다고 했었지 | daeul geonman gatdago haesseotji | Seemed within our reach, we said. |
+| 조금 더 뛰어 올라서서 | jogeum deo ttwieo ollaseoseo | Let's leap a little higher |
+| 수많은 별들을 모두 품에 안아보자 그랬지 | sumaneun byeoldeureul modu pume anaboja geuraetji | And gather all those countless stars into our arms, we said. |
+| 이제는 그 밤 돌이킬 수 없음에 | ijeneun geu bam dorikil su eopseume | Now that I can never bring that night back, |
+| 하릴없이 먼 하늘만 바라볼 뿐 | harireopsi meon haneulman barabol ppun | All I can do is gaze helplessly at the distant sky. |
+| 이제는 그 밤 돌이킬 수 없음에 | ijeneun geu bam dorikil su eopseume | Now that I can never bring that night back, |
+| 하릴없이 먼 하늘만 바라볼 뿐 | harireopsi meon haneulman barabol ppun | All I can do is gaze helplessly at the distant sky. |
