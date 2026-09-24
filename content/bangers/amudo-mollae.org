@@ -1,0 +1,33 @@
+#+title: 아무도 몰래
+#+title_en: Without Anyone Knowing
+#+artist: 황치훈 (Hwang Chi-hoon)
+#+sort_artist: Hwang Chi-hoon
+#+language: Korean
+#+spotify: https://open.spotify.com/track/22XXbLSV8yklpwd2381QBf?si=k7shuXHbQ0uM7Y_4a_5O_w&utm_source=copy-link
+#+year: 2026
+
+this is best enjoyed with ssamgyupsal/gogi and soju on cool fall nights, October or November
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 혼자 있으면 두눈을 감고 | honja isseumyeon du nuneul gamgo | When I'm alone, I close my eyes |
+| 조그만 그 모습을 생각해 | jogeuman geu moseubeul saenggakae | And think of your small figure. |
+| 혼자 있어도 외롭지 않아 | honja isseodo oeropji ana | Even alone, I don't feel lonely. |
+| 스쳐간 그 순간이 떠올라 | seuchyeogan geu sungani tteoolla | That fleeting moment comes back to me. |
+| 긴머리 날리우며 걸어가던 | gin meori nalliumyeo georeogadeon | You walked along with your long hair blowing. |
+| 그댄 지금 어디에 | geudaen jigeum eodie | Where are you now? |
+| 메마른 내 가슴을 적셔주던 | memareun nae gaseumeul jeoksyeojudeon | You quenched my parched heart, |
+| 한줄기의 사랑이었어. | han julgiui sarangieosseo. | A stream of love. |
+| 아무도 모르게 그대여 와요 | amudo moreuge geudaeyeo wayo | Come to me, my love, without anyone knowing, |
+| 나만이 살고 있는 이곳으로 | namani salgo inneun igoseuro | Here, where I live alone. |
+| 아무도 몰래 아무도 몰래 | amudo mollae amudo mollae | Without anyone knowing, without anyone knowing, |
+| 둘만의 세계로 간직하고 파. | dulmanui segyero ganjikago pa. | I want to keep it as a world for just the two of us. |
+| 긴머리 날리우며 걸어가던 | gin meori nalliumyeo georeogadeon | You walked along with your long hair blowing. |
+| 그댄 지금 어디에 | geudaen jigeum eodie | Where are you now? |
+| 메마른 내 가슴을 적셔주던 | memareun nae gaseumeul jeoksyeojudeon | You quenched my parched heart, |
+| 한줄기의 사랑이었어. | han julgiui sarangieosseo. | A stream of love. |
+| 아무도 모르게 그대여 와요 | amudo moreuge geudaeyeo wayo | Come to me, my love, without anyone knowing, |
+| 나만이 살고 있는 이곳으로 | namani salgo inneun igoseuro | Here, where I live alone. |
+| 아무도 몰래 아무도 몰래 | amudo mollae amudo mollae | Without anyone knowing, without anyone knowing, |
+| 둘만의 세계로 간직하고 파. | dulmanui segyero ganjikago pa. | I want to keep it as a world for just the two of us. |
