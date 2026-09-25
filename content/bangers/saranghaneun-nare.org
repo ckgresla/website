@@ -3,6 +3,7 @@
 #+artist: 서영은 (Suh Young-eun)
 #+sort_artist: Suh Young-eun
 #+language: Korean
+#+spotify: https://open.spotify.com/track/4NONuRW8YYrvahZnnOcORC?si=Y8iwUsXpQBqoiZO-n6SEGg&utm_source=copy-link
 #+youtube: https://www.youtube.com/watch?v=4EXCBQwPAHo
 #+year: 2026
 
