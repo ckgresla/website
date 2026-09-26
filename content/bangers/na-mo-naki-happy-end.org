@@ -1,0 +1,51 @@
+#+title: 名もなきハッピーエンド
+#+title_en: Nameless Happy Ending
+#+artist: indigo la End
+#+sort_artist: indigo la End
+#+language: Japanese
+#+spotify: https://open.spotify.com/track/32WWAg2zq56AfaU9V4OCNf?si=Ccvsp1-ER8GrEJy1wjvHlQ&utm_source=copy-link
+#+youtube: https://youtu.be/yWB3bYK3-E4?is=HIYNvLQFYP-NcerB
+#+year: 2026
+
+the music video is wonderfully dated and funny, please enjoy
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 「最低！」 | "saitei!" | "You're the worst!" |
+| あなたは笑いながら叫んだんだ | anata wa warainagara sakenda nda | You shouted while laughing. |
+| そんな言葉聞きながら僕も笑っていたんだ | sonna kotoba kikinagara boku mo waratte ita nda | Hearing those words, I was laughing too. |
+| 「二日酔いのあんたに付き合うのはもうごめん。」って | "futsukayoi no anta ni tsukiau no wa mō gomen." tte | "I'm done keeping you company when you're hungover," you said. |
+| 冗談混じりに鼻をさすった | jōdan majiri ni hana o sasutta | Half joking, you rubbed your nose. |
+| いつかの午後、何をするでもなく考え事してた | itsuka no gogo, nani o suru demo naku kangaegoto shiteta | One afternoon, I was lost in thought, not doing anything in particular. |
+| 僕の肩をたたいたあなたが言ったんだ | boku no kata o tataita anata ga itta nda | You tapped my shoulder and said, |
+| 「私のことなんだかんだで優しく見守って」 | "watashi no koto nanda kanda de yasashiku mimamotte" | "Whatever happens, watch over me kindly." |
+| 僕はいつも通り鼻で笑った | boku wa itsumo dōri hana de waratta | I snorted a laugh, as usual. |
+| だけどはなればなれ | dakedo hanarebanare | But we're apart, |
+| はなればなれになった瞬間 | hanarebanare ni natta shunkan | The moment we became separated, |
+| 僕は噛み締めてちょっと寂しくなっただけ | boku wa kamishimete chotto sabishiku natta dake | I let it sink in and just felt a little lonely. |
+| はなればなれ | hanarebanare | Apart, |
+| はなればなれになったあとで | hanarebanare ni natta ato de | After we became separated, |
+| 思い出せるのは愛しかった表情だけ | omoidaseru no wa itoshikatta hyōjō dake | All I can recall are the expressions I loved. |
+| 夢では最終電車に乗れず一人ぼっち | yume de wa saishū densha ni norezu hitoribotchi | In my dream, unable to catch the last train, all alone, |
+| わんわんわんわん泣いて戻って来たんだ | wanwan wanwan naite modotte kita nda | You came back, sobbing and sobbing. |
+| 月9のハッピーエンドならもう決まってるよ | getsuku no happī endo nara mō kimatteru yo | A Monday-at-nine drama's happy ending is already decided. |
+| ラストシーンはお決まりでキスでもするんだろうな | rasuto shīn wa okimari de kisu demo suru n darō na | In the final scene, I suppose they'll kiss or something, as always. |
+| 「ありがと、何か私今なら1人でやれるって。 | "arigato, nanka watashi ima nara hitori de yareru tte. | "Thanks. Somehow, I feel I can manage alone now. |
+| そう思って嫌いになる努力をしてみたの。」 | sō omotte kirai ni naru doryoku o shite mita no." | Thinking that, I tried to make an effort to dislike you." |
+| 僕は笑ってなんでもない表情繕って | boku wa waratte nandemo nai hyōjō tsukurotte | I laughed and put on an expression as if nothing was wrong, |
+| 割といつも通り鼻で笑った | warito itsumo dōri hana de waratta | And snorted a laugh, more or less as usual. |
+| だけどはなればなれ | dakedo hanarebanare | But we're apart, |
+| はなればなれになった瞬間 | hanarebanare ni natta shunkan | The moment we became separated, |
+| 僕は噛み締めてちょっと寂しくなっただけ | boku wa kamishimete chotto sabishiku natta dake | I let it sink in and just felt a little lonely. |
+| はなればなれ | hanarebanare | Apart, |
+| はなればなれになったあとで | hanarebanare ni natta ato de | After we became separated, |
+| 思い出せるのは愛しかった表情だけ | omoidaseru no wa itoshikatta hyōjō dake | All I can recall are the expressions I loved. |
+| 最終回前にこんな感じになるのはわかってたよ | saishūkai mae ni konna kanji ni naru no wa wakatteta yo | I knew it would be like this before the final episode. |
+| ハッピーエンドはあなたの終電次第さ | happī endo wa anata no shūden shidai sa | The happy ending depends on your last train. |
+| だからはなればなれ | dakara hanarebanare | So we're apart, |
+| はなればなれになった瞬間 | hanarebanare ni natta shunkan | The moment we became separated, |
+| 僕は諦めてちょっと皮肉になっただけ | boku wa akiramete chotto hiniku ni natta dake | I gave up and just became a little cynical. |
+| だけどはなればなれ | dakedo hanarebanare | But we're apart, |
+| はなればなれになったあとで | hanarebanare ni natta ato de | After we became separated, |
+| 想い焦がれるのはわんわん泣いたあなたです | omoikogareru no wa wanwan naita anata desu | The one I yearn for is you, who sobbed so hard. |
