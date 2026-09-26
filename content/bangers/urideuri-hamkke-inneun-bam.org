@@ -12,29 +12,29 @@
 #+attr_html: :class lyrics
 | Original | Romanization | English |
 |------+------+------|
-| 어둠이 음악 사이로 | eodumi eumak sairo | Through the music, the darkness |
-| 흐르듯 다가오는 밤 | heureudeut dagaoneun bam | Flows toward us as night draws near. |
+| 어둠이 음악 사이로 | eodumi eumak sairo | Darkness seems to flow through the music |
+| 흐르듯 다가오는 밤 | heureudeut dagaoneun bam | As night approaches. |
 | 찻잔을 매만지는 그대의 손끝에 | chatjaneul maemanjineun geudaeui sonkkeute | On your fingertips, caressing the teacup, |
 | 눈길이 멈추어지네 | nungiri meomchueojine | My gaze comes to rest. |
-| 살며시 기대어 오는 음~ | salmyeosi gidae-eo oneun eum~ | You gently lean against me, mm~ |
-| 조그만 그댈 느끼면 | jogeuman geudael neukkimyeon | When I feel your little frame, |
+| 살며시 기대어 오는 음~ | salmyeosi gidae-eo oneun eum~ | Gently leaning toward me, mm~ |
+| 조그만 그댈 느끼면 | jogeuman geudael neukkimyeon | When I feel you, so small, |
 | 달콤한 그 숨결은 노래가 되어 | dalkomhan geu sumgyeoreun noraega doeeo | Your sweet breath becomes a song |
 | 귓가에 머물다가네 | gwitgae meomuldagane | And lingers by my ear. |
-| 그대가 들려준 훈훈한 주변의 얘기가 | geudaega deullyeojun hunhunhan jubyeonui yaegiga | The warm stories you tell of those around you |
+| 그대가 들려준 훈훈한 주변의 얘기가 | geudaega deullyeojun hunhunhan jubyeonui yaegiga | The warm stories you told me of those around you |
 | 내맘을 편안하게 | nae mameul pyeonanhage | Put my heart at ease. |
-| 괜시리 부담스런 지난하루 기억들 | gwaensiri budamseureon jinan haru gieokdeul | Memories of the day that weighed on me for no reason |
-| 웃음속에 사라져가네 | useum soge sarajyeogane | Fade away in our laughter. |
-| 이대로 거짓없는 | idaero geojiteomneun | Just like this, with honest |
-| 눈빛으로 나를 바라보는 그대를 사랑해 | nunbicheuro nareul baraboneun geudaereul saranghae | Eyes looking into mine—I love you. |
-| 말없이 믿으면서 오가는 두마음 | mareopsi mideumyeonseo oganeun du maeum | Two hearts reaching each other, trusting without words, |
-| 우리들이 함께있는밤 | urideuri hamkke inneun bam | On the night we're together. |
-| 언제나 해맑은 그대 다정한 속삭임 | eonjena haemalgeun geudae dajeonghan soksagim | Your tender whispers, always so bright and clear, |
-| 모든걸 새롭게하지 | modeun geol saeropge haji | Make everything feel new. |
-| 어느덧 멈춰버린 우리만의 시간은 | eoneudeot meomchwobeorin urimanui siganeun | Our own little time, which has quietly stood still, |
+| 괜시리 부담스런 지난하루 기억들 | gwaensiri budamseureon jinan haru gieokdeul | Memories of the past day, burdensome for no reason, |
+| 웃음속에 사라져가네 | useum soge sarajyeogane | Disappear amid laughter. |
+| 이대로 거짓없는 | idaero geojiteomneun | Just like this, with no lie |
+| 눈빛으로 나를 바라보는 그대를 사랑해 | nunbicheuro nareul baraboneun geudaereul saranghae | In your gaze as you look at me—I love you. |
+| 말없이 믿으면서 오가는 두마음 | mareopsi mideumyeonseo oganeun du maeum | Two hearts going back and forth, trusting without words, |
+| 우리들이 함께있는밤 | urideuri hamkke inneun bam | The night we're together. |
+| 언제나 해맑은 그대 다정한 속삭임 | eonjena haemalgeun geudae dajeonghan soksagim | Your affectionate whispers—you, always so bright and clear— |
+| 모든걸 새롭게하지 | modeun geol saeropge haji | Make everything new. |
+| 어느덧 멈춰버린 우리만의 시간은 | eoneudeot meomchwobeorin urimanui siganeun | Our time alone, which stopped before we knew it, |
 | 찻잔속에 녹아 흐르네 | chatjan soge noga heureune | Melts and flows inside the teacup. |
-| 이대로 거짓없는 눈빛으로 나를 바라보는 | idaero geojiteomneun nunbicheuro nareul baraboneun | Looking at me just like this, with honest eyes— |
+| 이대로 거짓없는 눈빛으로 나를 바라보는 | idaero geojiteomneun nunbicheuro nareul baraboneun | Looking at me just like this, with no lie in your gaze— |
 | 그대를 사랑해 | geudaereul saranghae | I love you. |
 | (반복) | (banbok) | (Repeat) |
-| 말없이 믿으면서 오가는 두마음 | mareopsi mideumyeonseo oganeun du maeum | Two hearts reaching each other, trusting without words, |
-| 우리들이 함께 있는밤 | urideuri hamkke inneun bam | On the night we're together. |
+| 말없이 믿으면서 오가는 두마음 | mareopsi mideumyeonseo oganeun du maeum | Two hearts going back and forth, trusting without words, |
+| 우리들이 함께 있는밤 | urideuri hamkke inneun bam | The night we're together. |
 | 뚜루~~~ | tturu~~~ | Doo-roo~~~ |
