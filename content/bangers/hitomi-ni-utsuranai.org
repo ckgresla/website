@@ -7,4 +7,57 @@
 #+youtube: https://youtu.be/99DIdczzy2Y?is=MOs1EjJVGsLR42Hb
 #+year: 2026
 
-[[https://www.uta-net.com/song/170729/][Lyrics on Uta-Net]]
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 行ったり来たりしないでよ | ittari kitari shinaide yo | Don't keep coming and going. |
+| 心変わりとか言って | kokorogawari toka itte | Saying things like "a change of heart," |
+| 行ったり来たりしてるのを | ittari kitari shiteru no o | Your coming and going— |
+| 私のせいにしないでよ | watashi no sei ni shinaide yo | Don't make it my fault. |
+| あなた | anata | You. |
+| 通りすがった | tōrisugatta | Passing by, |
+| 風は今日も静かに | kaze wa kyō mo shizuka ni | The wind, quietly again today, |
+| 何も知らないあなたに吹きついたって | nani mo shiranai anata ni fukitsuitatte | Even if it blows against you, who know nothing, |
+| 恋にすがった | koi ni sugatta | Having clung to love, |
+| 私なんか嫌よね | watashi nanka iya yo ne | You must dislike someone like me, don't you? |
+| さっきから独り言を並べては | sakki kara hitorigoto o narabete wa | For a while now, I keep talking to myself, |
+| ちょっと手を伸ばす | chotto te o nobasu | And reach out my hand a little. |
+| あなたあなたあなただけ | anata anata anata dake | You, you, only you. |
+| 私の声が聞こえたら | watashi no koe ga kikoetara | If you can hear my voice, |
+| どうかどうか忘れてないと | dōka dōka wasuretenai to | Please, please, say you haven't forgotten, |
+| 答えて安心させてよ | kotaete anshin sasete yo | Answer and put me at ease. |
+| あなたあなたあなたまで | anata anata anata made | You, you, all the way to you— |
+| 届くと願ってぼんやり | todoku to negatte bonyari | Hoping it will reach you, lost in thought. |
+| あなたあなたあなたのことばっか | anata anata anata no koto bakka | You, you—nothing but thoughts of you. |
+| 明日も考えてるわ | ashita mo kangaeteru wa | I'll be thinking of you tomorrow too. |
+| そっと歌った | sotto utatta | I sang softly. |
+| 誰も聴いてないのに | dare mo kiitenai noni | Though no one was listening, |
+| 風と流れて私の声は消えた | kaze to nagarete watashi no koe wa kieta | My voice drifted with the wind and disappeared. |
+| 行ったり来たりしないでよ | ittari kitari shinaide yo | Don't keep coming and going. |
+| 心変わりとか言って | kokorogawari toka itte | Saying things like "a change of heart," |
+| 行ったり来たりしないでよ | ittari kitari shinaide yo | Don't keep coming and going. |
+| ねえ | nē | Hey. |
+| そうやって | sō yatte | Like that, |
+| あなたあなたあなたはさ | anata anata anata wa sa | You, you, you, you know, |
+| 聞こえたふりでぼんやりと | kikoeta furi de bonyari to | Absentmindedly pretending you heard. |
+| どうかどうか忘れてないと | dōka dōka wasuretenai to | Please, please, say you haven't forgotten, |
+| 答えて安心させてよ | kotaete anshin sasete yo | Answer and put me at ease. |
+| あなたあなたあなただけ | anata anata anata dake | You, you, only you. |
+| 私の瞳に映るから | watashi no hitomi ni utsuru kara | Because you're reflected in my eyes, |
+| あなたあなたあなたのことばっか | anata anata anata no koto bakka | You, you—nothing but thoughts of you. |
+| 空から想うよ | sora kara omou yo | I think of you from the sky. |
+| 最終電車に遅れないように | saishū densha ni okurenai yō ni | So I wouldn't miss the last train, |
+| 走らなきゃって | hashiranakya tte | I said I had to run, |
+| 戻らなきゃって | modoranakya tte | That I had to go back. |
+| 一緒だった夜はかくれんぼしてたね | issho datta yoru wa kakurenbo shiteta ne | On the night we were together, we played hide-and-seek, didn't we? |
+| それが最後で見つけられなかった | sore ga saigo de mitsukerarenakatta | That was the last time, and I couldn't find you. |
+| あなたあなたあなただけ | anata anata anata dake | You, you, only you. |
+| 私の声が聞こえたら | watashi no koe ga kikoetara | If you can hear my voice, |
+| どうかどうか忘れてないと | dōka dōka wasuretenai to | Please, please, say you haven't forgotten, |
+| 答えて安心させてよ | kotaete anshin sasete yo | Answer and put me at ease. |
+| あなたあなたあなたまで | anata anata anata made | You, you, all the way to you— |
+| 届くと願ってぼんやり | todoku to negatte bonyari | Hoping it will reach you, lost in thought. |
+| あなたあなたあなたのことばっか | anata anata anata no koto bakka | You, you—nothing but thoughts of you. |
+| 考えてるの | kangaeteru no | I'm thinking of you. |
+| 瞳に映らない私を | hitomi ni utsuranai watashi o | Me, who isn't reflected in your eyes— |
+| どうかまだ忘れないで | dōka mada wasurenaide | Please don't forget me yet. |
