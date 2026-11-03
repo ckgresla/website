@@ -1,0 +1,61 @@
+#+title: そのままの冷たさで
+#+title_en: With That Same Coldness
+#+artist: indigo la End
+#+sort_artist: indigo la End
+#+language: Japanese
+#+spotify: https://open.spotify.com/track/3xjFV2amgaUZ3YMA2L4kmK?si=Hv_GyeXSR4msxKLwEh_HLw&utm_source=copy-link
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| また一つ優しさを放り投げた | mata hitotsu yasashisa o hōrinageta | I threw away another bit of kindness. |
+| 渋滞は変わらなかった | jūtai wa kawaranakatta | The traffic jam didn't change. |
+| 窓を閉めて息を値踏みする | mado o shimete iki o nebumi suru | I close the window and appraise my breath. |
+| 相変わらず普通の人 | aikawarazu futsū no hito | An ordinary person, as always. |
+| 狂ってく景色の速さで | kurutteku keshiki no hayasa de | At the speed of the scenery going mad, |
+| 知らないことが増えていく | shiranai koto ga fuete iku | The things I don't know keep increasing. |
+| このままでいいわけがない | kono mama de ii wake ga nai | There's no way it's fine to stay like this. |
+| 空気が跳ねた | kūki ga haneta | The air leapt. |
+| ああ、そのままの冷たさで | ā, sono mama no tsumetasa de | Ah, with that same coldness, |
+| 生きてくのかい | ikiteku no kai | Are you going to keep living? |
+| 許されてよ | yurusarete yo | Let yourself be forgiven. |
+| そろそろ背中を空けてもいいよ | sorosoro senaka o aketemo ii yo | It's all right to leave your back open now. |
+| やり直せるカラクリを | yarinaoseru karakuri o | The mechanism that lets us start over— |
+| 解いてくれよ | toite kure yo | Please unravel it for me, |
+| もどかしさが唇に触れて | modokashisa ga kuchibiru ni furete | Before frustration touches my lips |
+| 声になる前に | koe ni naru mae ni | And becomes a voice. |
+| 役回りを恨んだ | yakumawari o uranda | I resented the role I was given, |
+| 大人になってすぐ | otona ni natte sugu | Right after becoming an adult. |
+| 弾けないようにたまに泣いた | hajikenai yō ni tama ni naita | I cried sometimes so I wouldn't burst, |
+| 静かにすり減って | shizuka ni surihette | Quietly wearing away. |
+| この経験は光を生みますか | kono keiken wa hikari o umimasu ka | Will this experience produce light? |
+| 涙の量に比例してくれますか | namida no ryō ni hirei shite kuremasu ka | Will it be in proportion to the amount of tears? |
+| 壊れる前に教えて欲しいよ | kowareru mae ni oshiete hoshii yo | I want you to tell me before I break. |
+| ああ、そのままの冷たさで | ā, sono mama no tsumetasa de | Ah, with that same coldness, |
+| 生きてくのかい | ikiteku no kai | Are you going to keep living? |
+| 許されてよ | yurusarete yo | Let yourself be forgiven. |
+| そろそろ背中を空けてもいいよ | sorosoro senaka o aketemo ii yo | It's all right to leave your back open now. |
+| やり直せるカラクリを | yarinaoseru karakuri o | The mechanism that lets us start over— |
+| 解いてくれよ | toite kure yo | Please unravel it for me, |
+| もどかしさが唇に触れて | modokashisa ga kuchibiru ni furete | Before frustration touches my lips |
+| 声になる前に | koe ni naru mae ni | And becomes a voice. |
+| くすぐったい気持ちだけ | kusuguttai kimochi dake | Only those ticklish feelings, |
+| 心のどっかに匿って | kokoro no dokka ni kakumatte | Hidden somewhere in my heart, |
+| 裸足を知った地球で | hadashi o shitta chikyū de | On this Earth that has known bare feet, |
+| 揺れてる間 | yureteru aida | While swaying, |
+| 年を取る | toshi o toru | I grow older. |
+| わからなかった悪戯 | wakaranakatta itazura | Mischief I didn't understand, |
+| 拾えなかった誰かの裏 | hiroenakatta dareka no ura | Someone's hidden side I couldn't pick up on, |
+| 誰も知らない合図で | dare mo shiranai aizu de | With a signal no one knows, |
+| 知らない誰かの声を聞く | shiranai dareka no koe o kiku | I hear the voice of someone I don't know. |
+| 忘れないで | wasurenaide | Don't forget, |
+| 生きるのはちょっと斜め | ikiru no wa chotto naname | Living is a little slanted. |
+| 前を見てごらん | mae o mite goran | Look ahead. |
+| 真っ直ぐ走れる道じゃないでしょ | massugu hashireru michi ja nai desho | It's not a road you can run straight down, is it? |
+| もうこれ以上 | mō kore ijō | Any more than this, |
+| 冷たさに慣れないでよ | tsumetasa ni narenaide yo | Don't get used to the cold. |
+| もどかしさを息が白くして | modokashisa o iki ga shiroku shite | My breath turned the frustration white, |
+| 見えなくなった | mienaku natta | And it disappeared from sight. |
+| 吸って吐いて | sutte haite | Breathe in, breathe out, |
+| ここにいる | koko ni iru | I'm here. |

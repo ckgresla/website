@@ -1,0 +1,53 @@
+#+title: 暗愚
+#+title_en: Foolishness
+#+artist: indigo la End
+#+sort_artist: indigo la End
+#+language: Japanese
+#+spotify: https://open.spotify.com/track/17RgdyGbhtZSuL7Z1lNRml?si=KXTogy17T3q7KbZX01ujGw&utm_source=copy-link
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 希望を見せた罪 | kibō o miseta tsumi | The sin of showing hope, |
+| またそれを見たこと | mata sore o mita koto | And also of having seen it. |
+| 逆も然り | gyaku mo shikari | The reverse is true too. |
+| 殺し合った機微 | koroshiatta kibi | Subtleties that killed each other. |
+| 今を抜け出せない | ima o nukedasenai | I can't escape the present. |
+| かけた橋を見て | kaketa hashi o mite | Looking at the bridge I built, |
+| 愚かだと気付く | oroka da to kizuku | I realize how foolish I am. |
+| ジェットコースター | jetto kōsutā | A roller coaster. |
+| 何にも上手くいかないよ | nani ni mo umaku ikanai yo | Nothing goes well. |
+| はんなりした心臓のまま | hannari shita shinzō no mama | With my heart still gentle and elegant, |
+| 割れそうな頭と離れてくばかり | waresō na atama to hanareteku bakari | It only drifts farther from my head, which feels about to split. |
+| だけど傷付けないように | dakedo kizutsukenai yō ni | But so as not to hurt anyone, |
+| 最低限のモーションで | saiteigen no mōshon de | With the bare minimum of movement, |
+| それだけは得意なんだ | sore dake wa tokui nan da | That's the one thing I'm good at. |
+| 昨日感じた奇跡が | kinō kanjita kiseki ga | The miracle I felt yesterday |
+| ゴミ捨て場で縮こまってた | gomi suteba de chijikomatteta | Was huddled up at the garbage dump. |
+| 日付けも跨げない | hizuke mo matagenai | Unable even to cross into the next day, |
+| 天才みたいな顔して | tensai mitai na kao shite | With a face like a genius. |
+| 喫茶店の目の前で | kissaten no me no mae de | Right in front of the café, |
+| 倒れてみたけど | taorete mita kedo | I tried collapsing, but |
+| 夢みたいに酷いことにはならなかった | yume mitai ni hidoi koto ni wa naranakatta | It didn't turn out as terrible as a dream. |
+| 何にも上手くいかないよ | nani ni mo umaku ikanai yo | Nothing goes well. |
+| はんなりした心臓のまま | hannari shita shinzō no mama | With my heart still gentle and elegant, |
+| 割れそうな頭と離れてくばかり | waresō na atama to hanareteku bakari | It only drifts farther from my head, which feels about to split. |
+| だけど傷付けないように | dakedo kizutsukenai yō ni | But so as not to hurt anyone, |
+| 最低限のモーションで | saiteigen no mōshon de | With the bare minimum of movement, |
+| それだけは得意なんだ | sore dake wa tokui nan da | That's the one thing I'm good at. |
+| もっと愚かであったなら | motto oroka de atta nara | If I had been more foolish, |
+| もっと答えは単純で | motto kotae wa tanjun de | The answer would have been simpler. |
+| アクロバットなツキ | akurobatto na tsuki | Acrobatic luck, |
+| 全て賭けて死ぬだけ | subete kakete shinu dake | Just bet everything and die. |
+| それが出来ないから | sore ga dekinai kara | Because I can't do that, |
+| こんなに生きづらいんだ | konna ni ikizurai n da | It's this hard to live. |
+| 中途半端なジェットコースター | chūtohanpa na jetto kōsutā | A halfhearted roller coaster. |
+| 目が覚めても | me ga sametemo | Even when I woke up, |
+| そうだった | sō datta | It was still like that. |
+| まだ自分だった | mada jibun datta | I was still myself. |
+| 抜け出せない | nukedasenai | I can't get out. |
+| あと何年 | ato nannen | How many more years? |
+| あと何日 | ato nannichi | How many more days? |
+| あと何分 | ato nanpun | How many more minutes? |
+| あと何秒 | ato nanbyō | How many more seconds? |
