@@ -1,0 +1,23 @@
+#+title: 나무
+#+title_en: Tree
+#+artist: 권진원 (Kwon Jin Won)
+#+sort_artist: Kwon Jin Won
+#+language: Korean
+#+spotify: https://open.spotify.com/track/33RhvYRunLmKaTyiG2tA5P?si=rJMkHhx6T2SHzYjGE83Vag&utm_source=copy-link
+#+youtube: https://youtu.be/-OA1518gudU?is=qGsCX7bg5LDOidB7
+#+year: 2026
+
+[[https://youtu.be/fmTUdP9f5uU?is=JWEGZj3XBd4xK-df][YouTube live recording]]
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 그대가 바람이면 내게로 와 흔들어 주오 | geudaega baramimyeon naegero wa heundeureo juo | If you are the wind, come to me and shake me. |
+| 나 혼자 외롭지 않게 | na honja oeropji anke | So I won't be lonely on my own. |
+| 그대가 장미라면 가슴에 안을 수 있게 | geudaega jangmiramyeon gaseume aneul su itge | If you are a rose, so I can hold you to my chest, |
+| 내게로 와 꽃피어 주오 | naegero wa kkotpieo juo | Come to me and bloom. |
+| 그댈 바라보면서 속삭이며 | geudael barabomyeonseo soksagimyeo | Looking at you, whispering, |
+| 향기에 취해 잠들고 싶어 | hyanggie chwihae jamdeulgo sipeo | I want to fall asleep, drunk on the fragrance. |
+| 내게로 와 꽃피어 주오 | naegero wa kkotpieo juo | Come to me and bloom. |
+| 그댈 바라보면서 속삭이며 | geudael barabomyeonseo soksagimyeo | Looking at you, whispering, |
+| 향기에 취해 잠들고 싶어 | hyanggie chwihae jamdeulgo sipeo | I want to fall asleep, drunk on the fragrance. |
