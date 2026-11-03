@@ -10,7 +10,7 @@
 
 // ── Tokens ──
 :root {
-  color-scheme: light dark; // both themes are ours — no browser auto-darkening
+  color-scheme: only light; // the site paints its own theme; avoid a second browser conversion
   --color-background: #ffffff;
   --color-background-secondary: #f5f5f5;
   --color-text-primary: #000000;
@@ -30,7 +30,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    color-scheme: dark;
+    color-scheme: only dark;
     --color-background: #000000;
     --color-background-secondary: #111111;
     --color-text-primary: #ffffff;
@@ -50,7 +50,7 @@
 // Explicit review switch for localhost screenshots. It mirrors the native
 // dark palette above without changing the production default or system logic.
 html[data-review-theme='dark'] {
-  color-scheme: dark;
+  color-scheme: only dark;
   --color-background: #000000;
   --color-background-secondary: #111111;
   --color-text-primary: #ffffff;
@@ -130,15 +130,11 @@ $mono: 'JetBrains Mono NL', ui-monospace, SFMono-Regular, Menlo, Monaco, Consola
 *, *::before, *::after { box-sizing: border-box; }
 
 html {
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
   font-family: $sans;
   font-feature-settings: 'liga' 1, 'calt' 1;
   -webkit-font-smoothing: antialiased;
-  overflow-y: scroll;
-  scrollbar-gutter: stable both-edges; // symmetric gutters, so centered
-                                       // columns stay truly centered even
-                                       // with a visible scrollbar
-  scrollbar-width: thin;
-  scrollbar-color: var(--color-text-tertiary) transparent;
 }
 @supports (font-variation-settings: normal) {
   html { font-family: $sans-var; }
@@ -157,9 +153,20 @@ body {
   color: var(--color-background);
 }
 
-::-webkit-scrollbar { width: 8px; background: transparent; }
-::-webkit-scrollbar-thumb { background: var(--color-text-tertiary); border-radius: 4px; }
-::-webkit-scrollbar-thumb:hover { background: var(--color-text-secondary); }
+// Keep the desktop's centered scrollbar gutters and custom thumb on mouse
+// devices. Touch browsers use native overlay scrollbars: custom scrollbar
+// painting can corrupt Samsung Internet's forced-dark rendering while scrolling.
+@media (hover: hover) and (pointer: fine) {
+  html {
+    overflow-y: scroll;
+    scrollbar-gutter: stable both-edges;
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-text-tertiary) transparent;
+  }
+  ::-webkit-scrollbar { width: 8px; background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--color-text-tertiary); border-radius: 4px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--color-text-secondary); }
+}
 
 // ── Layout: the one grid ──
 // 1216px container, 64px side padding, 6 columns with 64px gutters.
