@@ -1,0 +1,36 @@
+#+title: A Cada Dia Que Passa
+#+title_en: With Each Passing Day
+#+artist: Emílio Santiago
+#+sort_artist: Emilio Santiago
+#+language: Portuguese
+#+spotify: https://open.spotify.com/track/3IziG24iHiVcI0qpeehDPS?si=IlfBLs__SUG1hrUmBZwLNg&utm_source=copy-link
+#+youtube: https://www.youtube.com/watch?v=qj1ZlYfDSGc
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | English |
+|----------+---------|
+| Já não se pode esperar, nem mesmo acreditar | We can no longer wait, or even believe |
+| No que eles todos disseram, irmão | What they all said, brother. |
+| E não se pode pensar que alguém vem nos salvar | And we can't think that someone will come to save us, |
+| Nos dar o teto e o pão | To give us a roof and bread. |
+| Morrem pessoas lá fora | People die out there. |
+| A cada dia que passa aumenta a fumaça | With each passing day, the smoke increases. |
+| E o povo bebe a cachaça | And the people drink cachaça, |
+| Tentando esquecer a sua opinião | Trying to forget their own opinion. |
+| Ficam as pessoas aflitas | People are left distressed, |
+| Sem direção passando fome | Without direction, going hungry. |
+| E a preguiça cede ao dragão | And laziness yields to the dragon. |
+| E tudo passa, tudo fica sem solução | And everything passes, everything remains unresolved. |
+| Já não se pode esperar, nem mesmo acreditar | We can no longer wait, or even believe |
+| No que eles todos disseram, irmão | What they all said, brother. |
+| E não se pode pensar que alguém vem nos salvar | And we can't think that someone will come to save us, |
+| Nos dar o teto e o pão | To give us a roof and bread. |
+| Morrem pessoas lá fora | People die out there. |
+| A cada dia que passa aumenta a fumaça | With each passing day, the smoke increases. |
+| E o povo bebe a cachaça | And the people drink cachaça, |
+| Tentando esquecer a sua opinião | Trying to forget their own opinion. |
+| Ficam as pessoas aflitas | People are left distressed, |
+| Sem direção passando fome | Without direction, going hungry. |
+| E a preguiça cede ao dragão | And laziness yields to the dragon. |
+| E tudo passa, tudo fica sem solução | And everything passes, everything remains unresolved. |
