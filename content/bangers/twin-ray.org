@@ -8,7 +8,7 @@
 #+attr_html: :class lyrics
 | Original | Romanization | English |
 |------+------+------|
-| 指を噛んで車窓を眺める、朝 | yubi o kande shasō o nagameru, asa | Morning: I bite my finger and gaze out the window. |
+| 指を噛んで車窓を眺める、朝 | yubi o kande shasō o nagameru, asa | Morning, I bite my finger and gaze out the window. |
 | 街は忙しない | machi wa sewashinai | The city is restless. |
 | いつもの感覚を取り戻すため | itsumo no kankaku o torimodosu tame | To get back my usual feeling, |
 | 流し込むアイスコーヒー | nagashikomu aisu kōhī | I gulp down iced coffee. |
@@ -40,7 +40,7 @@
 | ぎゅっと聞いてあげるけど | gyutto kiite ageru kedo | I'll listen closely to you, but |
 | 時々それが寂しく感じるの | tokidoki sore ga sabishiku kanjiru no | Sometimes that makes me feel lonely. |
 | 今は今は私がいるのよ | ima wa ima wa watashi ga iru no yo | Right now, right now, I'm here. |
-| 指を噛んで車窓を眺める、朝 | yubi o kande shasō o nagameru, asa | Morning: I bite my finger and gaze out the window. |
+| 指を噛んで車窓を眺める、朝 | yubi o kande shasō o nagameru, asa | Morning, I bite my finger and gaze out the window. |
 | 街は忙しない | machi wa sewashinai | The city is restless. |
 | いつもの感覚を取り戻すため | itsumo no kankaku o torimodosu tame | To get back my usual feeling, |
 | 流し込むアイスコーヒー | nagashikomu aisu kōhī | I gulp down iced coffee. |
