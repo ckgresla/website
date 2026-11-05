@@ -1,0 +1,39 @@
+#+title: 이층집 소녀
+#+title_en: The Girl on the Second Floor
+#+artist: 윤종신 (Yoon Jong Shin)
+#+sort_artist: Yoon Jong Shin
+#+language: Korean
+#+spotify: https://open.spotify.com/track/1klKL5sI9HXU1OgLBZ92wx?si=st5jZgTeQnG4DXBcrwXOww&utm_source=copy-link
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 저녁 교회 종소리 | jeonyeok gyohoe jongsori | When the evening church bells |
+| 노을에 퍼지고 | noeure peojigo | Spread through the sunset, |
+| 성급한 거리 위에 불빛이 | seonggeupan geori wie bulbichi | And the lights over the hurried streets |
+| 눈을 뜰 때면 | nuneul tteul ttaemyeon | Open their eyes, |
+| 내 기억의 동네에도 | nae gieogui dongne-edo | In the neighborhood of my memories too, |
+| 켜지는 불빛 | kyeojineun bulbit | Lights come on. |
+| 아직도 나를 설레게 만드는 | ajikdo nareul seollege mandeuneun | Still making my heart flutter, |
+| 내 첫사랑 그녀 | nae cheotsarang geunyeo | She, my first love. |
+| 얼마나 휘파람을 연습했는지 | eolmana hwiparameul yeonseupaenneunji | How much I practiced whistling, |
+| 단지 그녀가 좋아한단 이유로 | danji geunyeoga joahandan iyuro | Simply because she liked it. |
+| 그녀의 추억은 | geunyeoui chueogeun | Memories of her are |
+| 따뜻한 엄마의 품속 | ttatteutan eommaui pumsok | My mother's warm embrace. |
+| 빠르게 변하는 세상에서 | ppareuge byeonhaneun sesangeseo | In this quickly changing world, |
+| 나 휘청거릴 때 | na hwicheonggeoril ttae | When I stagger, |
+| 너에게 이제 난 | neoege ije nan | Even if, to you now, I am |
+| 잊혀질 먼 얘길지라도 | ichyeojil meon yaegiljirado | A distant story to be forgotten, |
+| 너와의 추억은 나 돌아갈 | neowaui chueogeun na doragal | My memories with you are a gift I'll take |
+| 무덤 속까지 가져갈 선물인 거야 | mudeom sokkkaji gajyeogal seonmurin geoya | All the way to the grave I'll return to. |
+| 생각해 보면 그래 너를 만났던 | saenggakae bomyeon geurae neoreul mannatdeon | When I think about it, yes—having met you, |
+| 나의 인생이 참 괜찮아보여 | naui insaengi cham gwaenchanaboyeo | My life seems really quite good. |
+| 그녀의 추억은 | geunyeoui chueogeun | Memories of her are |
+| 따뜻한 엄마에 품속 | ttatteutan eommae pumsok | My mother's warm embrace. |
+| 빠르게 변하는 세상에서 | ppareuge byeonhaneun sesangeseo | In this quickly changing world, |
+| 나 휘청거릴 때 | na hwicheonggeoril ttae | When I stagger, |
+| 너에게 이제 난 | neoege ije nan | Even if, to you now, I am |
+| 잊혀질 먼 얘길지라도 | ichyeojil meon yaegiljirado | A distant story to be forgotten, |
+| 너와의 추억은 나 돌아갈 | neowaui chueogeun na doragal | My memories with you— |
+| 무덤 속까지 | mudeom sokkkaji | All the way to the grave I'll return to. |
