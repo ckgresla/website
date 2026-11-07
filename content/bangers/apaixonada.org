@@ -1,0 +1,24 @@
+#+title: Apaixonada
+#+title_en: In Love
+#+artist: Simone
+#+sort_artist: Simone
+#+language: Portuguese
+#+spotify: https://open.spotify.com/track/5nVWchNp4zek6PqXl9RFNF?si=HraRHqBJTJ27bXiobJWiIg&utm_source=copy-link
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | English |
+|----------+---------|
+| Recordo bem aquele dia de quando tudo começou | I remember well that day when everything began |
+| Olhares tanta melodia e aí a tua mão, o meu calor... | Glances, so much melody, and then your hand, my warmth... |
+| E então foi tanta euforia pra um coração navegador | And then there was so much euphoria for a seafaring heart |
+| Perdidos em noites tão vazias cansado de ser só o que passou | Lost in such empty nights, tired of being only what has passed |
+| Te conhecer, me achar, foi o tempo que nos revelou | Getting to know you, finding myself, it was time that revealed us |
+| Rir, desfrutar das delícias que há | To laugh, to enjoy the delights there are |
+| Quando se tem o amor, sentimento maior | When one has love, the greatest feeling |
+| Sabe lá, como é gostoso ter a chama do viver | Do you know how good it feels to have the flame of living? |
+| Saber que a vida é alegria é o prazer | Knowing that life is joy is the pleasure |
+| É ter o mundo aos nossos pés, eu e você | It is having the world at our feet, you and I |
+| Sabe lá, o que te trouxe nem eu mesma vou saber | Who knows what brought you, not even I myself will know |
+| Mas o destino insiste sempre em me querer | But fate always insists on wanting me |
+| Apaixonada eternamente por você, você, você | Eternally in love with you, you, you |
