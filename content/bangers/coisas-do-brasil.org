@@ -5,6 +5,44 @@
 #+language: Portuguese
 #+spotify: https://open.spotify.com/track/3EJlvxa6jADnnv2VTgYLb0?si=czm3URNjTyW985dD9FvSng&utm_source=copy-link
 #+year: 2026
-#+draft: true
 
 “To really understand this song, I have the feeling that you need to spend an evening in Rio, fresh after it’s rained, down by Café do Forte or looking over Guanabara next to Pão de Açúcar. You need to be draped on a tree or standing on the stone. Cerveja, cachaça. You have to be comfortable, à vontade. You have to enjoy the vista do mar, the lights as they reflect off the water, the humidity in the air. You need to feel all of this to truly understand Coisas do Brasil.”
+
+#+attr_html: :class lyrics
+| Original | English |
+|----------+---------|
+| Foi tão bom te conhecer | It was so good to meet you |
+| Tão fácil te querer | So easy to want you |
+| Triste não te ver | Sad not to see you |
+| Por tanto tempo | For so long |
+| É bom te encontrar | It's good to see you |
+| Quem sabe feliz | Perhaps happy |
+| Com a mesma alegria | With the same joy |
+| De novo | Again |
+| Mais uma vez, amor | Once more, love |
+| Te abraçar de verdade | To embrace you for real |
+| Há sempre um novo amor | There is always a new love |
+| E uma nova saudade | And a new longing |
+| Coisas do Brasil | Things of Brazil |
+| Coisas do amor | Things of love |
+| Luzes da cidade acendendo | The city's lights coming on |
+| O fogo das paixões | The fire of passions |
+| Num bar à beira-mar | In a bar by the sea |
+| No verde-azul do Rio | In the green-blue of Rio |
+| De Janeiro | de Janeiro |
+| Mais uma vez, amor | Once more, love |
+| Te abraçar de verdade | To embrace you for real |
+| Há sempre um novo amor | There is always a new love |
+| E uma nova saudade | And a new longing |
+| Coisas do Brasil | Things of Brazil |
+| Coisas do amor | Things of love |
+| Luzes da cidade acendendo | The city's lights coming on |
+| O fogo das paixões | The fire of passions |
+| Num bar à beira-mar | In a bar by the sea |
+| No verde-azul do Rio | In the green-blue of Rio |
+| Hum, coisas do Brasil | Hmm, things of Brazil |
+| Coisas do amor | Things of love |
+| Luzes da cidade acendendo | The city's lights coming on |
+| O fogo das paixões | The fire of passions |
+| Num bar à beira-mar | In a bar by the sea |
+| No verde-azul do Rio | In the green-blue of Rio |
