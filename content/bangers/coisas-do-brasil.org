@@ -6,7 +6,7 @@
 #+spotify: https://open.spotify.com/track/3EJlvxa6jADnnv2VTgYLb0?si=czm3URNjTyW985dD9FvSng&utm_source=copy-link
 #+year: 2026
 
-“To really understand this song, I have the feeling that you need to spend an evening in Rio, fresh after it’s rained, down by Café do Forte or looking over Guanabara next to Pão de Açúcar. You need to be draped on a tree or standing on the stone. Cerveja, cachaça. You have to be comfortable, à vontade. You have to enjoy the vista do mar, the lights as they reflect off the water, the humidity in the air. You need to feel all of this to truly understand Coisas do Brasil.”
+“To really understand this song, I have the feeling that you need to spend an evening in Rio, fresh after it’s rained, down by Café do Forte or looking over Guanabara next to Pão de Açúcar. You need to be draped on a tree or sitting on a stone. Cerveja, cachaça. You have to be comfortable, à vontade. You have to feel the brisa del mar. You have to see the light reflecting off of the water. And you have to taste the humidity of the air. I would like you to comprehend and experience all of these things such that you can truly understand this song.”
 
 #+attr_html: :class lyrics
 | Original | English |
