@@ -534,14 +534,6 @@ pre {
   .banger-source { margin: 0; font-size: 0.75rem; line-height: 18px; }
   .banger-back { margin-top: 48px; }
 
-  // Explanatory footnotes share the quieter typography of figure captions.
-  .banger-note {
-    color: var(--color-text-secondary);
-    font-size: 0.75rem;
-    line-height: 18px;
-    sup { line-height: 0; margin-right: 4px; }
-  }
-
   // lyrics tables ({.lyrics} in content) — parallel texts in equal columns:
   // every language gets the same room and rows align cleanly.
   .lyrics {

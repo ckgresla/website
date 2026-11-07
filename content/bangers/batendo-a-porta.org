@@ -6,6 +6,8 @@
 #+spotify: https://open.spotify.com/track/3LiNjVBvCSINLxa0pjkW7W?si=-3i5XQMBQNaaUBvEP5RS4g&utm_source=copy-link
 #+year: 2026
 
+“Inês é morta” (“Inês is dead”) is a Portuguese expression meaning “it’s too late,” referring to [[https://ciberduvidas-ql.iscte-iul.pt/consultorio/perguntas/fazer-se-de-ines/34617][Inês de Castro]]. Here, the singer is saying that, for him, the love is already over.
+
 #+attr_html: :class lyrics
 | Original | English |
 |----------+---------|
@@ -20,8 +22,4 @@
 | Eu conheço essa manha e não vou me curvar mais | I know that trick, and I won't bow down anymore |
 | Pode tentar, pode me olhar, pode odiar | You can try, you can look at me, you can hate me |
 | E pode até sair batendo a porta | And you can even leave slamming the door |
-| Que Inês já é morta do lado de cá | For Inês is already dead on this side@@html:<sup><a id="ines-ref" href="#ines-note" role="doc-noteref" aria-label="Read the note about Inês">*</a></sup>@@ |
-
-#+begin_export html
-<p class="banger-note" id="ines-note" role="doc-endnote"><sup><a href="#ines-ref" aria-label="Back to the last lyric">*</a></sup> <a href="https://ciberduvidas-ql.iscte-iul.pt/consultorio/perguntas/fazer-se-de-ines/34617">“Inês é morta”</a> (“Inês is dead”) is a Portuguese expression meaning “it’s too late,” referring to Inês de Castro. Here, the singer is saying that, for him, the love is already over.</p>
-#+end_export
+| Que Inês já é morta do lado de cá | For Inês is already dead on this side |
