@@ -1,0 +1,11 @@
+#+title: O negócio é amar - Ao vivo
+#+title_en: The Thing Is to Love — Live
+#+artist: Jorge Aragão
+#+sort_artist: Jorge Aragao
+#+language: Portuguese
+#+spotify: https://open.spotify.com/track/3Ypo1fL6E9UJ5u1UnjNLnz
+#+youtube: https://youtu.be/Vjf8P7Rs1Rw?is=HvIB-idiL7vaAo01
+#+year: 2026
+#+draft: true
+
+I can tell you, as someone who has loved and never looked back: worth it.
