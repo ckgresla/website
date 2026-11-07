@@ -1,0 +1,44 @@
+#+title: Everyday Birthday
+#+artist: 성시경 (Syung Si-Kyung)
+#+sort_artist: Syung Si-Kyung
+#+language: Korean
+#+spotify: https://open.spotify.com/track/3nSbyzZf3TbcRKr3TP54mQ?si=mI54H95MTAiTDf6J0RbmpQ&utm_source=copy-link
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 살랑 살랑 바람 타고서 | sallang sallang baram tagoseo | Riding the gently blowing wind |
+| 햇살이 돼 네 아침을 깨울래 | haetsari dwae ne achimeul kkaeullae | I'll become sunlight and wake your morning |
+| 모닝커피 처럼 너를 일으켜 | moningkeopi cheoreom neoreul ireukyeo | Rousing you like morning coffee |
+| 나의 시간에 널 초대할래 | naui sigane neol chodaehallae | I'll invite you into my time |
+| 늘 새롭게 우리 만난 것처럼 | neul saeropge uri mannan geotcheoreom | Always anew, as though we've just met |
+| 첫 눈에 확 반해버린 것처럼 | cheot nune hwak banhaebeorin geotcheoreom | As though we've fallen head over heels at first sight |
+| 내 두근대는 심장 소리에 발맞춰 | nae dugeundaeneun simjang sorie balmatchwo | Keeping step with the sound of my pounding heart |
+| 성큼 네 맘을 열고 들어가 반겨줄래 | seongkeum ne mameul yeolgo deureoga bangyeojullae | I'll open your heart and stride in, will you welcome me? |
+| 거울속에 비친 난 이제는 너 같아 | geoulsoge bichin nan ijeneun neo gata | Reflected in the mirror, I look like you now |
+| 네 눈에 드는 나를 그려봐 | ne nune deuneun nareul geuryeobwa | I picture a me who pleases your eyes |
+| 이 세상 누구보다도 근사해 보여 | i sesang nugubodado geunsahae boyeo | I look finer than anyone in this world |
+| 너의 사랑 받아 더 멋져 보여 | neoui sarang bada deo meotjyeo boyeo | Receiving your love, I look even better |
+| I love you, you love me | I love you, you love me | I love you, you love me |
+| 매일매일 행복해 | maeilmaeil haengbokhae | I'm happy every day |
+| 너란 선물을 날 위해 안겨줘 | neoran seonmureul nal wihae angyeojwo | Place the gift that is you in my arms |
+| 빈 상자 같은 내 하루가 너와 있으면 | bin sangja gateun nae haruga neowa isseumyeon | My day, like an empty box, when I'm with you |
+| 추억이 쌓여 가득해져 | chueogi ssayeo gadeukhaejyeo | Fills up with accumulating memories |
+| 달빛에 깔고 오늘 얘기를 | dalbiche kkalgo oneul yaegireul | With moonlight spread beneath, today's stories |
+| 사랑노래 속에 담아 띄울래 | sarangnorae soge dama ttiullae | I'll put them in a love song and send them floating |
+| 꿈속에서도 내게 오는 길 잃을까 | kkumsogeseodo naege oneun gil ireulkka | Lest you lose your way to me even in your dreams |
+| 잠들 때 까지 항상 자장가 불러줄래 | jamdeul ttae kkaji hangsang jajangga bulleojullae | I'll always sing you a lullaby until you fall asleep |
+| 난 너에겐 참 받은게 많은 것 같아 | nan neoegen cham badeunge maneun geot gata | I think I've received so much from you |
+| 온종일 널 그리는 버릇과 | onjongil neol geurineun beoreutgwa | The habit of longing for you all day |
+| 널 안기 위해 넓어진 나의 마음과 | neol angi wihae neolbeojin naui maeumgwa | And my heart that has grown wider to hold you |
+| 사랑안에 점점 착해지는 나 | sarangane jeomjeom chakhaejineun na | And me, growing kinder and kinder in love |
+| I love you you love me | I love you you love me | I love you you love me |
+| 매일매일 행복해 | maeilmaeil haengbokhae | I'm happy every day |
+| 너란 선물을 날 위해 안겨줘 | neoran seonmureul nal wihae angyeojwo | Place the gift that is you in my arms |
+| 빈 상자 같은 내 하루가 너와 있으면 | bin sangja gateun nae haruga neowa isseumyeon | My day, like an empty box, when I'm with you |
+| 추억들이 쌓여 가득해져 가 | chueokdeuri ssayeo gadeukhaejyeo ga | Keeps filling up with accumulating memories |
+| 나나나 나나나 나나나나나나나 | nanana nanana nanananananana | Na na na, na na na, na na na na na na na |
+| 너란 선물을 날 위해 안겨줘 | neoran seonmureul nal wihae angyeojwo | Place the gift that is you in my arms |
+| 매일매일 늘어가는 촛불 밝혀주듯이 | maeilmaeil neureoganeun chotbul balkyeojudeusi | As though lighting more and more candles every day |
+| 웃어주는 너 정말 내겐 고마워 사랑해 | useojuneun neo jeongmal naegen gomawo saranghae | You smile for me, I'm truly grateful to you, I love you |

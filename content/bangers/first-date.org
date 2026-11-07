@@ -1,0 +1,55 @@
+#+title: First Date
+#+artist: 성시경 (Syung Si-Kyung)
+#+sort_artist: Syung Si-Kyung
+#+language: Korean
+#+spotify: https://open.spotify.com/track/0YtosUEG3muRaAsffrIWem?si=WKzJwbnEQba3FrgrC9Knbw&utm_source=copy-link
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 많이 행복한가요 | mani haengbokhangayo | Are you very happy? |
+| 그대 미소 속에 | geudae miso soge | In your smile |
+| 내 마음 가득 느껴지는 걸요 | nae maeum gadeuk neukkyeojineun geollyo | I can feel it filling my heart |
+| 비개인 저녁 햇살 | bigaein jeonyeok haetsal | The evening sunlight after the rain clears |
+| 그 빛을 머금은 | geu bicheul meogeumeun | Holding that light |
+| 그대 환한 두 눈동자처럼 | geudae hwanhan du nundongjacheoreom | Like your two bright eyes |
+| 늘 해맑은 입술 | neul haemalgeun ipsul | Your always bright lips |
+| 입맞추고 싶어 가녀린 | im matchugo sipeo ganyeorin | I want to kiss them, your slender |
+| 두 어깰 감싸요 | du eokkael gamssayo | Shoulders, I wrap my arms around them |
+| 수줍어 말고 | sujubeo malgo | Don't be shy |
+| 내게 사랑한다 말해요 | naege saranghanda malhaeyo | Tell me you love me |
+| 내 마음처럼만 | nae maeumcheoreomman | Just as my heart feels |
+| 다른말로 이런 | dareunmallo ireon | In other words, this |
+| 내 기분 설명할 순 없나요 | nae gibun seolmyeonghal sun eomnayo | Feeling of mine, can't it be explained? |
+| 내게 혹시 하고픈 | naege hoksi hagopeun | If there's something you want to |
+| 말 이런거 아닌가요 | mal ireongeo aningayo | Say to me, isn't it this? |
+| 그래도 내게 조금은 | geuraedo naege jogeumeun | That even so, for me you feel a little |
+| 사랑을 느낀다고 | sarangeul neukkindago | Love |
+| 괜히 투정말아요 | gwaenhi tujeongmarayo | Don't complain for no reason |
+| 더 예뻐 보여요 무슨 | deo yeppeo boyeoyo museun | You look even prettier, no |
+| 말로 설명할 수는 없죠 | mallo seolmyeonghal suneun eopjyo | Words can explain it |
+| 오늘 시간 있나요 | oneul sigan innayo | Do you have time today? |
+| 꼭 대답해줘요 | kkok daedaphaejwoyo | Please be sure to answer me |
+| 근사한 저녁 | geunsahan jeonyeok | A lovely evening |
+| 나와 함께 해요 | nawa hamkke haeyo | Spend it with me |
+| 해맑은 입술 입맞추고 | haemalgeun ipsul im matchugo | Your bright lips, I want to kiss them |
+| 싶어 가녀린 두 어깰 감싸요 | sipeo ganyeorin du eokkael gamssayo | And wrap my arms around your slender shoulders |
+| 수줍어 말고 | sujubeo malgo | Don't be shy |
+| 내게 사랑한다 말해요 | naege saranghanda malhaeyo | Tell me you love me |
+| 내 마음처럼만 | nae maeumcheoreomman | Just as my heart feels |
+| 다른말로 이런 | dareunmallo ireon | In other words, this |
+| 내 기분 설명할 순 없나요 | nae gibun seolmyeonghal sun eomnayo | Feeling of mine, can't it be explained? |
+| 내게 혹시 하고픈 말 | naege hoksi hagopeun mal | The words you might want to say to me |
+| 이런거 아닌가요 | ireongeo aningayo | Aren't they something like this? |
+| 그래도 내게 조금은 | geuraedo naege jogeumeun | That even so, for me you feel a little |
+| 사랑을 느낀다고 | sarangeul neukkindago | Love |
+| 수줍어 말고 내게 | sujubeo malgo naege | Don't be shy, to me |
+| 사랑한다 말해요 | saranghanda malhaeyo | Say that you love me |
+| 내 마음처럼만 | nae maeumcheoreomman | Just as my heart feels |
+| 다른말로 이런 | dareunmallo ireon | In other words, this |
+| 내 기분 설명할 순 없나요 | nae gibun seolmyeonghal sun eomnayo | Feeling of mine, can't it be explained? |
+| 내게 혹시 하고픈 말 | naege hoksi hagopeun mal | The words you might want to say to me |
+| 이런거 아닌가요 | ireongeo aningayo | Aren't they something like this? |
+| 그래도 내게 조금은 | geuraedo naege jogeumeun | That even so, for me you feel a little |
+| 사랑을 느낀다고 | sarangeul neukkindago | Love |

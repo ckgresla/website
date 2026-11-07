@@ -1,0 +1,45 @@
+#+title: 팝콘
+#+title_en: Popcorn
+#+artist: 성시경 (Syung Si-Kyung)
+#+sort_artist: Syung Si-Kyung
+#+language: Korean
+#+spotify: https://open.spotify.com/track/1DLNe0fZVGgpPlOYiwxgKw?si=8zW5N-xqTEGhf-0LFbdrTA&utm_source=copy-link
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 잠이 오질 않아 널 생각하는지 | jami ojil ana neol saenggakhaneunji | Is it because I can't sleep that I think of you? |
+| 너의 생각 때문에 잠들 수 없는 건지 | neoui saenggak ttaemune jamdeul su eomneun geonji | Or is it because I think of you that I can't fall asleep? |
+| 창 틈에 새어 드는 달빛을 타고 | chang teume saeeo deuneun dalbicheul tago | Riding the moonlight seeping through the gap in the window |
+| 그대의 꿈속으로 찾아갈 수 있을까 | geudaeui kkumsogeuro chajagal su isseulkka | Could I find my way into your dreams? |
+| 너무나 아파서 오려 낸 가슴이 | neomuna apaseo oryeo naen gaseumi | The heart I cut out because it hurt so much |
+| 어느샌가 다시 이렇게 뛰고 있죠 | eoneusaenga dasi ireoke ttwigo itjyo | Before I knew it, it's beating like this again |
+| 그대 웃음은 내 가슴 속에 | geudae useumeun nae gaseum soge | Your smile, inside my heart |
+| 별빛이 되고 | byeolbichi doego | Becomes starlight |
+| 자꾸만 팝콘처럼 튀어올라 | jakkuman papkoncheoreom twieoolla | And keeps popping up like popcorn |
+| 웃음이 손짓이 표정이 내게로 와 | useumi sonjisi pyojeongi naegero wa | Your smile, your gestures, your expressions come to me |
+| All right | All right | All right |
+| 내게 주문을 걸고 있죠 | naege jumuneul geolgo itjyo | They're casting a spell on me |
+| 깨우지 말아줘요 | kkaeuji marajwoyo | Please don't wake me |
+| 머릿속을 맴도는 두 가지 생각 | meoritsogeul maemdoneun du gaji saenggak | Two thoughts circling in my head |
+| 그대 웃는 모습과 웃음을 준 내 모습 | geudae unneun moseupgwa useumeul jun nae moseup | The sight of you smiling, and of me making you smile |
+| 어떻게 자연스런 약속을 할까 | eotteoke jayeonseureon yaksogeul halkka | How can I naturally arrange to see you? |
+| 어떻게 우연처럼 그댈 다시 만날까 | eotteoke uyeoncheoreom geudael dasi mannalkka | How can I meet you again as though by chance? |
+| 너무나 아파서 멈춰 둔 가슴이 | neomuna apaseo meomchwo dun gaseumi | The heart I stopped because it hurt so much |
+| 어느샌가 다시 이렇게 뛰고 있죠 | eoneusaenga dasi ireoke ttwigo itjyo | Before I knew it, it's beating like this again |
+| 그대 웃음은 내 가슴 속에 | geudae useumeun nae gaseum soge | Your smile, inside my heart |
+| 별빛이 되고 | byeolbichi doego | Becomes starlight |
+| 자꾸만 팝콘처럼 튀어올라 | jakkuman papkoncheoreom twieoolla | And keeps popping up like popcorn |
+| 웃음이 손짓이 표정이 내게로 와 | useumi sonjisi pyojeongi naegero wa | Your smile, your gestures, your expressions come to me |
+| All right | All right | All right |
+| 내게 주문을 걸고 있죠 | naege jumuneul geolgo itjyo | They're casting a spell on me |
+| 깨우지 말아줘요 | kkaeuji marajwoyo | Please don't wake me |
+| 내가 감춰 둔 기도를 모아 | naega gamchwo dun gidoreul moa | Gathering the prayers I've kept hidden |
+| 펼쳐 보이면 | pyeolchyeo boimyeon | If I spread them out for you to see |
+| 온 세상 그대 향기로 차겠죠 | on sesang geudae hyanggiro chagetjyo | The whole world would fill with your scent |
+| 하늘도 바람도 꽃들도 내 맘처럼 | haneuldo baramdo kkotdeuldo nae mamcheoreom | The sky, the wind, and the flowers, like my heart |
+| 나나나 | nanana | Na na na |
+| 그대 향기에 취하겠죠 | geudae hyanggie chwihagetjyo | Would be drunk on your scent |
+| 한번 더 웃어줘요 내게로 와요 | hanbeon deo useojwoyo naegero wayo | Smile once more, come to me |
+| 깨우지 말아줘요 | kkaeuji marajwoyo | Please don't wake me |

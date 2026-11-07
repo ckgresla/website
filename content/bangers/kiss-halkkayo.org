@@ -1,0 +1,38 @@
+#+title: Kiss할까요
+#+title_en: Shall We Kiss?
+#+artist: 성시경 (Syung Si-Kyung)
+#+sort_artist: Syung Si-Kyung
+#+language: Korean
+#+spotify: https://open.spotify.com/track/6zhsGnnru3X1xhtJ5E01qq?si=ClXps7l3QlCjh5bSxVgnWg&utm_source=copy-link
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|------+------+------|
+| 이제는 말해볼 때도 됐는데 | ijeneun malhaebol ttaedo dwaenneunde | It's about time I tried saying it |
+| 이 쯤엔 허락할 것도 같은데 | i jjeumen heorakhal geotdo gateunde | By now, I think you might say yes |
+| 생각만큼 쉽지 않죠, 그대 맑은 눈동잘 보면 가슴이 두근거려 | saenggangmankeum swipji anchyo, geudae malgeun nundongjal bomyeon gaseumi dugeungeoryeo | It isn't as easy as I thought, my heart pounds when I look into your clear eyes |
+| 시작을 또 어떡해야 좋을지 | sijageul tto eotteokhaeya joeulji | How should I even begin? |
+| 어색해 지지나 않을 지 | eosaekhae jijina aneul ji | Won't things become awkward? |
+| 머리속에 복잡하죠. 그대 다문 입술을 보면 온 몸에 힘이 빠져 | meorisoge bokjaphajyo. geudae damun ipsureul bomyeon on mome himi ppajyeo | It's all tangled in my head. When I look at your closed lips, all the strength leaves my body |
+| 어쩌면 그대 내 맘 훤히 다 알지도 몰라 | eojjeomyeon geudae nae mam hwonhi da aljido molla | Perhaps you already know my heart completely |
+| 나를 기다려 왔는지 몰라 | nareul gidaryeo wanneunji molla | Perhaps you've been waiting for me |
+| 솔직하게 말아요 날 그대 원하고 있다면 | soljikhage marayo nal geudae wonhago itdamyeon | Tell me honestly, if you want me |
+| 작은 틈을 보여준다면 오늘이예요 | jageun teumeul boyeojundamyeon oneuriyeyo | If you give me a small opening, today is the day |
+| 터져버릴 것 같은 날 내 심장이 외치는 말 | teojyeobeoril geot gateun nal nae simjangi oechineun mal | The words my heart cries out when I feel about to burst |
+| '사랑해' 내 고백을 느껴봐요 | 'saranghae' nae gobaegeul neukkyeobwayo | 'I love you,' feel my confession |
+| 서툰 날 들키게 되진 않을까 | seotun nal deulkige doejin aneulkka | Won't you see how clumsy I am? |
+| 왜이리 난 소심할 걸까 | waeiri nan sosimhal geolkka | Why am I so timid? |
+| 맘은 점점 조급한데 안절부절 못하다 보면 시간만 자꾸 흘러 | mameun jeomjeom jogeuphande anjeolbujeol motada bomyeon siganman jakku heulleo | My heart grows more impatient, but as I fidget, time just keeps passing |
+| 어쩌면 그대 내 맘 훤히 다 알지도 몰라 | eojjeomyeon geudae nae mam hwonhi da aljido molla | Perhaps you already know my heart completely |
+| 나를 기다려 왔는지 몰라 | nareul gidaryeo wanneunji molla | Perhaps you've been waiting for me |
+| 솔직하게 말아요 날 그대 원하고 있다면 | soljikhage marayo nal geudae wonhago itdamyeon | Tell me honestly, if you want me |
+| 작은 틈을 보여준다면 오늘이예요 | jageun teumeul boyeojundamyeon oneuriyeyo | If you give me a small opening, today is the day |
+| 터져버릴 것 같은 날 내 심장이 외치는 말 | teojyeobeoril geot gateun nal nae simjangi oechineun mal | The words my heart cries out when I feel about to burst |
+| '사랑해' 내 고백을 느껴봐요 | 'saranghae' nae gobaegeul neukkyeobwayo | 'I love you,' feel my confession |
+| 모른 척 그대 다가와 다가와줘요 용길 낼게요 | moreun cheok geudae dagawa dagawajwoyo yonggil naelgeyo | Pretend you don't know, come closer, come closer to me, I'll find the courage |
+| 작은 시간도 내겐 소중해 | jageun sigando naegen sojunghae | Even a little time is precious to me |
+| 너무 아름다운 이날 우리 놓치지 말아요 | neomu areumdaun inal uri nochiji marayo | Let's not let this beautiful day slip away |
+| 눈을 감아보아요 우리 Kiss할까요 | nuneul gamaboayo uri Kisshalkkayo | Close your eyes, shall we kiss? |
+| 이별이 또 올때마다 이 순간이 생각나서 | ibyeori tto olttaemada i sungani saenggangnaseo | Whenever another parting comes, remembering this moment |
+| 사랑할 수 있데요 오늘처럼~* | saranghal su itdeyo oneulcheoreom~* | They say we can love, just like today~* |
