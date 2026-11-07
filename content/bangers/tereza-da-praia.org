@@ -5,6 +5,38 @@
 #+language: Portuguese
 #+spotify: https://open.spotify.com/track/2eA6uis7WAIZvYW2u22vTH?si=7FJnKPzVQoaErvDH8kwamw&utm_source=copy-link
 #+year: 2026
-#+draft: true
 
 These boys have THE sauce
+
+#+attr_html: :class lyrics
+| Original | English |
+|----------+---------|
+| EmilioSantiago: Melo.. | Emílio Santiago: Melo.. |
+| Luiz melodia: Fala Emilio! | Luiz Melodia: Tell me, Emílio! |
+| EmilioSantiago: Arranjei novo amor no Leblon | Emílio Santiago: I found a new love in Leblon |
+| Luiz melodia: è mesmo? verdade! | Luiz Melodia: Really? For real! |
+| Emilio Santiago: Que corpo bonito | Emílio Santiago: What a beautiful body |
+| Que pele morena | What brown skin |
+| Que amor de pequena | What a sweetheart of a girl |
+| Amar é tão bom | Loving is so good |
+| Luiz Melodia: Tão bom... | Luiz Melodia: So good... |
+| Luiz Melodia: Emilio.. | Luiz Melodia: Emílio.. |
+| Emilio Santiago: Fala Melo | Emílio Santiago: Tell me, Melo |
+| Luiz Melodia: Ela tem um nariz levantado | Luiz Melodia: She has an upturned nose |
+| Os olhos verdinhos | Little green eyes |
+| Bastante puxados | Quite slanted |
+| Cabelo castanhos | Brown hair |
+| Emilio Santiago: E uma pinta do lado... | Emílio Santiago: And a mole on the side... |
+| Luiz Melodia: É a minha Teresa da praia | Luiz Melodia: That's my Teresa from the beach |
+| Emilio Santiago: Se ela é tua, é minha também | Emílio Santiago: If she's yours, she's mine too |
+| Luiz Melodia: O verão passou todo comigo | Luiz Melodia: She spent the whole summer with me |
+| Emilio Santiago: O inverno, pergunta com quem | Emílio Santiago: The winter, ask with whom |
+| Os dois: Então vamos | Both: So then let's |
+| A Teresa na praia deixar | Leave Teresa on the beach |
+| Aos beijos do sol | To the sun's kisses |
+| E abraços do mar | And the sea's embraces |
+| Teresa é da praia | Teresa belongs to the beach |
+| Não é de ninguém | She belongs to no one |
+| Emilio Santiago: Não pode ser tua | Emílio Santiago: She can't be yours |
+| Luiz Melodia: Nem tua também | Luiz Melodia: Nor yours either |
+| Os dois: Teresa da Praia não é de ninguém | Both: Teresa from the Beach belongs to no one |
