@@ -6,6 +6,8 @@
 #+spotify: https://open.spotify.com/track/3LiNjVBvCSINLxa0pjkW7W?si=-3i5XQMBQNaaUBvEP5RS4g&utm_source=copy-link
 #+year: 2026
 
+[[https://ciberduvidas-ql.iscte-iul.pt/consultorio/perguntas/fazer-se-de-ines/34617][“Inês é morta”]] (“Inês is dead”) is a Portuguese expression meaning “it’s too late,” referring to Inês de Castro. Here, the singer is saying that, for him, the love is already over.
+
 #+attr_html: :class lyrics
 | Original | English |
 |----------+---------|
