@@ -6,6 +6,33 @@
 #+spotify: https://open.spotify.com/track/3Ypo1fL6E9UJ5u1UnjNLnz
 #+youtube: https://youtu.be/Vjf8P7Rs1Rw?is=HvIB-idiL7vaAo01
 #+year: 2026
-#+draft: true
 
 I can tell you, as someone who has loved and never looked back: worth it.
+
+#+attr_html: :class lyrics
+| Original | English |
+|----------+---------|
+| Tem gente que ama, que vive brigando | There are people who love, who are always fighting |
+| E depois que briga acaba voltando | And after fighting, end up coming back |
+| Tem gente que canta porque está amando | There are people who sing because they're in love |
+| Quem não tem amor leva a vida esperando | Those without love spend their lives waiting |
+| Uns amam pra frente, e nunca se esquecem | Some love looking forward, and never forget |
+| Mas são tão pouquinhos que nem aparecem | But there are so few they hardly show up |
+| Tem uns que são fracos, que dão pra beber | Some are weak and take to drinking |
+| Outros fazem samba e adoram sofrer | Others make samba and love to suffer |
+| Tem apaixonado que faz serenata | There are lovers who sing serenades |
+| Tem amor de raça e amor vira-lata | There's purebred love and mongrel love |
+| Amor com champanhe, amor com cachaça | Love with champagne, love with cachaça |
+| Amor nos iates, nos bancos de praça | Love on yachts, on park benches |
+| Tem homem que briga pela bem-amada | There are men who fight for their beloved |
+| Tem mulher maluca que atura porrada | There are crazy women who put up with beatings |
+| Tem quem ama tanto que até enlouquece | Some love so much they even go mad |
+| Tem quem dê a vida por quem não merece | Some give their lives for someone who doesn't deserve it |
+| Amores à vista, amores à prazo | Loves paid up front, loves paid in installments |
+| Amor ciumento que só cria caso | Jealous love that only makes trouble |
+| Tem gente que jura que não volta mais | Some people swear they won't come back |
+| Mas jura sabendo que não é capaz | But swear knowing they can't do it |
+| Tem gente que escreve até poesia | Some people even write poetry |
+| E rima saudade com hipocrisia | And rhyme longing with hypocrisy |
+| Tem assunto à beça pra gente falar | There's plenty for us to talk about |
+| mas não interessa o negócio é amar | But it doesn't matter, the thing is to love |
