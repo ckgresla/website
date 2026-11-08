@@ -1,0 +1,36 @@
+#+title: 幸せになりたい
+#+title_en: I Want to Be Happy
+#+artist: 今井美樹 (Miki Imai)
+#+sort_artist: Miki Imai
+#+language: Japanese
+#+spotify: https://open.spotify.com/track/2IxFy38oNlnl9YyKIMDXs3?si=11a2dcbb32a947f6
+#+youtube: https://youtu.be/z3CoIDbE6hs?si=1kiZfzC_cCndVdgX
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|----------+--------------+---------|
+| 10時ちょうどの便で彼女は | jūji chōdo no bin de kanojo wa | On the ten o'clock flight, she |
+| 一人になって東京に来る | hitori ni natte tōkyō ni kuru | Is coming to Tokyo, now on her own |
+| 生まれた場所から　何もかもを捨てて | umareta basho kara nanimokamo o sutete | Leaving everything behind in the place where she was born |
+| 私をたずねてくる | watashi o tazunete kuru | She's coming to see me |
+| 4年続いた結婚だけど | yonen tsuzuita kekkon dakedo | Four years of marriage, but |
+| 少しスリムになれただけだわ | sukoshi surimu ni nareta dake da wa | All I got out of it was losing a little weight |
+| 受話器に流れた　なつかしい強がりに | juwaki ni nagareta natsukashii tsuyogari ni | Hearing that familiar brave front over the phone |
+| 涙が出た　何故か | namida ga deta nazeka | I started to cry, somehow |
+| 渋滞(じゅうたい)は毎日　鳴らし合うクラクション | jūtai wa mainichi narashiau kurakushon | Traffic jams every day, horns honking at one another |
+| 行く人はみんな急いでる | yuku hito wa minna isoideru | Everyone passing by is in a hurry |
+| 冷たいヤツもいる　だけど友達が待っている | tsumetai yatsu mo iru dakedo tomodachi ga matte iru | Some people are cold, but a friend is waiting for you |
+| ここにおいで | koko ni oide | Come here |
+| 小さな部屋を決めてきたけど | chiisana heya o kimete kita kedo | I've picked out a little room for you |
+| 歩いてすぐの距離にしたから | aruite sugu no kyori ni shita kara | And made sure it's just a short walk away |
+| 寂しい夜には　すぐに行ってあげる | sabishii yoru ni wa sugu ni itte ageru | On lonely nights, I'll come right over |
+| 昔してくれたように | mukashi shite kureta yō ni | Just as you used to do for me |
+| 冴えない夏の空　少しだけ青い海 | saenai natsu no sora sukoshi dake aoi umi | A dull summer sky, a sea with just a little blue |
+| 灰色の高層マンション | haiiro no kōsō manshon | Gray high-rise apartments |
+| ダメになるヤツもいる　だけど友達が待っている | dame ni naru yatsu mo iru dakedo tomodachi ga matte iru | Some people fall apart, but a friend is waiting for you |
+| ここにおいで | koko ni oide | Come here |
+| 渋滞(じゅうたい)は毎日　鳴らし合うクラクション | jūtai wa mainichi narashiau kurakushon | Traffic jams every day, horns honking at one another |
+| 行く人はみんな急いでる | yuku hito wa minna isoideru | Everyone passing by is in a hurry |
+| 幸せになりたい　ひとりきりだった悲しみと | shiawase ni naritai hitorikiri datta kanashimi to | I want to be happy—forget the sadness of being all alone |
+| 昨日を　忘れて　ここにおいで | kinō o wasurete koko ni oide | And yesterday, and come here |
