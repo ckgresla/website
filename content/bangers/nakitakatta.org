@@ -1,0 +1,41 @@
+#+title: 泣きたかった
+#+title_en: I Wanted to Cry
+#+artist: 今井美樹 (Miki Imai)
+#+sort_artist: Miki Imai
+#+language: Japanese
+#+spotify: https://open.spotify.com/track/3tTxIvejVkRb0GCVX7nHlw?si=yEmZgD5MTkeLLu7qX8zplQ&utm_source=copy-link
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|----------+--------------+---------|
+| 突然　あふれてきた | totsuzen afurete kita | Suddenly, they came spilling out |
+| とめどなく　あふれてきた | tomedonaku afurete kita | Endlessly, they came spilling out |
+| 熱い　涙だった | atsui namida datta | They were hot tears |
+| 台所の冷たい　床にすわり込んだまま | daidokoro no tsumetai yuka ni suwarikonda mama | Still sitting on the cold kitchen floor |
+| ずっと　泣いていたわ | zutto naite ita wa | I kept crying |
+| 心の中にある何かがふっと切れた | kokoro no naka ni aru nanika ga futto kireta | Something inside my heart suddenly snapped |
+| 気持ち　さらけ出す勇気を | kimochi sarakedasu yūki o | The courage to lay my feelings bare |
+| 閉じ込めていたの　もう何年も前に | tojikomete ita no mō nannen mo mae ni | I'd shut it away, so many years ago |
+| 忘れてしまってた事を　思い出した | wasurete shimatteta koto o omoidashita | I remembered something I'd long forgotten |
+| 泣きたかった | nakitakatta | I wanted to cry |
+| 素直に　ずっと | sunao ni zutto | Honestly—all along |
+| 自信のない自分を | jishin no nai jibun o | That part of me with no confidence |
+| 認めるのが怖くて | mitomeru no ga kowakute | I was afraid to acknowledge |
+| いつも　目隠ししてた | itsumo mekakushi shiteta | I always kept a blindfold on |
+| 忙しいふりをして　気づかないようにしてた | isogashii furi o shite kizukanai yō ni shiteta | I pretended to be busy so I wouldn't notice |
+| こんな弱さなんて | konna yowasa nante | Such weakness in myself |
+| だけど時は自然に　自由の鍵をくれた | dakedo toki wa shizen ni jiyū no kagi o kureta | But time naturally gave me the key to freedom |
+| 体の中の毒が　みんな | karada no naka no doku ga minna | All the poison inside my body |
+| 大きな涙の中に溶けてく　すーっと | ōkina namida no naka ni toketeku sūtto | Dissolves into big tears, slipping away |
+| 気持ち開放する事を忘れてたの | kimochi kaihō suru koto o wasureteta no | I'd forgotten how to let my feelings out |
+| 泣きたかった | nakitakatta | I wanted to cry |
+| ほんとは　ずっと | honto wa zutto | Deep down—all along |
+| 雨あがりの緑が | ameagari no midori ga | The greenery after the rain |
+| 息を吹きかえしたわ | iki o fukikaeshita wa | Has come back to life |
+| 優しい顔になった | yasashii kao ni natta | A gentler expression now |
+| 気持ちさらけだす勇気を | kimochi sarakedasu yūki o | The courage to lay my feelings bare |
+| 閉じ込めていたの　もう何年も前に | tojikomete ita no mō nannen mo mae ni | I'd shut it away, so many years ago |
+| 忘れてしまってた事を思い出した | wasurete shimatteta koto o omoidashita | I remembered something I'd long forgotten |
+| 泣きたかった | nakitakatta | I wanted to cry |
+| ほんとに　ずっと | honto ni zutto | Truly—all along |
