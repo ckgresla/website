@@ -1,0 +1,65 @@
+#+title: アオミ
+#+artist: ゲスの極み乙女 (Gesu no Kiwami Otome)
+#+sort_artist: Gesu no Kiwami Otome
+#+language: Japanese
+#+spotify: https://open.spotify.com/track/5Om63xY8qz7BTG5HSoTtwE?si=XB0I5ac0SFqbPjGYA0-X1w&utm_source=copy-link
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|----------+--------------+---------|
+| ほんの少し先が見えてしまったんだ | honno sukoshi saki ga miete shimatta nda | I caught a glimpse of what lay just ahead |
+| 優しさを躊躇った顔が写った | yasashisa o tameratta kao ga utsutta | The camera caught a face hesitating to show kindness |
+| 誰かが見たらそれは慈愛かのように | dareka ga mitara sore wa jiai ka no yō ni | To someone else, it might look like tender love |
+| 収まったその一枚は美しい | osamatta sono ichimai wa utsukushii | That one captured image is beautiful |
+| ラムネのビー玉みたい | ramune no bīdama mitai | Like the marble in a bottle of ramune |
+| 閉じ込められてるから美しい | tojikomerareteru kara utsukushii | It's beautiful because it's trapped inside |
+| 出そうとしたら割れるから | dasō to shitara wareru kara | Because getting it out would mean breaking it |
+| どんな感じで愛せばよかった？ | donna kanji de aiseba yokatta? | How should I have loved you? |
+| 貴重な記録も怖いと嫌うけど | kichō na kiroku mo kowai to kirau kedo | You dislike even precious mementos, saying they're frightening |
+| 写真くらい取らせてよ、ツーショット | shashin kurai torasete yo, tsūshotto | At least let me take a photo of the two of us |
+| 記憶が形になってわかった | kioku ga katachi ni natte wakatta | When memory took shape, I understood |
+| やっぱり怖かった | yappari kowakatta | It was frightening after all |
+| 気持ちが残した愛しさは | kimochi ga nokoshita itoshisa wa | The tenderness those feelings left behind |
+| 君に限っては消えないと思ってた | kimi ni kagitte wa kienai to omotteta | I thought it would never fade, at least with you |
+| ガラスの向こうに問いかける | garasu no mukō ni toikakeru | I ask you on the other side of the glass |
+| 追いかける | oikakeru | I chase after you |
+| いつまで | itsu made | For how long? |
+| 泣けども泣けども | nakedomo nakedomo | No matter how much I cried |
+| 恋は散ってった | koi wa chittetta | Our romance scattered away |
+| 拾った葉の裏側にあった見たことない表情 | hirotta ha no uragawa ni atta mita koto nai hyōjō | On the back of a leaf I picked up was an expression I'd never seen |
+| 表だけで恋なんてしないようにだって | omote dake de koi nante shinai yō ni datte | Don't fall in love with only the surface, it said |
+| 遅すぎた戒めが今日も上った | ososugita imashime ga kyō mo agatta | That warning, far too late, rose again today |
+| 心で吸い込むまでもうちょっとさ | kokoro de suikomu made mō chotto sa | Just a little longer until I breathe it in with my heart |
+| 歪さは常にあって油断したら | ibitsusa wa tsune ni atte yudan shitara | There was always something warped, and if I let my guard down |
+| 壊れてしまう気配は知っていた | kowarete shimau kehai wa shitte ita | I sensed it would fall apart |
+| でも身体を重ねる度 | demo karada o kasaneru tabi | But each time our bodies came together |
+| 危機感は安心に変わっていった | kikikan wa anshin ni kawatte itta | My sense of danger turned into reassurance |
+| 黄昏が近付いてくる音の響き方は | tasogare ga chikazuite kuru oto no hibikikata wa | The way the sound of approaching dusk rang out |
+| 今も忘れない | ima mo wasurenai | I still haven't forgotten |
+| それは一音にも満たなそうな小さな音 | sore wa ichion ni mo mitanasō na chiisana oto | A sound so small it seemed less than a single note |
+| 不協和音みたいな倍音だけは永遠に続く気がした | fukyōwaon mitai na baion dake wa towa ni tsuzuku ki ga shita | Only its overtones, like a dissonance, felt as if they'd last forever |
+| あなたは季節に跨る用心棒 | anata wa kisetsu ni matagaru yōjinbō | You are a bodyguard straddling the seasons |
+| そんなリリックを書いた夏の終わり | sonna ririkku o kaita natsu no owari | The end of summer when I wrote lyrics like that |
+| パタリと閉じた僕らの夏も | patari to tojita bokura no natsu mo | Our summer, too, snapped shut |
+| いち早く秋に向かっていった | ichihayaku aki ni mukatte itta | And hurried toward autumn |
+| さよならは怖くない | sayonara wa kowakunai | Goodbyes aren't frightening |
+| 何回も綴ったのに | nankai mo tsuzutta no ni | Though I'd written that so many times |
+| どうしようもなく好きだって | dō shiyō mo naku suki datte | I love you, helplessly |
+| アオミ | aomi | Aomi |
+| 泣けども泣けども | nakedomo nakedomo | No matter how much I cried |
+| 恋は散ってった | koi wa chittetta | Our romance scattered away |
+| 拾った葉の裏側にあった見たことない表情 | hirotta ha no uragawa ni atta mita koto nai hyōjō | On the back of a leaf I picked up was an expression I'd never seen |
+| 表だけで恋なんてしないようにだって | omote dake de koi nante shinai yō ni datte | Don't fall in love with only the surface, it said |
+| 遅すぎた戒めが今日も上った | ososugita imashime ga kyō mo agatta | That warning, far too late, rose again today |
+| 心で吸い込むまでもうちょっとさ | kokoro de suikomu made mō chotto sa | Just a little longer until I breathe it in with my heart |
+| これからまた素敵な人に出会って | kore kara mata suteki na hito ni deatte | From here on, I'll meet someone wonderful again |
+| 忘れてしまうんだと思う | wasurete shimau nda to omou | And I think I'll end up forgetting |
+| でもこの歌は覚えてる | demo kono uta wa oboeteru | But I'll remember this song |
+| 歌うたび勝手に思い出すよ | utau tabi katte ni omoidasu yo | Every time I sing it, the memories will come back on their own |
+| 最後の最後に | saigo no saigo ni | At the very, very end |
+| 好きになったんだ | suki ni natta nda | I fell in love |
+| 愛は恋より勝手だってその時に悟ったんだ | ai wa koi yori katte datte sono toki ni satotta nda | That's when I realized love is more selfish than romance |
+| 葉が落ちる前の隙を見逃した | ha ga ochiru mae no suki o minogashita | I missed the opening before the leaf fell |
+| そんな一瞬が美しいと | sonna isshun ga utsukushii to | Thinking a moment like that was beautiful |
+| 悲しい目をして粋に泣いたんだ | kanashii me o shite iki ni naita nda | With sad eyes, I wept with grace |
