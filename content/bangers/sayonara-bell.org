@@ -1,0 +1,70 @@
+#+title: さよならベル
+#+title_en: Goodbye Bell
+#+artist: indigo la End
+#+sort_artist: indigo la End
+#+language: Japanese
+#+spotify: https://open.spotify.com/track/026RC2SRsThVErni7brXyQ?si=AF7U2B25T5yetgjrb7EBaw&utm_source=copy-link
+#+youtube: https://youtu.be/Incaxtvfh-E?is=7pxUXZN-C491jK8Gp
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|----------+--------------+---------|
+| あれからここに来る度 | are kara koko ni kuru tabi | Ever since then, every time I come here |
+| 君を思い出しては泣いて | kimi o omoidashite wa naite | I remember you and cry |
+| 霧雨降る坂の途中の自動販売機 | kirisame furu saka no tochū no jidōhanbaiki | The vending machine halfway up the hill in the drizzle |
+| 「喉が渇いたの。」って言いながら涙を流す君を | "nodo ga kawaita no." tte ii nagara namida o nagasu kimi o | You, shedding tears as you said, "I'm thirsty." |
+| そっと抱きしめられなかったことを思い出す | sotto dakishimerarenakatta koto o omoidasu | I remember how I couldn't gently hold you |
+| Good bye | Good bye | Good bye |
+| Good night | Good night | Good night |
+| ハイファイな夢を見てたんだ | haifai na yume o miteta nda | I was having a hi-fi dream |
+| Good bye | Good bye | Good bye |
+| Good night | Good night | Good night |
+| 起きたらまた上手くいくよな | okitara mata umaku iku yo na | When I wake up, things will work out again, right? |
+| Good bye | Good bye | Good bye |
+| Good night | Good night | Good night |
+| ハイファイな夢を見てたんだ | haifai na yume o miteta nda | I was having a hi-fi dream |
+| Good bye | Good bye | Good bye |
+| Good night | Good night | Good night |
+| 誰か早く起こしてくれよ | dareka hayaku okoshite kure yo | Someone, hurry and wake me up |
+| 長い間言えなかったことがあるんだって | nagai aida ienakatta koto ga aru nda tte | You said there was something you hadn't been able to say for a long time |
+| 噛みしめるように伝える寂し気な顔がふと | kamishimeru yō ni tsutaeru sabishige na kao ga futo | Your lonely face, as you spoke as if weighing each word, suddenly |
+| 遠くを見つめる様になってさ | tōku o mitsumeru yō ni natte sa | Started gazing into the distance |
+| 渇いた心が嫌になってさ | kawaita kokoro ga iya ni natte sa | I came to hate my parched heart |
+| さよならも言えず走り去ってしまった | sayonara mo iezu hashirisatte shimatta | I ran away without even saying goodbye |
+| Good bye | Good bye | Good bye |
+| Good night | Good night | Good night |
+| ハイファイな夢を見てたんだ | haifai na yume o miteta nda | I was having a hi-fi dream |
+| Good bye | Good bye | Good bye |
+| Good night | Good night | Good night |
+| 起きたらまた上手くいくよな | okitara mata umaku iku yo na | When I wake up, things will work out again, right? |
+| Good bye | Good bye | Good bye |
+| Good night | Good night | Good night |
+| ハイファイな夢を見てたんだ | haifai na yume o miteta nda | I was having a hi-fi dream |
+| Good bye | Good bye | Good bye |
+| Good night | Good night | Good night |
+| 誰か早く起こしてくれよ | dareka hayaku okoshite kure yo | Someone, hurry and wake me up |
+| あの後何故かまた戻って | ano ato nazeka mata modotte | For some reason, I went back afterward |
+| 自販機でコーヒーを買った | jihanki de kōhī o katta | And bought coffee from the vending machine |
+| いつもより何か苦くて | itsumo yori nanika nigakute | Somehow it tasted more bitter than usual |
+| いつもより猫舌になった | itsumo yori nekojita ni natta | And I was more sensitive to the heat than usual |
+| 誰かが取り忘れてしまった | dareka ga toriwasurete shimatta | Someone had forgotten to take |
+| お釣りを見て重なったんだ | otsuri o mite kasanatta nda | Their change; seeing it, the images overlapped |
+| 君のいつも苦そうな顔が好きだった | kimi no itsumo nigasō na kao ga suki datta | I loved that bitter look you always wore |
+| Good bye | Good bye | Good bye |
+| Good night | Good night | Good night |
+| ハイファイな夢を見てたんだ | haifai na yume o miteta nda | I was having a hi-fi dream |
+| Good bye | Good bye | Good bye |
+| Good night | Good night | Good night |
+| ああ、目が覚めたら君はいない | ā, me ga sametara kimi wa inai | Ah, when I wake up, you aren't there |
+| Good bye | Good bye | Good bye |
+| Good night | Good night | Good night |
+| どうやっても思い出すんだ | dō yattemo omoidasu nda | No matter what I do, I remember you |
+| Good bye | Good bye | Good bye |
+| Good bye | Good bye | Good bye |
+| かき消すような目覚ましのベルを | kakikesu yō na mezamashi no beru o | An alarm bell to drown it all out |
+| さよなら | sayonara | Goodbye |
+| 少しは大人になれたかな | sukoshi wa otona ni nareta kana | I wonder if I've grown up a little |
+| さよならベルを | sayonara beru o | The goodbye bell |
+| 鳴らしたんだ | narashita nda | I rang it |
+| ああ、喉が渇いた | ā, nodo ga kawaita | Ah, I'm thirsty |
