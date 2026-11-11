@@ -1,0 +1,42 @@
+#+title: Un Po’ Di Cielo
+#+title_en: A Little Bit of Sky
+#+artist: Renato Rascel
+#+sort_artist: Renato Rascel
+#+language: Italian
+#+spotify: https://open.spotify.com/track/5gq4hEt59pZBVWitMzjY5v?si=Rgg212MMTpqsG69Py0NaaA&utm_source=copy-link
+#+year: 2026
+
+to you, whom knew this piece at first glance, ti capisco, mi amore! GRAZIE BELLA! 제주 & Venezia share two things in common: each is bellissima and
+
+#+attr_html: :class lyrics
+| Original | English |
+|----------+---------|
+| C'e' un po' di cielo, | There's a little sky, |
+| in ogni fiore, | In every flower, |
+| c'e' un po' di mare e un po' di sol | There's a little sea and a little sun |
+| C'e' un po' di cielo, | There's a little sky, |
+| in ogni cuore | In every heart |
+| c'e' un po' d'amore | There's a little love |
+| per chi ne vuol! | For anyone who wants it! |
+| L'arcobaleno, | The rainbow, |
+| si frantumo' | Broke into pieces |
+| nel mio giardino | Into my garden |
+| si riverso'... | It poured... |
+| E percio' in ogni fiore, | And so, in every flower, |
+| resto' il colore... | The color remained... |
+| d'un po' di ciel!.. | Of a little sky!.. |
+| C'e' un po' di cielo, | There's a little sky, |
+| in ogni fiore, | In every flower, |
+| c'e' un po' d'amore | There's a little love |
+| per ogni cuor! | For every heart! |
+| C'e' un po' di cielo, | There's a little sky, |
+| c'e' un po' di mare.. | There's a little sea.. |
+| per far sognare | To let those dream |
+| chi vuol sognar! | Who wish to dream! |
+| Il sogno sfuma, | The dream fades, |
+| si fa realta' | It becomes reality |
+| e chi ti ama | And whoever loves you |
+| sorridera'! | Will smile! |
+| Ed in ogni sorriso, | And in every smile, |
+| c'e' il paradiso... | There's paradise... |
+| c'e' un po' di ciel! | There's a little sky! |
