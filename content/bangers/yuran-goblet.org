@@ -1,0 +1,68 @@
+#+title: ユーランゴブレット
+#+artist: 坂本真綾 (Maaya Sakamoto)
+#+sort_artist: Maaya Sakamoto
+#+language: Japanese
+#+spotify: https://open.spotify.com/track/7uDcZgvdVd8aokOyaEVfjY?si=qovqHgRZT9CekhAiuvGk9A&utm_source=copy-link
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|----------+--------------+---------|
+| 鏡に映る私も違うのに | kagami ni utsuru watashi mo chigau no ni | Even the me reflected in the mirror is different |
+| 毎日同じことなんてあるの？ | mainichi onaji koto nante aru no? | Could anything really be the same every day? |
+| 昨日が鬱でも今日は違うかも | kinō ga utsu demo kyō wa chigau kamo | Even if yesterday was gloomy, today might be different |
+| 隣の味噌汁の匂いも | tonari no misoshiru no nioi mo | The smell of miso soup next door |
+| 団地の仄暗さも | danchi no honogurasa mo | And the dimness of the housing complex |
+| 何か違って全部良い | nanika chigatte zenbu ii | Something's different, and it's all good |
+| 今日は今日でしか生きれないから | kyō wa kyō de shika ikirenai kara | Today can only be lived today |
+| 私は歌う | watashi wa utau | So I sing |
+| 寝ても覚めても明日があるなんて | nete mo samete mo ashita ga aru nante | Asleep or awake, there's always tomorrow— |
+| そんなことはないけど | sonna koto wa nai kedo | That's not necessarily true, but |
+| 昨日はあったしTodayは今 | kinō wa atta shi Today wa ima | Yesterday existed, and Today is now |
+| 感じたこといっぱいのゴブレット | kanjita koto ippai no goburetto | A goblet full of everything I've felt |
+| 夢に飾った | yume ni kazatta | Displayed in a dream |
+| そのやけに綺麗な模様を眺める夜が | sono yake ni kirei na moyō o nagameru yoru ga | The night I spend gazing at those strangely beautiful patterns |
+| 更けていく | fukete iku | Grows late |
+| 3、2、1、0 | san, ni, ichi, zero | 3, 2, 1, 0 |
+| ユーランユーラユーラン | yūran yūra yūran | Yūran, yūra, yūran |
+| 日常さえ奇跡的 | nichijō sae kisekiteki | Even everyday life is miraculous |
+| 弾ける寝起き | hajikeru neoki | Waking up with a burst of energy |
+| そんなことでもワクワクしちゃうの | sonna koto demo wakuwaku shichau no | Even something like that gets me excited |
+| ユーランユーラユーラン | yūran yūra yūran | Yūran, yūra, yūran |
+| 悩み苦しむ友よ | nayami kurushimu tomo yo | My friend, troubled and suffering |
+| 耳を塞いだその手を貸して | mimi o fusaida sono te o kashite | Give me those hands you've used to cover your ears |
+| どこか連れてくわ | dokoka tsureteku wa | I'll take you somewhere |
+| 存在なんて曖昧 | sonzai nante aimai | Existence is vague |
+| 実はもう概念なんてないんだよ | jitsu wa mō gainen nante nai nda yo | In fact, there aren't even any concepts anymore |
+| あいにく私は自由さを | ainiku watashi wa jiyūsa o | My freedom, I'm afraid, |
+| 神様に隠れて手に入れた | kamisama ni kakurete te ni ireta | I obtained behind God's back |
+| 会いたい人には | aitai hito ni wa | If there's someone I want to see |
+| 会いに行くだけ | ai ni iku dake | I just go and see them |
+| 命の燃え方 | inochi no moekata | How my life burns |
+| 私が決めるだけ | watashi ga kimeru dake | Is mine alone to decide |
+| 当たり前だけど | atarimae dakedo | That's obvious, though |
+| ユーランユーラユーラン | yūran yūra yūran | Yūran, yūra, yūran |
+| 日常さえ奇跡的 | nichijō sae kisekiteki | Even everyday life is miraculous |
+| 弾ける寝起き | hajikeru neoki | Waking up with a burst of energy |
+| そんなことでもワクワクしちゃうの | sonna koto demo wakuwaku shichau no | Even something like that gets me excited |
+| ユーランユーラユーラン | yūran yūra yūran | Yūran, yūra, yūran |
+| 悩み苦しむ友よ | nayami kurushimu tomo yo | My friend, troubled and suffering |
+| 耳を塞いだその手を貸して | mimi o fusaida sono te o kashite | Give me those hands you've used to cover your ears |
+| どこか連れてくわ | dokoka tsureteku wa | I'll take you somewhere |
+| 強がったってハッタリだって | tsuyogattatte hattari datte | Whether I'm putting on a brave face or bluffing |
+| 私は本日をもって | watashi wa honjitsu o motte | As of today |
+| 日付けを跨ぐ前に今日を脱皮します | hizuke o matagu mae ni kyō o dappi shimasu | Before the date changes, I'll shed today's skin |
+| 今日を脱皮します | kyō o dappi shimasu | I'll shed today's skin |
+| 遊覧船に乗って | yūransen ni notte | Boarding a sightseeing boat |
+| 24時間旅行 | nijūyojikan ryokō | A twenty-four-hour journey |
+| 何が起こるかわからないこと | nani ga okoru ka wakaranai koto | Not knowing what will happen |
+| それすら奇跡よ | sore sura kiseki yo | Even that is a miracle |
+| 大々的な宣伝 | daidaiteki na senden | An all-out publicity campaign |
+| 人は意外と強い | hito wa igai to tsuyoi | People are surprisingly strong |
+| 友よ私はチケット2枚分優しくするつもり | tomo yo watashi wa chiketto nimaibun yasashiku suru tsumori | My friend, I plan to give you two tickets' worth of kindness |
+| 明日もきっと来るけど | ashita mo kitto kuru kedo | Tomorrow will surely come too, but |
+| 今日が終わるまでは | kyō ga owaru made wa | Before today ends |
+| 愛し愛されること1回ずつくらいは経験しなさい | aishi aisareru koto ikkai zutsu kurai wa keiken shinasai | Make sure you experience loving and being loved at least once each |
+| ありがとう | arigatō | Thank you |
+| この歌にかまけてないで | kono uta ni kamaketenai de | Don't get so caught up in this song |
+| 私も頑張ります | watashi mo ganbarimasu | I'll do my best too |
