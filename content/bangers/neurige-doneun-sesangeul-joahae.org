@@ -1,0 +1,38 @@
+#+title: 느리게 도는 세상을 조아해
+#+title_en: Finding My Slow World
+#+artist: 윤지난 (Yun Jinan)
+#+sort_artist: Yun Jinan
+#+language: Korean
+#+spotify: https://open.spotify.com/track/17AWn1dyVrBwe6UlBTUJmj?si=a850f90f013c4cfb
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|----------+--------------+---------|
+| 어디서부터 출발했는지 | eodiseobuteo chulbalhaenneunji | Not knowing where I started, |
+| 어디에 다다르면 끝인지 | eodie dadareumyeon kkeuchinji | or where the journey ends, |
+| 아무것도 모른 채로 | amugeotdo moreun chaero | Not knowing anything, |
+| 고개를 들어 풍경을 바라봐 | gogaereul deureo punggyeongeul barabwa | I lift my head to take in the view. |
+| 나를 빠르게 지나치는 사람들 | nareul ppareuge jinachineun saramdeul | People rush past me— |
+| 깜짝 놀라 비틀거리다 | kkamjjak nolla biteulgeorida | startled, I stumble. |
+| 안간힘을 써봐도 | anganhimeul sseobwado | No matter how hard I try, |
+| 숨이 차게 달려봐도 | sumi chage dallyeobwado | no matter how breathlessly I run, |
+| 따라잡을 수 없어 | ttarajabeul su eopseo | I just can’t keep up. |
+| 느리게 느리게 | neurige neurige | Slowly, ever so slowly, |
+| 느리게 도는 세상을 좋아해 | neurige doneun sesangeul joahae | I love this world that turns at a gentle pace. |
+| 내가 놓치지 않는 것들을 봐 | naega nochiji anneun geotdeureul bwa | Look at all the things I don’t let slip away. |
+| 우 바람을 타고 | u barameul tago | Riding on the breeze, |
+| 휘 콧노래를 부르며 | hwi konnoraereul bureumyeo | humming a little tune, |
+| 가보자 나만의 속도로 | gaboja namanui sokdoro | let’s go—at my own pace. |
+| 나를 빠르게 지나치는 사람들 | nareul ppareuge jinachineun saramdeul | People rush past me— |
+| 깜짝 놀라 비틀거리다 | kkamjjak nolla biteulgeorida | startled, I stumble. |
+| 안간힘을 써봐도 | anganhimeul sseobwado | No matter how hard I try, |
+| 숨이 차게 달려봐도 | sumi chage dallyeobwado | no matter how breathlessly I run, |
+| 따라잡을 수 없어 | ttarajabeul su eopseo | I just can’t keep up. |
+| 느리게 느리게 | neurige neurige | Slowly, ever so slowly, |
+| 느리게 도는 세상을 좋아해 | neurige doneun sesangeul joahae | I love this world that turns at a gentle pace. |
+| 내가 놓치지 않는 것들을 봐 | naega nochiji anneun geotdeureul bwa | Look at all the things I don’t let slip away. |
+| 우 바람을 타고 | u barameul tago | Riding on the breeze, |
+| 휘 콧노래를 부르며 | hwi konnoraereul bureumyeo | humming a little tune, |
+| 가보자 나만의 속도로 | gaboja namanui sokdoro | let’s go—at my own pace. |
+| 가보자 흘러가는 대로 | gaboja heulleoganeun daero | Let’s go—just letting things flow. |
