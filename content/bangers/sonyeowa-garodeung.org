@@ -1,0 +1,19 @@
+#+title: 소녀와 가로등
+#+title_en: The Girl and the Streetlight
+#+artist: 이선희 (Lee Sun Hee)
+#+sort_artist: Lee Sun Hee
+#+language: Korean
+#+spotify: https://open.spotify.com/track/0MDZNoavNWnXzL6phFPpA7?si=_RPxVNM4Tvy-RcJySdX-DQ&utm_source=copy-link&context=spotify%3Aplaylist%3A37i9dQZF1DZ06evO2VXZQ9
+#+year: 2026
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|----------+--------------+---------|
+| 조용한 밤이었어요 너무나 조용했어요 | joyonghan bamieosseoyo neomuna joyonghaesseoyo | It was a quiet night, so very quiet |
+| 창가에 소녀 혼자서 외로이 서있었지요 | changgae sonyeo honjaseo oeroi seoisseotjiyo | A girl stood alone by the window, lonely |
+| 밤하늘 바라보았죠 별하나 없는 하늘을 | bamhaneul baraboatjyo byeolhana eomneun haneureul | She gazed at the night sky, a sky without a single star |
+| 그리곤 울어버렸죠 아무도 모르게 | geurigon ureobeoryeotjyo amudo moreuge | Then she burst into tears, without anyone knowing |
+| 창밖에 가로등불은 내맘을 알고 있을까 | changbakke garodeungbureun naemameul algo isseulkka | Does the streetlight outside the window know how I feel? |
+| 괜시리 슬퍼지는 이밤에 창백한 가로등만이 | gwaensiri seulpeojineun ibame changbaekhan garodeungmani | On this night when sadness comes for no reason, only the pale streetlight |
+| 소녀를 달래주네요 | sonyeoreul dallaejuneyo | Comforts the girl |
+| 조용한 이밤에 슬픔에 지친 소녀를 살며시 달래주네요 | joyonghan ibame seulpeume jichin sonyeoreul salmyeosi dallaejuneyo | On this quiet night, it gently comforts the girl worn out by sorrow |
