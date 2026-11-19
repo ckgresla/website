@@ -6,9 +6,7 @@
 #+youtube: https://youtu.be/p428-KKGtYU
 #+year: 2026
 
-nice mv
-
-[[https://youtu.be/4Uvu4LqJVmE?is=eLbTjIkSFjP8HXeS][Also on YouTube: クロノスタシス — きのこ帝国]]
+[[https://youtu.be/4Uvu4LqJVmE?is=eLbTjIkSFjP8HXeS][a nice mv from "we fell in love like a flower bouquet", please enjoy]]
 
 #+attr_html: :class lyrics
 | Original | Romanization | English |
