@@ -1,0 +1,67 @@
+#+title: NIGHT TOWN
+#+artist: フレンズ (FRIENDS)
+#+sort_artist: FRIENDS
+#+language: Japanese
+#+spotify: https://open.spotify.com/track/0835QSiOiYSP4kyqssB27S?si=KshlfpOZQLa-cntHejU_cg&utm_source=copy-link&sci=spotify%3Acard-config%3A3kmGq3E3X3CKfFYWr5lRfH
+#+youtube: https://youtu.be/p428-KKGtYU
+#+year: 2026
+
+nice mv
+
+[[https://youtu.be/4Uvu4LqJVmE?is=eLbTjIkSFjP8HXeS][Also on YouTube: クロノスタシス — きのこ帝国]]
+
+#+attr_html: :class lyrics
+| Original | Romanization | English |
+|----------+--------------+---------|
+| 東京の夜は寒いねって | Tōkyō no yoru wa samui ne tte | “Tokyo nights are cold, aren't they?” |
+| 2人月明かり照らされ | futari tsukiakari terasare | The two of us lit by the moon |
+| 話は溶けちゃいそうだよ | hanashi wa tokechaisō da yo | Our conversation feels like it's about to melt away |
+| とりあえず店に入ろう | toriaezu mise ni hairō | Let's go inside somewhere for now |
+| あ、ウィンドウショッピング　なんとなく | a, windō shoppingu nantonaku | Oh, just window-shopping, for no particular reason |
+| 君は退屈なレイニブルー | kimi wa taikutsu na reinī burū | You're bored and rainy blue |
+| つれない態度のBOYS & GIRLS | tsurenai taido no BOYS & GIRLS | BOYS & GIRLS playing aloof |
+| 無理やり冷ましてlet me down | muriyari samashite let me down | You force things to cool off and let me down |
+| 平行線上進展してない君のハート | heikōsenjō shinten shitenai kimi no hāto | We're on parallel lines; I'm getting nowhere with your heart |
+| 早く教えて | hayaku oshiete | Come on, tell me |
+| HEY　未来の到来 | HEY mirai no tōrai | HEY, the future's here |
+| 君の感覚を頂戴 | kimi no kankaku o chōdai | Let me feel what you feel |
+| HEY　未来は too lie | HEY mirai wa too lie | HEY, the future is too lie |
+| 同じ体温で眠りたいよ | onaji taion de nemuritai yo | I want to fall asleep sharing your warmth |
+| STAY　今はtoo dyed | STAY ima wa too dyed | STAY, right now it's too dyed |
+| 言葉を濁して so long | kotoba o nigoshite so long | You skirt around the words: so long |
+| もう会いたいな会いたいなって | mō aitai na aitai na tte | I miss you already, I want to see you |
+| 抑えきれないよ　君はどう？ | osaekirenai yo kimi wa dō? | I can't hold it in. What about you? |
+| どのみち未来変えたくって | donomichi mirai kaetakutte | Either way, I want to change the future |
+| 握れない手と手もどかしくて | nigirenai te to te modokashikute | It's frustrating that we can't hold hands |
+| 諦めず距離を縮めようと | akiramezu kyori o chijimeyō to | I won't give up on closing the distance |
+| 頑張って見てもとどかないよ | ganbatte mite mo todokanai yo | But no matter how hard I try, I can't reach you |
+| Who Are You？君は誰で | Who Are You? kimi wa dare de | Who Are You? Who are you really? |
+| What Do You Mean？誰か教えて | What Do You Mean? dareka oshiete | What Do You Mean? Somebody tell me |
+| こんがらがった頭のライン | kongaragatta atama no rain | The wires in my head are all tangled |
+| 僕じゃ一生迷宮入りゴーサイン | boku ja isshō meikyūiri gōsain | Left to me, I'd never figure out the go-ahead |
+| 延長線の行方知れず意味のない | enchōsen no yukue shirezu imi no nai | No idea where this is going if we keep it up; what's the point? |
+| 私ばかだな | watashi baka da na | I'm such a fool |
+| ヘイ Mr. なスターライン | hei Mr. na sutā rain | Hey, Mr. Starline |
+| 僕ら同じ気持ちなのかい？ | bokura onaji kimochi na no kai? | Do we feel the same way? |
+| ヘイ　見たいな your mind | hei mitai na your mind | Hey, I wish I could see what's on your mind |
+| お互いにもっと知りたいんだ | otagai ni motto shiritain da | I want us to know each other better |
+| STAY　今じゃ too far | STAY ima ja too far | STAY, we're too far apart now |
+| あと少し素直になれば | ato sukoshi sunao ni nareba | If we could just be a little more honest |
+| もう会いたいな会いたいなって | mō aitai na aitai na tte | I miss you already, I want to see you |
+| 抑えきれないよ　君はどう？ | osaekirenai yo kimi wa dō? | I can't hold it in. What about you? |
+| 好きだっていって | suki da tte itte | Tell me you like me |
+| 怖がらないでいいの | kowagaranaide ii no | You don't have to be afraid |
+| 暗い　未来はもうない | kurai mirai wa mō nai | There's no dark future anymore |
+| すきになっちゃった | suki ni natchatta | I've gone and fallen for you |
+| HEY　未来の到来 | HEY mirai no tōrai | HEY, the future's here |
+| 君の感覚を頂戴 | kimi no kankaku o chōdai | Let me feel what you feel |
+| もう会いたいな会いたいな | mō aitai na aitai na | I miss you already, I want to see you |
+| 今すぐ会いに行くよ | ima sugu ai ni iku yo | I'm coming to see you right now |
+| HEY　未来の到来 | HEY mirai no tōrai | HEY, the future's here |
+| 君の感覚を頂戴 | kimi no kankaku o chōdai | Let me feel what you feel |
+| HEY　未来は too lie | HEY mirai wa too lie | HEY, the future is too lie |
+| 同じ体温で眠りたいよ | onaji taion de nemuritai yo | I want to fall asleep sharing your warmth |
+| STAY　今はtoo dyed | STAY ima wa too dyed | STAY, right now it's too dyed |
+| 言葉を濁してso long | kotoba o nigoshite so long | You skirt around the words: so long |
+| もう会いたいな会いたいなって | mō aitai na aitai na tte | I miss you already, I want to see you |
+| 抑えきれないよ　君はどう？ | osaekirenai yo kimi wa dō? | I can't hold it in. What about you? |
